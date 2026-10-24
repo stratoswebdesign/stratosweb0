@@ -106,15 +106,15 @@ BY_ANY = {fn: k for k, v in SLUGS.items() for fn in v.values()}
 assert len(BY_ANY) == len({(k, fn) for k, v in SLUGS.items() for fn in v.values()}), \
     "two routes share a filename — relink() can no longer resolve one"
 
-# Branding is still a page (sitemap, content links) but no longer a menu item:
-# the owner took it out of the header and footer on 2026-10-07, and kept it out
-# when the copy pack of 2026-10-23 would have put it back.
-#
 # The order is the second copy pack's (2026-10-24): the main line first — a
 # website, then monthly search optimisation — and 3D as the differentiator it
 # is, not the headline. The Impact Program is in the footer only (NAV_SERVICES
 # leaves it out); every service route still closes with the service question.
-NAV_SERVICES = ("sme", "seo", "shop", "ads", "configurator", "enterprise")
+#
+# Branding — „Arculattervezés” — is a menu item again, fifth, as the pack
+# lists it: the owner confirmed it on 2026-10-24, after having taken it out of
+# the header and footer on 2026-10-07 and kept it out of the 10-23 pack.
+NAV_SERVICES = ("sme", "seo", "shop", "ads", "branding", "configurator", "enterprise")
 SERVICES = NAV_SERVICES + ("impact",)
 # The case studies and the articles are reachable from their index routes and
 # from the pages they belong to, not from the global navigation — a nav that
