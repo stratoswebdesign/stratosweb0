@@ -169,15 +169,19 @@ test.describe('homepage, without JavaScript', () => {
   test('every scene, every word and every link is in the HTML', async ({ page }) => {
     await page.goto('/index.html');
     for (const scene of SCENES) await expect(page.locator(`main ${scene}`), scene).toHaveCount(1);
-    // 11 since the copy pack of 2026-10-23 (3D, monthly SEO, who it is for,
-    // objections, FAQ, reading list joined the scenes).
-    await expect(page.locator('main h2')).toHaveCount(11);
-    // The proof, as the case study states it.
+    // 7 since the second copy pack of 2026-10-24: eight sections, one reader
+    // (the marks, Rapidkert, monthly search, what we do, 3D, how we work, the
+    // close); the situations, objections, FAQ and reading list moved to the
+    // pages they belong on.
+    await expect(page.locator('main h2')).toHaveCount(7);
+    await expect(page.locator('main section')).toHaveCount(8);
+    // The proof, as the case study states it, explained once.
     await expect(page.locator('.take')).toContainText('~110M Ft');
-    await expect(page.locator('.take')).toContainText('Ajánlatkérési érték organikus keresésből');
-    // Both projects, and every service page, linked from the homepage.
-    for (const href of ['/munka-rapidkert.html', '/munka-godatafusion.html', '/szolgaltatasok.html',
-      '/kkv.html', '/nagyvallalat.html', '/webshop-keszites.html', '/branding.html',
+    await expect(page.locator('.take')).toContainText('Ennyi az ajánlatkérések becsült értéke');
+    // Both projects, and the services of „Amit csinálunk”, linked from the
+    // homepage. /szolgaltatasok and /nagyvallalat are the menu's to reach.
+    for (const href of ['/munka-rapidkert.html', '/munka-godatafusion.html',
+      '/kkv.html', '/webshop-keszites.html', '/branding.html', '/3d-weboldal-konfigurator.html',
       '/keresooptimalizalas.html', '/hirdeteskezeles.html', '/arajanlat.html']) {
       await expect(page.locator(`main a[href="${href}"]`).first(), href).toHaveCount(1);
     }

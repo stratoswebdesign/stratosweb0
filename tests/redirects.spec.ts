@@ -130,6 +130,19 @@ test.describe('legacy redirect configuration (Netlify runtime validation pending
     }
   });
 
+  // Second copy pack (2026-10-24): the Pest vármegye page went, and its URL
+  // — indexed until then — moves to the Budapest page. Not served as a file
+  // any more either, since a leftover file would beat the redirect.
+  test('the Pest megye page is a 301 to Budapest, and no longer a file', async () => {
+    const rules = await redirects();
+    const rule = rules.find((r) => r.from === '/weboldal-keszites-pest-megye*');
+    expect(rule, 'the Pest megye URL has no redirect rule').toBeDefined();
+    expect(rule!.status).toBe(301);
+    expect(rule!.to).toBe('/weboldal-keszites-budapest');
+    expect(await emitted(rule!.to)).toBe(true);
+    expect(await emitted('/weboldal-keszites-pest-megye')).toBe(false);
+  });
+
   test('every declared redirect points at something that exists', async () => {
     const rules = await redirects();
     expect(rules.length, 'netlify.toml declares no redirects at all').toBeGreaterThan(5);

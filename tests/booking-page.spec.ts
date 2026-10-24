@@ -209,7 +209,9 @@ for (const [path, h1, weekday, lang] of [
 test('the contact page leads to it, in every language', async ({ page }) => {
   for (const [path, target] of [['/ugyfelszolgalat.html', /idopontfoglalas/], ['/en/contact.html', /\/en\/book-a-call/], ['/de/kontakt.html', /\/de\/termin-buchen/]] as const) {
     await page.goto(path);
-    const hrefs = await page.locator('.phead a').evaluateAll((as) => as.map((a) => a.getAttribute('href') ?? ''));
+    // Not from the hero any more: since the second copy pack (2026-10-24) the
+    // page's three ways in — quote, message, call — are one chooser under it.
+    const hrefs = await page.locator('main a').evaluateAll((as) => as.map((a) => a.getAttribute('href') ?? ''));
     expect(hrefs.some((h) => target.test(h)), `${path}: ${hrefs.join(', ')}`).toBe(true);
   }
 });

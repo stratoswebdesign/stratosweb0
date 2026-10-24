@@ -401,8 +401,9 @@ test('a Service node describes a service and offers no price', () => {
   // Seven service pages in three languages (the 3D page joined on
   // 2026-10-23), plus the four Hungarian-only local landing pages (HU_ONLY in
   // _build/build.py), whose Service names its region, plus the Hungarian-only
-  // "keresőoptimalizált weboldal készítés" page.
-  expect(services, 'seven service pages in three languages + four local pages + seo-web').toBe(26);
+  // "keresőoptimalizált weboldal készítés" page. Three local pages since
+  // 2026-10-24: Pest vármegye's went (a 301 to Budapest).
+  expect(services, 'seven service pages in three languages + three local pages + seo-web').toBe(25);
 });
 
 test('sameAs lists only profiles the site itself links to', () => {
@@ -446,5 +447,6 @@ test('the breadcrumb trail matches the one the page renders', () => {
   // 96 with the HoneyGarden case study and 99 with O2 Tanácsadó, each in three.
   // 105 on 2026-10-23: the 3D page, and the questionnaire, which now renders
   // „Főoldal / Ajánlatkérés” (copy pack, G3) — every route but the homepage.
-  expect(withTrail, 'every route but the homepage renders a trail').toBe(105);
+  // 104 on 2026-10-24: the Pest vármegye page went (second copy pack).
+  expect(withTrail, 'every route but the homepage renders a trail').toBe(104);
 });

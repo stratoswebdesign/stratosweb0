@@ -368,25 +368,47 @@ test.describe('the taxonomy is actually emitted', () => {
     expect(names(events)).toContain('service_view');
   });
 
-  test('mid-page and closing CTAs are distinguishable', async ({ page }) => {
-    // Without this the whole Workstream A F6 change is unmeasurable: there
-    // would be no way to ask whether the mid-page path was worth adding.
-    const events = await withAdapter(page, '/blog-weboldal-arak.html');
+  // The second copy pack's measurement plan (2026-10-24) reads cta_click by
+  // one label — hero, zaro, fejlec — and the page. There is no mid-page CTA
+  // left to tell apart: a page has the hero's button and the closing band's.
+  test('the hero, closing and header CTAs carry the plan\'s labels', async ({ page }) => {
+    const events = await withAdapter(page, '/');
     await reset(page, events);
 
-    const placements = await page.evaluate(() => {
-      const out: string[] = [];
-      document.querySelectorAll('a.btn').forEach((a) => {
-        const declared = (a as HTMLElement).closest('[data-cta-placement]');
-        if (declared) out.push(declared.getAttribute('data-cta-placement')!);
-        else if ((a as HTMLElement).closest('.article__aside')) out.push('mid');
-        else if ((a as HTMLElement).closest('.launch')) out.push('closing');
-      });
-      return out;
+    await page.evaluate(() => {
+      window.addEventListener('click', (e) => e.preventDefault());
+      for (const sel of ['.hero a.btn', '.close a.btn', '.hdr__cta']) {
+        (document.querySelector(sel) as HTMLElement).click();
+      }
     });
+    await settle(events, 3, page);
 
-    expect(placements).toContain('mid');
-    expect(placements).toContain('closing');
+    const clicks = events.filter((e) => e.event === 'cta_click');
+    expect(clicks.map((e) => e.cta_label)).toEqual(['hero', 'zaro', 'fejlec']);
+    expect(clicks.every((e) => e.page_key === 'index')).toBe(true);
+  });
+
+  test('the short form, the booking and the questionnaire are each measured', async ({ page }) => {
+    const events = await withAdapter(page, '/arajanlat.html');
+    await reset(page, events);
+
+    // form_start is the first click into a field, before anything is typed.
+    await page.focus('#q-nev');
+    await settle(events, 1, page);
+    expect(events.find((e) => e.event === 'form_start')).toMatchObject({ form_type: 'quote_short' });
+
+    await reset(page, events);
+    await page.evaluate(() => {
+      window.addEventListener('click', (e) => { if ((e.target as Element).closest('a.btn')) e.preventDefault(); });
+      (document.querySelector('[data-short-thanks]') as HTMLElement).hidden = false;
+      (document.querySelector('[data-short-thanks] a.btn') as HTMLElement).click();
+      (document.querySelector('[data-long-open]') as HTMLElement).click();
+    });
+    await settle(events, 3, page);
+
+    expect(names(events)).toContain('booking_click');
+    expect(events.find((e) => e.event === 'long_form_open')).toMatchObject({ open_source: 'thanks' });
+    expect(await page.locator('#kerdoiv').isVisible()).toBe(true);
   });
 
   test('article progress fires at most four times, once per threshold', async ({ page }) => {
@@ -411,7 +433,7 @@ test.describe('the taxonomy is actually emitted', () => {
   });
 
   test('the questionnaire funnel is measured without a <form>', async ({ page }) => {
-    const events = await withAdapter(page, '/arajanlat.html');
+    const events = await withAdapter(page, '/arajanlat.html#kerdoiv');
 
     // The premise: the wizard genuinely has no form element to bind to.
     expect(await page.locator('#app form').count()).toBe(0);
@@ -420,7 +442,7 @@ test.describe('the taxonomy is actually emitted', () => {
     await page.click('#start');
     await page.waitForTimeout(250);
     // Step 1 asks what the visitor needs (a check question), step 2 the name.
-    await page.locator('.opt').first().click();
+    await page.locator('#app .opt').first().click();
     await page.click('#next');
     await page.fill('#inp', 'Teszt Kft');
     await page.click('#next');
