@@ -72,12 +72,12 @@ const Q = [
     o:['Within 1 week','Within 1 month','Within a few months']},
   // The monthly model is withdrawn (owner, 2026-10-07): projects are quoted
   // as a one-off fee, so there is no payment-model question any more.
-  // The forint bands are the visitor's budget, not Stratos prices. Whether they
-  // stay is an open point in the 2026-10-23 copy pack; until it is decided the
-  // bands are unchanged.
+  // The forint bands are the visitor's budget, not Stratos prices. The lowest
+  // one went with the second copy pack (2026-10-24): its floor read as the
+  // studio's internal minimum. „Egyéb” still takes any figure.
   {t:'radio',   q:'Do you have a planned budget?', req:1, other:1, id:'koltsegkeret',
     cond:kkv,
-    o:['HUF 300,000 – 800,000','HUF 800,000 – 1,500,000','HUF 1,500,000 – 3,000,000','HUF 3,000,000 – 5,000,000','Not yet, I\'ll decide based on the quote']},
+    o:['HUF 800,000 – 1,500,000','HUF 1,500,000 – 3,000,000','HUF 3,000,000 – 5,000,000','Not yet, I\'ll decide based on the quote']},
 
   // ===== IPARI / B2B ÉS NAGYVÁLLALATI ÁG =====
   // (A rendszerintegrációs kérdés 2026-10-23-án kikerült: egyedi üzleti
@@ -283,11 +283,10 @@ function renderIntro(){
   if(pathTotal>0) drawPath(-1, pathTotal);
   app.innerHTML = `<div class="quiz__step quiz__intro">
     <p class="crumbs"><a href="/en/index.html">Home</a> / <b>Quote request</b></p>
-    <div class="quiz__num">Stratos Webdesign · Quote request</div>
-    <h1>Request a quote in a few minutes.</h1>
+    <div class="quiz__num">Stratos Webdesign · Detailed questionnaire</div>
+    <h1>Describe the project in detail.</h1>
+    <p>It’s optional. If you write down what you already know before the call, the conversation is about your project from the first minute.</p>
     <p>Each question appears on its own screen; questions marked with an asterisk (<span class="quiz__req">*</span>) need an answer. About 8 minutes.</p>
-    <p>What happens next? We get back to you within 24 hours on working days and arrange a free discovery call. After that you receive your tailored quote in writing, valid for 14 days.</p>
-    <p>If that's too much right now, a short message is enough: <a href="/en/contact.html#uzenet">I'd rather write a few lines</a>.</p>
     <div class="quiz__nav"><button id="start">Let's start</button><span class="quiz__enter">ENTER ↵</span></div>
   </div>`;
   document.getElementById('start').onclick = ()=>{ step = visibleIdx()[0]; render(); };
@@ -353,7 +352,7 @@ const DONE_HTML = {
       <div class="quiz__mark">✓</div>
       <h1 class="quiz__q">Thank you, we've received it.</h1>
       <p class="quiz__hint" style="margin:1rem auto 0">We'll get back to you on the details you gave within 24 hours on working days and arrange a free discovery call. If you'd rather not wait, book a time now.</p>
-      <div class="quiz__nav" style="justify-content:center"><a class="btn" href="/en/book-a-call.html"><span>Free discovery call</span></a><a class="tlink" href="/en/index.html">Back to the home page</a></div>
+      <div class="quiz__nav" style="justify-content:center"><a class="btn" href="/en/book-a-call.html" data-cta-placement="thanks"><span>Book a call</span></a><a class="tlink" href="/en/index.html">Back to the home page</a></div>
     </div>`,
   invalid: msg => `<div class="quiz__step quiz__done" data-state="invalid">
       <h1 class="quiz__q">Something is missing.</h1>
@@ -429,6 +428,7 @@ async function renderDone(){
 
 document.addEventListener('keydown',e=>{
   if(e.key!=='Enter' || e.shiftKey) return;
+  if(longSection.hidden) return; // the short form is an ordinary form
   if(e.target.tagName==='TEXTAREA') return;
   if(e.target.closest('a, button')) return; // a fókuszált link/gomb natívan működjön
   e.preventDefault();
@@ -436,4 +436,49 @@ document.addEventListener('keydown',e=>{
   else if(step<Q.length) document.getElementById('next')?.click();
 });
 
-render();
+// --------------------------------------------------------------- the short form
+// lead.js sends it; this only swaps the screens. The answers are kept from the
+// moment of sending (lead.js clears the form after a success), so the
+// questionnaire can start with the name and the addresses already in place.
+const shortSection = document.querySelector('[data-short]');
+const longSection = document.querySelector('[data-long]');
+const shortForm = document.querySelector('[data-short-form] form');
+const thanks = document.querySelector('[data-short-thanks]');
+let sent = null;
+
+shortForm.addEventListener('submit', ()=>{
+  const f = new FormData(shortForm);
+  sent = { kitolto: f.get('kitolto'), email: f.get('email'), telefon: f.get('telefon'), weboldal: f.get('weboldal') };
+}, true);
+
+new MutationObserver(()=>{
+  if(shortForm.dataset.state !== 'success') return;
+  document.querySelector('[data-short-form]').hidden = true;
+  thanks.hidden = false;
+  thanks.querySelector('h2').focus();
+}).observe(shortForm, { attributes: true, attributeFilter: ['data-state'] });
+
+/** The detailed questionnaire, opened from the thank-you screen or by #kerdoiv. */
+function openLong(from){
+  if(!longSection.hidden) return;
+  if(sent){
+    ['kitolto','email','telefon','weboldal'].forEach(id=>{
+      const i = Q.findIndex(q=>q.id===id);
+      if(i >= 0 && sent[id] && !answers[i]) answers[i] = { value: String(sent[id]) };
+    });
+  }
+  shortSection.hidden = true;
+  longSection.hidden = false;
+  document.querySelector('[data-long-progress]').hidden = false;
+  step = -1;
+  render();
+  const s = window.Stratos && window.Stratos.analytics;
+  if(s) s.track('long_form_open', { open_source: from });
+}
+
+document.querySelector('[data-long-open]').addEventListener('click', e=>{
+  e.preventDefault();
+  history.replaceState(null, '', '#kerdoiv');
+  openLong('thanks');
+});
+if(location.hash === '#kerdoiv') openLong('link');

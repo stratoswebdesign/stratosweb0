@@ -48,13 +48,15 @@ const SITE_URL = siteOrigin();
 //
 // 2026-10-23 (the owner's copy pack): the two main offers first, the local
 // pages under their own heading, the Impact Program apart from the services
-// it is not.
+// it is not. 2026-10-24 (the second pack): the main line is a custom website
+// and monthly search optimisation; 3D is a differentiator, listed with the
+// other services.
 const SECTIONS = [
-  ['Fő ajánlatok', ['configurator', 'seo']],
+  ['Fő ajánlatok', ['sme', 'seo']],
   ['A cég', ['index', 'about', 'services']],
-  ['Szolgáltatások', ['sme', 'enterprise', 'shop', 'seo-web', 'ads', 'branding']],
+  ['Szolgáltatások', ['shop', 'ads', 'branding', 'configurator', 'enterprise', 'seo-web']],
   ['Referenciák', ['work', 'case-rapidkert', 'case-godatafusion', 'case-barbershop', 'case-mentaltrening', 'case-honeygarden', 'case-o2']],
-  ['Hol dolgozunk', ['local-hub', 'local-gyor', 'local-budapest', 'local-pest', 'local-szeged']],
+  ['Hol dolgozunk', ['local-hub', 'local-gyor', 'local-budapest', 'local-szeged']],
   ['Kapcsolat', ['contact', 'quote', 'booking']],
   ['Blog', ['blog', 'post-arak', 'post-seo', 'post-seo-alap', 'post-cegprofil',
             'post-hirdetes', 'post-elavult', 'post-konverzio', 'post-marketing',

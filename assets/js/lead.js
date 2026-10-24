@@ -37,7 +37,8 @@
                      weboldal: 300, weboldal_nagy: 300, szegmens: 120,
                      koltsegkeret: 60, koltsegkeret_nagy: 60, havidij: 60,
                      hatarido: 60, hatarido_nagy: 60, konstrukcio: 80,
-                     konzultacio: 80, funkciok: 600 },
+                     konzultacio: 80, funkciok: 600, forma: 10, igeny: 20,
+                     uzenet: 2000 },
   };
 
   /* Which fields the server will refuse without, per form. Mirrors the
@@ -56,7 +57,9 @@
                     'megjegyzes', 'adatvedelem_elfogadva'],
     impact:        ['org', 'kapcs', 'mail', 'terulet', 'mivel', 'hatas',
                     'miert', 'adatkezeles_elfogadva'],
-    questionnaire: ['cegnev', 'email'],
+    /* Plus a name — `kitolto` on the short form, `cegnev` in the wizard —
+       which `check` asks for below, because either one will do. */
+    questionnaire: ['email'],
   };
 
   /* Which field carries the address, per form. Used only to give a precise
@@ -70,7 +73,7 @@
   var NAME_FIELDS = {
     contact: ['vezeteknev', 'keresztnev'],
     impact: ['kapcs'],
-    questionnaire: ['cegnev'],
+    questionnaire: ['kitolto', 'cegnev'],
   };
 
   /* The honeypot input's name in the markup. It is lifted out of `fields` and
@@ -436,6 +439,12 @@
           field: field,
         };
       }
+    }
+    /* A quote request needs a name to answer: the person's (short form) or
+       the company's (wizard). Mirrors validateEnvelope in lead-contract.mjs. */
+    if (formType === 'questionnaire' &&
+        cut(fields.kitolto, 120).length < 2 && cut(fields.cegnev, 160).length < 2) {
+      return { message: T.need_name, field: fields.forma === 'rovid' ? 'kitolto' : 'cegnev' };
     }
 
     var caps = FIELD_MAX[formType] || {};

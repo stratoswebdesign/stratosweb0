@@ -98,6 +98,17 @@ const URL_RE = /^(https?:\/\/)?[^\s.]+\.[^\s]{2,}$/i;
 // server enforces presence and length. Every genuinely locale-invariant choice
 // is declared as an enum and checked.
 
+/** The short quote form's „Miben segíthetünk?” options: value -> the label
+ *  the team reads in the portal. */
+export const QUOTE_NEEDS = {
+  weboldal: 'Új weboldal',
+  keresooptimalizalas: 'Keresőoptimalizálás',
+  webshop: 'Webshop',
+  hirdetes: 'Hirdetés',
+  '3d': '3D weboldal vagy konfigurátor',
+  'nem-tudom': 'Még nem tudom',
+};
+
 /** @type {Record<string, {fields: Record<string, object>, consent?: string[]}>} */
 export const FORMS = {
   newsletter: {
@@ -135,9 +146,19 @@ export const FORMS = {
     },
   },
 
+  // The quote request, in two lengths. The detailed questionnaire is the
+  // wizard on /arajanlat; the SHORT form at the top of the same page (second
+  // copy pack, 2026-10-24: name, e-mail, website, „Miben segíthetünk?”) posts
+  // here too, marked `forma: 'rovid'`. Same form type on purpose: it is the
+  // same request, the leads table's form_type check and the "we have it"
+  // e-mail already know this one, and a new type would have needed a
+  // migration before the page could take a single enquiry.
+  //
+  // A short form has no company name, so `cegnev` is not required on its own;
+  // validateEnvelope requires a usable name instead — `kitolto` or `cegnev`.
   questionnaire: {
     fields: {
-      cegnev:            { type: 'text',    required: true,  max: 160 },
+      cegnev:            { type: 'text',    required: false, max: 160 },
       kitolto:           { type: 'text',    required: false, max: 120 },
       email:             { type: 'email',   required: true,  max: 254 },
       telefon:           { type: 'tel',     required: false, max: 40 },
@@ -159,6 +180,13 @@ export const FORMS = {
       konzultacio:       { type: 'text',    required: false, max: 80 },
       funkciok:          { type: 'text',    required: false, max: 600 },
       answers:           { type: 'answers', required: false },
+      // The short form. `igeny` is the option's value, not its label, so it is
+      // the same in every language and can be checked.
+      forma:             { type: 'text',    required: false, max: 10,
+                           enum: ['rovid'] },
+      igeny:             { type: 'text',    required: false, max: 20,
+                           enum: Object.keys(QUOTE_NEEDS) },
+      uzenet:            { type: 'textarea', required: false, max: 2000 },
     },
   },
 };
@@ -401,6 +429,14 @@ export function validateEnvelope(body, messages = MESSAGES.en) {
     if (spec.type === 'consent' || value !== '') fields[name] = value;
   }
 
+  // A quote request needs someone to answer: the person's name or the
+  // company's, whichever form it came from. Reported on the field that form
+  // shows, so the client can focus it.
+  if (formType === 'questionnaire'
+      && (fields.kitolto || '').length < 2 && (fields.cegnev || '').length < 2) {
+    errors[fields.forma === 'rovid' ? 'kitolto' : 'cegnev'] = t.required;
+  }
+
   // Unknown names are dropped rather than rejected. A browser that autofills an
   // extra field, or a locale build that gains one before the schema does,
   // should not lose the visitor's whole submission — and because the loop above
@@ -479,6 +515,23 @@ export const LEAD_MAPPERS = {
   }),
 
   questionnaire: (f) => {
+    if (f.forma === 'rovid') {
+      return {
+        name: f.kitolto,
+        company: f.cegnev,
+        email: f.email,
+        phone: f.telefon,
+        website: f.weboldal,
+        service_interest: f.igeny
+          ? `Ajánlatkérés – ${QUOTE_NEEDS[f.igeny]}`
+          : 'Ajánlatkérés – rövid űrlap',
+        message: lines([
+          ['Űrlap', 'Rövid ajánlatkérés'],
+          ['Miben segíthetünk', QUOTE_NEEDS[f.igeny]],
+          ['Üzenet', f.uzenet],
+        ]),
+      };
+    }
     // The enterprise branch asks its own budget, timeframe and website
     // questions; which pair is meaningful depends on the branch the visitor
     // took, and the answer that exists is the one they gave. `agazat` states

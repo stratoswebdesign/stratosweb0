@@ -377,5 +377,13 @@
  "Az ingyenes igényfelmérő hívás után tudni fogod, mi segítene a vállalkozásodon, és mi nem.": [
   "After the free discovery call you will know what would help your business, and what would not.",
   "Nach dem kostenlosen Erstgespräch wissen Sie, was Ihrem Unternehmen helfen würde und was nicht."
+ ],
+ "A nyitóképernyő közepén nem fotó áll, hanem egy térbeli kertkeresztmetszet. A 3D itt az érvelés eszköze, nem díszítés. Hogy készül egy ilyen oldal, azt a <a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D weboldal és konfigurátor</a> oldalon mutatjuk meg.": [
+  "At the centre of the opening screen there is no photograph but a three-dimensional cross-section of a garden. The 3D here is how the argument is made, not decoration. How a site like this is made is shown on the <a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D website and configurator</a> page.",
+  "Im Zentrum des Startbildschirms steht kein Foto, sondern ein räumlicher Gartenquerschnitt. Das 3D ist hier das Mittel der Argumentation, keine Dekoration. Wie eine solche Website entsteht, zeigen wir auf der Seite <a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D-Website und Konfigurator</a>."
+ ],
+ "A weboldal mögött a <a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">keresőoptimalizált weboldal készítés</a> áll: előbb a kulcsszavak és a szerkezet, aztán a dizájn.": [
+  "Behind the website is <a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">search-optimised web design</a>: keywords and structure first, then the design.",
+  "Hinter der Website steht <a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">suchmaschinenoptimierte Website-Erstellung</a>: erst Keywords und Struktur, dann das Design."
  ]
 }

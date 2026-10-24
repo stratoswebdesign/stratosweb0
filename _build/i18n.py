@@ -86,6 +86,9 @@ SKIP_EXACT = {
     # wizard end-state keys — the visible copy lives in DONE_HTML, not here
     'submitting', 'success', 'invalid', 'limited', 'error', 'retry', 'fix',
     'quiz__hint',
+    # the short quote form's glue on /arajanlat: a DOM event, a tag, an
+    # attribute, and the event and parameter values analytics receives
+    'submit', 'h2', 'data-state', 'long_form_open', 'thanks', 'link',
     '&amp;', '&lt;', '&gt;', '&quot;', '&nbsp;',
 }
 

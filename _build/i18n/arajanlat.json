@@ -775,5 +775,114 @@
  "Arculat és logó": [
   "Brand identity and logo",
   "Corporate Design und Logo"
+ ],
+ "_note_2026_10_24": "The short quote form and its thank-you screen (second copy pack, 2026-10-24); the questionnaire's new intro. The radio values (weboldal, keresooptimalizalas…) are the server's enum and stay in every language.",
+ "Kérj ajánlatot egy perc alatt.": [
+  "Request a quote in a minute.",
+  "Fragen Sie in einer Minute ein Angebot an."
+ ],
+ "Négy rövid kérdés. Utána ingyenes igényfelmérő hívással kezdünk, és írásban kapod meg az egyedi ajánlatot.": [
+  "Four short questions. Then we start with a free discovery call, and you receive your tailored quote in writing.",
+  "Vier kurze Fragen. Danach beginnen wir mit einem kostenlosen Erstgespräch, und Sie erhalten Ihr individuelles Angebot schriftlich."
+ ],
+ "Név *": [
+  "Name *",
+  "Name *"
+ ],
+ "E-mail cím *": [
+  "Email address *",
+  "E-Mail-Adresse *"
+ ],
+ "Telefonszám (nem kötelező)": [
+  "Phone number (optional)",
+  "Telefonnummer (optional)"
+ ],
+ "Weboldalad címe, ha van (nem kötelező)": [
+  "Your website, if you have one (optional)",
+  "Ihre Website, falls vorhanden (optional)"
+ ],
+ "pl. cegnev.hu": [
+  "e.g. yourcompany.com",
+  "z. B. ihrefirma.de"
+ ],
+ "Miben segíthetünk? *": [
+  "How can we help? *",
+  "Wobei können wir helfen? *"
+ ],
+ "<input type=\"radio\" name=\"igeny\" value=\"weboldal\" required><span class=\"box\"></span>Új weboldal": [
+  "<input type=\"radio\" name=\"igeny\" value=\"weboldal\" required><span class=\"box\"></span>A new website",
+  "<input type=\"radio\" name=\"igeny\" value=\"weboldal\" required><span class=\"box\"></span>Neue Website"
+ ],
+ "<input type=\"radio\" name=\"igeny\" value=\"keresooptimalizalas\"><span class=\"box\"></span>Keresőoptimalizálás": [
+  "<input type=\"radio\" name=\"igeny\" value=\"keresooptimalizalas\"><span class=\"box\"></span>SEO",
+  "<input type=\"radio\" name=\"igeny\" value=\"keresooptimalizalas\"><span class=\"box\"></span>Suchmaschinenoptimierung"
+ ],
+ "<input type=\"radio\" name=\"igeny\" value=\"webshop\"><span class=\"box\"></span>Webshop": [
+  "<input type=\"radio\" name=\"igeny\" value=\"webshop\"><span class=\"box\"></span>Online shop",
+  "<input type=\"radio\" name=\"igeny\" value=\"webshop\"><span class=\"box\"></span>Onlineshop"
+ ],
+ "<input type=\"radio\" name=\"igeny\" value=\"hirdetes\"><span class=\"box\"></span>Hirdetés": [
+  "<input type=\"radio\" name=\"igeny\" value=\"hirdetes\"><span class=\"box\"></span>Advertising",
+  "<input type=\"radio\" name=\"igeny\" value=\"hirdetes\"><span class=\"box\"></span>Werbung"
+ ],
+ "<input type=\"radio\" name=\"igeny\" value=\"3d\"><span class=\"box\"></span>3D weboldal vagy konfigurátor": [
+  "<input type=\"radio\" name=\"igeny\" value=\"3d\"><span class=\"box\"></span>3D website or configurator",
+  "<input type=\"radio\" name=\"igeny\" value=\"3d\"><span class=\"box\"></span>3D-Website oder Konfigurator"
+ ],
+ "<input type=\"radio\" name=\"igeny\" value=\"nem-tudom\"><span class=\"box\"></span>Még nem tudom": [
+  "<input type=\"radio\" name=\"igeny\" value=\"nem-tudom\"><span class=\"box\"></span>Not sure yet",
+  "<input type=\"radio\" name=\"igeny\" value=\"nem-tudom\"><span class=\"box\"></span>Weiß ich noch nicht"
+ ],
+ "Pár szóban, ha szeretnéd (nem kötelező)": [
+  "A few words, if you like (optional)",
+  "Ein paar Worte, wenn Sie möchten (optional)"
+ ],
+ "Mivel foglalkozol, és mire lenne szükséged?": [
+  "What does your business do, and what do you need?",
+  "Was macht Ihr Unternehmen, und was brauchen Sie?"
+ ],
+ "<span>Elküldöm</span>": [
+  "<span>Send</span>",
+  "<span>Absenden</span>"
+ ],
+ "Munkanapokon 24 órán belül jelentkezünk. Az első lépés egy ingyenes igényfelmérő hívás.": [
+  "We get back to you within 24 hours on working days. The first step is a free discovery call.",
+  "An Werktagen melden wir uns innerhalb von 24 Stunden. Der erste Schritt ist ein kostenloses Erstgespräch."
+ ],
+ "Az adataidat kizárólag az ajánlatkérésed megválaszolására használjuk. Részletek az <a class=\"tlink\" href=\"adatkezelesi-tajekoztato.html\">Adatkezelési tájékoztatóban</a>.": [
+  "We use your details only to answer your quote request. The details are in our <a class=\"tlink\" href=\"adatkezelesi-tajekoztato.html\">privacy policy</a>.",
+  "Wir verwenden Ihre Angaben ausschließlich, um Ihre Anfrage zu beantworten. Einzelheiten finden Sie in der <a class=\"tlink\" href=\"adatkezelesi-tajekoztato.html\">Datenschutzerklärung</a>."
+ ],
+ "Megkaptuk.": [
+  "We have it.",
+  "Ist angekommen."
+ ],
+ "Ha szeretnéd, foglalj most időpontot az ingyenes igényfelmérő hívásra, így nem kell egyeztetnünk.": [
+  "If you like, book a time for the free discovery call now, so we don’t need to arrange one.",
+  "Wenn Sie möchten, buchen Sie jetzt einen Termin für das kostenlose Erstgespräch, dann müssen wir keinen vereinbaren."
+ ],
+ "<span>Időpontot foglalok</span>": [
+  "<span>Book a call</span>",
+  "<span>Termin buchen</span>"
+ ],
+ "Időpontot foglalok": [
+  "Book a call",
+  "Termin buchen"
+ ],
+ "Ha a hívás előtt részletesebben leírnád a projektet, itt megteheted: <a class=\"tlink\" href=\"#kerdoiv\" data-long-open>Részletes kérdőív →</a>": [
+  "If you’d like to describe the project in more detail before the call, you can do it here: <a class=\"tlink\" href=\"#kerdoiv\" data-long-open>Detailed questionnaire →</a>",
+  "Wenn Sie das Projekt vor dem Gespräch ausführlicher beschreiben möchten, können Sie das hier tun: <a class=\"tlink\" href=\"#kerdoiv\" data-long-open>Ausführlicher Fragebogen →</a>"
+ ],
+ "Stratos Webdesign · Részletes kérdőív": [
+  "Stratos Webdesign · Detailed questionnaire",
+  "Stratos Webdesign · Ausführlicher Fragebogen"
+ ],
+ "Írd le részletesen a projektet.": [
+  "Describe the project in detail.",
+  "Beschreiben Sie das Projekt ausführlich."
+ ],
+ "Nem kötelező. Ha a hívás előtt leírod, amit már tudsz, a beszélgetés rögtön a te projektedről szól.": [
+  "It’s optional. If you write down what you already know before the call, the conversation is about your project from the first minute.",
+  "Freiwillig. Wenn Sie vor dem Gespräch aufschreiben, was Sie schon wissen, geht es im Gespräch von Anfang an um Ihr Projekt."
  ]
 }

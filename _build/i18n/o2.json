@@ -623,5 +623,9 @@
  "Az ügyfél pozicionált szövegei szó szerint, kulcsszavak a címekben, és egy tizenöt perces kérdéssor öt leveles sorozattal azoknak, akik még nem ülnének le egy tanácsadóval.": [
   "The client’s positioned copy word for word, keywords in the titles, and a fifteen-minute questionnaire with a five-email sequence for those not yet ready to sit down with a consultant.",
   "Die positionierten Texte des Kunden Wort für Wort, Keywords in den Titeln und ein fünfzehnminütiger Fragebogen mit einer Serie aus fünf E-Mails für alle, die sich noch nicht mit einem Berater zusammensetzen möchten."
+ ],
+ "Ez a <a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">keresőoptimalizált weboldal készítés</a>: kulcsszavak a címekben, miközben a szöveg a szövegíróé marad.": [
+  "This is <a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">search-optimised web design</a>: keywords in the titles, while the copy stays the copywriter’s.",
+  "Das ist <a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">suchmaschinenoptimierte Website-Erstellung</a>: Keywords in den Titeln, während der Text bei den Textern bleibt."
  ]
 }

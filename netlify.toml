@@ -187,6 +187,16 @@
   to = "/de/website-erstellen-lassen"
   status = 301
 
+# Pest vármegye (2026-10-24, second copy pack). The regional page had no
+# presence and no client there to stand on, so it went; its URL — indexed and
+# in the sitemap until now — moves to the Budapest page, the nearest one that
+# says something true about the area. The splat takes both the `.html` form
+# and the extensionless one; no live slug shares the prefix.
+[[redirects]]
+  from = "/weboldal-keszites-pest-megye*"
+  to = "/weboldal-keszites-budapest"
+  status = 301
+
 # ------------------------------------------------------- RENAMED EN/DE ROUTES
 # The SEO ownership pass renamed five English and three German service routes so
 # the URL states the commercial intent the page now owns. Every one of these is

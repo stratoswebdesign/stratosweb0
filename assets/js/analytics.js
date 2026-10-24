@@ -123,7 +123,7 @@
     'koltsegkeret', 'koltsegkeret_nagy', 'havidij', 'hatarido', 'hatarido_nagy',
     'konstrukcio', 'konzultacio', 'szegmens',
     'web', 'weboldal', 'weboldal_nagy', 'url',
-    'terulet', 'agazat',
+    'terulet', 'agazat', 'igeny', 'forma', 'uzenet',
     /* Consent flags. Not identifying on their own, but they are answers a
        visitor gave on a form, and the rule is simpler to keep than to reason
        about case by case: no field the lead schema declares is ever an
@@ -472,6 +472,7 @@
        rewrites the static `x.html` hrefs), the source files still say `.html`. */
     ['quote', /(arajanlat|quote|angebot)(\.html)?(?=[?#]|$)/],
     ['contact', /(ugyfelszolgalat|contact|kontakt)(\.html)?(?=[?#]|$)/],
+    ['booking', /(idopontfoglalas|book-a-call|termin-buchen)(\.html)?(?=[?#]|$)/],
     ['impact', /impact-program/],
     ['case', /(munka|work|projekt)-/],
     ['work', /(munkaink|work|projekte)(\.html)?(?=[?#]|$)/],
@@ -490,14 +491,23 @@
     return 'other';
   }
 
+  /* The second copy pack's measurement plan (2026-10-24) reads `cta_click`
+     by one label — hero, zaro (the closing band) or fejlec (the header) — and
+     the page. The label is derived from the same zone and placement as cta_id,
+     so the two can never disagree. */
+  var CTA_LABEL = { hero: 'hero', closing: 'zaro', mid: 'kozep', bar: 'fejlec', menu: 'fejlec' };
+
   function ctaInfo(el) {
     var zone = zoneOf(el);
+    var placement = placementOf(el, zone);
     var dest = destinationOf(el.getAttribute('href'));
     return {
-      cta_id: zone + '.' + placementOf(el, zone) + '.' + dest,
+      cta_id: zone + '.' + placement + '.' + dest,
       cta_zone: zone,
       cta_emphasis: /\bbtn--ghost\b/.test(el.className) ? 'secondary' : 'primary',
       cta_destination_category: dest,
+      cta_label: el.closest('footer') ? 'lablec' : (CTA_LABEL[placement] || 'egyeb'),
+      page_key: context.page_key,
     };
   }
 
@@ -525,6 +535,9 @@
         track('project_start_click', info);
       }
       if (d === 'work' || d === 'case') track('work_explore_click', info);
+      /* „Időpontot foglalok” — after the short form, or wherever a booking
+         button stands (/ugyfelszolgalat). */
+      if (d === 'booking') track('booking_click', info);
       if (d === 'contact' && SERVICE_KEYS[context.page_key]) {
         track('service_contact_click', { service_key: context.page_key, cta_id: info.cta_id });
       }
@@ -597,14 +610,22 @@
   };
 
   function bindForm(form) {
-    var formType = form.getAttribute('data-lead') || 'contact';
+    /* `data-analytics-form` names a form whose lead type it shares with
+       another: the short quote form posts as a questionnaire, and is measured
+       as itself. */
+    var formType = form.getAttribute('data-analytics-form') || form.getAttribute('data-lead') || 'contact';
     var started = false;
 
-    form.addEventListener('input', function () {
+    /* Started at the first click (or tab) into a field, not the first
+       keystroke — the second copy pack's definition: someone who opened the
+       form and left without typing is exactly who the funnel is looking for. */
+    function start() {
       if (started) return;
       started = true;
       track('form_start', { form_type: formType });
-    }, { once: false });
+    }
+    form.addEventListener('focusin', start);
+    form.addEventListener('input', start);
 
     if (window.MutationObserver) {
       new window.MutationObserver(function (records) {
@@ -616,6 +637,8 @@
           else if (state === 'error') params.error_kind = 'server';
           else if (state === 'invalid') params.error_kind = 'invalid';
           track(STATE_EVENT[state], params);
+          /* The plan's own name for a successful send, beside the taxonomy's. */
+          if (state === 'success') track('form_submit', { form_type: formType });
         }
       }).observe(form, { attributes: true, attributeFilter: ['data-state'] });
     }

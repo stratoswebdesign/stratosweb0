@@ -564,6 +564,11 @@ body {
 .close__act .link { font-weight: 400; color: var(--c-on-dark-2); }
 .close__act .link:hover { color: var(--c-on-dark); }
 .close__end .acts__note { max-width: 44ch; }
+/* The e-mail line under the button (second copy pack): text, not a second
+   action, and the only place the page names the address. */
+.close__mail { margin-top: var(--sp-3); color: var(--c-on-dark-2); }
+.close__mail a { color: var(--c-on-dark); text-decoration: underline; text-decoration-color: var(--c-line-dark); text-underline-offset: 0.2em; }
+.close__mail a:hover { text-decoration-color: currentColor; }
 
 @media (max-width: 760px) {
   .close__foot { flex-direction: column; align-items: flex-start; }
