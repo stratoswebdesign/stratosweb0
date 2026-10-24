@@ -73,7 +73,6 @@ SLUGS = {
     "local-hub":      {"hu": "hol-dolgozunk.html",               "en": "hol-dolgozunk.html",               "de": "hol-dolgozunk.html"},
     "local-gyor":     {"hu": "weboldal-keszites-gyor.html",      "en": "weboldal-keszites-gyor.html",      "de": "weboldal-keszites-gyor.html"},
     "local-budapest": {"hu": "weboldal-keszites-budapest.html",  "en": "weboldal-keszites-budapest.html",  "de": "weboldal-keszites-budapest.html"},
-    "local-pest":     {"hu": "weboldal-keszites-pest-megye.html", "en": "weboldal-keszites-pest-megye.html", "de": "weboldal-keszites-pest-megye.html"},
     "local-szeged":   {"hu": "weboldal-keszites-szeged.html",    "en": "weboldal-keszites-szeged.html",    "de": "weboldal-keszites-szeged.html"},
     # ---- 2026-10-07: a Hungarian query (≈690/month) with no page answering it.
     "seo-web":        {"hu": "keresooptimalizalt-weboldal-keszites.html", "en": "keresooptimalizalt-weboldal-keszites.html", "de": "keresooptimalizalt-weboldal-keszites.html"},
@@ -107,11 +106,16 @@ BY_ANY = {fn: k for k, v in SLUGS.items() for fn in v.values()}
 assert len(BY_ANY) == len({(k, fn) for k, v in SLUGS.items() for fn in v.values()}), \
     "two routes share a filename — relink() can no longer resolve one"
 
-# Branding is still a page (sitemap, content links) but no longer a menu item:
-# the owner took it out of the header and footer on 2026-10-07, and kept it out
-# when the copy pack of 2026-10-23 would have put it back. The order is the
-# pack's: the 3D offer first, the Impact Program last.
-SERVICES = ("configurator", "sme", "enterprise", "shop", "seo", "ads", "impact")
+# The order is the second copy pack's (2026-10-24): the main line first — a
+# website, then monthly search optimisation — and 3D as the differentiator it
+# is, not the headline. The Impact Program is in the footer only (NAV_SERVICES
+# leaves it out); every service route still closes with the service question.
+#
+# Branding — „Arculattervezés” — is a menu item again, fifth, as the pack
+# lists it: the owner confirmed it on 2026-10-24, after having taken it out of
+# the header and footer on 2026-10-07 and kept it out of the 10-23 pack.
+NAV_SERVICES = ("sme", "seo", "shop", "ads", "branding", "configurator", "enterprise")
+SERVICES = NAV_SERVICES + ("impact",)
 # The case studies and the articles are reachable from their index routes and
 # from the pages they belong to, not from the global navigation — a nav that
 # lists every leaf is a sitemap, not a navigation.
@@ -255,7 +259,9 @@ LOCALE_NOINDEX = {}
 # "seo-web" joins them on 2026-10-07 for the same reason: it answers one
 # Hungarian query ("keresőoptimalizált weboldal készítés"), and the English and
 # German service pages already cover what a reader in those languages needs.
-HU_ONLY = ("local-hub", "local-gyor", "local-budapest", "local-pest", "local-szeged",
+# 2026-10-24: Pest vármegye left the set — without a presence or a client there
+# the page had nothing only it could say — and its URL 301s to Budapest.
+HU_ONLY = ("local-hub", "local-gyor", "local-budapest", "local-szeged",
            "seo-web")
 for _k in HU_ONLY:
     LOCALE_NOINDEX[_k] = ("en", "de")
@@ -490,7 +496,7 @@ UI = {
         "svc_all": "Minden szolgáltatás",
         "svc": {
             "configurator": ("3D weboldal és konfigurátor", "2 400 M"),
-            "sme": ("Weboldal kkv-knak", "1 200 M"),
+            "sme": ("Weboldal készítés", "1 200 M"),
             "enterprise": ("Weboldal ipari és B2B cégeknek", "9 400 M"),
             "branding": ("Arculattervezés", "4 800 M"),
             "ads": ("Hirdetéskezelés", "17 000 M"),
@@ -579,7 +585,7 @@ UI = {
         "svc_all": "All services",
         "svc": {
             "configurator": ("3D website and configurator", "2,400 M"),
-            "sme": ("Web design for small business", "1,200 M"),
+            "sme": ("Website design", "1,200 M"),
             "enterprise": ("Websites for industrial and B2B companies", "9,400 M"),
             "branding": ("Brand identity design", "4,800 M"),
             "ads": ("Ads management", "17,000 M"),
@@ -652,7 +658,7 @@ UI = {
         "svc_all": "Alle Leistungen",
         "svc": {
             "configurator": ("3D-Website und Konfigurator", "2.400 M"),
-            "sme": ("Webdesign für KMU", "1.200 M"),
+            "sme": ("Website-Erstellung", "1.200 M"),
             "enterprise": ("Websites für Industrie- und B2B-Unternehmen", "9.400 M"),
             "branding": ("Corporate Design", "4.800 M"),
             "ads": ("Werbeanzeigen", "17.000 M"),
@@ -1314,7 +1320,7 @@ BREADCRUMB_PARENT = {
     # Services / Hol dolgozunk / <region>
     "local-hub": "services",
     "local-gyor": "local-hub", "local-budapest": "local-hub",
-    "local-pest": "local-hub", "local-szeged": "local-hub",
+    "local-szeged": "local-hub",
     # Kapcsolat / Időpontfoglalás
     "booking": "contact",
 }
@@ -1326,7 +1332,6 @@ LOCAL_AREAS = {
     "local-gyor": [{"@type": "City", "name": "Győr"},
                    {"@type": "AdministrativeArea", "name": "Győr-Moson-Sopron vármegye"}],
     "local-budapest": [{"@type": "City", "name": "Budapest"}],
-    "local-pest": [{"@type": "AdministrativeArea", "name": "Pest vármegye"}],
     "local-szeged": [{"@type": "City", "name": "Szeged"},
                      {"@type": "AdministrativeArea", "name": "Csongrád-Csanád vármegye"}],
 }
@@ -2155,7 +2160,7 @@ V2_UI = {
         "pages": "Oldalak",
         "close_head": "Ha nagy a tét, beszéljünk.",
         "close_lede": "Egy ingyenes igényfelmérő hívás után tudni fogod, mi segítene, és mi nem.",
-        "close_work": "Ügyfeleink",
+        "close_mail": 'vagy írj nekünk: <a href="mailto:hello@stratosweb.hu">hello@stratosweb.hu</a>',
     },
     "en": {
         "nav": (("work", "Clients"), ("services", "Solutions"),
@@ -2167,7 +2172,7 @@ V2_UI = {
         "pages": "Pages",
         "close_head": "High stakes? Let’s talk.",
         "close_lede": "After a free discovery call you will know what would help, and what would not.",
-        "close_work": "Our clients",
+        "close_mail": 'or write to us: <a href="mailto:hello@stratosweb.hu">hello@stratosweb.hu</a>',
     },
     "de": {
         "nav": (("work", "Kunden"), ("services", "Lösungen"),
@@ -2179,7 +2184,7 @@ V2_UI = {
         "pages": "Seiten",
         "close_head": "Viel auf dem Spiel? Dann sprechen wir.",
         "close_lede": "Nach einem kostenlosen Erstgespräch wissen Sie, was helfen würde und was nicht.",
-        "close_work": "Unsere Projekte",
+        "close_mail": 'oder schreiben Sie uns: <a href="mailto:hello@stratosweb.hu">hello@stratosweb.hu</a>',
     },
 }
 
@@ -2339,7 +2344,7 @@ def build_header_v2(lang, key):
         for k, label in (*v["nav"], ("contact", v["contact"])))
     sheet_svc = "".join(
         f'\n          <li><a href="{href(lang, k)}"{current(k)}>{u["svc"][k][0]}</a></li>'
-        for k in SERVICES)
+        for k in NAV_SERVICES)
     return render(HEADER_V2, dict(
         home=href(lang, "index"), brand_aria=u["brand_aria"],
         nav_aria=u["nav_aria"],
@@ -2394,16 +2399,24 @@ def build_footer_v2(lang, key):
 
 # The closing scene every page ends on, unless the page already ends on one of
 # its own. It replaces the old Arrival band: one question in the page's own
-# archetype, one action, the way to the work — on the graphite field that is
-# the page's one dark moment. Outside <main>, like the Arrival was, and kept out
-# of search snippets: it is the site's sentence, not the page's.
+# archetype, one action — on the graphite field that is the page's one dark
+# moment. Outside <main>, like the Arrival was, and kept out of search
+# snippets: it is the site's sentence, not the page's.
+#
+# Since the second copy pack (2026-10-24) a closing band is a heading, one
+# sentence, the one button and, under it as text, the e-mail address — the
+# only place a page names it. The link to the work or the services that sat
+# beside the button went: one way to the quote, nothing competing with it.
 CLOSE_V2 = """<section class="pclose" aria-labelledby="pclose-h" data-nosnippet>
   <div class="pclose__frame">
     <div class="pclose__surface on-dark light-field">
       <h2 class="pclose__h t-statement" id="pclose-h">{{head}}</h2>
       <div class="pclose__foot">
         <p class="pclose__lede t-lead">{{lede}}</p>
-        <p class="pclose__act"><a class="btn btn--light" href="{{quote}}" data-cta-placement="closing">{{start}}{{arrow}}</a> <a class="link" href="{{second}}">{{second_label}}</a></p>
+        <div class="pclose__end">
+          <p class="pclose__act"><a class="btn btn--light" href="{{quote}}" data-cta-placement="closing">{{start}}{{arrow}}</a></p>
+          <p class="pclose__mail t-small">{{mail}}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -2436,13 +2449,11 @@ def ends_on_launch(body):
 def build_close_v2(lang, key):
     """The closing scene for one route, or "". Call inside `root_links()`."""
     u, v = UI[lang], V2_UI[lang]
-    work_side = key == "work" or key in CASES
     head = u["p85"][CLOSE_ARCHETYPE[key]] if key in CLOSE_ARCHETYPE else v["close_head"]
     return render(CLOSE_V2, dict(
         head=head, lede=v["close_lede"],
         quote=href(lang, "quote"), start=u["p85"]["start"], arrow=ARROW_V2,
-        second=href(lang, "services" if work_side else "work"),
-        second_label=u["menu"]["services"] if work_side else v["close_work"],
+        mail=v["close_mail"],
     ))
 
 

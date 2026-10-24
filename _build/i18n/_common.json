@@ -282,5 +282,38 @@
  "Egyszeri projektdíj": [
   "One-off project fee",
   "Einmaliger Projektpreis"
+ ],
+ "_note_2026_10_24": "The second copy pack (2026-10-24): the lines every service page shares — the one-line commitment under the process, the e-mail line under the closing button, the one-line Rapidkert reference and the response-time line that replaced the SLA figures. The B2B pages (/nagyvallalat, /3d-weboldal-konfigurator) address the company in the plural.",
+ "Határidő-garancia, ha minden anyag időben megérkezik tőled. Három kör módosítás a tervre.": [
+  "A deadline guarantee, as long as every material reaches us from you on time. Three rounds of changes to the design.",
+  "Termingarantie, sofern alle Unterlagen rechtzeitig von Ihnen bei uns sind. Drei Korrekturrunden für den Entwurf."
+ ],
+ "Határidő-garancia, ha minden anyag időben megérkezik tőletek. Három kör módosítás a tervre.": [
+  "A deadline guarantee, as long as every material reaches us from you on time. Three rounds of changes to the design.",
+  "Termingarantie, sofern alle Unterlagen rechtzeitig von Ihnen bei uns sind. Drei Korrekturrunden für den Entwurf."
+ ],
+ "vagy írj nekünk: <a class=\"tlink\" href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>": [
+  "or write to us: <a class=\"tlink\" href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>",
+  "oder schreiben Sie uns: <a class=\"tlink\" href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>"
+ ],
+ "vagy írjatok nekünk: <a class=\"tlink\" href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>": [
+  "or write to us: <a class=\"tlink\" href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>",
+  "oder schreiben Sie uns: <a class=\"tlink\" href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>"
+ ],
+ "Rapidkert: 3D weboldal, keresőoptimalizálás, Awwwards Honorable Mention": [
+  "Rapidkert: 3D website, SEO, Awwwards Honorable Mention",
+  "Rapidkert: 3D-Website, SEO, Awwwards Honorable Mention"
+ ],
+ "A karbantartási szerződésben írásban rögzítjük a reakcióidőt.": [
+  "The maintenance contract sets out the response time in writing.",
+  "Die Reaktionszeit halten wir im Wartungsvertrag schriftlich fest."
+ ],
+ "Ingyenes igényfelmérő hívással kezdünk. Munkanapokon 24 órán belül jelentkezünk.": [
+  "We start with a free discovery call. We get back to you within 24 hours on working days.",
+  "Wir beginnen mit einem kostenlosen Erstgespräch. An Werktagen melden wir uns innerhalb von 24 Stunden."
+ ],
+ "Esettanulmány": [
+  "Case study",
+  "Fallstudie"
  ]
 }

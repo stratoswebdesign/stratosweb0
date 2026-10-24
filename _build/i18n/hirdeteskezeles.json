@@ -423,5 +423,21 @@
  "Egy ingyenes igényfelmérő hívás után kiderül, melyik csatorna való hozzád, mekkora kerettel érdemes indulni, és mit várhatsz az első hónapokban.": [
   "After a free discovery call it will be clear which channel suits you, what budget it makes sense to start with, and what you can expect in the first months.",
   "Nach einem kostenlosen Erstgespräch ist klar, welcher Kanal zu Ihnen passt, mit welchem Budget sich der Start lohnt und was Sie in den ersten Monaten erwarten können."
+ ],
+ "Már próbáltam hirdetni, és nem működött. Miért lenne most más?": [
+  "I've tried advertising before and it didn't work. Why would it be different now?",
+  "Ich habe Werbung schon probiert, und sie hat nicht funktioniert. Warum sollte es jetzt anders sein?"
+ ],
+ "Nincs időm ezzel foglalkozni. Mennyi munka jut rám?": [
+  "I don't have time to deal with this. How much of the work falls to me?",
+  "Ich habe keine Zeit, mich darum zu kümmern. Wie viel Arbeit bleibt bei mir?"
+ ],
+ "Kevés. A szövegírás és a kampányok felépítése a mi dolgunk, ez benne van a szolgáltatásban. Tőled néhány fotó kell a munkádról, mert a valódi kép sokszor jobban teljesít, mint a stockfotó, és havonta pár perc a riportra.": [
+  "Very little. Writing the copy and building the campaigns is our job; it is part of the service. From you we need a few photos of your work, because a real picture often performs better than a stock photo, and a few minutes a month for the report.",
+  "Wenig. Texte und Kampagnenaufbau sind unsere Aufgabe, das ist in der Leistung enthalten. Von Ihnen brauchen wir ein paar Fotos Ihrer Arbeit, denn ein echtes Bild schneidet oft besser ab als ein Stockfoto, und monatlich ein paar Minuten für den Report."
+ ],
+ "<span><a class=\"tlink\" href=\"webshop-keszites.html\">Webshopoknak</a>: Google Shopping és Performance Max, termékfeeddel</span>": [
+  "<span>For <a class=\"tlink\" href=\"webshop-keszites.html\">online shops</a>: Google Shopping and Performance Max, with a product feed</span>",
+  "<span>Für <a class=\"tlink\" href=\"webshop-keszites.html\">Onlineshops</a>: Google Shopping und Performance Max, mit Produktfeed</span>"
  ]
 }

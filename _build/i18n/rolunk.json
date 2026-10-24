@@ -266,5 +266,25 @@
  "<a class=\"tlink\" href=\"munkaink.html\">Megnézem a munkáitokat</a>": [
   "<a class=\"tlink\" href=\"munkaink.html\">See your work</a>",
   "<a class=\"tlink\" href=\"munkaink.html\">Ihre Projekte ansehen</a>"
+ ],
+ "<span class=\"smark__t\">Miért maradunk kicsik</span>": [
+  "<span class=\"smark__t\">Why we stay small</span>",
+  "<span class=\"smark__t\">Warum wir klein bleiben</span>"
+ ],
+ "<span class=\"smark__t\">Ahogy dolgozunk</span>": [
+  "<span class=\"smark__t\">How we work</span>",
+  "<span class=\"smark__t\">Wie wir arbeiten</span>"
+ ],
+ "<span class=\"smark__t\">Akikkel dolgozol</span>": [
+  "<span class=\"smark__t\">The people you work with</span>",
+  "<span class=\"smark__t\">Mit wem Sie arbeiten</span>"
+ ],
+ "Minden felület egyedi kódból, sablon nélkül készül, olyan részletességgel, amit szívesen kiteszünk a saját <a class=\"tlink\" href=\"munkaink.html\">portfóliónkba</a>.": [
+  "Every interface is built in custom code, without a template, to a level of detail we would happily put in our own <a class=\"tlink\" href=\"munkaink.html\">portfolio</a>.",
+  "Jede Oberfläche entsteht aus individuellem Code, ohne Vorlage, in einer Sorgfalt, die wir gern in unser eigenes <a class=\"tlink\" href=\"munkaink.html\">Portfolio</a> stellen."
+ ],
+ "<a class=\"tlink\" href=\"szolgaltatasok.html\">A négy szál</a> külön is megáll, de nálunk ugyanaz a kéz fogja össze őket. Így nem kell négy beszállítót egyeztetned.": [
+  "<a class=\"tlink\" href=\"szolgaltatasok.html\">Each of the four</a> stands on its own, but with us the same hands hold them together. So you don’t have to coordinate four suppliers.",
+  "Jeder der <a class=\"tlink\" href=\"szolgaltatasok.html\">vier Stränge</a> steht für sich, aber bei uns hält sie dieselbe Hand zusammen. So müssen Sie nicht vier Dienstleister koordinieren."
  ]
 }

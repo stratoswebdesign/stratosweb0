@@ -398,21 +398,24 @@ for (const route of STAGED) {
   });
 }
 
-test('the five services are rows in the page, none of them off screen sideways', async ({ page }) => {
+// Second copy pack (2026-10-24): /szolgaltatasok opens on the four
+// situations that left the homepage — „Melyik helyzet a tiéd?” — as cards; the
+// seven-row service rail they replaced is gone.
+test('the four situations are cards in the page, none of them off screen sideways', async ({ page }) => {
   await page.goto('/szolgaltatasok.html');
   await motionReady(page);
   await settled(page);
-  const panels = page.locator('[data-rail-panel]');
-  const n = await panels.count();
-  expect(n).toBeGreaterThanOrEqual(5);
+  const cards = page.locator('main .g-2 > .card');
+  await expect(cards).toHaveCount(4);
   const vw = await page.evaluate(() => document.documentElement.clientWidth);
-  for (let i = 0; i < n; i++) {
-    const p = panels.nth(i);
-    await p.scrollIntoViewIfNeeded();
-    await expect(p).toBeVisible();
-    const box = await p.boundingBox();
-    expect(box && box.x >= 0 && box.x + box.width <= vw + 1, `service ${i} fits the viewport`).toBe(true);
-    readable(await read(page, '[data-rail-panel] h3', i), `service ${i} title`);
+  for (let i = 0; i < 4; i++) {
+    const c = cards.nth(i);
+    await c.scrollIntoViewIfNeeded();
+    await expect(c).toBeVisible();
+    const box = await c.boundingBox();
+    expect(box && box.x >= 0 && box.x + box.width <= vw + 1, `situation ${i} fits the viewport`).toBe(true);
+    readable(await read(page, 'main .g-2 > .card h3', i), `situation ${i} title`);
+    await expect(c.locator('a')).toHaveCount(1);
   }
 });
 
@@ -496,13 +499,15 @@ test('the repaired routes keep their section order', async ({ page }) => {
   // the original shell; this page ends on its own closing launch.)
   // The copy pack of 2026-10-23 replaced the HAIO band with the questions
   // block, a full `band` — the ninth entry; the order around it is unchanged.
+  // The second pack (2026-10-24) cut the page to eight sections: the two
+  // channels joined the process (still pale, so the panels keep the ground
+  // §38 repaired), the stats strip, the mid-page CTA and „Hova tovább” went,
+  // and the two FAQs became one (pale).
   await page.goto('/hirdeteskezeles.html');
   const bands = await page.evaluate(() =>
     [...document.querySelectorAll('section')].map((s) => s.className.trim()));
   expect(bands).toEqual([
     'phead', 'band band--tight', 'band', 'band band--pale', 'band',
-    'band band--pale',
-    'band band--tight', 'band band--tight', 'band',
-    'band band--pale', 'band band--tight', 'band',
+    'band band--tight', 'band band--pale', 'band',
   ]);
 });

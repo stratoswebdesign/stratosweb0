@@ -279,5 +279,45 @@
  "Kik vagyunk, hogyan dolgozunk, és mit jelent nálunk a partnerség.": [
   "Who we are, how we work, and what partnership means to us.",
   "Wer wir sind, wie wir arbeiten und was Partnerschaft für uns bedeutet."
+ ],
+ "<span class=\"smark__n\" aria-hidden=\"true\">01</span><span class=\"smark__t\">Három út ugyanoda</span>": [
+  "<span class=\"smark__n\" aria-hidden=\"true\">01</span><span class=\"smark__t\">Three routes, one destination</span>",
+  "<span class=\"smark__n\" aria-hidden=\"true\">01</span><span class=\"smark__t\">Drei Wege, ein Ziel</span>"
+ ],
+ "Mindhárom ugyanahhoz a beszélgetéshez vezet. A különbség csak annyi, hogy mennyit tudunk előre a projektedről, amikor először beszélünk.": [
+  "All three lead to the same conversation. The only difference is how much we already know about your project when we first talk.",
+  "Alle drei führen zum selben Gespräch. Der Unterschied ist nur, wie viel wir bereits über Ihr Projekt wissen, wenn wir zum ersten Mal sprechen."
+ ],
+ "A neved, az e-mail-címed, a weboldalad címe és pár szó arról, miben segíthetünk. A részleteket az igényfelmérő hívásban beszéljük át.": [
+  "Your name, your email address, your website and a few words about how we can help. We go through the details on the discovery call.",
+  "Ihr Name, Ihre E-Mail-Adresse, Ihre Website und ein paar Worte dazu, wobei wir helfen können. Die Details besprechen wir im Erstgespräch."
+ ],
+ "4 mező · körülbelül 1 perc": [
+  "4 fields · about 1 minute",
+  "4 Felder · etwa 1 Minute"
+ ],
+ "Igényfelmérő hívás": [
+  "Discovery call",
+  "Erstgespräch"
+ ],
+ "Ha inkább beszélnél": [
+  "If you'd rather talk",
+  "Wenn Sie lieber sprechen"
+ ],
+ "Foglalj időpontot egy ingyenes igényfelmérő hívásra, a naptárunk szabad időpontjaiból.": [
+  "Book a free discovery call at a free slot in our calendar.",
+  "Buchen Sie ein kostenloses Erstgespräch zu einem freien Termin aus unserem Kalender."
+ ],
+ "30 perc · Google Meet": [
+  "30 minutes · Google Meet",
+  "30 Minuten · Google Meet"
+ ],
+ "<span class=\"smark__n\" aria-hidden=\"true\">02</span><span class=\"smark__t\">Kikkel dolgozunk</span>": [
+  "<span class=\"smark__n\" aria-hidden=\"true\">02</span><span class=\"smark__t\">Who we work with</span>",
+  "<span class=\"smark__n\" aria-hidden=\"true\">02</span><span class=\"smark__t\">Mit wem wir arbeiten</span>"
+ ],
+ "<a class=\"tlink\" href=\"szolgaltatasok.html\">Helyi szolgáltatókkal, ipari és B2B cégekkel, webshopokkal, tanácsadókkal és szakértőkkel</a> dolgozunk. A közös pont nem a méret, hanem az, hogy a weboldalnak vagy a hirdetésnek valamit el kell érnie: megkeresést, foglalást, rendelést, jelentkezőt.": [
+  "We work with <a class=\"tlink\" href=\"szolgaltatasok.html\">local service businesses, industrial and B2B companies, online shops, consultants and specialists</a>. What they have in common isn't size: it's that the website or the advertising has to achieve something, whether an enquiry, a booking, an order or an applicant.",
+  "Wir arbeiten mit <a class=\"tlink\" href=\"szolgaltatasok.html\">lokalen Dienstleistern, Industrie- und B2B-Unternehmen, Onlineshops, Beratern und Fachleuten</a>. Gemeinsam ist ihnen nicht die Größe, sondern dass die Website oder die Werbung etwas erreichen muss: eine Anfrage, eine Buchung, eine Bestellung, eine Bewerbung."
  ]
 }

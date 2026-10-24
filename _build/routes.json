@@ -165,11 +165,6 @@
    "en": "weboldal-keszites-budapest.html",
    "de": "weboldal-keszites-budapest.html"
   },
-  "local-pest": {
-   "hu": "weboldal-keszites-pest-megye.html",
-   "en": "weboldal-keszites-pest-megye.html",
-   "de": "weboldal-keszites-pest-megye.html"
-  },
   "local-szeged": {
    "hu": "weboldal-keszites-szeged.html",
    "en": "weboldal-keszites-szeged.html",
@@ -367,11 +362,6 @@
    "en": "/en/weboldal-keszites-budapest",
    "de": "/de/weboldal-keszites-budapest"
   },
-  "local-pest": {
-   "hu": "/weboldal-keszites-pest-megye",
-   "en": "/en/weboldal-keszites-pest-megye",
-   "de": "/de/weboldal-keszites-pest-megye"
-  },
   "local-szeged": {
    "hu": "/weboldal-keszites-szeged",
    "en": "/en/weboldal-keszites-szeged",
@@ -441,7 +431,6 @@
   "local-hub": "full",
   "local-gyor": "full",
   "local-budapest": "full",
-  "local-pest": "full",
   "local-szeged": "full",
   "seo-web": "full",
   "contact": "full",
@@ -463,10 +452,6 @@
    "en",
    "de"
   ],
-  "local-pest": [
-   "en",
-   "de"
-  ],
   "local-szeged": [
    "en",
    "de"
@@ -480,7 +465,6 @@
   "local-hub",
   "local-gyor",
   "local-budapest",
-  "local-pest",
   "local-szeged",
   "seo-web"
  ],

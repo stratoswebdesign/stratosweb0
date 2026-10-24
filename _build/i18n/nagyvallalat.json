@@ -322,5 +322,34 @@
  "Írjátok le pár mondatban, mivel foglalkoztok, és mit kellene tudnia az új oldalnak. Egy ingyenes igényfelmérő hívásban átbeszéljük, hogyan viszi egy csapat a weboldalatokat a tervezéstől az üzemeltetésig.": [
   "Tell us in a few sentences what you do and what the new site needs to do. On a free discovery call we will talk through how one team takes your website from design all the way to operation.",
   "Beschreiben Sie in ein paar Sätzen, womit Sie sich beschäftigen und was die neue Website können soll. In einem kostenlosen Erstgespräch besprechen wir, wie ein Team Ihre Website von der Konzeption bis zum Betrieb begleitet."
+ ],
+ "_pack_2026_10_24": "Copy pack 2026-10-24: the page trimmed to the service frame; no SLA or response-time figures; the homepage's former 'Ipari és B2B cégeknek' lines folded in.",
+ "Az első értékesítési beszélgetést a weboldalatok kezdi, ezért úgy építjük meg, hogy a beszerző, a mérnök és a döntéshozó már a hívás előtt ott kapjon választ arra, mit gyártotok, milyen paraméterekkel, és miért érdemes tőletek ajánlatot kérni.": [
+  "Your website starts the first sales conversation, so we build it to give the buyer, the engineer and the decision-maker their answers before anyone picks up the phone: what you make, to what specifications, and why it is worth asking you for a quote.",
+  "Das erste Verkaufsgespräch beginnt Ihre Website, deshalb bauen wir sie so, dass Einkäufer, Ingenieur und Entscheider schon vor dem Anruf dort ihre Antworten bekommen: was Sie fertigen, mit welchen Parametern und warum sich eine Anfrage bei Ihnen lohnt."
+ ],
+ "Ha a terméketeket nehéz fotón megmutatni, 3D-ben mutatjuk meg: körbeforgatható, rétegekre bontható, görgetésre alakuló modell. Ahol a vevőnek választania kell, konfigurátorban állítja össze a saját változatát. A konfigurátor az értékesítőiteknek is dolgozik: elmagyarázza a terméket akkor is, amikor senki nincs a telefonnál.": [
+  "If your product is hard to show in a photo, we show it in 3D: a model that turns all the way round, comes apart in layers and transforms as you scroll. Where customers have to choose, they put together their own version in a configurator. The configurator works for your sales team too: it explains the product even when nobody is by the phone.",
+  "Wenn sich Ihr Produkt auf einem Foto schwer zeigen lässt, zeigen wir es in 3D: ein Modell, das sich rundum drehen und in Schichten zerlegen lässt und sich beim Scrollen verwandelt. Wo der Kunde wählen muss, stellt er seine eigene Variante im Konfigurator zusammen. Der Konfigurator arbeitet auch für Ihren Vertrieb: Er erklärt das Produkt auch dann, wenn niemand am Telefon ist."
+ ],
+ "Tárhely, frissítések, mentések, biztonság, hozzáférés-kezelés, GDPR-nek megfelelő adatkezelés és gyors reakció hiba esetén. A karbantartási szerződésben írásban rögzítjük a reakcióidőt.": [
+  "Hosting, updates, backups, security, access management, GDPR-compliant data handling and a quick response when something goes wrong. The maintenance contract sets out the response time in writing.",
+  "Hosting, Updates, Backups, Sicherheit, Zugriffsverwaltung, DSGVO-konforme Datenverarbeitung und schnelle Reaktion im Fehlerfall. Die Reaktionszeit halten wir im Wartungsvertrag schriftlich fest."
+ ],
+ "Egy 3D oldal, <span class=\"sig\">amit építettünk</span>": [
+  "A 3D site <span class=\"sig\">we have built</span>",
+  "Eine 3D-Website, <span class=\"sig\">die wir gebaut haben</span>"
+ ],
+ "Megmutatjuk a tervet, ti alakítjátok. Úgy mutatjuk be, hogy a vezetés, az értékesítés és a műszaki oldal is véleményezni tudja.": [
+  "We show you the design, and you shape it. We present it so that management, sales and the technical side can all give their feedback.",
+  "Wir zeigen Ihnen den Entwurf, und Sie gestalten ihn mit. Wir präsentieren ihn so, dass Geschäftsführung, Vertrieb und Technik ihn beurteilen können."
+ ],
+ "Minden ajánlat egyedi: az ingyenes igényfelmérő hívás után tételes ajánlatot kaptok, és látjátok, mire megy a pénz. A weboldal egyszeri projektdíjas; az üzemeltetés és a <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálás</a> havidíjas partnerségként választható. Egy B2B megrendelés értéke sokszor egyetlen projekttel kifizeti a weboldalt.": [
+  "Every proposal is individual: after the free discovery call you get an itemised proposal and can see where the money goes. The website is a one-off project fee; operation and <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> are available as a monthly partnership. The value of B2B orders often pays for the website with a single project.",
+  "Jedes Angebot ist individuell: Nach dem kostenlosen Erstgespräch erhalten Sie ein aufgeschlüsseltes Angebot und sehen, wofür das Geld ausgegeben wird. Die Website kostet ein einmaliges Projekthonorar; Betrieb und <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a> sind als monatliche Partnerschaft wählbar. Der Wert eines B2B-Auftrags bezahlt die Website oft schon mit einem einzigen Projekt."
+ ],
+ "Írjátok le pár mondatban, mivel foglalkoztok, és mit kellene tudnia az új oldalnak.": [
+  "Tell us in a few sentences what you do and what the new site needs to do.",
+  "Beschreiben Sie in ein paar Sätzen, womit Sie sich beschäftigen und was die neue Website können soll."
  ]
 }

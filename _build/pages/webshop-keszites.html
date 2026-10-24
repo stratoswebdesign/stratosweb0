@@ -10,9 +10,8 @@ css: build
       <h1 class="display h-xl">Webshop készítés,<br>ahol a vevő<br><span class="sig">a fizetésig jut.</span></h1>
       <div class="grid g-split" style="align-items:end">
         <p class="lede">
-          Egy webáruháznál a vevő ott dönt, ahol kiderül a szállítási költség, és
-          ott hagyja félbe a vásárlást, ahol egy mezőt nem ért. Ezekre a
-          pillanatokra tervezünk, a terméklistától a sikeres fizetésig.
+          Azokra a pillanatokra tervezünk, ahol a vevő dönt, vagy félbehagyja a
+          vásárlást: a terméklistától a sikeres fizetésig.
         </p>
         <div>
           <div class="tags" style="margin-bottom:1.6rem">
@@ -21,10 +20,9 @@ css: build
             <span>Mérés az első naptól</span>
           </div>
           <div class="btn-row">
-            <a class="btn" href="arajanlat.html" data-magnet><span>Kérek ajánlatot</span>
+            <a class="btn" href="arajanlat.html" data-magnet data-cta-placement="hero"><span>Kérek ajánlatot</span>
               <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 13L13 3M13 3H5M13 3v8" stroke="currentColor" stroke-width="1.4"/></svg>
             </a>
-            <a class="btn btn--ghost" href="idopontfoglalas.html" data-magnet><span>Ingyenes igényfelmérő hívás</span></a>
           </div>
           <p class="t-small muted" style="margin-top:1rem">Ingyenes igényfelmérő hívással kezdünk. Munkanapokon 24 órán belül jelentkezünk.</p>
         </div>
@@ -49,7 +47,7 @@ css: build
     </div>
   </section>
 
-  <!-- ============================================ mit építünk -->
+  <!-- ============================================ mit építünk + egy bolt, egy kézben -->
   <section class="band">
     <div class="wrap">
       <div class="grid g-split" style="margin-bottom:clamp(2rem,5vw,3.5rem)">
@@ -87,6 +85,20 @@ css: build
           <p><a class="tlink" href="hirdeteskezeles.html">Hirdetéskezelés →</a></p>
         </article>
       </div>
+
+      <!-- Egy bolt, egy kézben: az oldal egyetlen referenciája, ugyanannál a
+           rendszernél, amit fent leírunk. -->
+      <div class="grid g-split" style="align-items:start;margin-top:clamp(2rem,5vw,3.5rem)">
+        <p class="display h-sm">Egy bolt,<br>egy kézben</p>
+        <article class="card" data-reveal>
+          <h3>Kontyos Borház</h3>
+          <p>A Kontyos Borháznál egy kézben van a webshop, a keresőoptimalizálás, a közösségi média és a Meta-hirdetés.</p>
+          <p><a class="tlink" href="https://kontyos.hu/" target="_blank" rel="noopener">kontyos.hu</a></p>
+        </article>
+      </div>
+      <div style="margin-top:clamp(1.5rem,4vw,2.5rem)">
+        {{logoset:rail:kontyos}}
+      </div>
     </div>
   </section>
 
@@ -116,7 +128,7 @@ css: build
     </div>
   </section>
 
-  <!-- ============================================ folyamat (G6, webshopra igazított lépésszöveggel) -->
+  <!-- ============================================ folyamat és vállalás (G6, webshopra igazított lépésszöveggel) -->
   <section class="band">
     <div class="wrap">
       <div class="grid g-split" style="margin-bottom:clamp(1.5rem,4vw,2.5rem)">
@@ -133,111 +145,33 @@ css: build
         <article class="step" data-reveal><h3>Tervezés</h3><p>Megmutatjuk a tervet, te alakítod. Három kör módosítás jár hozzá, mielőtt bármi fejlesztésbe megy.</p></article>
         <article class="step" data-reveal><h3>Fejlesztés és átadás</h3><p>Megépítjük, teszteljük a fizetést és a szállítást, élesítjük, és átadjuk a hozzáféréseket. A leghosszabb szakasz általában a terméktörzs: a fotók, a leírások és a változatok rendbetétele. Ha ez megvan, gyorsabban végzünk; ha nincs, ebben is segítünk.</p></article>
       </div>
-    </div>
-  </section>
-
-  <!-- ============================================ amit előre vállalunk (G5, webshopra igazítva) -->
-  <section class="band band--tight">
-    <div class="wrap">
-      <h2 class="display h-md">Amit előre vállalunk</h2>
-      <div class="grid g-3" style="margin-top:clamp(1.5rem,4vw,2.5rem)">
-        <article class="card" data-reveal>
-          <h3>Határidő-garancia</h3>
-          <p>A közösen rögzített határidőt tartjuk. Egy feltétele van: minden anyag (termékadat, fotó, szöveg, hozzáférés) időben megérkezik tőled.</p>
-        </article>
-        <article class="card" data-reveal>
-          <h3>3 kör módosítás</h3>
-          <p>A tervet háromszor alakíthatod, mielőtt fejlesztésbe megy.</p>
-        </article>
-        <article class="card" data-reveal>
-          <h3>Válasz 24 órán belül</h3>
-          <p>Ajánlatkérésre munkanapokon 24 órán belül jelentkezünk.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================ mid CTA -->
-  <section class="band band--tight" data-cta-placement="mid">
-    <div class="wrap">
-      <div class="launch launch--quiet">
-        <p class="display h-sm" style="max-width:24ch">Nézzük meg, mit kell tudnia a boltodnak.</p>
-        <div class="btn-row">
-          <a class="btn" href="arajanlat.html" data-magnet><span>Kérek ajánlatot</span>
-            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 13L13 3M13 3H5M13 3v8" stroke="currentColor" stroke-width="1.4"/></svg>
-          </a>
-          <a class="btn btn--ghost" href="idopontfoglalas.html" data-magnet><span>Ingyenes igényfelmérő hívás</span></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================ bizonyíték -->
-  <section class="band band--pale">
-    <div class="wrap">
-      <div class="grid g-split" style="align-items:start">
-        <h2 class="display h-md">Egy bolt,<br>egy kézben</h2>
-        <article class="card" data-reveal>
-          <h3>Kontyos Borház</h3>
-          <p>A Kontyos Borháznál egy kézben van a webshop, a keresőoptimalizálás, a közösségi média és a Meta-hirdetés.</p>
-          <p><a class="tlink" href="https://kontyos.hu/" target="_blank" rel="noopener">kontyos.hu</a></p>
-        </article>
-      </div>
-      <div style="margin-top:clamp(1.5rem,4vw,2.5rem)">
-        {{logoset:rail:kontyos}}
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================ kifogáskezelés -->
-  <section class="band">
-    <div class="wrap">
-      <h2 class="display h-md" style="max-width:20ch">Amit webshopnál kérdezni szoktak</h2>
-      <div class="grid g-3" style="margin-top:clamp(1.5rem,4vw,2.5rem)">
-        <article class="card" data-reveal>
-          <h3>Sokba kerül.</h3>
-          <p>Egy webshop akkor drága, ha a kosárnál elveszíti a vevőt. Ha a fizetésig eljutó vevők száma nő, a különbség minden hónapban megjelenik a forgalomban. Az ajánlatban tételesen látod, mire megy a pénz.</p>
-        </article>
-        <article class="card" data-reveal>
-          <h3>Már van webshopom.</h3>
-          <p>Akkor azt nézzük meg, hol hagyják ott a vevők. Ha a bolt jó, és csak a láthatóság hiányzik, megmondjuk, mielőtt bármit újraépítenénk.</p>
-        </article>
-        <article class="card" data-reveal>
-          <h3>Nincs időm a termékfeltöltésre.</h3>
-          <p>A terméktörzs rendbetételében segítünk, tőled a döntések kellenek.</p>
-        </article>
-      </div>
+      <p class="prose" style="margin-top:clamp(1.5rem,4vw,2.5rem)">Határidő-garancia, ha minden anyag időben megérkezik tőled. Három kör módosítás a tervre.</p>
     </div>
   </section>
 
   <!-- ============================================ GYIK -->
+  <!-- Egy GYIK: a kifogások („Sokba kerül”, „Már van webshopom”, „Nincs
+       időm…”) is itt vannak. A FAQPage JSON-LD ebből a jelölésből készül. -->
   <section class="band band--pale">
     <div class="wrap">
       <div class="grid g-sticky">
         <div>
           <p class="eyebrow">GYIK</p>
           <h2 class="display h-md" style="margin-top:1.2rem">Gyakori<br>kérdések</h2>
-          <p class="muted" style="margin-top:1.4rem;max-width:28ch">
-            Nem találod a választ? <a class="tlink" href="ugyfelszolgalat.html">Írj nekünk</a>, és szívesen segítünk.
-          </p>
         </div>
 
         <div class="faq">
           <details>
             <summary>Mennyibe kerül egy webshop készítés?</summary>
-            <p class="faq__a">Attól függ, hány terméked van, hány változattal, és mihez kell kapcsolódnia. Egy néhány száz termékes bolt és egy több ezer tételes bolt között nagyságrendi a különbség, de mindkettő egyszeri, tételes projektdíjjal árazódik. Az ingyenes igényfelmérő hívás után tételes ajánlatot kapsz.</p>
+            <p class="faq__a">Attól függ, hány terméked van, hány változattal, és mihez kell kapcsolódnia. Az ingyenes igényfelmérő hívás után tételes ajánlatot kapsz, egyszeri projektdíjjal. Egy webshop akkor drága, ha a kosárnál elveszíti a vevőt.</p>
           </details>
           <details>
-            <summary>Mennyi idő alatt készül el?</summary>
-            <p class="faq__a">A határidőt a felmérés után az ajánlatban rögzítjük, és határidő-garanciát vállalunk rá, ha minden anyag időben megérkezik. A leghosszabb szakasz általában a terméktörzs: a fotók, a leírások és a változatok rendbetétele.</p>
+            <summary>Már van webshopom.</summary>
+            <p class="faq__a">Akkor először megnézzük, hol hagyják ott a vevők, és mi menthető: a terméktörzs és a rendelési előzmény általában átvihető. Ha a bolt jó, és csak a láthatóság hiányzik, megmondjuk, mielőtt bármit újraépítenénk.</p>
           </details>
           <details>
-            <summary>Milyen platformon készül?</summary>
-            <p class="faq__a">A felmérés után döntünk, a termékszámtól, a kapcsolódó számlázó- és készletrendszerektől és a bővítési tervektől függően: lehet egy bevált webshopmotor vagy egyedi fejlesztés. Előre nem kötelezzük el magunkat, és a javaslatunkat megindokoljuk.</p>
-          </details>
-          <details>
-            <summary>Át tudtok venni egy meglévő webáruházat?</summary>
-            <p class="faq__a">Igen. Először átnézzük, mi menthető belőle: a terméktörzs és a rendelési előzmény általában átvihető. Ha a meglévő bolt működik, és csak a láthatóság hiányzik, azt is megmondjuk, mielőtt bármit újraépítenénk.</p>
+            <summary>Nincs időm a termékfeltöltésre.</summary>
+            <p class="faq__a">A terméktörzs rendbetételében segítünk, tőled a döntések kellenek.</p>
           </details>
           <details>
             <summary>Kapok hozzá kezelőfelületet?</summary>
@@ -247,58 +181,23 @@ css: build
             <summary>Ki felel a jogi megfelelésért?</summary>
             <p class="faq__a">A kötelező tartalmak helyét (ÁSZF, elállási tájékoztató, adatkezelés, cookie-kezelés) beépítjük, és megmondjuk, mi hiányzik. A szövegek tartalmi helyességéért jogász felel; ha nincs, időben szólunk, hogy legyen.</p>
           </details>
-          <details>
-            <summary>Mi van, ha nő a bolt?</summary>
-            <p class="faq__a">Új nyelv, új piac, új fizetési mód később is rákerülhet, mert a platformot eleve a növekedéshez választjuk.</p>
-          </details>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============================================ hova tovább -->
-  <section class="band band--tight">
-    <div class="wrap">
-      <div class="grid g-split" style="margin-bottom:clamp(1rem,3vw,1.6rem)">
-        <h2 class="display h-sm">Hova tovább</h2>
-        <p class="prose" style="align-self:end">Kapcsolódó oldalak és olvasnivaló.</p>
-      </div>
-      <nav class="related" aria-label="Kapcsolódó oldalak">
-        <a href="hirdeteskezeles.html">
-          <span><span class="related__t">Hirdetéskezelés</span><span class="related__w">Ha a boltba forgalom kell, és nem akarsz hónapokat várni rá.</span></span>
-          <span class="related__a">Szolgáltatás</span>
-        </a>
-        <a href="keresooptimalizalas.html">
-          <span><span class="related__t">Keresőoptimalizálás</span><span class="related__w">Ha a bolt megvan, de a kategóriaoldalakat nem találja meg senki.</span></span>
-          <span class="related__a">Szolgáltatás</span>
-        </a>
-        <a href="3d-weboldal-konfigurator.html">
-          <span><span class="related__t">3D weboldal és termékkonfigurátor</span><span class="related__w">Ha a vevődnek látnia kell, mit vesz, mielőtt dönt.</span></span>
-          <span class="related__a">Szolgáltatás</span>
-        </a>
-      </nav>
-    </div>
-  </section>
-
-  <!-- ============================================ záró -->
+  <!-- ============================================ záró sáv -->
   <section class="band">
     <div class="wrap">
       <div class="launch">
-        <h2 class="display h-lg" style="margin:0 0 1.6rem;max-width:16ch">
-          Nézzük meg, mit kell tudnia <span class="sig">a boltodnak.</span>
-        </h2>
-        <p class="lede" style="max-width:52ch;margin-bottom:2.2rem">
-          Írd le, mit árulsz, hány termékkel, és hol tart most a boltod. Egy
-          ingyenes igényfelmérő hívásban javaslatot teszünk a platformra és a
-          következő lépésre.
-        </p>
+        <h2 class="display h-lg" style="margin:0 0 1.6rem;max-width:13ch">Nézzük meg, mit kell tudnia <span class="sig">a boltodnak.</span></h2>
+        <p class="lede" style="max-width:52ch;margin-bottom:2.2rem">Írd le, mit árulsz, hány termékkel, és hol tart most a boltod; egy ingyenes igényfelmérő hívásban javaslatot teszünk a platformra.</p>
         <div class="btn-row">
-          <a class="btn" href="arajanlat.html" data-magnet><span>Kérek ajánlatot</span>
+          <a class="btn" href="arajanlat.html" data-magnet data-cta-placement="closing"><span>Kérek ajánlatot</span>
             <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 13L13 3M13 3H5M13 3v8" stroke="currentColor" stroke-width="1.4"/></svg>
           </a>
-          <a class="btn btn--ghost" href="idopontfoglalas.html" data-magnet><span>Ingyenes igényfelmérő hívás</span></a>
         </div>
-        <p class="t-small muted" style="margin-top:1rem">Ingyenes igényfelmérő hívással kezdünk. Munkanapokon 24 órán belül jelentkezünk.</p>
+        <p class="t-small" style="margin-top:1rem">vagy írj nekünk: <a class="tlink" href="mailto:hello@stratosweb.hu">hello@stratosweb.hu</a></p>
       </div>
     </div>
   </section>

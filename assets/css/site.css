@@ -530,6 +530,10 @@ main > section:last-child .launch:not(.launch--quiet) :focus-visible { outline-c
 .pclose__act { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-4) var(--sp-6); }
 .pclose__act .link { font-weight: 400; color: var(--c-on-dark-2); }
 .pclose__act .link:hover { color: var(--c-on-dark); }
+/* The e-mail line under the button: text, not a second action. */
+.pclose__mail { margin-top: var(--sp-3); color: var(--c-on-dark-2); }
+.pclose__mail a { color: var(--c-on-dark); text-decoration: underline; text-decoration-color: var(--c-line-dark); text-underline-offset: 0.2em; }
+.pclose__mail a:hover { text-decoration-color: currentColor; }
 @media (max-width: 760px) {
   .pclose__foot, .pclose__act { flex-direction: column; align-items: flex-start; }
 }
@@ -826,7 +830,9 @@ main > section:last-child .launch:not(.launch--quiet) :focus-visible { outline-c
 .quiz .opt:hover { box-shadow: inset 0 0 0 1px var(--c-line-strong); }
 .quiz .opt input { position: absolute; opacity: 0; pointer-events: none; }
 .quiz .opt:focus-within { outline: 2px solid var(--c-ink); outline-offset: 2px; }
-.quiz .opt .box { flex: none; width: 18px; height: 18px; border-radius: 5px; box-shadow: inset 0 0 0 1.5px var(--c-ink-3); transition: background-color var(--dur-ui), box-shadow var(--dur-ui); }
+/* `padding: 0` against the generic `.box` panel above, which shares the
+   class name and swelled the 18px mark to 57px. */
+.quiz .opt .box { flex: none; width: 18px; height: 18px; padding: 0; border-radius: 5px; box-shadow: inset 0 0 0 1.5px var(--c-ink-3); transition: background-color var(--dur-ui), box-shadow var(--dur-ui); }
 .quiz .opt.radio .box { border-radius: 50%; }
 .quiz .opt.selected { box-shadow: inset 0 0 0 1.5px var(--c-ink); background: #FFFFFF; }
 .quiz .opt.selected .box { background: var(--c-ink); box-shadow: inset 0 0 0 1.5px var(--c-ink), inset 0 0 0 4px #FFFFFF; }

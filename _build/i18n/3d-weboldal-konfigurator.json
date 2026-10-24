@@ -335,5 +335,66 @@
  "Írd le pár mondatban, milyen terméket mutatnál meg, és kik a vevőid. Egy ingyenes igényfelmérő hívásban megnézzük, mi illik hozzád: 3D weboldal, konfigurátor vagy a kettő együtt.": [
   "Tell us in a few sentences which product you would like to show and who your customers are. On a free discovery call we will work out what suits you: a 3D website, a configurator or both.",
   "Beschreiben Sie in ein paar Sätzen, welches Produkt Sie zeigen möchten und wer Ihre Kunden sind. In einem kostenlosen Erstgespräch klären wir, was zu Ihnen passt: eine 3D-Website, ein Konfigurator oder beides."
+ ],
+ "_pack_2026_10_24": "Copy pack 2026-10-24: the page trimmed to the service frame and addressed to the company in the plural. Where only person/number changed, the EN/DE are the earlier entries unchanged.",
+ "3D weboldal és termékkonfigurátor. <span class=\"sig\">A vevőtök lássa, mit vesz.</span>": [
+  "3D website and product configurator. <span class=\"sig\">Let your customers see what they are buying.</span>",
+  "3D-Website und Produktkonfigurator. <span class=\"sig\">Ihre Kunden sollen sehen, was sie kaufen.</span>"
+ ],
+ "Ha a terméketeket nehéz egy fotón megmutatni, vagy sok változatból áll össze, olyan weboldalt építünk, ahol az érdeklődő körbeforgatja, rétegekre bontja és a saját igényére szabja, mielőtt ajánlatot kér.": [
+  "If your product is hard to show in a photo, or comes in many variations, we build a website where prospects turn it around, take it apart layer by layer and tailor it to their own needs before they request a quote.",
+  "Wenn sich Ihr Produkt auf einem Foto schwer zeigen lässt oder aus vielen Varianten besteht, bauen wir eine Website, auf der Interessenten es drehen, in Schichten zerlegen und an ihren eigenen Bedarf anpassen, bevor sie ein Angebot anfragen."
+ ],
+ "Az értékesítőtök ma harmadszor mondja el ugyanazt: milyen méretben készül, milyen anyagból, mi a különbség a két változat között.": [
+  "Today your salesperson is explaining the same thing for the third time: what sizes it comes in, what it is made of, what the difference is between the two versions.",
+  "Ihr Vertrieb erklärt heute zum dritten Mal dasselbe: in welchen Größen es gefertigt wird, aus welchem Material, was die beiden Varianten unterscheidet."
+ ],
+ "A terméketeket ugyanabba a kategóriába sorolja, mint a legolcsóbb versenytársét, mert a weboldalon nem látszik a különbség.": [
+  "They put your product in the same category as your cheapest competitor's, because the difference doesn't show on the website.",
+  "Er ordnet Ihr Produkt in dieselbe Kategorie ein wie das des günstigsten Wettbewerbers, weil der Unterschied auf der Website nicht sichtbar ist."
+ ],
+ "<strong>Mutassátok meg úgy, ahogy a műhelyben látnátok.</strong> Egy 3D weboldalon a vevő maga fedezi fel a terméketeket: forgatja, közelít, rétegeket kapcsol ki és be. Egy konfigurátorban össze is állítja a saját változatát. Mire ajánlatot kér, már tudja, mit szeretne.": [
+  "<strong>Show it the way you would see it in the workshop.</strong> On a 3D website the customer explores your product for themselves: they rotate it, zoom in, switch layers on and off. In a configurator they also put together their own version. By the time they request a quote, they already know what they want.",
+  "<strong>Zeigen Sie es so, wie man es in der Werkstatt sehen würde.</strong> Auf einer 3D-Website entdeckt der Kunde Ihr Produkt selbst: Er dreht es, zoomt heran, blendet Schichten ein und aus. In einem Konfigurator stellt er auch seine eigene Variante zusammen. Wenn er ein Angebot anfragt, weiß er schon, was er möchte."
+ ],
+ "A 3D mellett a szöveg is ott van, így a Google és az AI-alapú keresők is értik, mit kínáltok. A látvány és a megtalálhatóság nem egymás rovására megy.": [
+  "Alongside the 3D the text is there too, so Google and AI-powered search tools understand what you offer. Looking good and being found don't come at each other's expense.",
+  "Neben dem 3D steht auch der Text auf der Seite, sodass Google und KI-gestützte Suchmaschinen verstehen, was Sie anbieten. Optik und Auffindbarkeit gehen nicht auf Kosten der jeweils anderen."
+ ],
+ "Sablon és oldalépítő nélkül, csak azzal, amire a terméketeknek szüksége van. A weboldal és a kód a tiétek.": [
+  "No templates and no page builder, only what your product needs. The website and the code are yours.",
+  "Ohne Vorlage und ohne Baukasten, nur mit dem, was Ihr Produkt braucht. Website und Code gehören Ihnen."
+ ],
+ "Egy 3D weboldal, <span class=\"sig\">amit építettünk</span>": [
+  "A 3D website <span class=\"sig\">we have built</span>",
+  "Eine 3D-Website, <span class=\"sig\">die wir gebaut haben</span>"
+ ],
+ "A nyitóképernyő közepén egy térbeli kertkeresztmetszet áll: a kert és alatta a talaj rétegei. A látogató egyetlen képen érti meg, mit csinál a cég a felszín alatt.": [
+  "At the centre of the opening screen stands a three-dimensional cross-section of a garden: the garden and, beneath it, the layers of the ground. In a single image the visitor understands what the company does below the surface.",
+  "In der Mitte des Startbildschirms steht ein räumlicher Gartenquerschnitt: der Garten und darunter die Schichten des Bodens. Mit einem einzigen Bild versteht der Besucher, was das Unternehmen unter der Oberfläche tut."
+ ],
+ "Átbeszéljük, mit kell megmutatni a terméketekből, kik a vevőitek, és hogy ehhez 3D weboldal, konfigurátor vagy a kettő együtt kell.": [
+  "We talk through what needs to be shown of your product, who your customers are, and whether that calls for a 3D website, a configurator or both.",
+  "Wir besprechen, was von Ihrem Produkt gezeigt werden muss, wer Ihre Kunden sind und ob es dafür eine 3D-Website, einen Konfigurator oder beides braucht."
+ ],
+ "Megmutatjuk a tervet, ti alakítjátok. A 3D jelenetet és a konfigurátor lépéseit is a terv részeként látjátok.": [
+  "We show you the design, and you shape it. You see the 3D scene and the configurator's steps as part of the design too.",
+  "Wir zeigen Ihnen den Entwurf, und Sie gestalten ihn mit. Auch die 3D-Szene und die Schritte des Konfigurators sehen Sie als Teil des Entwurfs."
+ ],
+ "Minden ajánlat egyedi: a modell összetettségétől, a változatok számától és a weboldal terjedelmétől függ. Egy nagy értékű termékből egy-két megnyert megrendelés általában kifizeti. Az ingyenes igényfelmérő hívás után tételes ajánlatot kaptok, és azt is megmondjuk, ha nálatok <a class=\"tlink\" href=\"nagyvallalat.html\">egy jó, 3D nélküli weboldal</a> is elég.": [
+  "Every proposal is individual: it depends on how complex the model is, how many versions there are and how large the website is. With a high-value product, one or two orders won usually pay for it. After the free discovery call you get an itemised proposal, and we will also tell you if <a class=\"tlink\" href=\"nagyvallalat.html\">a good website without 3D</a> would be enough for you.",
+  "Jedes Angebot ist individuell: Es hängt von der Komplexität des Modells, der Zahl der Varianten und dem Umfang der Website ab. Bei einem hochwertigen Produkt bezahlen ein, zwei gewonnene Aufträge sie in der Regel. Nach dem kostenlosen Erstgespräch erhalten Sie ein aufgeschlüsseltes Angebot, und wir sagen Ihnen auch, wenn bei Ihnen <a class=\"tlink\" href=\"nagyvallalat.html\">eine gute Website ohne 3D</a> genügt."
+ ],
+ "Ha van CAD vagy 3D modelletek, abból dolgozunk.": [
+  "If you have a CAD or 3D model, we work from it.",
+  "Wenn Sie ein CAD- oder 3D-Modell haben, arbeiten wir damit."
+ ],
+ "Ha kéritek. A weboldal egyszeri projektdíjas és a tiétek; mellé karbantartást és <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálást</a> havidíjas partnerségként választhattok.": [
+  "If you want us to. The website is a one-off project fee and it is yours; alongside it you can choose maintenance and <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> as a monthly partnership.",
+  "Wenn Sie möchten. Die Website kostet ein einmaliges Projekthonorar und gehört Ihnen; dazu können Sie Wartung und <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a> als monatliche Partnerschaft wählen."
+ ],
+ "Írjátok le pár mondatban, milyen terméket mutatnátok meg, és kik a vevőitek.": [
+  "Tell us in a few sentences which product you would like to show and who your customers are.",
+  "Beschreiben Sie in ein paar Sätzen, welches Produkt Sie zeigen möchten und wer Ihre Kunden sind."
  ]
 }

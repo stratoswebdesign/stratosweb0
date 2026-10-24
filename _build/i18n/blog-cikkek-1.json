@@ -25,6 +25,23 @@
   "Ads management",
   "Werbebetreuung"
  ],
+ "_closing": "Since 2026-10-24 every article ends on one closing line; the service names follow the menu (UI svc in build.py).",
+ "Kapcsolódó szolgáltatás: <a class=\"tlink\" href=\"kkv.html\">Weboldal készítés →</a>": [
+  "Related service: <a class=\"tlink\" href=\"kkv.html\">Website design →</a>",
+  "Passende Leistung: <a class=\"tlink\" href=\"kkv.html\">Website-Erstellung →</a>"
+ ],
+ "Kapcsolódó szolgáltatás: <a class=\"tlink\" href=\"keresooptimalizalas.html\">Keresőoptimalizálás →</a>": [
+  "Related service: <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO consultancy →</a>",
+  "Passende Leistung: <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO Betreuung →</a>"
+ ],
+ "Kapcsolódó szolgáltatás: <a class=\"tlink\" href=\"hirdeteskezeles.html\">Hirdetéskezelés →</a>": [
+  "Related service: <a class=\"tlink\" href=\"hirdeteskezeles.html\">Ads management →</a>",
+  "Passende Leistung: <a class=\"tlink\" href=\"hirdeteskezeles.html\">Werbeanzeigen →</a>"
+ ],
+ "Kapcsolódó szolgáltatás: <a class=\"tlink\" href=\"branding.html\">Arculattervezés →</a>": [
+  "Related service: <a class=\"tlink\" href=\"branding.html\">Brand identity design →</a>",
+  "Passende Leistung: <a class=\"tlink\" href=\"branding.html\">Corporate Design →</a>"
+ ],
  "_seo": "Article 1 — SEO.",
  "1. Döntsd el, milyen kérdésre akarsz válaszolni": [
   "1. Decide which question you want to answer",

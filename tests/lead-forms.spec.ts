@@ -517,23 +517,63 @@ test.describe('questionnaire', () => {
       const kind = await inp.evaluate((el: HTMLInputElement) => `${el.tagName}:${el.type || ''}`);
       // The consent step paints its own box over the input, so the label is
       // the only thing a visitor can actually press.
-      if (kind.includes('checkbox')) await page.locator('.opt').first().click();
+      if (kind.includes('checkbox')) await page.locator('#app .opt').first().click();
       else if (kind.includes('email')) await inp.fill('teszt@example.com');
       else if (kind.includes('tel')) await inp.fill('+36 30 000 0000');
       else await inp.fill('Teszt válasz');
     } else {
-      await page.locator('.opt').first().click();
+      await page.locator('#app .opt').first().click();
     }
     await page.locator('#next').click();
   }
 
-  test('the wizard submits to /api/lead and shows the success screen', async ({ page }) => {
+  // The short form is the top of /arajanlat since the second copy pack
+  // (2026-10-24); sending it turns the place into the thank-you screen, which
+  // offers the booking and, as text, the detailed questionnaire.
+  test('the short form posts a short questionnaire lead and offers the booking', async ({ page }) => {
     await page.goto('/arajanlat.html');
+    const sent = await interceptLead(page);
+
+    await expect(page.locator('#kerdoiv')).toBeHidden();
+    await page.fill('#q-nev', 'Teszt Elek');
+    await page.fill('#q-email', 'teszt@example.com');
+    await page.fill('#q-web', 'pelda.hu');
+    await page.locator('label.opt', { hasText: 'Webshop' }).click();
+    await page.getByRole('button', { name: 'Elküldöm' }).click();
+
+    const thanks = page.locator('[data-short-thanks]');
+    await expect(thanks).toBeVisible({ timeout: 10_000 });
+    await expect(thanks.getByRole('heading', { name: 'Megkaptuk.' })).toBeFocused();
+    await expect(thanks.getByRole('link', { name: 'Időpontot foglalok' })).toHaveAttribute('href', '/idopontfoglalas.html');
+
+    expect(sent).toHaveLength(1);
+    const envelope = sent[0];
+    expectWellFormed(envelope, 'questionnaire', '/arajanlat.html');
+    expect(envelope.fields).toMatchObject({
+      forma: 'rovid', kitolto: 'Teszt Elek', email: 'teszt@example.com',
+      weboldal: 'pelda.hu', igeny: 'webshop',
+    });
+
+    // The questionnaire opens from the thank-you screen, with the name the
+    // visitor already gave waiting at its question.
+    await thanks.getByRole('link', { name: /Részletes kérdőív/ }).click();
+    await expect(page.locator('#kerdoiv')).toBeVisible();
+    await expect(page.locator('#ajanlat')).toBeHidden();
+    await page.locator('#start').click();
+    for (let i = 0; i < 6; i += 1) {
+      if (await page.locator('.quiz__step[data-step-key="kitolto"]').count()) break;
+      await answerStep(page);
+    }
+    await expect(page.locator('#inp')).toHaveValue('Teszt Elek');
+  });
+
+  test('the wizard submits to /api/lead and shows the success screen', async ({ page }) => {
+    await page.goto('/arajanlat.html#kerdoiv');
     const sent = await interceptLead(page);
 
     await page.locator('#start').click();
     for (let i = 0; i < 90; i += 1) {
-      if (await page.locator('.quiz__done').count()) break;
+      if (await page.locator('#app .quiz__done').count()) break;
       await answerStep(page);
     }
 
@@ -559,7 +599,7 @@ test.describe('questionnaire', () => {
   });
 
   test('shows the rate-limited screen when the endpoint says 429', async ({ page }) => {
-    await page.goto('/arajanlat.html');
+    await page.goto('/arajanlat.html#kerdoiv');
     await interceptLead(page, {
       status: 429,
       body: { ok: false, code: 'RATE_LIMITED', message: 'Too many submissions.' },
@@ -567,7 +607,7 @@ test.describe('questionnaire', () => {
 
     await page.locator('#start').click();
     for (let i = 0; i < 90; i += 1) {
-      if (await page.locator('.quiz__done').count()) break;
+      if (await page.locator('#app .quiz__done').count()) break;
       await answerStep(page);
     }
 

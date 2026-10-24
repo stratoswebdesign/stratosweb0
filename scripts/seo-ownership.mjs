@@ -70,7 +70,7 @@ const OWNERSHIP = [
   // PLACES below.
   { term: 'weboldal készítés győr', owner: 'weboldal-keszites-gyor.html', qualifiers: [] },
   { term: 'weboldal készítés budapest', owner: 'weboldal-keszites-budapest.html', qualifiers: [] },
-  { term: 'weboldal készítés pest megye', owner: 'weboldal-keszites-pest-megye.html', qualifiers: [] },
+  // Pest vármegye's page went on 2026-10-24 (a 301 to Budapest, netlify.toml).
   { term: 'weboldal készítés szeged', owner: 'weboldal-keszites-szeged.html', qualifiers: [] },
 ];
 

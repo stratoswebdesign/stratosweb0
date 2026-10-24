@@ -253,6 +253,9 @@
 
   function booked(b, email) {
     show('done');
+    // The last step of the second copy pack's funnel (analytics.js, when it is
+    // on the page and consent allows; nothing about the booking is sent).
+    if (window.Stratos && window.Stratos.analytics) window.Stratos.analytics.track('booking_done', {});
     if (b) {
       el.doneWhen.textContent = when(b.start, b.end);
       el.doneEmail.textContent = b.email || email;

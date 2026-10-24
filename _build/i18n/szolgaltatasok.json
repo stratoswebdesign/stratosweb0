@@ -413,5 +413,13 @@
  "Ez a leggyakoribb kiindulópont, és pont ezért kezdünk mindig egy ingyenes igényfelmérő hívással. Utána tudni fogod, mire érdemes költened, akkor is, ha az kevesebb, mint amire számítottál.": [
   "This is the most common starting point, and it is exactly why we always begin with a free discovery call. Afterwards you will know what is worth spending on, even if it is less than you expected.",
   "Das ist der häufigste Ausgangspunkt, und genau deshalb beginnen wir immer mit einem kostenlosen Erstgespräch. Danach wissen Sie, wofür sich Ihr Geld lohnt, auch wenn es weniger ist, als Sie erwartet haben."
+ ],
+ "<span class=\"smark__n\" aria-hidden=\"true\">01</span><span class=\"smark__t\">A szolgáltatások</span>": [
+  "<span class=\"smark__n\" aria-hidden=\"true\">01</span><span class=\"smark__t\">The services</span>",
+  "<span class=\"smark__n\" aria-hidden=\"true\">01</span><span class=\"smark__t\">Die Leistungen</span>"
+ ],
+ "<span class=\"smark__n\" aria-hidden=\"true\">02</span><span class=\"smark__t\">Hogyan kapcsolódnak</span>": [
+  "<span class=\"smark__n\" aria-hidden=\"true\">02</span><span class=\"smark__t\">How they connect</span>",
+  "<span class=\"smark__n\" aria-hidden=\"true\">02</span><span class=\"smark__t\">Wie sie zusammenhängen</span>"
  ]
 }

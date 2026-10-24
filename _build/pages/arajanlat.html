@@ -3,34 +3,97 @@ desc: Töltsd ki az igényfelmérő kérdőívet körülbelül 8 perc alatt. Mun
 footer: no
 css: quiz
 ---
-  <!-- A haladás nem sáv, hanem útvonal: minden látható kérdés egy állomás,
-       és a repült szakasz kigyullad mögötted. A csomópontokat ugyanaz a két
-       szám rajzolja, amit a wizard amúgy is kiszámol (hányadik kérdés, hányból),
-       úgyhogy nem lett új állapot, amit külön szinkronban kellene tartani.
-       aria-hidden, mert a valódi haladást a kérdésszám mondja el szövegesen. -->
-  <div class="quiz__progress" aria-hidden="true">
+  <!-- /arajanlat, since the second copy pack (2026-10-24): ONE way in. The
+       top of the page is the short form — four fields, about a minute — and
+       sending it turns the same place into the thank-you screen, which offers
+       the booking at once („Időpontot foglalok”) and, as text under it, the
+       detailed questionnaire for whoever wants to describe the project before
+       the call. The questionnaire is the wizard it always was, opened here
+       rather than first; `#kerdoiv` opens it straight away.
+
+       The short form posts as a `questionnaire` lead marked `forma: rovid`
+       (FORMS.questionnaire in netlify/functions/lead-contract.mjs says why it
+       is not a form type of its own). lead.js sends it like every other form;
+       the script at the bottom only swaps the screens. -->
+
+  <!-- The wizard's progress: hidden until the questionnaire opens. A route,
+       not a bar: every visible question is a station, and the flown stretch
+       lights up behind you (aria-hidden — the question number says it). -->
+  <div class="quiz__progress" aria-hidden="true" hidden data-long-progress>
     <div class="quiz__barfill" id="bar"></div>
     <div class="quiz__path" id="path"></div>
   </div>
 
-  <section class="quiz">
+  <section class="quiz" id="ajanlat" data-short>
     <div class="wrap">
-      <!-- The wizard replaces this on load. Until Phase 8 it was an empty
-           div, which meant the highest-intent route on the site served no H1,
-           two words of body text and nothing at all without JavaScript — the
-           skip link landed on an empty <main>. This is the same content the
-           wizard's own intro screen shows, so nothing flashes and nothing is
-           duplicated once it boots. -->
-      <div id="app" aria-live="polite">
-        <div class="quiz__step quiz__intro">
-          <p class="crumbs"><a href="index.html">Főoldal</a> / <b>Ajánlatkérés</b></p>
-          <div class="quiz__num">Stratos Webdesign · Ajánlatkérés</div>
-          <h1>Kérj ajánlatot pár perc alatt.</h1>
-          <p>Minden kérdés külön képernyőn jelenik meg, a csillaggal (<span class="quiz__req">*</span>) jelöltekre kötelező válaszolni. Körülbelül 8 perc.</p>
-          <p>Mi történik utána? Munkanapokon 24 órán belül jelentkezünk, és egyeztetünk egy ingyenes igényfelmérő hívást. Utána írásban megkapod az egyedi ajánlatot, 14 napig érvényesen.</p>
-          <p>Ha ez most sok, egy rövid üzenet is elég: <a href="ugyfelszolgalat.html#uzenet">Inkább írok pár sort</a>.</p>
-        </div>
+      <div class="quiz__step quiz__intro" data-short-form>
+        <p class="crumbs"><a href="index.html">Főoldal</a> / <b>Ajánlatkérés</b></p>
+        <div class="quiz__num">Stratos Webdesign · Ajánlatkérés</div>
+        <h1>Kérj ajánlatot egy perc alatt.</h1>
+        <p>Négy rövid kérdés. Utána ingyenes igényfelmérő hívással kezdünk, és írásban kapod meg az egyedi ajánlatot.</p>
+
+        <form class="form qform" data-lead="questionnaire" data-analytics-form="quote_short">
+          <input type="hidden" name="forma" value="rovid">
+          <div class="field">
+            <label for="q-nev">Név *</label>
+            <input id="q-nev" type="text" name="kitolto" required minlength="2" autocomplete="name">
+          </div>
+          <div class="grid g-2 qform__pair">
+            <div class="field">
+              <label for="q-email">E-mail cím *</label>
+              <input id="q-email" name="email" type="email" required autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="q-tel">Telefonszám (nem kötelező)</label>
+              <input id="q-tel" name="telefon" type="tel" autocomplete="tel">
+            </div>
+          </div>
+          <div class="field">
+            <label for="q-web">Weboldalad címe, ha van (nem kötelező)</label>
+            <input id="q-web" type="text" name="weboldal" inputmode="url" autocomplete="url" placeholder="pl. cegnev.hu">
+          </div>
+          <fieldset class="qform__need">
+            <legend>Miben segíthetünk? *</legend>
+            <div class="opts qform__opts">
+              <label class="opt radio"><input type="radio" name="igeny" value="weboldal" required><span class="box"></span>Új weboldal</label>
+              <label class="opt radio"><input type="radio" name="igeny" value="keresooptimalizalas"><span class="box"></span>Keresőoptimalizálás</label>
+              <label class="opt radio"><input type="radio" name="igeny" value="webshop"><span class="box"></span>Webshop</label>
+              <label class="opt radio"><input type="radio" name="igeny" value="hirdetes"><span class="box"></span>Hirdetés</label>
+              <label class="opt radio"><input type="radio" name="igeny" value="3d"><span class="box"></span>3D weboldal vagy konfigurátor</label>
+              <label class="opt radio"><input type="radio" name="igeny" value="nem-tudom"><span class="box"></span>Még nem tudom</label>
+            </div>
+            <div class="field qform__more">
+              <label for="q-uzenet">Pár szóban, ha szeretnéd (nem kötelező)</label>
+              <textarea id="q-uzenet" name="uzenet" rows="3" placeholder="Mivel foglalkozol, és mire lenne szükséged?"></textarea>
+            </div>
+          </fieldset>
+          <div class="hp" aria-hidden="true">
+            <label for="hp-short">Ezt a mezőt hagyd üresen.</label>
+            <input id="hp-short" type="text" name="company_website" tabindex="-1" autocomplete="off">
+          </div>
+          <div class="btn-row">
+            <button class="btn" type="submit"><span>Elküldöm</span></button>
+          </div>
+          <p class="t-small qform__micro">Munkanapokon 24 órán belül jelentkezünk. Az első lépés egy ingyenes igényfelmérő hívás.</p>
+          <p class="form__note">Az adataidat kizárólag az ajánlatkérésed megválaszolására használjuk. Részletek az <a class="tlink" href="adatkezelesi-tajekoztato.html">Adatkezelési tájékoztatóban</a>.</p>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
       </div>
+
+      <!-- The same place after sending. -->
+      <div class="quiz__step quiz__done" data-short-thanks hidden>
+        <div class="quiz__mark" aria-hidden="true"><svg viewBox="0 0 48 48" width="1em" height="1em" fill="none" focusable="false"><path d="M10 25l9 9 19-20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h2 class="quiz__q" tabindex="-1">Megkaptuk.</h2>
+        <p class="quiz__hint" style="margin:1rem auto 0">Ha szeretnéd, foglalj most időpontot az ingyenes igényfelmérő hívásra, így nem kell egyeztetnünk.</p>
+        <div class="quiz__nav" style="justify-content:center"><a class="btn" href="idopontfoglalas.html" data-cta-placement="thanks"><span>Időpontot foglalok</span></a></div>
+        <p class="quiz__hint" style="margin:1.75rem auto 0">Ha a hívás előtt részletesebben leírnád a projektet, itt megteheted: <a class="tlink" href="#kerdoiv" data-long-open>Részletes kérdőív →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="quiz" id="kerdoiv" hidden data-long>
+    <div class="wrap">
+      <div id="app" aria-live="polite"></div>
       <div class="hp" aria-hidden="true">
         <label for="hp-quiz">Ezt a mezőt hagyd üresen.</label>
         <input id="hp-quiz" type="text" name="company_website" tabindex="-1" autocomplete="off">
@@ -113,12 +176,12 @@ const Q = [
     o:['1 héten belül','1 hónapon belül','Pár hónapon belül']},
   // The monthly model is withdrawn (owner, 2026-10-07): projects are quoted
   // as a one-off fee, so there is no payment-model question any more.
-  // The forint bands are the visitor's budget, not Stratos prices. Whether they
-  // stay is an open point in the 2026-10-23 copy pack; until it is decided the
-  // bands are unchanged.
+  // The forint bands are the visitor's budget, not Stratos prices. The lowest
+  // one went with the second copy pack (2026-10-24): its floor read as the
+  // studio's internal minimum. „Egyéb” still takes any figure.
   {t:'radio',   q:'Van tervezett költségkereted?', req:1, other:1, id:'koltsegkeret',
     cond:kkv,
-    o:['300 000 Ft – 800 000 Ft','800 000 Ft – 1 500 000 Ft','1 500 000 Ft – 3 000 000 Ft','3 000 000 Ft – 5 000 000 Ft','Még nincs, az ajánlat alapján döntök']},
+    o:['800 000 Ft – 1 500 000 Ft','1 500 000 Ft – 3 000 000 Ft','3 000 000 Ft – 5 000 000 Ft','Még nincs, az ajánlat alapján döntök']},
 
   // ===== IPARI / B2B ÉS NAGYVÁLLALATI ÁG =====
   // (A rendszerintegrációs kérdés 2026-10-23-án kikerült: egyedi üzleti
@@ -324,11 +387,10 @@ function renderIntro(){
   if(pathTotal>0) drawPath(-1, pathTotal);
   app.innerHTML = `<div class="quiz__step quiz__intro">
     <p class="crumbs"><a href="index.html">Főoldal</a> / <b>Ajánlatkérés</b></p>
-    <div class="quiz__num">Stratos Webdesign · Ajánlatkérés</div>
-    <h1>Kérj ajánlatot pár perc alatt.</h1>
+    <div class="quiz__num">Stratos Webdesign · Részletes kérdőív</div>
+    <h1>Írd le részletesen a projektet.</h1>
+    <p>Nem kötelező. Ha a hívás előtt leírod, amit már tudsz, a beszélgetés rögtön a te projektedről szól.</p>
     <p>Minden kérdés külön képernyőn jelenik meg, a csillaggal (<span class="quiz__req">*</span>) jelöltekre kötelező válaszolni. Körülbelül 8 perc.</p>
-    <p>Mi történik utána? Munkanapokon 24 órán belül jelentkezünk, és egyeztetünk egy ingyenes igényfelmérő hívást. Utána írásban megkapod az egyedi ajánlatot, 14 napig érvényesen.</p>
-    <p>Ha ez most sok, egy rövid üzenet is elég: <a href="ugyfelszolgalat.html#uzenet">Inkább írok pár sort</a>.</p>
     <div class="quiz__nav"><button id="start">Kezdjük</button><span class="quiz__enter">ENTER ↵</span></div>
   </div>`;
   document.getElementById('start').onclick = ()=>{ step = visibleIdx()[0]; render(); };
@@ -394,7 +456,7 @@ const DONE_HTML = {
       <div class="quiz__mark">✓</div>
       <h1 class="quiz__q">Köszönjük, megkaptuk.</h1>
       <p class="quiz__hint" style="margin:1rem auto 0">Munkanapokon 24 órán belül jelentkezünk a megadott elérhetőségen, és egyeztetünk egy ingyenes igényfelmérő hívást. Ha nem szeretnél várni, foglalj időpontot most.</p>
-      <div class="quiz__nav" style="justify-content:center"><a class="btn" href="idopontfoglalas.html"><span>Ingyenes igényfelmérő hívás</span></a><a class="tlink" href="index.html">Vissza a főoldalra</a></div>
+      <div class="quiz__nav" style="justify-content:center"><a class="btn" href="idopontfoglalas.html" data-cta-placement="thanks"><span>Időpontot foglalok</span></a><a class="tlink" href="index.html">Vissza a főoldalra</a></div>
     </div>`,
   invalid: msg => `<div class="quiz__step quiz__done" data-state="invalid">
       <h1 class="quiz__q">Hiányzik valami.</h1>
@@ -471,6 +533,7 @@ async function renderDone(){
 
 document.addEventListener('keydown',e=>{
   if(e.key!=='Enter' || e.shiftKey) return;
+  if(longSection.hidden) return; // the short form is an ordinary form
   if(e.target.tagName==='TEXTAREA') return;
   if(e.target.closest('a, button')) return; // a fókuszált link/gomb natívan működjön
   e.preventDefault();
@@ -478,5 +541,50 @@ document.addEventListener('keydown',e=>{
   else if(step<Q.length) document.getElementById('next')?.click();
 });
 
-render();
+// --------------------------------------------------------------- the short form
+// lead.js sends it; this only swaps the screens. The answers are kept from the
+// moment of sending (lead.js clears the form after a success), so the
+// questionnaire can start with the name and the addresses already in place.
+const shortSection = document.querySelector('[data-short]');
+const longSection = document.querySelector('[data-long]');
+const shortForm = document.querySelector('[data-short-form] form');
+const thanks = document.querySelector('[data-short-thanks]');
+let sent = null;
+
+shortForm.addEventListener('submit', ()=>{
+  const f = new FormData(shortForm);
+  sent = { kitolto: f.get('kitolto'), email: f.get('email'), telefon: f.get('telefon'), weboldal: f.get('weboldal') };
+}, true);
+
+new MutationObserver(()=>{
+  if(shortForm.dataset.state !== 'success') return;
+  document.querySelector('[data-short-form]').hidden = true;
+  thanks.hidden = false;
+  thanks.querySelector('h2').focus();
+}).observe(shortForm, { attributes: true, attributeFilter: ['data-state'] });
+
+/** The detailed questionnaire, opened from the thank-you screen or by #kerdoiv. */
+function openLong(from){
+  if(!longSection.hidden) return;
+  if(sent){
+    ['kitolto','email','telefon','weboldal'].forEach(id=>{
+      const i = Q.findIndex(q=>q.id===id);
+      if(i >= 0 && sent[id] && !answers[i]) answers[i] = { value: String(sent[id]) };
+    });
+  }
+  shortSection.hidden = true;
+  longSection.hidden = false;
+  document.querySelector('[data-long-progress]').hidden = false;
+  step = -1;
+  render();
+  const s = window.Stratos && window.Stratos.analytics;
+  if(s) s.track('long_form_open', { open_source: from });
+}
+
+document.querySelector('[data-long-open]').addEventListener('click', e=>{
+  e.preventDefault();
+  history.replaceState(null, '', '#kerdoiv');
+  openLong('thanks');
+});
+if(location.hash === '#kerdoiv') openLong('link');
 </script>

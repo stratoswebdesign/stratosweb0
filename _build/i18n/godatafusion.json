@@ -94,5 +94,9 @@
  "GoDataFusion weboldal": [
   "GoDataFusion website",
   "GoDataFusion-Website"
+ ],
+ "Az oldal közepén egy háromszintes épület 3D modellje áll. Görgetés közben ugyanaz a modell alakul át: ahogy a látogató lefelé halad, szolgáltatásról szolgáltatásra más réteget mutat meg belőle. Hogy készül egy ilyen oldal, azt a <a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D weboldal és konfigurátor</a> oldalon mutatjuk meg.": [
+  "At the centre of the page stands a 3D model of a three-storey building. As you scroll, the same model transforms: as the visitor moves down, each service reveals a different layer of it. How a site like this is made is shown on the <a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D website and configurator</a> page.",
+  "Im Zentrum der Seite steht das 3D-Modell eines dreigeschossigen Gebäudes. Beim Scrollen verwandelt sich dasselbe Modell: Während der Besucher nach unten scrollt, zeigt jede Leistung eine andere Schicht davon. Wie eine solche Website entsteht, zeigen wir auf der Seite <a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D-Website und Konfigurator</a>."
  ]
 }

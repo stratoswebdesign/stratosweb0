@@ -414,5 +414,78 @@
  "Az ingyenes igényfelmérő hívás után tudni fogod, mi segítene a vállalkozásodon, és mi nem.": [
   "After the free discovery call you will know what would help your business, and what would not.",
   "Nach dem kostenlosen Erstgespräch wissen Sie, was Ihrem Unternehmen helfen würde und was nicht."
+ ],
+ "_note_2026_10_24": "The homepage of the second copy pack (2026-10-24, '5. Főoldal – végleges szöveg'). Entries above that no longer appear on the page are left for the pages they moved to (/kkv, /szolgaltatasok, /nagyvallalat), which reuse them through the flat namespace.",
+ "<span class=\"hero__k t-micro\">Stratos Webdesign: weboldal készítés és keresőoptimalizálás</span> <span class=\"hero__m t-monument\">Olyat építünk,<br> amit nem lehet<br> összetéveszteni.</span>": [
+  "<span class=\"hero__k t-micro\">Stratos Webdesign: web design and SEO</span> <span class=\"hero__m t-monument\">Built to be<br> unmistakable.</span>",
+  "<span class=\"hero__k t-micro\">Stratos Webdesign: Webdesign und Suchmaschinenoptimierung</span> <span class=\"hero__m t-monument\">Unverwechselbar<br> gebaut.</span>"
+ ],
+ "Egyedi kódból épített weboldalak és havidíjas keresőoptimalizálás vállalkozásoknak, amelyek a weboldaltól ügyfelet várnak.": [
+  "Websites built in custom code, and monthly SEO, for businesses that expect their website to bring in clients.",
+  "Websites aus individuellem Code und monatliche Suchmaschinenoptimierung für Unternehmen, die von ihrer Website Kunden erwarten."
+ ],
+ "Rapidkert · weboldal, keresőoptimalizálás, Google Ads": [
+  "Rapidkert · website, SEO, Google Ads",
+  "Rapidkert · Website, SEO, Google Ads"
+ ],
+ "Ennyi az ajánlatkérések becsült értéke, amely organikus keresésből érkezett a weboldalon keresztül, a beérkezett ajánlatkérések alapján.": [
+  "The estimated value of the quote requests that came in through the website from organic search, based on the requests received.",
+  "So hoch ist der geschätzte Wert der Angebotsanfragen, die über die Website aus der organischen Suche kamen, gemessen an den eingegangenen Anfragen."
+ ],
+ "A hirdetés addig hoz, amíg fizetsz érte. A keresés nem áll le.": [
+  "Ads bring results only while you pay for them. Search doesn’t stop.",
+  "Werbung bringt nur so lange etwas, wie Sie dafür bezahlen. Die Suche hört nicht auf."
+ ],
+ "Hónapról hónapra azon dolgozunk, hogy téged találjanak meg a Google-ben és az AI-alapú keresők ajánlásaiban. Minden hónapban riportot kapsz, az eredmény általában 3–6 hónap alatt kezd látszani.": [
+  "Month after month we work to make you the one people find on Google and in the recommendations of AI search. You get a report every month, and results usually start to show within 3–6 months.",
+  "Monat für Monat arbeiten wir daran, dass man Sie bei Google und in den Empfehlungen KI-gestützter Suchen findet. Sie erhalten jeden Monat einen Bericht, und Ergebnisse zeigen sich meist nach 3–6 Monaten."
+ ],
+ "Amit csinálunk": [
+  "What we do",
+  "Was wir tun"
+ ],
+ "Weboldal, keresőoptimalizálás és hirdetés egy kézben. Minden kérdésnek egy gazdája van.": [
+  "Website, SEO and advertising in one pair of hands. Every question has one owner.",
+  "Website, SEO und Werbung aus einer Hand. Jede Frage hat einen Verantwortlichen."
+ ],
+ "Weboldal": [
+  "Website",
+  "Website"
+ ],
+ "Egyedi kódból, sablon nélkül. A weboldal a tiéd marad.": [
+  "Custom code, no templates. The website stays yours.",
+  "Individueller Code, ohne Vorlagen. Die Website bleibt Ihre."
+ ],
+ "<a href=\"kkv.html\">Weboldal készítés</a>": [
+  "<a href=\"kkv.html\">Website design</a>",
+  "<a href=\"kkv.html\">Website-Erstellung</a>"
+ ],
+ "Keresőoptimalizálás és hirdetés ott, ahol a látogatóból ügyfélnek kell lennie.": [
+  "SEO and advertising where a visitor has to become a client.",
+  "SEO und Werbung dort, wo aus Besuchern Kunden werden müssen."
+ ],
+ "3D": [
+  "3D",
+  "3D"
+ ],
+ "Ahol a terméket nehéz elmagyarázni, 3D-ben mutatjuk meg.": [
+  "Where a product is hard to explain, we show it in 3D.",
+  "Wo ein Produkt schwer zu erklären ist, zeigen wir es in 3D."
+ ],
+ "Ha a termékedet nehéz elmagyarázni, a 3D megmutatja helyetted. A vevőd forgatja, összerakja, és előre látja, mit kap.": [
+  "If your product is hard to explain, 3D shows it for you. Your customer turns it, puts it together and sees in advance what they will get.",
+  "Wenn Ihr Produkt schwer zu erklären ist, zeigt 3D es für Sie. Ihre Kundschaft dreht es, setzt es zusammen und sieht vorab, was sie bekommt."
+ ],
+ "Sebességben, használhatóságban és üzletileg, az átadás után is.": [
+  "In speed, in use and in business terms, after handover too.",
+  "In Geschwindigkeit, Bedienbarkeit und wirtschaftlich, auch nach der Übergabe."
+ ],
+ "Egy rövid beszélgetés után tudni fogod, mi segítene, és mi nem.": [
+  "After a short conversation you will know what would help, and what would not.",
+  "Nach einem kurzen Gespräch wissen Sie, was helfen würde und was nicht."
+ ],
+ "vagy írj nekünk: <a href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>": [
+  "or write to us: <a href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>",
+  "oder schreiben Sie uns: <a href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>"
  ]
 }
