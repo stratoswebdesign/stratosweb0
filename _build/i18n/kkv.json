@@ -374,5 +374,69 @@
  "Írd le pár mondatban, mivel foglalkozol, és mit szeretnél; egy ingyenes igényfelmérő hívásban átbeszéljük a következő lépést.": [
   "Tell us in a few sentences what you do and what you would like; on a free discovery call we will talk through the next step.",
   "Beschreiben Sie in ein paar Sätzen, womit Sie sich beschäftigen und was Sie möchten; in einem kostenlosen Erstgespräch besprechen wir den nächsten Schritt."
+ ],
+ "Megtervezzük, megírjuk, megépítjük. Te csak a telefont veszed fel.": [
+  "We design it, write it and build it. You just pick up the phone.",
+  "Wir gestalten, texten und bauen. Sie gehen nur noch ans Telefon."
+ ],
+ "„Klímaszerelő a közelben.” Három találat. Az elsőn nem tölt be a kép, a másodikon nincs telefonszám. A harmadikat hívják fel.": [
+  "“Air conditioning repair near me.” Three results. The first won't load its image, the second has no phone number. The third gets the call.",
+  "„Klimatechniker in der Nähe.“ Drei Treffer. Beim ersten lädt das Bild nicht, beim zweiten fehlt die Telefonnummer. Angerufen wird der dritte."
+ ],
+ "Legyél te a harmadik.": [
+  "Be the third.",
+  "Seien Sie der dritte."
+ ],
+ "Egy-két új megrendelés, és <span class=\"sig\">kifizette magát.</span>": [
+  "One or two new orders, and <span class=\"sig\">it has paid for itself.</span>",
+  "Ein, zwei neue Aufträge, und <span class=\"sig\">sie hat sich bezahlt gemacht.</span>"
+ ],
+ "Egy oldal, amit a Google nem talál meg, félkész oldal. Akkor is, ha szép.": [
+  "A site Google can't find is a half-finished site. Even if it looks good.",
+  "Eine Website, die Google nicht findet, ist eine halbfertige Website. Auch wenn sie schön ist."
+ ],
+ "Úgy nézel ki online, ahogy dolgozol.": [
+  "Online, you look the way you work.",
+  "Sie wirken online so, wie Sie arbeiten."
+ ],
+ "Arra válaszol, amit a vevőid kérdeznek.": [
+  "It answers what your customers ask.",
+  "Die Texte beantworten, was Ihre Kunden fragen."
+ ],
+ "Mobilon is azonnal betölt.": [
+  "It loads instantly, on mobile too.",
+  "Die Website lädt sofort, auch mobil."
+ ],
+ "Az első naptól látja a Google.": [
+  "Google can see it from day one.",
+  "Google sieht sie vom ersten Tag an."
+ ],
+ "Minden hozzáférés a tiéd.": [
+  "Every login is yours.",
+  "Alle Zugänge gehören Ihnen."
+ ],
+ "Ha baj van, mi javítjuk.": [
+  "If something breaks, we fix it.",
+  "Wenn etwas nicht stimmt, beheben wir es."
+ ],
+ "Egyszer fizetsz érte, és a tiéd. A <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálás</a> és a karbantartás választható.": [
+  "You pay once, and it's yours. <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> and maintenance are optional.",
+  "Sie zahlen einmal, und sie gehört Ihnen. <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a> und Wartung sind optional."
+ ],
+ "Átbeszéljük, kik a vevőid, és mit kell tudnia az új oldalnak.": [
+  "We talk through who your customers are and what the new site has to do.",
+  "Wir besprechen, wer Ihre Kunden sind und was die neue Website können muss."
+ ],
+ "Megmutatjuk a tervet, te alakítod. Fejleszteni csak utána kezdünk.": [
+  "We show you the design, and you shape it. Only then do we start building.",
+  "Wir zeigen Ihnen den Entwurf, und Sie gestalten ihn mit. Erst dann beginnt die Entwicklung."
+ ],
+ "Megépítjük, minden eszközön teszteljük, és élesítjük. Ha bővítenél, ugyanott folytatjuk.": [
+  "We build it, test it on every device and put it live. Want to add more later? We carry on from there.",
+  "Wir bauen sie, testen sie auf allen Geräten und schalten sie live. Später erweitern? Wir machen dort weiter."
+ ],
+ "Pár mondat elég. A többit megbeszéljük.": [
+  "A few sentences will do. We'll talk through the rest.",
+  "Ein paar Sätze genügen. Den Rest besprechen wir."
  ]
 }

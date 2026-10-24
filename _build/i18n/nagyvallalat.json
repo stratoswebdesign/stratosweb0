@@ -351,5 +351,62 @@
  "Írjátok le pár mondatban, mivel foglalkoztok, és mit kellene tudnia az új oldalnak.": [
   "Tell us in a few sentences what you do and what the new site needs to do.",
   "Beschreiben Sie in ein paar Sätzen, womit Sie sich beschäftigen und was die neue Website können soll."
+ ],
+ "_pack_2026_10_24_tone": "Third copy pack 2026-10-24 (tone): the owner's lines for /nagyvallalat (hero, Ismerős?, the 'Mit építünk' lead, the personal-sales FAQ answer) and every card and step cut to one line.",
+ "Az első értékesítési beszélgetést a weboldalatok kezdi. Legyen ott jobb, mint a versenytársé.": [
+  "Your website starts the first sales conversation. Make it better than your competitor's.",
+  "Das erste Verkaufsgespräch beginnt Ihre Website. Dort muss sie besser sein als die des Wettbewerbers."
+ ],
+ "A beszerző talál egy PDF-katalógust és egy fotót a csarnokról. A hívást a versenytársnál kezdeményezi.": [
+  "The buyer finds a PDF catalogue and a photo of the factory hall. They make the call to your competitor.",
+  "Der Einkäufer findet einen PDF-Katalog und ein Foto der Werkshalle. Den Anruf tätigt er beim Wettbewerber."
+ ],
+ "A mérnök megtalálja a paramétert, a beszerző a referenciát. Még a hívás előtt.": [
+  "The engineer finds the specification, the buyer the reference. Before anyone picks up the phone.",
+  "Der Ingenieur findet die Parameter, der Einkäufer die Referenz. Noch vor dem Anruf."
+ ],
+ "Egy kapcsolattartó. Ha valami nem működik, nincs kire mutogatni.": [
+  "One contact person. When something breaks, there is no finger-pointing.",
+  "Eine Ansprechperson. Wenn etwas nicht läuft, gibt es kein Schwarzer-Peter-Spiel."
+ ],
+ "Aki az első megbeszélésen ott ül, az viszi végig. Az élesítés után is.": [
+  "Whoever sits in the first meeting sees it through. After launch, too.",
+  "Wer beim ersten Termin dabei ist, begleitet das Projekt bis zum Ende. Auch nach dem Livegang."
+ ],
+ "Termékek és szolgáltatások, referenciák, cégbemutató, karrier. Egyedi kódból, sablon nélkül.": [
+  "Products and services, references, company profile, careers. In bespoke code, without a template.",
+  "Produkte und Leistungen, Referenzen, Unternehmensporträt, Karriere. Aus individuellem Code, ohne Vorlage."
+ ],
+ "A terméketek 3D-ben körbeforgatható. A konfigurátor akkor is elmagyarázza, amikor senki nincs a telefonnál.": [
+  "Your product turns all the way round in 3D. The configurator explains it even when nobody is by the phone.",
+  "Ihr Produkt lässt sich in 3D rundum drehen. Der Konfigurator erklärt es auch dann, wenn niemand am Telefon ist."
+ ],
+ "Az űrlap a ti értékesítési kérdéseiteket teszi fel. Az első egyeztetés kész adatokkal indul.": [
+  "The form asks your sales questions. The first conversation starts with the facts in hand.",
+  "Das Formular stellt Ihre Vertriebsfragen. Das erste Gespräch beginnt mit fertigen Angaben."
+ ],
+ "Minden nyelv saját keresőoptimalizálást kap. A német partner németül talál rátok.": [
+  "Every language gets its own SEO. A German partner finds you in German.",
+  "Jede Sprache bekommt ihre eigene Suchmaschinenoptimierung. Ein Partner im Ausland findet Sie in seiner Sprache."
+ ],
+ "Tárhely, frissítések, mentések, biztonság, hozzáférés-kezelés, GDPR. A reakcióidőt a szerződésben rögzítjük.": [
+  "Hosting, updates, backups, security, access management, GDPR. The response time is set in the contract.",
+  "Hosting, Updates, Backups, Sicherheit, Zugriffsverwaltung, DSGVO. Die Reaktionszeit steht im Vertrag."
+ ],
+ "Megmutatjuk a tervet, ti alakítjátok. Vezetés, értékesítés, műszaki oldal: mindenki hozzászólhat.": [
+  "We show you the design, and you shape it. Management, sales, engineering: everyone has a say.",
+  "Wir zeigen Ihnen den Entwurf, und Sie gestalten ihn mit. Geschäftsführung, Vertrieb, Technik: Alle reden mit."
+ ],
+ "Megépítjük, minden eszközön teszteljük, élesítjük, átadjuk. Ha kéritek, utána is mi üzemeltetjük.": [
+  "We build it, test it on every device, put it live and hand it over. If you want, we run it afterwards too.",
+  "Wir bauen sie, testen sie auf allen Geräten, schalten sie live und übergeben sie. Auf Wunsch betreiben wir sie danach auch."
+ ],
+ "Az első találkozó előtt megnézik az oldalatokat. Az dönti el, lesz-e találkozó.": [
+  "Before the first meeting, they look at your site. That decides whether there is a meeting.",
+  "Vor dem ersten Termin schaut man sich Ihre Website an. Sie entscheidet, ob es einen Termin gibt."
+ ],
+ "Írjátok le, mit kérdeznek tőletek a legtöbbször. Az új oldal erre válaszol.": [
+  "Tell us what you get asked most often. The new site will answer it.",
+  "Schreiben Sie uns, was man Sie am häufigsten fragt. Die neue Website beantwortet es."
  ]
 }

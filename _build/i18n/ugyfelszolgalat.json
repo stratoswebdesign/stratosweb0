@@ -319,5 +319,47 @@
  "<a class=\"tlink\" href=\"szolgaltatasok.html\">Helyi szolgáltatókkal, ipari és B2B cégekkel, webshopokkal, tanácsadókkal és szakértőkkel</a> dolgozunk. A közös pont nem a méret, hanem az, hogy a weboldalnak vagy a hirdetésnek valamit el kell érnie: megkeresést, foglalást, rendelést, jelentkezőt.": [
   "We work with <a class=\"tlink\" href=\"szolgaltatasok.html\">local service businesses, industrial and B2B companies, online shops, consultants and specialists</a>. What they have in common isn't size: it's that the website or the advertising has to achieve something, whether an enquiry, a booking, an order or an applicant.",
   "Wir arbeiten mit <a class=\"tlink\" href=\"szolgaltatasok.html\">lokalen Dienstleistern, Industrie- und B2B-Unternehmen, Onlineshops, Beratern und Fachleuten</a>. Gemeinsam ist ihnen nicht die Größe, sondern dass die Website oder die Werbung etwas erreichen muss: eine Anfrage, eine Buchung, eine Bestellung, eine Bewerbung."
+ ],
+ "_tone_2026_10_24": [
+  "Third copy pack (2026-10-24), tone: hero, chooser cards, the who-we-work-",
+  "with copy and the four steps to the measure. The message form's labels,",
+  "field names and privacy note are unchanged. The hero note reuses the",
+  "global line from _common.json; the last step reuses /szolgaltatasok's."
+ ],
+ "Nincs két egyforma projekt, így két egyforma ajánlat sem. Először meghallgatunk.": [
+  "No two projects are alike, so no two proposals are either. First, we listen.",
+  "Keine zwei Projekte sind gleich, also auch keine zwei Angebote. Zuerst hören wir zu."
+ ],
+ "Mindhárom ugyanoda vezet. A különbség csak az, mennyit tudunk előre a projektedről.": [
+  "All three lead to the same place. The only difference is how much we know about your project in advance.",
+  "Alle drei führen zum selben Ziel. Der Unterschied ist nur, wie viel wir vorab über Ihr Projekt wissen."
+ ],
+ "A neved, az e-mail-címed, a weboldalad és pár szó. A többit a hívásban beszéljük át.": [
+  "Your name, your email, your website and a few words. We cover the rest on the call.",
+  "Ihr Name, Ihre E-Mail-Adresse, Ihre Website und ein paar Worte. Den Rest besprechen wir im Gespräch."
+ ],
+ "Néhány mező és pár mondat. Ennyiből visszaírunk, és egyeztetünk egy időpontot.": [
+  "A few fields and a few sentences. That’s enough for us to reply and set a time.",
+  "Ein paar Felder und ein paar Sätze. Das reicht uns, um zu antworten und einen Termin abzustimmen."
+ ],
+ "<a class=\"tlink\" href=\"szolgaltatasok.html\">Helyi szolgáltatókkal, ipari és B2B cégekkel, webshopokkal, tanácsadókkal és szakértőkkel</a> dolgozunk. A méret nem számít, a cél igen: megkeresés, foglalás, rendelés, jelentkező.": [
+  "We work with <a class=\"tlink\" href=\"szolgaltatasok.html\">local service businesses, industrial and B2B companies, online shops, consultants and specialists</a>. Size doesn’t matter; the goal does: an enquiry, a booking, an order, an applicant.",
+  "Wir arbeiten mit <a class=\"tlink\" href=\"szolgaltatasok.html\">lokalen Dienstleistern, Industrie- und B2B-Unternehmen, Onlineshops, Beratern und Fachleuten</a>. Die Größe zählt nicht, das Ziel schon: eine Anfrage, eine Buchung, eine Bestellung, eine Bewerbung."
+ ],
+ "Ha még nem tudod, mi a reális cél, az sem baj. A hívás főleg erről szól, nem a technológiáról.": [
+  "If you don’t know yet what a realistic goal is, that’s fine. The call is mostly about that, not about technology.",
+  "Wenn Sie noch nicht wissen, was ein realistisches Ziel ist, ist das kein Problem. Im Gespräch geht es vor allem darum, nicht um Technik."
+ ],
+ "Körülbelül 30 perc online. Megnézzük, hol tartasz, és mi kell a célodhoz.": [
+  "About 30 minutes online. We look at where you are and what your goal takes.",
+  "Etwa 30 Minuten online. Wir schauen, wo Sie stehen und was Ihr Ziel braucht."
+ ],
+ "A hívás után írásban: mit építünk, mikorra és mennyiért. 14 napig érvényes.": [
+  "After the call, in writing: what we build, by when and for how much. Valid for 14 days.",
+  "Nach dem Gespräch schriftlich: was wir bauen, bis wann und zu welchem Preis. 14 Tage gültig."
+ ],
+ "Nem kell pontos leírás. Elég, ha leírod, mit csinálsz, és mi nem működik most.": [
+  "No need for a precise brief. Just say what you do and what isn’t working right now.",
+  "Eine genaue Beschreibung ist nicht nötig. Es reicht, wenn Sie schreiben, was Sie machen und was gerade nicht funktioniert."
  ]
 }

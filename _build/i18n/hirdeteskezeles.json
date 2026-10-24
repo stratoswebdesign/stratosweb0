@@ -439,5 +439,114 @@
  "<span><a class=\"tlink\" href=\"webshop-keszites.html\">Webshopoknak</a>: Google Shopping és Performance Max, termékfeeddel</span>": [
   "<span>For <a class=\"tlink\" href=\"webshop-keszites.html\">online shops</a>: Google Shopping and Performance Max, with a product feed</span>",
   "<span>Für <a class=\"tlink\" href=\"webshop-keszites.html\">Onlineshops</a>: Google Shopping und Performance Max, mit Produktfeed</span>"
+ ],
+ "_note_2026_10_24_tone": "Third copy pack (2026-10-24, tone): the owner's H1 and hero, the six stations at ≤ 8 words, the rest rewritten to the canon.",
+ "<span class=\"signal__n\">01</span><span class=\"signal__t\">Szándék</span><span class=\"signal__w\">Valaki keres, vagy épp rád volna szüksége.</span>": [
+  "<span class=\"signal__n\">01</span><span class=\"signal__t\">Intent</span><span class=\"signal__w\">Someone is searching, or could use you right now.</span>",
+  "<span class=\"signal__n\">01</span><span class=\"signal__t\">Absicht</span><span class=\"signal__w\">Jemand sucht, oder könnte Sie gerade gut brauchen.</span>"
+ ],
+ "<span class=\"signal__n\">02</span><span class=\"signal__t\">Üzenet</span><span class=\"signal__w\">A hirdetés erre válaszol, nem magát dicséri.</span>": [
+  "<span class=\"signal__n\">02</span><span class=\"signal__t\">Message</span><span class=\"signal__w\">The ad answers that, rather than praising itself.</span>",
+  "<span class=\"signal__n\">02</span><span class=\"signal__t\">Botschaft</span><span class=\"signal__w\">Die Anzeige antwortet darauf, statt sich selbst zu loben.</span>"
+ ],
+ "<span class=\"signal__n\">03</span><span class=\"signal__t\">Kattintás</span><span class=\"signal__w\">Csak az ér valamit, akinek tényleg szól.</span>": [
+  "<span class=\"signal__n\">03</span><span class=\"signal__t\">Click</span><span class=\"signal__w\">It only counts if it reaches the right person.</span>",
+  "<span class=\"signal__n\">03</span><span class=\"signal__t\">Klick</span><span class=\"signal__w\">Er zählt nur, wenn der Richtige klickt.</span>"
+ ],
+ "<span class=\"signal__n\">04</span><span class=\"signal__t\">Céloldal</span><span class=\"signal__w\">Ott folytatja, ahol a hirdetés abbahagyta.</span>": [
+  "<span class=\"signal__n\">04</span><span class=\"signal__t\">Landing page</span><span class=\"signal__w\">It picks up where the ad left off.</span>",
+  "<span class=\"signal__n\">04</span><span class=\"signal__t\">Zielseite</span><span class=\"signal__w\">Sie macht dort weiter, wo die Anzeige aufgehört hat.</span>"
+ ],
+ "<span class=\"signal__n\">05</span><span class=\"signal__t\">Megkeresés</span><span class=\"signal__w\">Űrlap vagy hívás. Ez a szám számít.</span>": [
+  "<span class=\"signal__n\">05</span><span class=\"signal__t\">Enquiry</span><span class=\"signal__w\">A form or a call. This is the number that counts.</span>",
+  "<span class=\"signal__n\">05</span><span class=\"signal__t\">Anfrage</span><span class=\"signal__w\">Formular oder Anruf. Diese Zahl zählt.</span>"
+ ],
+ "<span class=\"signal__n\">06</span><span class=\"signal__t\">Visszacsatolás</span><span class=\"signal__w\">A mérésből indul a következő kör.</span>": [
+  "<span class=\"signal__n\">06</span><span class=\"signal__t\">Feedback</span><span class=\"signal__w\">The next round starts from the measurement.</span>",
+  "<span class=\"signal__n\">06</span><span class=\"signal__t\">Rückkopplung</span><span class=\"signal__w\">Aus der Messung startet die nächste Runde.</span>"
+ ],
+ "Google és Meta<br>hirdetéskezelés.<br><span class=\"sig\">Tudod, mennyibe kerül egy ügyfél.</span>": [
+  "Google and Meta<br>ads management.<br><span class=\"sig\">You know what a client costs.</span>",
+  "Google- und Meta-<br>Werbebetreuung.<br><span class=\"sig\">Sie wissen, was ein Kunde kostet.</span>"
+ ],
+ "A fiók a tiéd. A számok is.": [
+  "The account is yours. So are the numbers.",
+  "Das Konto gehört Ihnen. Die Zahlen auch."
+ ],
+ "A hónap végén kapsz egy képernyőfotót a kattintásokról. Hogy hány telefon lett belőle, senki nem tudja.": [
+  "At the end of the month you get a screenshot of the clicks. How many calls came of it, nobody knows.",
+  "Am Monatsende bekommen Sie einen Screenshot der Klicks. Wie viele Anrufe daraus wurden, weiß niemand."
+ ],
+ "Vagy megnyomod a Kiemelés gombot a Facebookon, és reménykedsz.": [
+  "Or you press Boost on Facebook and hope.",
+  "Oder Sie klicken auf Facebook auf „Beitrag bewerben“ und hoffen."
+ ],
+ "Mi a mérésnél kezdjük.": [
+  "We start with measurement.",
+  "Wir fangen bei der Messung an."
+ ],
+ "A hirdetés már az első napon hozhat érdeklődőt. Az érdemi eredményhez idő kell.": [
+  "Ads can bring an enquiry on day one. Real results take time.",
+  "Werbung kann schon am ersten Tag eine Anfrage bringen. Echte Ergebnisse brauchen Zeit."
+ ],
+ "Az a kérdés, hol vannak az ügyfeleid. Sokszor mindkét helyen.": [
+  "The question is where your clients are. Often, in both places.",
+  "Die Frage ist, wo Ihre Kunden sind. Oft hier wie dort."
+ ],
+ "Aki beírja, hogy „vízszerelő Kecskemét”, az venni akar. Ott kell lenned, amikor dönt.": [
+  "Anyone who types in “plumber Kecskemét” wants to buy. You need to be there when they decide.",
+  "Wer „Installateur Kecskemét“ eintippt, will kaufen. Sie müssen da sein, wenn die Entscheidung fällt."
+ ],
+ "Görgetés közben állítod meg. Jó ajánlattal és látványos képpel, videóval.": [
+  "You stop them mid-scroll. With a good offer and a striking image or video.",
+  "Sie halten die Leute beim Scrollen an. Mit einem guten Angebot und einem starken Bild oder Video."
+ ],
+ "Célközönség, versenytársak, ajánlat. A kampány a saját fiókodban épül, az első naptól méréssel.": [
+  "Audience, competitors, the offer. The campaign is built in your own account, measured from day one.",
+  "Zielgruppe, Wettbewerber, Angebot. Die Kampagne entsteht in Ihrem eigenen Konto, gemessen ab dem ersten Tag."
+ ],
+ "Több üzenetet, célzást, kreatívot indítunk. Az adat dönti el, melyik marad.": [
+  "We launch several messages, audiences and creatives. The data decides which stay.",
+  "Wir starten mehrere Botschaften, Zielgruppen und Creatives. Die Daten entscheiden, was bleibt."
+ ],
+ "Általában 4–6 hét után látszik, mi működik. Arra tesszük a keretet, a többit leállítjuk.": [
+  "Usually after 4–6 weeks it's clear what works. That gets the budget; the rest is switched off.",
+  "Meist zeigt sich nach 4–6 Wochen, was funktioniert. Dorthin geht das Budget, der Rest wird abgeschaltet."
+ ],
+ "Két tétel, két címzett. A keret összegét te döntöd el.": [
+  "Two items, two recipients. You decide the budget.",
+  "Zwei Posten, zwei Empfänger. Das Budget bestimmen Sie."
+ ],
+ "A saját fiókodban forintra látod. Kkv-knál jellemzően havi 80–150 ezer Ft-tal indul.": [
+  "You see it to the forint in your own account. For small businesses it typically starts at HUF 80,000–150,000 a month.",
+  "Sie sehen es in Ihrem eigenen Konto auf den Forint genau. Bei KMU beginnt es meist bei 80.000–150.000 HUF im Monat."
+ ],
+ "Havidíj a munkáért, a kerettől külön. Elkölteni bárki tudja, jól elkölteni a munka.": [
+  "A monthly fee for the work, separate from the budget. Anyone can spend it; spending it well is the work.",
+  "Eine Monatspauschale für die Arbeit, getrennt vom Budget. Ausgeben kann es jeder, gut ausgeben ist die Arbeit."
+ ],
+ "Egy díj a kettőre. Ugyanazért a forintért versengenek, ezért egyben nézzük.": [
+  "One fee for both. They compete for the same forint, so we look at them together.",
+  "Eine Pauschale für beide. Sie konkurrieren um denselben Forint, also betrachten wir sie zusammen."
+ ],
+ "Ügyfélszámot vagy bevételt tisztességesen senki nem ígérhet. Azt igen, hogy szólunk, ha valami nem működik.": [
+  "No one can honestly promise a number of clients or a revenue figure. We can promise to tell you when something isn't working.",
+  "Kundenzahlen oder Umsatz kann seriös niemand versprechen. Wohl aber, dass wir Bescheid sagen, wenn etwas nicht funktioniert."
+ ],
+ "Ha nálad a <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálás</a> hozna többet, megmondjuk. A hirdetés addig hoz, amíg fizetsz érte.": [
+  "If <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> would bring you more, we'll say so. Ads only bring results while you pay for them.",
+  "Wenn bei Ihnen <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> mehr bringen würde, sagen wir es. Werbung bringt nur so lange etwas, wie Sie dafür bezahlen."
+ ],
+ "Minden hívásról, ajánlatkérésről és vásárlásról látod, melyik hirdetés hozta, és mennyiért. Havi riportban, forintra.": [
+  "For every call, quote request and purchase you see which ad brought it, and at what cost. In a monthly report, to the forint.",
+  "Für jeden Anruf, jede Anfrage und jeden Kauf sehen Sie die Anzeige dahinter und was es gekostet hat. Im Monatsbericht, auf den Forint genau."
+ ],
+ "Az első kérdésünk az lesz, mit mértetek. Ha nem volt mérés, nem tudni, mi nem működött: a hirdetés, a célzás vagy az oldal, ahová érkezett. Havi 80 ezer forint alatti keretből pedig nehéz annyi adatot gyűjteni, amiből javítani lehet.": [
+  "Our first question will be what you measured. Without measurement, there is no way to know what didn't work: the ad, the targeting or the page people landed on. And on a budget under HUF 80,000 a month it is hard to gather enough data to improve on.",
+  "Unsere erste Frage wird sein, was Sie gemessen haben. Ohne Messung weiß man nicht, was nicht funktioniert hat: die Anzeige, die Ausrichtung oder die Seite, auf der die Leute gelandet sind. Und mit weniger als 80.000 HUF im Monat lassen sich kaum genug Daten sammeln, um zu verbessern."
+ ],
+ "Egy beszélgetés, és tudod, mire számíthatsz az első hónapokban.": [
+  "One conversation, and you'll know what to expect in the first months.",
+  "Ein Gespräch, und Sie wissen, was Sie in den ersten Monaten erwartet."
  ]
 }
