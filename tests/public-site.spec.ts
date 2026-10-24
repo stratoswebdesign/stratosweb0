@@ -177,8 +177,10 @@ test.describe('homepage, without JavaScript', () => {
     await expect(page.locator('main section')).toHaveCount(8);
     // The proof, as the case study states it, explained once.
     await expect(page.locator('.take')).toContainText('~110M Ft');
-    await expect(page.locator('.take')).toContainText('Ennyi az ajánlatkérések becsült értéke');
-    // Both projects, and the services of „Amit csinálunk”, linked from the
+    // Said in two beats since the third pack (tone), the condition in small print.
+    await expect(page.locator('.take')).toContainText('Ajánlatkérés, organikus keresésből.');
+    await expect(page.locator('.take .take__src')).toContainText('becsült érték');
+    // Both projects, and the services of „Egy csapat. Egy felelős.”, linked from the
     // homepage. /szolgaltatasok and /nagyvallalat are the menu's to reach.
     for (const href of ['/munka-rapidkert.html', '/munka-godatafusion.html',
       '/kkv.html', '/webshop-keszites.html', '/branding.html', '/3d-weboldal-konfigurator.html',

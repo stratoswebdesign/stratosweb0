@@ -396,5 +396,58 @@
  "Írjátok le pár mondatban, milyen terméket mutatnátok meg, és kik a vevőitek.": [
   "Tell us in a few sentences which product you would like to show and who your customers are.",
   "Beschreiben Sie in ein paar Sätzen, welches Produkt Sie zeigen möchten und wer Ihre Kunden sind."
+ ],
+ "_pack_2026_10_24_tone": "Third copy pack 2026-10-24 (tone): the owner's lines for /3d (hero, problem, transition, closing) and every card and step cut to one line. Definitions kept, at most two sentences.",
+ "Forgatja, szétszedi, összerakja. Mire ajánlatot kér, már tudja, mit akar.": [
+  "They turn it, take it apart, put it back together. By the time they ask for a quote, they know what they want.",
+  "Drehen, zerlegen, zusammensetzen. Wer ein Angebot anfragt, weiß schon, was er will."
+ ],
+ "Az értékesítőtök ma <span class=\"sig\">harmadszor mondja el ugyanazt.</span>": [
+  "Your salesperson is saying the same thing <span class=\"sig\">for the third time today.</span>",
+  "Ihr Vertrieb erklärt heute <span class=\"sig\">zum dritten Mal dasselbe.</span>"
+ ],
+ "A vevő közben három weboldalon ugyanazt látja: egy fotót fehér háttér előtt. És a legolcsóbbal együtt soroz be titeket.": [
+  "Meanwhile the customer sees the same thing on three websites: a photo on a white background. And puts you in the same box as the cheapest.",
+  "Der Kunde sieht derweil auf drei Websites dasselbe: ein Foto vor weißem Hintergrund. Und steckt Sie in dieselbe Schublade wie den Günstigsten."
+ ],
+ "<strong>Mutassátok meg úgy, ahogy a műhelyben látnátok.</strong>": [
+  "<strong>Show it the way you would see it in the workshop.</strong>",
+  "<strong>Zeigen Sie es so, wie Sie es in der Werkstatt sehen.</strong>"
+ ],
+ "Mi az a 3D weboldal? Mi az a termékkonfigurátor?": [
+  "What is a 3D website? What is a product configurator?",
+  "Was ist eine 3D-Website? Was ist ein Produktkonfigurator?"
+ ],
+ "A termékkonfigurátor egy weboldalba épített eszköz, amelyben a vevő maga állítja össze a terméket: méretet, anyagot, színt vagy kiegészítőt választ, és rögtön látja az eredményt. Kevesebb kérdés, gyorsabb döntés, és a prémium változat is könnyebben eladható.": [
+  "A product configurator is a tool built into a website in which customers put the product together themselves: they choose the size, material, colour or accessories and see the result straight away. Fewer questions, faster decisions, and the premium version is easier to sell too.",
+  "Ein Produktkonfigurator ist ein in die Website eingebautes Werkzeug, in dem der Kunde das Produkt selbst zusammenstellt: Er wählt Größe, Material, Farbe oder Zubehör und sieht sofort das Ergebnis. Weniger Fragen, schnellere Entscheidungen, und auch die Premiumvariante lässt sich leichter verkaufen."
+ ],
+ "Térbeli modell a nyitóképernyőn vagy a termékoldalon. Csak ott, ahol erősebb tőle az üzenet.": [
+  "A three-dimensional model on the opening screen or the product page. Only where it makes the message stronger.",
+  "Ein räumliches Modell auf dem Startbildschirm oder der Produktseite. Nur dort, wo es die Botschaft stärker macht."
+ ],
+ "A látvány a vevőnek szól. A szöveg a Google-nek és az AI-keresőknek is.": [
+  "The visuals are for the customer. The text is for Google and AI search too.",
+  "Die Optik ist für den Kunden. Der Text auch für Google und KI-Suchmaschinen."
+ ],
+ "Telefonon és tableten is használható. Élesítés előtt mindkettőn kipróbáljuk.": [
+  "It works on phones and tablets too. We try it on both before launch.",
+  "Auch auf Smartphone und Tablet nutzbar. Vor dem Livegang testen wir auf beiden."
+ ],
+ "Sablon és oldalépítő nélkül. A weboldal és a kód a tiétek.": [
+  "No templates, no page builder. The website and the code are yours.",
+  "Ohne Vorlage und ohne Baukasten. Website und Code gehören Ihnen."
+ ],
+ "Átbeszéljük, mit kell látniuk a vevőiteknek, és mi kell hozzá: 3D, konfigurátor vagy mindkettő.": [
+  "We talk through what your customers need to see, and what it takes: 3D, a configurator or both.",
+  "Wir besprechen, was Ihre Kunden sehen müssen und was es dafür braucht: 3D, einen Konfigurator oder beides."
+ ],
+ "Megmutatjuk a tervet, ti alakítjátok. A 3D-t és a konfigurátort is a tervben látjátok.": [
+  "We show you the design, and you shape it. You see the 3D and the configurator in the design too.",
+  "Wir zeigen Ihnen den Entwurf, und Sie gestalten ihn mit. Auch 3D und Konfigurator sehen Sie schon im Entwurf."
+ ],
+ "Mi az, amit a vevőitek nem látnak elsőre?": [
+  "What don't your customers see at first glance?",
+  "Was sehen Ihre Kunden nicht auf den ersten Blick?"
  ]
 }

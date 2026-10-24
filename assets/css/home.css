@@ -144,6 +144,8 @@ body {
 .take__proof { min-width: 15rem; padding-bottom: 0.4rem; }
 .take__v { color: #F4F0E6; }
 .take__c { margin-top: 0.35rem; max-width: 22ch; }
+/* The figure's condition, in small print under it (third copy pack). */
+.take__src { margin-top: 0.5rem; max-width: 26ch; }
 .take__proof .link { margin-top: var(--sp-5); color: #F4F0E6; }
 
 .take__shot {

@@ -2155,11 +2155,13 @@ V2_UI = {
                 ("about", "A Stratos"), ("blog", "Blog")),
         "contact": "Kapcsolat",
         "menu": "Menü", "close": "Bezárás", "menu_aria": "Menü megnyitása",
-        "tagline": "Egyedi kódból épített weboldalak, 3D élmények és "
-                   "keresőoptimalizálás, az egész országban.",
+        # Third copy pack (2026-10-24, tone): the footer no longer repeats
+        # „egyedi kódból” on every page; the pages say it once where it counts.
+        "tagline": "Weboldal, keresőoptimalizálás, hirdetés, 3D. "
+                   "Egy csapat, egy felelős.",
         "pages": "Oldalak",
         "close_head": "Ha nagy a tét, beszéljünk.",
-        "close_lede": "Egy ingyenes igényfelmérő hívás után tudni fogod, mi segítene, és mi nem.",
+        "close_lede": "Egy rövid beszélgetés után tudni fogod, mi segítene, és mi nem.",
         "close_mail": 'vagy írj nekünk: <a href="mailto:hello@stratosweb.hu">hello@stratosweb.hu</a>',
     },
     "en": {
@@ -2167,11 +2169,10 @@ V2_UI = {
                 ("about", "Stratos"), ("blog", "Insights")),
         "contact": "Contact",
         "menu": "Menu", "close": "Close", "menu_aria": "Open the menu",
-        "tagline": "Websites built in custom code, 3D experiences and search "
-                   "engine optimisation, across Hungary.",
+        "tagline": "Websites, SEO, advertising, 3D. One team, one owner.",
         "pages": "Pages",
         "close_head": "High stakes? Let’s talk.",
-        "close_lede": "After a free discovery call you will know what would help, and what would not.",
+        "close_lede": "After a short conversation you will know what would help, and what would not.",
         "close_mail": 'or write to us: <a href="mailto:hello@stratosweb.hu">hello@stratosweb.hu</a>',
     },
     "de": {
@@ -2179,11 +2180,10 @@ V2_UI = {
                 ("about", "Stratos"), ("blog", "Insights")),
         "contact": "Kontakt",
         "menu": "Menü", "close": "Schließen", "menu_aria": "Menü öffnen",
-        "tagline": "Websites aus individuellem Code, 3D-Erlebnisse und "
-                   "Suchmaschinenoptimierung, in ganz Ungarn.",
+        "tagline": "Website, SEO, Werbung, 3D. Ein Team, ein Verantwortlicher.",
         "pages": "Seiten",
         "close_head": "Viel auf dem Spiel? Dann sprechen wir.",
-        "close_lede": "Nach einem kostenlosen Erstgespräch wissen Sie, was helfen würde und was nicht.",
+        "close_lede": "Nach einem kurzen Gespräch wissen Sie, was helfen würde und was nicht.",
         "close_mail": 'oder schreiben Sie uns: <a href="mailto:hello@stratosweb.hu">hello@stratosweb.hu</a>',
     },
 }

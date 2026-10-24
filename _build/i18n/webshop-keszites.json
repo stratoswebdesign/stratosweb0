@@ -370,5 +370,65 @@
  "Írd le, mit árulsz, hány termékkel, és hol tart most a boltod; egy ingyenes igényfelmérő hívásban javaslatot teszünk a platformra.": [
   "Tell us what you sell, how many products you have and where your shop stands today; in a free discovery call we recommend a platform.",
   "Schreiben Sie uns, was Sie verkaufen, mit wie vielen Produkten und wo Ihr Shop heute steht; in einem kostenlosen Erstgespräch schlagen wir eine Plattform vor."
+ ],
+ "A kosár és a fizetés között vész el a legtöbb rendelés. Mi ott kezdjük.": [
+  "Most orders are lost between the basket and the payment. That's where we start.",
+  "Zwischen Warenkorb und Kasse gehen die meisten Bestellungen verloren. Genau dort setzen wir an."
+ ],
+ "Este kiválaszt kettőt. A fizetésnél jön a szállítási díj, a regisztráció, egy hibaüzenet.": [
+  "One evening someone picks two products. At checkout come the delivery fee, the sign-up form, an error message.",
+  "Abends wählt jemand zwei Produkte aus. An der Kasse kommen die Versandkosten, die Registrierung, eine Fehlermeldung."
+ ],
+ "Bezárja a fület. Te annyit látsz, hogy gyengébb volt a hónap.": [
+  "They close the tab. All you see is a weaker month.",
+  "Er schließt den Tab. Sie sehen nur einen schwächeren Monat."
+ ],
+ "A kategóriákat úgy építjük, ahogy a vevő keres, és nem ahogy a raktár tárol.": [
+  "We build the categories the way customers search, not the way the warehouse stores things.",
+  "Die Kategorien bauen wir so, wie die Kundschaft sucht, und nicht so, wie das Lager sortiert."
+ ],
+ "Bankkártya, utánvét, átutalás, futár, csomagpont. A szállítási díj már a kosárban látszik.": [
+  "Card, cash on delivery, bank transfer, courier, parcel point. Delivery costs already show in the basket.",
+  "Karte, Nachnahme, Überweisung, Kurier, Paketstation. Die Versandkosten stehen schon im Warenkorb."
+ ],
+ "Ha van számlázód vagy raktárprogramod, összekötjük. Semmit nem kell kétszer begépelni.": [
+  "If you have invoicing or stock software, we connect it. Nothing gets typed in twice.",
+  "Haben Sie ein Rechnungs- oder Lagerprogramm, binden wir es an. Nichts muss doppelt eingetippt werden."
+ ],
+ "Kosárba tétel, elhagyott kosár, vásárlás. Egy hónap után látod, hol veszíted el a vevőt.": [
+  "Add to basket, abandoned basket, purchase. After a month you can see where you lose customers.",
+  "Warenkorb, Kaufabbruch, Kauf. Nach einem Monat sehen Sie, wo Ihnen Kundschaft verloren geht."
+ ],
+ "A bolt keresőre készen indul. Ha kéred, a Shopping- és Performance Max-hirdetést is mi kezeljük.": [
+  "The shop launches ready for search. If you like, we run your Shopping and Performance Max ads too.",
+  "Der Shop startet suchmaschinenfertig. Auf Wunsch betreuen wir auch Ihre Shopping- und Performance-Max-Anzeigen."
+ ],
+ "Webshop, keresőoptimalizálás, közösségi média, Meta-hirdetés. Mind a négyet mi visszük.": [
+  "Online shop, SEO, social media, Meta ads. We run all four.",
+  "Onlineshop, Suchmaschinenoptimierung, Social Media, Meta-Werbung. Alle vier liegen bei uns."
+ ],
+ "Előbb a bolt, aztán a rendszer. A rossz platform később drágább, mint egy jó döntés az elején.": [
+  "The shop first, then the system. The wrong platform costs more later than a good decision at the start.",
+  "Erst der Shop, dann das System. Die falsche Plattform kostet später mehr als eine gute Entscheidung am Anfang."
+ ],
+ "Működik a bolt, csak nem látják? Akkor a <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálás</a> a válasz.": [
+  "The shop works, but nobody sees it? Then <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> is the answer.",
+  "Der Shop läuft, aber niemand sieht ihn? Dann ist <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a> die Antwort."
+ ],
+ "Átbeszéljük, mit árulsz és hány termékkel. Ebből javasoljuk a platformot.": [
+  "We talk through what you sell and how many products you have. From that we recommend the platform.",
+  "Wir besprechen, was Sie verkaufen und mit wie vielen Produkten. Daraus empfehlen wir die Plattform."
+ ],
+ "Megépítjük, végigteszteljük a fizetést és a szállítást. Élesítjük, és átadjuk a hozzáféréseket.": [
+  "We build it and test payment and delivery end to end. We put it live and hand over the access.",
+  "Wir bauen ihn und testen Zahlung und Versand durch. Wir schalten ihn live und übergeben die Zugänge."
+ ],
+ "A leghosszabb szakasz általában a terméktörzs: a fotók, a leírások és a változatok rendbetétele. Ebben segítünk, tőled a döntések kellenek. Ha ez már megvan, gyorsabban végzünk.": [
+  "The longest stage is usually the product data: getting the photos, descriptions and variants in order. We help with that; what we need from you are the decisions. If it is already in place, we finish sooner.",
+  "Die längste Phase sind meist die Produktdaten: Fotos, Beschreibungen und Varianten in Ordnung zu bringen. Dabei helfen wir; von Ihnen brauchen wir die Entscheidungen. Liegen sie schon vor, sind wir schneller fertig."
+ ],
+ "Írd le, mit árulsz és hány termékkel. A platformot mi javasoljuk.": [
+  "Tell us what you sell and how many products you have. We'll recommend the platform.",
+  "Schreiben Sie uns, was Sie verkaufen und mit wie vielen Produkten. Die Plattform schlagen wir vor."
  ]
 }
