@@ -438,5 +438,18 @@
  "Pár mondat elég. A többit megbeszéljük.": [
   "A few sentences will do. We'll talk through the rest.",
   "Ein paar Sätze genügen. Den Rest besprechen wir."
+ ],
+ "_note_2026_10_25": "Owner, 2026-10-25: the ownership claim leaves the copy; the handover stays as a fact. New H1.",
+ "Egyedi weboldal készítés.<br><span class=\"sig\">Hogy téged hívjanak fel.</span>": [
+  "A bespoke website.<br><span class=\"sig\">So it’s you they call.</span>",
+  "Eine individuelle Website.<br><span class=\"sig\">Damit man Sie anruft.</span>"
+ ],
+ "Átadjuk a hozzáféréseket és a fájlokat.": [
+  "We hand over the logins and the files.",
+  "Wir übergeben die Zugänge und die Dateien."
+ ],
+ "Egyszeri projektdíj. A <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálás</a> és a karbantartás választható.": [
+  "A one-off project fee. <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> and maintenance are optional.",
+  "Ein einmaliges Projekthonorar. <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a> und Wartung sind optional."
  ]
 }

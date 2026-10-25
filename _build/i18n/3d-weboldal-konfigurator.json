@@ -449,5 +449,13 @@
  "Mi az, amit a vevőitek nem látnak elsőre?": [
   "What don't your customers see at first glance?",
   "Was sehen Ihre Kunden nicht auf den ersten Blick?"
+ ],
+ "Sablon és oldalépítő nélkül. Csak az, amire a terméketeknek szüksége van.": [
+  "No templates, no page builder. Only what your product needs.",
+  "Ohne Vorlage und ohne Baukasten. Nur das, was Ihr Produkt braucht."
+ ],
+ "Ha kéritek. A weboldal egyszeri projektdíjas; mellé karbantartást és <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálást</a> havidíjas partnerségként választhattok.": [
+  "If you want us to. The website is a one-off project fee; alongside it you can choose maintenance and <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> as a monthly partnership.",
+  "Wenn Sie möchten. Die Website kostet ein einmaliges Projekthonorar; dazu können Sie Wartung und <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a> als monatliche Partnerschaft wählen."
  ]
 }
