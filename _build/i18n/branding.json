@@ -443,5 +443,13 @@
  "Kezdjük egy alapos átnézéssel. Megmondjuk, mi maradjon, és min változtatnánk.": [
   "Let's start with a thorough review. We'll tell you what to keep and what we would change.",
   "Beginnen wir mit einer gründlichen Bestandsaufnahme. Wir sagen Ihnen, was bleiben sollte und was wir ändern würden."
+ ],
+ "Forrásfájlok": [
+  "Source files",
+  "Quelldateien"
+ ],
+ "Átadjuk a vektoros forrást, az exportált változatokat és egy rövid útmutatót.": [
+  "We hand over the vector source, the exported versions and a short guide.",
+  "Wir übergeben die Vektorquelle, die exportierten Varianten und eine kurze Anleitung."
  ]
 }

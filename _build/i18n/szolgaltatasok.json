@@ -509,5 +509,13 @@
  "A legtöbben innen indulnak. Egy beszélgetés után tudod, mire érdemes költened, akkor is, ha az kevesebb a vártnál.": [
   "Most people start here. After one conversation you'll know what's worth spending on, even if it's less than you expected.",
   "Die meisten fangen hier an. Nach einem Gespräch wissen Sie, wofür sich Ihr Geld lohnt, auch wenn es weniger ist als erwartet."
+ ],
+ "Minden út <span class=\"sig\">ide vezet.</span>": [
+  "Every road <span class=\"sig\">leads here.</span>",
+  "Alle Wege <span class=\"sig\">führen hierher.</span>"
+ ],
+ "A weboldal egyszeri projektdíjas. A keresőoptimalizálást és a karbantartást havidíjas partnerségként választhatod mellé.": [
+  "The website is a one-off project fee. You can add SEO and maintenance alongside it as a monthly partnership.",
+  "Die Website kostet ein einmaliges Projekthonorar. Suchmaschinenoptimierung und Wartung können Sie als monatliche Partnerschaft dazu wählen."
  ]
 }
