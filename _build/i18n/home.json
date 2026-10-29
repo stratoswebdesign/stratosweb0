@@ -505,9 +505,9 @@
   "At lunchtime someone types into their phone: “accountant Debrecen”, and picks from the first results. Many of your clients search the same way. With ongoing SEO we work to put you among the first on Google and in AI search.",
   "In der Mittagspause tippt jemand ins Handy: „Steuerberater Debrecen“, und wählt aus den ersten Treffern. Viele Ihrer Kunden suchen genauso. Mit laufender Suchmaschinenoptimierung arbeiten wir daran, dass Sie bei Google und in KI-Suchen zu den Ersten gehören."
  ],
- "havi riport · az első eredmények általában 3–6 hónap után": [
-  "monthly report · first results usually after 3–6 months",
-  "monatlicher Bericht · erste Ergebnisse meist nach 3–6 Monaten"
+ "havi riport · ügyfeleinknél az első eredmények általában 3–6 hónap után jönnek, néha hamarabb": [
+  "monthly report · with our clients, the first results usually come after 3–6 months, sometimes sooner",
+  "monatlicher Bericht · bei unseren Kunden zeigen sich erste Ergebnisse meist nach 3–6 Monaten, manchmal früher"
  ],
  "Egy csapat. Egy felelős.": [
   "One team. One owner.",
@@ -577,5 +577,9 @@
  "Az ajánlat rögzíti, mikorra küldd el a fotókat, a szolgáltatásaid listáját és a hozzáféréseket.": [
   "The quote sets when to send us the photos, the list of your services and the access details.",
   "Das Angebot legt fest, bis wann Sie uns die Fotos, die Liste Ihrer Leistungen und die Zugänge schicken."
+ ],
+ "becsült érték, a 2026. július és október között beérkezett ajánlatkérések alapján": [
+  "estimated value, based on the quote requests received between July and October 2026",
+  "geschätzter Wert, auf Basis der zwischen Juli und Oktober 2026 eingegangenen Angebotsanfragen"
  ]
 }
