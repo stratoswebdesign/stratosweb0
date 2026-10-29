@@ -23,9 +23,9 @@
   "Reality into data.",
   "Aus Wirklichkeit werden Daten."
  ],
- "Egy építőipari adatcég három szolgáltatását nehéz szavakkal elmagyarázni. A háromnyelvű weboldalukon ezért egyetlen 3D épület mutatja meg mindhármat.": [
-  "A construction data company’s three services are hard to explain in words. So on its trilingual website a single 3D building shows all three.",
-  "Die drei Leistungen eines Bau-Datenunternehmens lassen sich schwer in Worte fassen. Deshalb zeigt auf seiner dreisprachigen Website ein einziges 3D-Gebäude alle drei."
+ "A GoDataFusion 360°-ban dokumentálja az építkezéseket, terepmodellt készít, és a tervlapból kiszámolja a mennyiségeket. A háromnyelvű weboldalán egyetlen 3D épület mutatja meg mindhárom szolgáltatását.": [
+  "GoDataFusion documents construction sites in 360°, builds terrain models and calculates quantities from the plans. On its three-language website, a single 3D building shows all three of its services.",
+  "GoDataFusion dokumentiert Baustellen in 360°, erstellt Geländemodelle und berechnet Mengen aus den Plänen. Auf der dreisprachigen Website zeigt ein einziges 3D-Gebäude alle drei Leistungen."
  ],
  "<span class=\"mode__k\">Capture</span><span class=\"mode__d\">360° helyszíni dokumentáció</span>": [
   "<span class=\"mode__k\">Capture</span><span class=\"mode__d\">360° site documentation</span>",
@@ -71,9 +71,9 @@
   "We reduce first.",
   "Zuerst reduzieren wir."
  ],
- "Ha mindent egyszerre mondunk, semmi nem marad meg. Ezért azzal kezdünk, amit el lehet hagyni, és csak az marad, amiért téged választanak.": [
-  "Say everything at once and nothing stays. So we start with what can be left out, and keep only what makes people choose you.",
-  "Wer alles auf einmal sagt, von dem bleibt nichts. Deshalb beginnen wir mit dem, was wegkann, und behalten nur, weswegen man Sie wählt."
+ "Először azt döntjük el, mit hagyunk ki: csak az marad, amiért téged választanak. Ha mindent egyszerre mondanánk, semmi nem maradna meg.": [
+  "First we decide what to leave out: only what people choose you for stays. If we said everything at once, nothing would stick.",
+  "Zuerst entscheiden wir, was wir weglassen: Es bleibt nur, wofür man Sie wählt. Würden wir alles auf einmal sagen, bliebe nichts hängen."
  ],
  "A technológia az ötletet követi.": [
   "Technology follows the idea.",
@@ -424,9 +424,9 @@
   "Websites built in custom code, and monthly SEO, for businesses that expect their website to bring in clients.",
   "Websites aus individuellem Code und monatliche Suchmaschinenoptimierung für Unternehmen, die von ihrer Website Kunden erwarten."
  ],
- "Rapidkert · weboldal, keresőoptimalizálás, Google Ads": [
-  "Rapidkert · website, SEO, Google Ads",
-  "Rapidkert · Website, SEO, Google Ads"
+ "Rapidkert · kertépítés és öntözéstechnika · weboldal, keresőoptimalizálás, Google Ads": [
+  "Rapidkert · landscaping and irrigation · website, SEO, Google Ads",
+  "Rapidkert · Gartenbau und Bewässerungstechnik · Website, SEO, Google Ads"
  ],
  "Ennyi az ajánlatkérések becsült értéke, amely organikus keresésből érkezett a weboldalon keresztül, a beérkezett ajánlatkérések alapján.": [
   "The estimated value of the quote requests that came in through the website from organic search, based on the requests received.",
@@ -476,13 +476,13 @@
   "If your product is hard to explain, 3D shows it for you. Your customer turns it, puts it together and sees in advance what they will get.",
   "Wenn Ihr Produkt schwer zu erklären ist, zeigt 3D es für Sie. Ihre Kundschaft dreht es, setzt es zusammen und sieht vorab, was sie bekommt."
  ],
- "Sebességben, használhatóságban és üzletileg. Az átadás után sem tűnünk el: ha valami nem úgy működik, ahogy kell, tudod, kit hívj.": [
-  "In speed, in use and in business terms. We don’t disappear after handover: if something doesn’t work as it should, you know whom to call.",
-  "In Geschwindigkeit, Bedienbarkeit und wirtschaftlich. Nach der Übergabe verschwinden wir nicht: Wenn etwas nicht so funktioniert, wie es soll, wissen Sie, wen Sie anrufen."
+ "Gyors, mobilon is könnyen használható oldalt építünk. Az átadás után sem tűnünk el: karbantartást is vállalunk, és ha valami nem működik, tudod, kit hívj.": [
+  "We build fast sites that are easy to use on mobile too. We don’t disappear after handover: we also offer maintenance, and if something doesn’t work, you know who to call.",
+  "Wir bauen schnelle Websites, die auch mobil leicht zu bedienen sind. Nach der Übergabe verschwinden wir nicht: Wir übernehmen auch die Wartung, und wenn etwas nicht funktioniert, wissen Sie, wen Sie anrufen."
  ],
- "Meséld el, mit csinálsz, és honnan jönnek ma az ügyfeleid. Mi elmondjuk, mi segítene, és azt is, mi nem.": [
-  "Tell us what you do and where your clients come from today. We’ll tell you what would help, and what wouldn’t.",
-  "Erzählen Sie uns, was Sie tun und woher Ihre Kunden heute kommen. Wir sagen Ihnen, was helfen würde, und auch, was nicht."
+ "Egy rövid, ingyenes beszélgetésben meséld el, mit csinálsz, és honnan jönnek ma az ügyfeleid. Mi elmondjuk, mi segítene, és azt is, mi nem.": [
+  "In a short, free conversation, tell us what you do and where your clients come from today. We’ll tell you what would help, and what wouldn’t.",
+  "Erzählen Sie uns in einem kurzen, kostenlosen Gespräch, was Sie tun und woher Ihre Kunden heute kommen. Wir sagen Ihnen, was helfen würde, und auch, was nicht."
  ],
  "vagy írj nekünk: <a href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>": [
   "or write to us: <a href=\"mailto:hello@stratosweb.hu\">hello@stratosweb.hu</a>",
@@ -493,17 +493,17 @@
   "So they find you. And remember you.",
   "Damit man Sie findet. Und nicht vergisst."
  ],
- "Ajánlatkérés, organikus keresésből.": [
-  "In quote requests, from organic search.",
-  "An Angebotsanfragen, aus der organischen Suche."
+ "A Rapidkert kb. 110 millió forint értékű ajánlatkérést kapott a Google nem fizetett találataiból.": [
+  "Rapidkert received quote requests worth about 110 million forints from Google’s unpaid results.",
+  "Rapidkert erhielt aus den unbezahlten Google-Ergebnissen Angebotsanfragen im Wert von etwa 110 Millionen Forint."
  ],
  "becsült érték, a beérkezett ajánlatkérések alapján": [
   "estimated value, based on the requests received",
   "geschätzter Wert, nach den eingegangenen Anfragen"
  ],
- "Valaki éppen most írja be a Google-be, amit te csinálsz. Ha nem az első találatok között vagy, a konkurensedet hívja fel. Havonta dolgozunk azon, hogy feljebb kerülj: a Google-ben, és ott is, ahol már a ChatGPT-től kérdeznek.": [
-  "Someone is typing what you do into Google right now. If you’re not among the first results, they call your competitor. Every month we work on moving you higher: on Google, and wherever people now ask ChatGPT.",
-  "Gerade gibt jemand bei Google ein, was Sie anbieten. Stehen Sie nicht unter den ersten Treffern, ruft er die Konkurrenz an. Jeden Monat arbeiten wir daran, dass Sie weiter nach oben kommen: bei Google, und dort, wo man inzwischen ChatGPT fragt."
+ "Valaki ebédszünetben beírja a telefonjába: „könyvelő Debrecen”, és az első találatok közül választ. A te ügyfeleid jó része is így keres. Folyamatos keresőoptimalizálással azon dolgozunk, hogy a Google-ben és az AI-keresőkben is az elsők között legyél.": [
+  "At lunchtime someone types into their phone: “accountant Debrecen”, and picks from the first results. Many of your clients search the same way. With ongoing SEO we work to put you among the first on Google and in AI search.",
+  "In der Mittagspause tippt jemand ins Handy: „Steuerberater Debrecen“, und wählt aus den ersten Treffern. Viele Ihrer Kunden suchen genauso. Mit laufender Suchmaschinenoptimierung arbeiten wir daran, dass Sie bei Google und in KI-Suchen zu den Ersten gehören."
  ],
  "havi riport · az első eredmények általában 3–6 hónap után": [
   "monthly report · first results usually after 3–6 months",
@@ -513,9 +513,9 @@
   "One team. One owner.",
   "Ein Team. Ein Verantwortlicher."
  ],
- "Nem kell négy beszállítót összehangolnod. Egyszer mondod el, mit szeretnél, és ugyanazok viszik végig, akiknek elmondtad.": [
-  "You don’t have to coordinate four suppliers. You say once what you want, and the people you told carry it through.",
-  "Sie müssen keine vier Dienstleister koordinieren. Sie sagen einmal, was Sie möchten, und dieselben Menschen, denen Sie es gesagt haben, setzen es um."
+ "Nem kell négy beszállítót összehangolnod. A tervezést, a szöveget, a fejlesztést, a keresőoptimalizálást és a hirdetést ugyanaz a csapat viszi végig. Tőled pár anyag és jóváhagyás kell, a többit mi visszük.": [
+  "You don’t have to coordinate four suppliers. Design, copy, development, SEO and advertising are carried through by the same team. From you we need a few materials and approvals; we do the rest.",
+  "Sie müssen keine vier Dienstleister koordinieren. Gestaltung, Text, Entwicklung, Suchmaschinenoptimierung und Werbung übernimmt von Anfang bis Ende dasselbe Team. Von Ihnen brauchen wir ein paar Unterlagen und Freigaben, den Rest übernehmen wir."
  ],
  "Egyedi kód. A tiéd marad.": [
   "Custom code. It stays yours.",
@@ -538,36 +538,44 @@
   "Where they arrive.",
   "Wo sie ankommen."
  ],
- "A látogató fél percet ad neked. Ennyi idő alatt kell megértenie, mit csinálsz, és miért téged hívjon.": [
-  "A visitor gives you thirty seconds. In that time they need to understand what you do, and why they should call you.",
-  "Ein Besucher gibt Ihnen eine halbe Minute. In dieser Zeit muss er verstehen, was Sie tun und warum er gerade Sie anrufen sollte."
+ "Úgy építjük meg a weboldalad, hogy már az első képernyőn kiderüljön, mit csinálsz, és miért téged hívjanak. Ha már van oldalad, előbb megnézzük, mi menthető belőle.": [
+  "We build your website so that the very first screen makes clear what you do and why people should call you. If you already have a site, we first look at what can be kept.",
+  "Wir bauen Ihre Website so, dass schon der erste Bildschirm zeigt, was Sie tun und warum man Sie anrufen sollte. Wenn Sie schon eine Website haben, schauen wir zuerst, was sich retten lässt."
  ],
  "Ahonnan jönnek.": [
   "Where they come from.",
   "Woher sie kommen."
  ],
- "Google, hirdetés, AI-keresők. Havonta megmutatjuk, honnan jött, aki hívott vagy írt.": [
-  "Google, ads, AI search. Every month we show you where the people who called or wrote came from.",
-  "Google, Anzeigen, KI-Suche. Jeden Monat zeigen wir Ihnen, woher die kamen, die angerufen oder geschrieben haben."
+ "Az érdeklődőt a Google találatai, a hirdetések és az AI-keresők hozzák. Mi mindhármat egy kézben tartjuk, így látszik, melyik hoz ajánlatkérést, és melyik csak látogatót.": [
+  "Enquiries come from Google results, ads and AI search. We keep all three in one hand, so you can see which one brings quote requests and which only brings visitors.",
+  "Interessenten kommen über Google-Treffer, Anzeigen und KI-Suchen. Wir haben alle drei in einer Hand, so sehen Sie, was Angebotsanfragen bringt und was nur Besucher."
  ],
  "Amit látniuk kell.": [
   "What they need to see.",
   "Was sie sehen müssen."
  ],
- "Van, amit egy fotó nem mutat meg. Ilyenkor a vevő maga forgatja körbe, és mire ír, már tudja, mit akar.": [
-  "Some things a photo can’t show. Then the customer turns it round themselves, and by the time they write, they know what they want.",
-  "Manches zeigt kein Foto. Dann dreht der Kunde es selbst, und wenn er schreibt, weiß er schon, was er will."
+ "Ha egy fotó nem mutatja meg, mit árulsz, 3D-ben mutatjuk meg. A vevő maga forgatja körbe, így mire ír, többnyire már tudja, mit akar.": [
+  "When a photo can’t show what you sell, we show it in 3D. The buyer turns it around themselves, so by the time they write, they usually know what they want.",
+  "Wenn ein Foto nicht zeigt, was Sie verkaufen, zeigen wir es in 3D. Der Kunde dreht es selbst, und wenn er schreibt, weiß er meist schon, was er will."
  ],
- "Cégvezetőkkel és vállalkozókkal dolgozunk, akikhez az új ügyfél a keresőből érkezik. Megtervezzük, megírjuk és felépítjük a weboldaladat, aztán hónapról hónapra feljebb visszük a Google-ben, hogy a te telefonod csörögjön, ne a konkurensedé.": [
-  "We work with business owners whose new clients find them through search. We design, write and build your website, then move it higher on Google month after month, so it’s your phone that rings, not your competitor’s.",
-  "Wir arbeiten für Unternehmen, deren neue Kunden über die Suche kommen. Wir gestalten, texten und bauen Ihre Website und bringen sie danach Monat für Monat weiter nach oben bei Google, damit Ihr Telefon klingelt und nicht das der Konkurrenz."
+ "A Stratos Webdesignnál az egész országban tervezünk, írunk és építünk weboldalt cégvezetőknek és vállalkozóknak. Ha kéred, a keresőoptimalizálást is mi visszük, hogy a te telefonod csörögjön, ne a konkurensedé.": [
+  "At Stratos Webdesign we design, write and build websites for business owners and managers across Hungary. If you want, we take care of SEO too, so that your phone rings, not your competitor’s.",
+  "Bei Stratos Webdesign gestalten, schreiben und bauen wir Websites für Geschäftsführer und Unternehmer in ganz Ungarn. Auf Wunsch übernehmen wir auch die Suchmaschinenoptimierung, damit Ihr Telefon klingelt, nicht das Ihrer Konkurrenz."
  ],
- "Első helyet nem ígérünk, mert azt nem mi döntjük el. Azt igen, hogy minden hónapban látod, mi történt, és mi jön.": [
-  "We don’t promise first place, because that isn’t ours to decide. What we do promise is that every month you see what happened, and what comes next.",
-  "Platz eins versprechen wir nicht, denn darüber entscheiden nicht wir. Versprechen können wir, dass Sie jeden Monat sehen, was passiert ist und was als Nächstes kommt."
+ "Első helyet nem ígérünk, mert azt nem mi döntjük el. Amit vállalunk: minden hónapban látod, mi történt, és mi jön.": [
+  "We don’t promise first place, because that isn’t ours to decide. What we do promise: every month you see what happened and what comes next.",
+  "Einen ersten Platz versprechen wir nicht, denn den entscheiden nicht wir. Was wir zusagen: Jeden Monat sehen Sie, was passiert ist und was als Nächstes kommt."
  ],
- "Egy terméket, egy gépet vagy egy épületet a vevő maga forgat körbe a képernyőn, és még a hívás előtt érti, mit kap.": [
-  "A product, a machine or a building: the customer turns it round on screen, and understands what they’re getting before they call.",
-  "Ein Produkt, eine Maschine oder ein Gebäude: Der Kunde dreht es selbst am Bildschirm und versteht schon vor dem Anruf, was er bekommt."
+ "Awwwards Honorable Mention, 2026": [
+  "Awwwards Honorable Mention, 2026",
+  "Awwwards Honorable Mention, 2026"
+ ],
+ "Írd le pár mondatban, mit csinálsz, és honnan jönnek ma az ügyfeleid. Egy rövid, ingyenes beszélgetésben elmondjuk, mi segítene, és azt is, mi nem. Ha továbblépünk, tételes ajánlatot kapsz: mi készül, és mikorra.": [
+  "Write a few sentences about what you do and where your clients come from today. In a short, free conversation we’ll tell you what would help, and what wouldn’t. If we go ahead, you get an itemised quote: what gets built, and by when.",
+  "Schreiben Sie in ein paar Sätzen, was Sie tun und woher Ihre Kunden heute kommen. In einem kurzen, kostenlosen Gespräch sagen wir Ihnen, was helfen würde, und auch, was nicht. Wenn wir weitermachen, erhalten Sie ein aufgeschlüsseltes Angebot: was entsteht und bis wann."
+ ],
+ "Az ajánlat rögzíti, mikorra küldd el a fotókat, a szolgáltatásaid listáját és a hozzáféréseket.": [
+  "The quote sets when to send us the photos, the list of your services and the access details.",
+  "Das Angebot legt fest, bis wann Sie uns die Fotos, die Liste Ihrer Leistungen und die Zugänge schicken."
  ]
 }
