@@ -472,14 +472,15 @@ body {
 }
 
 /* --------------------------------------------------------------- 07 · marks */
-/* Proof that is established rather than advertised: every mark, in static rows
-   of the page's ink, at the volume of a footnote. Twelve marks fill rows of six,
-   four or three exactly. */
+/* Proof that is established rather than advertised: every mark, in the page's
+   ink at the volume of a footnote. With the script they run as one row (owner,
+   2026-10-30); without it, or for a reader who asked for less motion, fifteen
+   marks fill rows of five or three exactly. */
 .marks { padding: var(--sp-7) 0 var(--sp-8); }
 .marks__k { margin-bottom: var(--sp-6); }
 .logoset--marks {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: clamp(1rem, 3vw, 3rem);
   align-items: center;
   margin: 0;
@@ -507,9 +508,6 @@ body {
 @media (hover: hover) {
   .logoset--marks li:hover img { filter: none; opacity: 1; }
 }
-@media (max-width: 1100px) {
-  .logoset--marks { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-}
 @media (max-width: 760px) {
   .logoset--marks { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: var(--sp-5); }
   .logoset--marks li { height: 64px; }
@@ -517,12 +515,35 @@ body {
   /* As a carousel (system.css) the row moves, so its rule stays on the frame. */
   .logo-rail--marks { padding-top: var(--sp-5); border-top: 1px solid var(--c-line); }
 }
-/* Split into two rows on a phone (shell.js) and then turned sideways past a
-   phone's width: six a row and one rule over both, so the halves read as the
-   one grid they were. */
+/* Wider than a phone the marks run as one row (shell.js), the rule on the
+   frame since the row moves, and the row holds still under the pointer so a
+   mark can be read in its colour. A rail framed on a phone and then turned
+   sideways keeps its two rows, running opposite ways. */
 @media (min-width: 761px) {
-  .logo-rail--marks .logoset--marks { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-  .logo-rail__view + .logo-rail__view .logoset--marks { padding-top: clamp(1rem, 3vw, 3rem); border-top: 0; }
+  .logo-rail--marks { padding-top: var(--sp-6); border-top: 1px solid var(--c-line); }
+  .logo-rail--marks .logo-rail__view {
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  }
+  .logo-rail--marks .logoset--marks.is-rail {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+    width: max-content;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    animation: logo-rail var(--rail-time, 40s) linear infinite;
+  }
+  .logo-rail--marks .logoset--marks.is-rail [data-logo] { flex: none; width: 168px; height: 84px; margin-right: 56px; }
+  .logo-rail--marks .logoset--marks.is-rail [data-logo] img { max-width: 100%; max-height: 56px; }
+  .logo-rail--marks .logoset--marks.is-rail.is-reverse { animation-direction: reverse; }
+  .logo-rail--marks .logo-rail__view + .logo-rail__view { margin-top: var(--sp-4); }
+  .logo-rail--marks.is-paused .logoset, .logo-rail--marks.is-held .logoset { animation-play-state: paused; }
+}
+@media (min-width: 761px) and (hover: hover) {
+  .logo-rail--marks:hover .logoset { animation-play-state: paused; }
 }
 
 /* --------------------------------------------------------------- 08 · close */

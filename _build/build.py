@@ -369,6 +369,14 @@ ORGS = {
     # the munka-mentaltrening case study, under its new name and domain.
     "mindforge": {"name": "MindForge", "asset": "assets/img/logo-mindforge.png", "ready": True, "relationship": "client"},
     "reverb": {"name": "Reverb Content", "asset": "assets/img/logo-reverb.png", "ready": True, "relationship": "client"},
+    # Dasty Professional and Olajcserepont — clients; the owner supplied the
+    # artwork on 2026-10-30. Dasty is cropped to its mark, its drop shadow
+    # taken off (owner, the same day).
+    # Olajcserepont's wordmark and arrows are knockout white in the original,
+    # invisible on a light band; this file has them in dark ink (#1E1E1E), the
+    # yellow disc with its white drops and the pin untouched.
+    "dasty": {"name": "Dasty Professional", "asset": "assets/img/logo-dasty.png", "ready": True, "relationship": "client"},
+    "olajcserepont": {"name": "Olajcserepont", "asset": "assets/img/logo-olajcserepont.png", "ready": True, "relationship": "client"},
     # ---- support relationships. Artwork arrived; neither is a collaboration.
     #
     # These two are the reason `relationship` exists as a field rather than a

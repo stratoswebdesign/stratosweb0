@@ -891,10 +891,11 @@ html.is-locked, html.is-locked body { overflow: hidden; }
   .logo-rail.is-paused .logoset, .logo-rail.is-held .logoset { animation-play-state: paused; }
 }
 @keyframes logo-rail { to { transform: translate3d(var(--rail-shift, -50%), 0, 0); } }
-/* Wider than a phone the frame is no box at all and the copies are gone. */
+/* Wider than a phone the frame is no box at all and the copies are gone —
+   except the home page's marks, which run at every width (home.css). */
 @media (min-width: 761px) {
-  .logo-rail, .logo-rail__view { display: contents; }
-  .logoset [data-rail-copy] { display: none; }
+  .logo-rail:not(.logo-rail--marks), .logo-rail:not(.logo-rail--marks) .logo-rail__view { display: contents; }
+  .logoset:not(.logoset--marks) [data-rail-copy] { display: none; }
 }
 
 /* --------------------------------------------------------------- consent */
