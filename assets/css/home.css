@@ -80,6 +80,9 @@ body {
   margin-top: clamp(2.25rem, 7vh, 5rem);
 }
 .hero__lede { color: var(--c-ink-2); }
+/* The one paragraph under the line (tone pass after o2tanacsado.hu, 2026-10-29):
+   who we work with and what we do for them, in the reader's own terms. */
+.hero__intro { margin-top: var(--sp-4); color: var(--c-ink-2); }
 
 /* Two actions — the button and the text link, the home's two kinds — with
    the microcopy under them, and the proof line closing the hero (copy pack,
