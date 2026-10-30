@@ -2449,6 +2449,21 @@ CLOSE_ARCHETYPE = {
     "about": "cta_about", "impact": "cta_about",
     **{k: "cta_article" for k in POSTS}, "blog": "cta_article",
 }
+# A route whose reader is not a business owner gets its own closing line. The
+# Impact Program speaks to nonprofits, in the page's ti-form.
+CLOSE_LEDE = {
+    "impact": {
+        "hu": "Írjátok le pár mondatban, mivel foglalkozik a szervezetetek, és "
+              "kiknek segítetek. Egy rövid, ingyenes beszélgetésben elmondjuk, "
+              "mi segítene, és azt is, mi nem.",
+        "en": "Write a few sentences about what your organisation does and who "
+              "you help. In a short, free conversation we’ll tell you what would "
+              "help, and what wouldn’t.",
+        "de": "Schreiben Sie in ein paar Sätzen, was Ihre Organisation tut und "
+              "wem Sie helfen. In einem kurzen, kostenlosen Gespräch sagen wir "
+              "Ihnen, was helfen würde, und auch, was nicht.",
+    },
+}
 # Routes that end without it: the questionnaire is the destination, the contact
 # page is a form, legal text is not a sales page.
 NO_CLOSE = {"index", "quote", "contact", "booking", "privacy", "imprint", "404"}
@@ -2467,7 +2482,7 @@ def build_close_v2(lang, key):
     u, v = UI[lang], V2_UI[lang]
     head = u["p85"][CLOSE_ARCHETYPE[key]] if key in CLOSE_ARCHETYPE else v["close_head"]
     return render(CLOSE_V2, dict(
-        head=head, lede=v["close_lede"],
+        head=head, lede=CLOSE_LEDE.get(key, {}).get(lang, v["close_lede"]),
         quote=href(lang, "quote"), start=u["p85"]["start"], arrow=ARROW_V2,
         mail=v["close_mail"],
     ))
