@@ -27,9 +27,9 @@
   "Two causes<br>close to us",
   "Zwei Anliegen,<br>die uns nahegehen"
  ],
- "Oda figyelünk, ahol a jó digitális munka a legtöbb életet változtathatja meg.": [
-  "We focus where good digital work can change the most lives.",
-  "Wir konzentrieren uns dort, wo gute digitale Arbeit die meisten Leben verändern kann."
+ "Úgy látjuk, ezen a két területen számít a legtöbbet, hogy aki segítséget keres, gyorsan megtalálja a megfelelő szervezetet.": [
+  "As we see it, these two areas are where it matters most that someone looking for help finds the right organisation quickly.",
+  "Aus unserer Sicht zählt es in diesen beiden Bereichen am meisten, dass Hilfesuchende schnell die richtige Organisation finden."
  ],
  "Ügy 01": [
   "Cause 01",
@@ -175,9 +175,9 @@
   "Review",
   "Auswahl"
  ],
- "Minden jelentkező szervezetet gondosan átnézünk.": [
-  "We review every applying organisation carefully.",
-  "Wir prüfen jede sich bewerbende Organisation sorgfältig."
+ "Minden jelentkezést elolvasunk, és ha van, a mostani weboldalatokat is megnézzük.": [
+  "We read every application, and if you have one, we look at your current website too.",
+  "Wir lesen jede Bewerbung und sehen uns, falls vorhanden, auch Ihre jetzige Website an."
  ],
  "Egyeztetés": [
   "A conversation",
@@ -187,9 +187,9 @@
   "Building the website",
   "Website-Bau"
  ],
- "Közösen felépítünk egy professzionális digitális jelenlétet.": [
-  "Together we build a professional digital presence.",
-  "Gemeinsam bauen wir einen professionellen digitalen Auftritt."
+ "Megtervezzük és megépítjük az oldalt, a szövegeken és a fotókon közösen dolgozunk. Az indulás után technikai támogatást kaptok.": [
+  "We design and build the site, and we work on the copy and photos together. After launch you get technical support.",
+  "Wir gestalten und bauen die Website, an Texten und Fotos arbeiten wir gemeinsam. Nach dem Start erhalten Sie technischen Support."
  ],
  "A víziónk": [
   "Our vision",
@@ -219,9 +219,9 @@
   "How many organisations do you select?",
   "Wie viele Organisationen wählen Sie aus?"
  ],
- "Évente csak néhányat. Szándékosan tartjuk kicsiben a létszámot, hogy minden szervezet teljes figyelmet és a legmagasabb színvonalú weboldalt kapja.": [
-  "Only a handful each year. We deliberately keep the number small so every organisation gets our full attention and the highest quality website.",
-  "Nur eine Handvoll pro Jahr. Wir halten die Zahl bewusst klein, damit jede Organisation volle Aufmerksamkeit und die bestmögliche Website bekommt."
+ "Évente csak néhányat. A számot szándékosan tartjuk alacsonyan: így minden kiválasztott szervezetre ugyanannyi figyelem jut, mint egy fizető ügyfélre.": [
+  "Only a handful each year. We keep the number low on purpose: that way every selected organisation gets the same attention as a paying client.",
+  "Nur eine Handvoll pro Jahr. Wir halten die Zahl bewusst niedrig: So bekommt jede ausgewählte Organisation dieselbe Aufmerksamkeit wie ein zahlender Kunde."
  ],
  "Karbantartjátok a weboldalt?": [
   "Do you maintain the website?",
@@ -307,17 +307,17 @@
   "Every year we build a professional website for a few nonprofits, free of charge, so that their digital presence matches the work they do.",
   "Jedes Jahr bauen wir einigen gemeinnützigen Organisationen kostenlos eine professionelle Website, damit ihr digitaler Auftritt ihrer Arbeit gerecht wird."
  ],
- "A Stratos Webdesign azért jött létre, hogy ambiciózus márkák ambiciózusan nézzenek ki online. Ez a program máshonnan indult.": [
-  "Stratos Webdesign exists so that ambitious brands look ambitious online. This programme started somewhere else.",
-  "Stratos Webdesign gibt es, damit ambitionierte Marken online auch ambitioniert aussehen. Dieses Programm hat einen anderen Ursprung."
+ "A Stratos Webdesign cégeknek és vállalkozóknak tervez és épít weboldalt. Az Impact Program máshonnan indult.": [
+  "Stratos Webdesign designs and builds websites for companies and business owners. The Impact Program started somewhere else.",
+  "Stratos Webdesign gestaltet und baut Websites für Firmen und Unternehmer. Das Impact-Programm hat einen anderen Ursprung."
  ],
- "Az alapító azért hozta létre az Impact Programot, mert a függőség hozzá közel álló embereket is érintett. Ezeket a küzdelmeket közelről látva vált világossá számára, mennyire fontosak a rehabilitációval, a prevencióval és a mentális egészséggel foglalkozó szervezetek, és milyen gyakran tartja vissza őket egy elavult weboldal, miközben rendkívüli munkát végeznek.": [
-  "Our founder created the Impact Program because addiction touched people close to him. Seeing those struggles up close made it clear how vital organisations working in rehabilitation, prevention and mental health are, and how often an outdated website holds them back while they do extraordinary work.",
-  "Unser Gründer hat das Impact-Programm ins Leben gerufen, weil Sucht Menschen in seinem nahen Umfeld betroffen hat. Diese Kämpfe aus der Nähe zu sehen machte ihm klar, wie wichtig Organisationen in Rehabilitation, Prävention und psychischer Gesundheit sind, und wie oft eine veraltete Website sie ausbremst, während sie Außergewöhnliches leisten."
+ "Alapítónk a saját környezetében találkozott a függőséggel: hozzá közel álló embereket is érintett. Közelről látta, mennyit számítanak a rehabilitációval, a prevencióval és a mentális egészséggel foglalkozó szervezetek. Látta azt is, milyen gyakran fogja vissza a munkájukat egy elavult weboldal.": [
+  "Our founder came across addiction in his own circle: it affected people close to him. He saw up close how much organisations working in rehabilitation, prevention and mental health matter. He also saw how often an outdated website holds their work back.",
+  "Unser Gründer ist der Sucht im eigenen Umfeld begegnet: Sie hat Menschen getroffen, die ihm nahestehen. Er hat aus der Nähe gesehen, wie viel Organisationen in Rehabilitation, Prävention und psychischer Gesundheit bewirken. Und auch, wie oft eine veraltete Website ihre Arbeit ausbremst."
  ],
- "A cél az, hogy ezek a szervezetek több emberhez jussanak el, akiknek szükségük van rájuk, és nagyobb hatást érjenek el.": [
-  "The goal is for these organisations to reach more of the people who need them, and to have a greater impact.",
-  "Das Ziel ist, dass diese Organisationen mehr Menschen erreichen, die sie brauchen, und größere Wirkung entfalten."
+ "A program célja, hogy a szervezetetek több emberhez jusson el azok közül, akiknek szükségük van rátok.": [
+  "The programme’s goal is for your organisation to reach more of the people who need you.",
+  "Ziel des Programms ist, dass Ihre Organisation mehr der Menschen erreicht, die Sie brauchen."
  ],
  "A Stratos Webdesign csapata": [
   "The Stratos Webdesign team",
@@ -327,9 +327,9 @@
   "What your<br>website is<br><span class=\"chr\">made of</span>",
   "Woraus Ihre<br>Website<br><span class=\"chr\">besteht</span>"
  ],
- "Minden kiválasztott szervezet professzionális weboldalt kap, ugyanazzal a gondossággal és mércével, mint a fizető ügyfeleink. A terjedelmet a jelentkezés után közösen rögzítjük, és ebből azt építjük meg, amire a szervezeteteknek szüksége van.": [
-  "Every selected organisation gets a professional website, built with the same care and to the same standard as for our paying clients. We agree the scope together after you apply, and within it we build what your organisation needs.",
-  "Jede ausgewählte Organisation erhält eine professionelle Website, mit derselben Sorgfalt und nach demselben Maßstab wie für unsere zahlenden Kunden. Den Umfang legen wir nach der Bewerbung gemeinsam fest, und darin bauen wir, was Ihre Organisation braucht."
+ "A terjedelmet a jelentkezés után közösen rögzítjük: nem mindenkinek kell eseményoldal vagy blog, de mindenkinek fontos, hogy megtalálják és elérjék. Az alábbiakból azt építjük meg, amire a szervezeteteknek szüksége van.": [
+  "We agree the scope together after you apply: not everyone needs an events page or a blog, but everyone needs to be found and reached. From the list below, we build what your organisation needs.",
+  "Den Umfang legen wir nach der Bewerbung gemeinsam fest: Nicht jede Organisation braucht eine Veranstaltungsseite oder einen Blog, aber jede muss gefunden und erreicht werden. Aus der folgenden Liste bauen wir, was Ihre Organisation braucht."
  ],
  "Felhasználói élmény és felülettervezés": [
   "User experience and interface design",
@@ -379,9 +379,9 @@
   "Technical support after launch",
   "Technischer Support nach dem Start"
  ],
- "A tervezés, a fejlesztés és az élesítés költségét mi álljuk. Rejtett díjak nincsenek.": [
-  "We cover the cost of design, development and launch. There are no hidden fees.",
-  "Die Kosten für Konzeption, Entwicklung und Launch übernehmen wir. Versteckte Gebühren gibt es nicht."
+ "A tervezés, a fejlesztés és az oldal elindításának költségét mi álljuk. Rejtett díjak nincsenek.": [
+  "We cover the cost of design, development and launching the site. There are no hidden fees.",
+  "Die Kosten für Konzeption, Entwicklung und den Start der Website übernehmen wir. Versteckte Gebühren gibt es nicht."
  ],
  "Azoknak,<br>akik másokért<br>dolgoznak": [
   "For those<br>who work<br>for others",
@@ -395,21 +395,21 @@
   "<b style=\"color:inherit;font-weight:600\">Priority goes to</b> organisations working in recovery, mental health and child protection, but any organisation with significant social impact can apply.",
   "<b style=\"color:inherit;font-weight:600\">Vorrang haben</b> Organisationen in den Bereichen Genesung, psychische Gesundheit und Kinderschutz, bewerben kann sich aber jede Organisation mit bedeutender gesellschaftlicher Wirkung."
  ],
- "A szervezetek beküldik a jelentkezésüket, és elmondják a történetüket.": [
-  "Organisations send in their application and tell their story.",
-  "Organisationen reichen ihre Bewerbung ein und erzählen ihre Geschichte."
+ "Kitöltitek a lenti űrlapot, és elmondjátok, mivel foglalkoztok, mit értetek el eddig, és miért lenne fontos egy új weboldal.": [
+  "You fill in the form below and tell us what you do, what you’ve achieved so far and why a new website would matter.",
+  "Sie füllen das Formular unten aus und erzählen, womit Sie sich beschäftigen, was Sie bisher erreicht haben und warum eine neue Website wichtig wäre."
  ],
- "Átbeszéljük az igényeket, a célokat és a lehetőségeket, és közösen rögzítjük a weboldal terjedelmét.": [
-  "We go through needs, goals and possibilities together, and agree the scope of the website.",
-  "Wir besprechen Bedarf, Ziele und Möglichkeiten und legen gemeinsam den Umfang der Website fest."
+ "Elmondjátok, kiket szeretnétek elérni, és mire van szükségetek, mi pedig figyelünk. A beszélgetés végén közösen rögzítjük a weboldal terjedelmét.": [
+  "You tell us who you want to reach and what you need, and we listen. At the end of the conversation we agree the scope of the website together.",
+  "Sie erzählen, wen Sie erreichen möchten und was Sie brauchen, und wir hören zu. Am Ende des Gesprächs legen wir gemeinsam den Umfang der Website fest."
  ],
  "A DPA weboldala jelenleg az Impact Programon keresztül épül. Ugyanaz a munka és ugyanaz a mérce, mint bármelyik másik projektnél, csak nincs számla a végén.": [
   "DPA's website is being built through the Impact Program right now. The same work and the same standard as any other project, there just isn't an invoice at the end.",
   "Die Website von DPA entsteht gerade über das Impact-Programm. Dieselbe Arbeit und derselbe Maßstab wie bei jedem anderen Projekt, nur steht am Ende keine Rechnung."
  ],
- "Hosszú távra tervezzük. Az elkövetkező években minél több nonprofit weboldalt szeretnénk megépíteni, és hozzájárulni az erősebb közösségekhez Magyarországon.": [
-  "We are planning for the long term. Over the coming years we want to build as many nonprofit websites as we can, and contribute to stronger communities in Hungary.",
-  "Wir planen langfristig. In den kommenden Jahren wollen wir möglichst viele Non-Profit-Websites bauen und zu stärkeren Gemeinschaften in Ungarn beitragen."
+ "A programot hosszú távra tervezzük: az elkövetkező években minél több nonprofit szervezetnek szeretnénk weboldalt építeni Magyarországon.": [
+  "We’re planning the programme for the long term: over the coming years we want to build websites for as many nonprofit organisations in Hungary as we can.",
+  "Wir planen das Programm langfristig: In den kommenden Jahren möchten wir möglichst vielen gemeinnützigen Organisationen in Ungarn eine Website bauen."
  ],
  "Évről évre": [
   "Year after year",
@@ -431,49 +431,49 @@
   "For the selected organisations",
   "Für die ausgewählten Organisationen"
  ],
- "Ezt előre leírjuk, mert a csalódás rosszabb, mint az elutasítás. Ha bármelyik pont kizáró a szervezetetek számára, jobb most tudni.": [
-  "We state this in advance, because disappointment is worse than rejection. If any of these rules your organisation out, it's better to know now.",
-  "Wir schreiben das vorab, weil Enttäuschung schlimmer ist als eine Absage. Wenn einer dieser Punkte für Ihre Organisation ein Ausschluss ist, ist es besser, das jetzt zu wissen."
+ "A határokat előre leírjuk, mert a csalódás rosszabb, mint az elutasítás. Ha valamelyik pont nálatok nem működne, jobb most kiderülnie, mint a munka közepén.": [
+  "We set out the limits in advance, because disappointment is worse than rejection. If any of these wouldn’t work for you, it’s better to find out now than halfway through the work.",
+  "Die Grenzen schreiben wir vorab auf, weil Enttäuschung schlimmer ist als eine Absage. Wenn einer dieser Punkte bei Ihnen nicht passt, ist es besser, das jetzt zu merken als mitten in der Arbeit."
  ],
- "A jelentkezés nem jelenti azt, hogy a szervezet bekerül a programba. Egyszerre néhány szervezettel tudunk dolgozni, ezért több jó jelentkezést is el kell utasítanunk.": [
-  "Applying does not mean the organisation joins the programme. We can work with only a few organisations at a time, so we have to turn down good applications as well.",
-  "Eine Bewerbung bedeutet nicht, dass die Organisation ins Programm aufgenommen wird. Wir können gleichzeitig nur mit wenigen Organisationen arbeiten und müssen deshalb auch gute Bewerbungen absagen."
+ "A jelentkezés nem jelenti, hogy bekerültök a programba. Egyszerre csak néhány szervezettel tudunk dolgozni, így jó jelentkezéseket is el kell utasítanunk.": [
+  "Applying doesn’t mean you’re in the programme. We can only work with a few organisations at a time, so we have to turn down good applications too.",
+  "Eine Bewerbung bedeutet nicht, dass Sie ins Programm aufgenommen sind. Wir können gleichzeitig nur mit wenigen Organisationen arbeiten und müssen daher auch gute Bewerbungen absagen."
  ],
- "A tartalomhoz (szövegek, fotók, adatok) a szervezet közreműködése kell. Enélkül a legjobb weboldal is üres marad.": [
-  "The content (text, photographs, figures) needs the organisation's involvement. Without it, even the best website stays empty.",
-  "Für die Inhalte (Texte, Fotos, Daten) braucht es die Mitwirkung der Organisation. Ohne sie bleibt auch die beste Website leer."
+ "A szövegekhez, a fotókhoz és az adatokhoz a ti közreműködésetek kell: a legjobb weboldal is üres marad, ha nincs mit megmutatni rajta.": [
+  "The copy, photos and figures need your involvement: even the best website stays empty if there’s nothing to show on it.",
+  "Für Texte, Fotos und Daten braucht es Ihre Mitwirkung: Auch die beste Website bleibt leer, wenn es darauf nichts zu zeigen gibt."
  ],
  "Az elbírálás és a kivitelezés is időt vesz igénybe. Ha határidőre kell a weboldal, jelezzétek a jelentkezésben.": [
   "Both assessment and delivery take time. If you need the website by a fixed date, say so in your application.",
   "Sowohl die Prüfung als auch die Umsetzung brauchen Zeit. Wenn Sie die Website zu einem festen Termin brauchen, geben Sie das bitte in der Bewerbung an."
  ],
- "Igen. A kiválasztott szervezetek nem fizetnek a tervezésért, a fejlesztésért és az élesítésért, ezt mi álljuk. A tartalomhoz (szövegek, fotók) viszont a ti közreműködésetek kell.": [
-  "Yes. Selected organisations don't pay for the design, the development or the launch; we cover those. For the content (text, photographs), though, we need your involvement.",
-  "Ja. Ausgewählte Organisationen zahlen nicht für Konzeption, Entwicklung und Launch, das übernehmen wir. Für die Inhalte (Texte, Fotos) brauchen wir allerdings Ihre Mitwirkung."
+ "Igen. A tervezésért, a fejlesztésért és az oldal elindításáért nem fizettek, ezt mi álljuk. A szövegekhez és a fotókhoz viszont a ti közreműködésetek kell.": [
+  "Yes. You don’t pay for the design, the development or the launch; we cover those. For the copy and the photos, though, we need your involvement.",
+  "Ja. Für Konzeption, Entwicklung und den Start der Website zahlen Sie nichts, das übernehmen wir. Für Texte und Fotos brauchen wir allerdings Ihre Mitwirkung."
  ],
- "Mert első kézből láttuk, mennyire fontosak a rehabilitációval, a mentális egészséggel és a gyermekvédelemmel foglalkozó szervezetek. Megvan a szakértelmünk, hogy segítsünk, ezért segítünk.": [
-  "Because we've seen first hand how vital organisations working in rehabilitation, mental health and child protection are. We have the expertise to help, so we help.",
-  "Weil wir aus erster Hand gesehen haben, wie wichtig Organisationen in Rehabilitation, psychischer Gesundheit und Kinderschutz sind. Wir haben das Können zu helfen, also helfen wir."
+ "Mert első kézből láttuk, mennyit számítanak a rehabilitációval, a mentális egészséggel és a gyermekvédelemmel foglalkozó szervezetek. A mi szakmánk a weboldal, ezzel tudunk a legtöbbet segíteni.": [
+  "Because we’ve seen first hand how much organisations working in rehabilitation, mental health and child protection matter. Websites are our trade, so that’s how we can help most.",
+  "Weil wir aus erster Hand gesehen haben, wie viel Organisationen in Rehabilitation, psychischer Gesundheit und Kinderschutz bewirken. Websites sind unser Handwerk, damit können wir am meisten helfen."
  ],
  "Olyan nonprofit szervezetek, amelyek valódi, mérhető társadalmi hatást hoznak létre, és nyitottak az együttműködésre. Előnyben vannak a felépüléssel, a mentális egészséggel és a gyermekvédelemmel foglalkozó szervezetek.": [
   "Nonprofit organisations that create real, measurable social impact and are open to working together. Priority goes to organisations working in recovery, mental health and child protection.",
   "Gemeinnützige Organisationen, die echte, messbare gesellschaftliche Wirkung erzielen und offen für Zusammenarbeit sind. Vorrang haben Organisationen in Genesung, psychischer Gesundheit und Kinderschutz."
  ],
- "Az élesítés után technikai támogatást kaptok az indulás időszakára. A hosszabb távú igényeket az egyeztetésen közösen beszéljük át.": [
-  "After launch you get technical support for the start-up period. Longer-term needs we discuss together during the conversation.",
-  "Nach dem Launch erhalten Sie technischen Support für die Anlaufphase. Längerfristigen Bedarf besprechen wir gemeinsam im Gespräch."
+ "Az indulás időszakában igen: technikai támogatást kaptok. Hogy utána ki és hogyan tartja karban az oldalt, azt az egyeztetésen közösen beszéljük meg.": [
+  "During the launch period, yes: you get technical support. Who maintains the site after that, and how, we agree together in the conversation.",
+  "In der Anlaufphase ja: Sie erhalten technischen Support. Wer die Website danach wie betreut, besprechen wir gemeinsam im Gespräch."
  ],
- "Igen. Akár a nulláról indultok, akár egy elavult oldalt váltanátok le, modern, professzionális jelenlétet építünk az alapoktól.": [
-  "Yes. Whether you're starting from scratch or replacing an outdated site, we build a modern, professional presence from the ground up.",
-  "Ja. Ob Sie bei null anfangen oder eine veraltete Seite ablösen wollen, wir bauen einen modernen, professionellen Auftritt von Grund auf."
+ "Igen. Ha van oldalatok, előbb megnézzük, mi menthető belőle. A domainetek és a tartalmaitok megmaradnak.": [
+  "Yes. If you have a site, we first look at what can be kept. Your domain and your content stay.",
+  "Ja. Wenn Sie eine Website haben, schauen wir zuerst, was sich davon retten lässt. Ihre Domain und Ihre Inhalte bleiben erhalten."
  ],
  "Jelentkezzetek<br>az Impact<br>Programba": [
   "Apply to the<br>Impact<br>Program",
   "Bewerben Sie sich<br>fürs Impact-<br>Programm"
  ],
- "Ha a szervezetetek valódi társadalmi hatást ér el, szeretnénk megismerni a történeteteket.": [
-  "If your organisation creates real social impact, we'd like to hear your story.",
-  "Wenn Ihre Organisation echte gesellschaftliche Wirkung erzielt, möchten wir Ihre Geschichte hören."
+ "Szeretnénk megismerni a történeteteket. Nem pályázatot kérünk: pár mondat is elég arról, mivel foglalkoztok, és mit értetek el eddig.": [
+  "We’d like to hear your story. We’re not asking for a grant application: a few sentences about what you do and what you’ve achieved so far are enough.",
+  "Wir möchten Ihre Geschichte kennenlernen. Einen Förderantrag verlangen wir nicht: Ein paar Sätze dazu, womit Sie sich beschäftigen und was Sie bisher erreicht haben, genügen."
  ],
  "E-mail-cím *": [
   "Email address *",
@@ -496,8 +496,17 @@
   "marketing sentence over the measure. The application form, its labels,",
   "the eligibility list and the programme's limits are unchanged."
  ],
- "Minden évben néhány nonprofit szervezetnek ingyen építünk weboldalt. A munkájukhoz méltót.": [
-  "Every year we build a website for a few nonprofits, free of charge. One worthy of their work.",
-  "Jedes Jahr bauen wir einigen gemeinnützigen Organisationen kostenlos eine Website. Eine, die ihrer Arbeit gerecht wird."
+ "Minden évben néhány nonprofit szervezetnek ingyenes weboldalt építünk. Ha kiválasztunk titeket, olyan oldalt kaptok, amelyről a segítséget keresők könnyen megtudják, mivel foglalkoztok, és hogyan érhetnek el benneteket.": [
+  "Every year we build a free website for a few nonprofit organisations. If we select you, you get a site where people looking for help can easily find out what you do and how to reach you.",
+  "Jedes Jahr bauen wir einigen gemeinnützigen Organisationen kostenlos eine Website. Wenn wir Sie auswählen, erhalten Sie eine Website, auf der Hilfesuchende leicht erfahren, was Sie tun und wie sie Sie erreichen."
+ ],
+ "Valaki késő este a telefonján keres segítséget magának vagy a gyerekének. Ha az oldalatokon nem találja meg gyorsan a telefonszámot vagy a következő lépést, továbblép.": [
+  "Late in the evening, someone is searching on their phone for help for themselves or their child. If they can’t quickly find your phone number or the next step on your site, they move on.",
+  "Spätabends sucht jemand auf dem Handy Hilfe für sich oder sein Kind. Findet er auf Ihrer Website nicht schnell die Telefonnummer oder den nächsten Schritt, sucht er weiter."
+ ],
+ "_o2_hangnem_2026_10_30": [
+  "Body copy in the voice of o2tanacsado.hu (owner, 2026-10-29; the homepage",
+  "and /kkv were the approved sample). Headings, buttons, figures and FAQ",
+  "questions unchanged; the replaced strings were removed where no page uses them."
  ]
 }

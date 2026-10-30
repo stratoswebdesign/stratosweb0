@@ -171,17 +171,17 @@
   "Who are you?",
   "Wer sind Sie?"
  ],
- "A Stratos Webdesign magyar webdesign-ügynökség. Egyedi kódból épített weboldalakat, 3D weboldalakat és termékkonfigurátorokat, webshopokat és arculatot készítünk, és havidíjas keresőoptimalizálással, Google- és Meta-hirdetéskezeléssel visszük tovább őket. A partnerek: Lukács Artúr (alapító) és Tímár Richárd (hirdetéskezelés).": [
-  "Stratos Webdesign is a Hungarian web design agency. We build websites in custom code, 3D websites and product configurators, online shops and brand identities, and carry them forward with monthly search engine optimisation and Google and Meta ads management. The partners: Artúr Lukács (founder) and Richárd Tímár (ads management).",
-  "Stratos Webdesign ist eine ungarische Webdesign-Agentur. Wir bauen Websites aus individuellem Code, 3D-Websites und Produktkonfiguratoren, Onlineshops und Markenauftritte und betreuen sie mit monatlicher Suchmaschinenoptimierung sowie Google- und Meta-Anzeigen weiter. Die Partner: Artúr Lukács (Gründer) und Richárd Tímár (Werbebetreuung)."
+ "A Stratos Webdesign magyar webdesign-ügynökség: kis csapat, két partnerrel, Lukács Artúrral (alapító) és Tímár Richárddal (hirdetéskezelés). Egyedi weboldalakat, 3D weboldalakat és termékkonfigurátorokat, webshopokat és arculatot készítünk, és havidíjas keresőoptimalizálással meg Google- és Meta-hirdetéskezeléssel visszük tovább őket.": [
+  "Stratos Webdesign is a Hungarian web design agency: a small team with two partners, Artúr Lukács (founder) and Richárd Tímár (ads management). We build custom websites, 3D websites and product configurators, online shops and brand identities, and carry them forward with monthly SEO and Google and Meta ads management.",
+  "Stratos Webdesign ist eine ungarische Webdesign-Agentur: ein kleines Team mit zwei Partnern, Artúr Lukács (Gründer) und Richárd Tímár (Werbebetreuung). Wir bauen individuelle Websites, 3D-Websites und Produktkonfiguratoren, Onlineshops und Markenauftritte und betreuen sie mit monatlicher Suchmaschinenoptimierung sowie Google- und Meta-Anzeigen weiter."
  ],
  "Hogyan indul egy közös munka?": [
   "How does working together start?",
   "Wie beginnt eine Zusammenarbeit?"
  ],
- "Egy ingyenes igényfelmérő hívással. Utána írásos, egyedi ajánlatot küldünk, ami 14 napig érvényes. Ha igent mondasz, az előleg beérkezése után indul a munka: tervezés, fejlesztés, átadás.": [
-  "With a free discovery call. After it we send you a tailored proposal in writing, valid for 14 days. If you say yes, the work starts once the deposit arrives: design, development, handover.",
-  "Mit einem kostenlosen Erstgespräch. Danach senden wir Ihnen ein schriftliches, individuelles Angebot, das 14 Tage gilt. Wenn Sie zusagen, beginnt die Arbeit nach Eingang der Anzahlung: Konzeption, Entwicklung, Übergabe."
+ "Egy ingyenes igényfelmérő hívással: elmondod, mit csinálsz, és mit szeretnél elérni, mi pedig figyelünk. A hívás után írásos, tételes ajánlatot küldünk, ami 14 napig érvényes. Ha igent mondasz, az előleg beérkezése után indul a munka.": [
+  "With a free discovery call: you tell us what you do and what you want to achieve, and we listen. After the call we send you an itemised proposal in writing, valid for 14 days. If you say yes, the work starts once the deposit arrives.",
+  "Mit einem kostenlosen Erstgespräch: Sie erzählen, was Sie tun und was Sie erreichen möchten, und wir hören zu. Nach dem Gespräch senden wir Ihnen ein schriftliches, aufgeschlüsseltes Angebot, das 14 Tage gilt. Wenn Sie zusagen, beginnt die Arbeit nach Eingang der Anzahlung."
  ],
  "A weboldal egyszeri projektdíjas, és a tiéd. A keresőoptimalizálást és a karbantartást havidíjas partnerségként választhatod mellé. Árlistát nem teszünk ki, mert minden ajánlat egyedi: a díjat az ingyenes igényfelmérő hívás után, írásban és tételesen adjuk meg.": [
   "The website is a one-off project fee, and it is yours. You can add SEO and maintenance alongside it as a monthly partnership. We don’t publish a price list, because every proposal is individual: we give you the fee after the free discovery call, in writing and itemised.",
@@ -195,9 +195,9 @@
   "What do you guarantee?",
   "Was garantieren Sie?"
  ],
- "Kettőt: a határidőt, ha minden anyag (szöveg, kép, hozzáférés) időben megérkezik tőled, és három kör módosítást a tervezés során.": [
-  "Two things: the deadline, provided everything we need from you (text, images, access) arrives on time, and three rounds of revisions during design.",
-  "Zweierlei: den Termin, sofern alles, was wir von Ihnen brauchen (Texte, Bilder, Zugänge), rechtzeitig kommt, und drei Korrekturrunden während der Konzeption."
+ "Kettőt: a határidőt, ha az ajánlatban kért anyagok időben megérkeznek tőled, és három kör módosítást a tervezés során. Első helyet a Google-ben nem ígérünk, mert azt nem mi döntjük el.": [
+  "Two things: the deadline, provided the materials the proposal asks for reach us on time, and three rounds of revisions during design. We don’t promise first place in Google, because that isn’t ours to decide.",
+  "Zweierlei: den Termin, sofern die im Angebot genannten Unterlagen rechtzeitig bei uns eintreffen, und drei Korrekturrunden während der Konzeption. Einen ersten Platz bei Google versprechen wir nicht, denn den entscheiden nicht wir."
  ],
  "Mennyire lesz egyedi a weboldalam?": [
   "How bespoke will my website be?",
@@ -297,9 +297,9 @@
   "We’re small on purpose. Whoever is on the first call builds your site too.",
   "Wir sind bewusst klein. Wer beim ersten Gespräch dabei ist, baut auch Ihre Website."
  ],
- "Máshol a vezető tárgyal, az ügyintéző válaszol, és a hibánál mindenki a másikra mutat. Nálunk nincs kire mutatni.": [
-  "Elsewhere the boss negotiates, an account handler replies, and when something breaks everyone points at someone else. With us there is no one else.",
-  "Anderswo verhandelt die Geschäftsführung, ein Sachbearbeiter antwortet, und bei einem Fehler zeigt jeder auf den anderen. Bei uns gibt es keinen anderen."
+ "Hétfő reggel észreveszed, hogy az ajánlatkérő űrlap napok óta nem küld semmit. Írsz az ügynökségnek: az ügyintéző továbbítja, a fejlesztő a tárhelyre mutat, és szerdán még mindig nem tudod, kié a hiba.": [
+  "On Monday morning you notice that the quote form hasn’t sent anything for days. You write to the agency: the account handler passes it on, the developer blames the hosting, and by Wednesday you still don’t know whose fault it is.",
+  "Am Montagmorgen merken Sie, dass das Anfrageformular seit Tagen nichts mehr verschickt. Sie schreiben der Agentur: Der Sachbearbeiter leitet weiter, der Entwickler zeigt auf das Hosting, und am Mittwoch wissen Sie immer noch nicht, wessen Fehler es ist."
  ],
  "A csapatod részeként dolgozunk, és kimondjuk, ha valami nem éri meg. Egyszer mondod el, mit szeretnél, és azok viszik végig, akiknek elmondtad.": [
   "We work as part of your team, and we say so when something isn’t worth it. You say once what you want, and the people you told carry it through.",
@@ -309,32 +309,45 @@
   "No go-between: you deal with the people who design and build your site.",
   "Kein Vermittler: Sie sprechen mit denen, die Ihre Website entwerfen und bauen."
  ],
- "Tervezés, fejlesztés, szöveg, keresőoptimalizálás és hirdetés. Minden hibának egy gazdája van.": [
-  "Design, development, copy, SEO and advertising. Every fault has one owner.",
-  "Konzeption, Entwicklung, Text, Suchmaschinenoptimierung und Werbung. Jeder Fehler hat einen Verantwortlichen."
+ "A tervezést, a fejlesztést, a szöveget, a keresőoptimalizálást és a hirdetést is mi visszük, így minden hibának egy gazdája van.": [
+  "We handle design, development, copy, SEO and advertising ourselves, so every fault has one owner.",
+  "Konzeption, Entwicklung, Text, Suchmaschinenoptimierung und Werbung übernehmen wir selbst, so hat jeder Fehler einen Verantwortlichen."
  ],
- "Minden felület sablon nélkül készül, olyan részletességgel, amit szívesen kiteszünk a saját <a class=\"tlink\" href=\"munkaink.html\">portfóliónkba</a>.": [
-  "Every interface is built without a template, to a level of detail we would happily put in our own <a class=\"tlink\" href=\"munkaink.html\">portfolio</a>.",
-  "Jede Oberfläche entsteht ohne Vorlage, in einer Sorgfalt, die wir gern in unser eigenes <a class=\"tlink\" href=\"munkaink.html\">Portfolio</a> stellen."
+ "Minden felület sablon nélkül készül, olyan részletességgel, amit szívesen kiteszünk a saját <a class=\"tlink\" href=\"munkaink.html\">portfóliónkba</a>. A Rapidkert oldala 2026-ban <a class=\"tlink\" href=\"https://www.awwwards.com/sites/rapidkert\" rel=\"noopener\" target=\"_blank\">Awwwards elismerő említést</a> kapott.": [
+  "Every interface is built without a template, to a level of detail we would happily put in our own <a class=\"tlink\" href=\"munkaink.html\">portfolio</a>. In 2026 Rapidkert’s site received an <a class=\"tlink\" href=\"https://www.awwwards.com/sites/rapidkert\" rel=\"noopener\" target=\"_blank\">Awwwards Honorable Mention</a>.",
+  "Jede Oberfläche entsteht ohne Vorlage, in einer Sorgfalt, die wir gern in unser eigenes <a class=\"tlink\" href=\"munkaink.html\">Portfolio</a> stellen. Die Website von Rapidkert erhielt 2026 eine <a class=\"tlink\" href=\"https://www.awwwards.com/sites/rapidkert\" rel=\"noopener\" target=\"_blank\">Awwwards Honorable Mention</a>."
  ],
- "<a class=\"tlink\" href=\"szolgaltatasok.html\">A négy szál</a> külön is megáll. Nálunk ugyanaz a kéz fogja össze, nem négy beszállító.": [
-  "<a class=\"tlink\" href=\"szolgaltatasok.html\">Each of the four</a> stands on its own. With us the same hands hold them together, not four suppliers.",
-  "Jeder der <a class=\"tlink\" href=\"szolgaltatasok.html\">vier Stränge</a> steht für sich. Bei uns hält sie dieselbe Hand zusammen, nicht vier Dienstleister."
+ "<a class=\"tlink\" href=\"szolgaltatasok.html\">A négy szál</a> külön is megáll: kérhetsz csak hirdetést vagy csak keresőoptimalizálást. Ha mind a négy kell, nálunk ugyanaz a csapat fogja össze, nem négy beszállító.": [
+  "<a class=\"tlink\" href=\"szolgaltatasok.html\">Each of the four</a> stands on its own: you can ask for just advertising or just SEO. If you need all four, with us the same team holds them together, not four suppliers.",
+  "Jeder der <a class=\"tlink\" href=\"szolgaltatasok.html\">vier Stränge</a> steht für sich: Sie können nur Werbung oder nur Suchmaschinenoptimierung beauftragen. Brauchen Sie alle vier, hält sie bei uns dasselbe Team zusammen, nicht vier Dienstleister."
  ],
- "<b>Előbb redukálunk.</b> Ha mindent egyszerre mondunk, semmi nem marad meg.": [
-  "<b>We reduce first.</b> Say everything at once and nothing stays.",
-  "<b>Zuerst reduzieren wir.</b> Wer alles auf einmal sagt, von dem bleibt nichts hängen."
+ "<b>Előbb redukálunk.</b> Az oldaladon csak az marad, amiért téged választanak: ha mindent egyszerre mondanánk, semmi nem maradna meg.": [
+  "<b>We reduce first.</b> Only what people choose you for stays on your site: if we said everything at once, nothing would stick.",
+  "<b>Zuerst reduzieren wir.</b> Auf Ihrer Website bleibt nur, wofür man Sie wählt: Würden wir alles auf einmal sagen, bliebe nichts hängen."
  ],
- "Egy rövid, kötetlen hívás. Utána tudod, mi segítene a vállalkozásodon, és mi nem.": [
-  "One short, informal call. Afterwards you’ll know what would help your business, and what wouldn’t.",
-  "Ein kurzes, lockeres Gespräch. Danach wissen Sie, was Ihrem Unternehmen helfen würde und was nicht."
+ "Egy rövid, kötetlen és ingyenes hívás: elmondod, mivel foglalkozol, és mit szeretnél elérni, mi pedig figyelünk. A hívás végén megmondjuk, mi segítene a vállalkozásodon, és azt is, mi nem.": [
+  "One short, informal and free call: you tell us what you do and what you want to achieve, and we listen. At the end of the call we tell you what would help your business, and what wouldn’t.",
+  "Ein kurzes, lockeres und kostenloses Gespräch: Sie erzählen, womit Sie sich beschäftigen und was Sie erreichen möchten, und wir hören zu. Am Ende des Gesprächs sagen wir Ihnen, was Ihrem Unternehmen helfen würde, und auch, was nicht."
  ],
- "Mérhető célok és dokumentált átadás.": [
-  "Measurable goals and a documented handover.",
-  "Messbare Ziele und eine dokumentierte Übergabe."
+ "Mérhető célokkal indulunk, és dokumentáltan adjuk át az oldalt, a hozzáférésekkel és a fájlokkal együtt.": [
+  "We start with measurable goals and hand the site over with documentation, together with the access details and the files.",
+  "Wir starten mit messbaren Zielen und übergeben die Website dokumentiert, zusammen mit den Zugängen und den Dateien."
  ],
- "A weboldal egyszeri projektdíjas. A keresőoptimalizálást és a karbantartást havidíjas partnerségként választhatod mellé. Árlistát nem teszünk ki, mert minden ajánlat egyedi: a díjat az ingyenes igényfelmérő hívás után, írásban és tételesen adjuk meg.": [
-  "The website is a one-off project fee. You can add SEO and maintenance alongside it as a monthly partnership. We don’t publish a price list, because every proposal is individual: we give you the fee after the free discovery call, in writing and itemised.",
-  "Die Website kostet ein einmaliges Projekthonorar. Suchmaschinenoptimierung und Wartung können Sie als monatliche Partnerschaft dazu wählen. Eine Preisliste veröffentlichen wir nicht, weil jedes Angebot individuell ist: Das Honorar nennen wir nach dem kostenlosen Erstgespräch, schriftlich und aufgeschlüsselt."
+ "A weboldal egyszeri projektdíjas, a keresőoptimalizálást és a karbantartást havidíjért választhatod mellé. Árlistát nem teszünk ki: az ár főleg attól függ, hány oldal kell, mennyire egyedi a tervezés, és mennyi szöveget kell megírnunk. A díjat az első beszélgetés után írásban, tételesen kapod meg.": [
+  "The website is a one-off project fee; you can add SEO and maintenance alongside it for a monthly fee. We don’t publish a price list: the price depends mainly on how many pages you need, how custom the design is and how much copy we need to write. You get the fee after the first conversation, in writing and itemised.",
+  "Die Website kostet ein einmaliges Projekthonorar, Suchmaschinenoptimierung und Wartung können Sie gegen eine monatliche Gebühr dazu wählen. Eine Preisliste veröffentlichen wir nicht: Der Preis hängt vor allem davon ab, wie viele Seiten Sie brauchen, wie individuell die Gestaltung ist und wie viel Text wir schreiben müssen. Das Honorar erhalten Sie nach dem ersten Gespräch, schriftlich und aufgeschlüsselt."
+ ],
+ "A Stratos Webdesignnál cégvezetőknek és vállalkozóknak tervezünk és építünk weboldalt az egész országban, és keresőoptimalizálással meg hirdetéssel visszük tovább.": [
+  "At Stratos Webdesign we design and build websites for business owners and managers across Hungary, and carry them forward with SEO and advertising.",
+  "Bei Stratos Webdesign gestalten und bauen wir Websites für Geschäftsführer und Unternehmer in ganz Ungarn und führen sie mit Suchmaschinenoptimierung und Werbung weiter."
+ ],
+ "Érthető, ha egy rossz tapasztalat után óvatosan választasz ügynökséget. Nálunk nincs kire mutatni: ha valami nem működik, tudod, kit hívj.": [
+  "After a bad experience, it’s understandable to be careful choosing an agency. With us there is no one else to point at: if something doesn’t work, you know who to call.",
+  "Nach einer schlechten Erfahrung ist es verständlich, wenn Sie eine Agentur vorsichtig auswählen. Bei uns gibt es niemanden, auf den man zeigen könnte: Wenn etwas nicht funktioniert, wissen Sie, wen Sie anrufen."
+ ],
+ "_o2_hangnem_2026_10_30": [
+  "Body copy in the voice of o2tanacsado.hu (owner, 2026-10-29; the homepage",
+  "and /kkv were the approved sample). Headings, buttons, figures and FAQ",
+  "questions unchanged; the replaced strings were removed where no page uses them."
  ]
 }

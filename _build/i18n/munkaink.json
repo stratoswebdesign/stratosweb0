@@ -174,9 +174,9 @@
   "Yours could be the <span class=\"sig\">next one.</span>",
   "Ihres könnte das <span class=\"sig\">nächste sein.</span>"
  ],
- "Mondd el, mit csinál a vállalkozásod, és mit vársz az oldaltól. A többi onnantól a mi dolgunk.": [
-  "Tell us what your business does and what you expect from the site. From there it's our job.",
-  "Sagen Sie uns, was Ihr Unternehmen macht und was Sie von der Website erwarten. Ab da ist es unsere Aufgabe."
+ "Írd le pár mondatban, mit csinál a vállalkozásod, és mit vársz az új oldaltól. Egy rövid, ingyenes beszélgetésben elmondod a részleteket, mi pedig figyelünk.": [
+  "Write a few sentences about what your business does and what you expect from the new site. In a short, free conversation you tell us the details, and we listen.",
+  "Schreiben Sie in ein paar Sätzen, was Ihr Unternehmen macht und was Sie von der neuen Website erwarten. In einem kurzen, kostenlosen Gespräch erzählen Sie die Einzelheiten, und wir hören zu."
  ],
  "Előbb Google Ads és keresőoptimalizálás, majd egy teljesen újragondolt weboldal, aminek a közepén a kert és a talaj interaktív 3D keresztmetszete áll.": [
   "Google Ads and SEO first, then a completely rethought website built around an interactive 3D cross-section of a garden and the ground beneath it.",
@@ -190,20 +190,25 @@
   "o2tanacsado.hu",
   "o2tanacsado.hu"
  ],
- "Addig csak a nevük szerepel itt, így nem kell kitalálnunk hozzájuk semmit.": [
-  "Until then only their names appear here, so nothing has to be invented for them.",
-  "Bis dahin stehen hier nur ihre Namen, so muss dazu nichts erfunden werden."
+ "Mindegyik logó mögött elvégzett munka áll. Amíg nincs róla esettanulmány, csak a nevet mutatjuk, így semmit nem kell kitalálnunk hozzá.": [
+  "Behind every logo is work we’ve done. Until there’s a case study, we show only the name, so we don’t have to make anything up.",
+  "Hinter jedem Logo steht abgeschlossene Arbeit. Solange es keine Fallstudie dazu gibt, zeigen wir nur den Namen, so müssen wir nichts dazuerfinden."
  ],
  "_tone_2026_10_24": [
   "Third copy pack (2026-10-24), tone: the hero and the results note to the",
   "measure. The project cards keep their claims word for word."
  ],
- "Mindegyik működik, mindegyiket megnézheted a saját címén. Ennyit mutathatunk meg nyilvánosan.": [
-  "Every one works, and you can visit each at its own address. That’s as many as we can show publicly.",
-  "Jede funktioniert, jede können Sie unter ihrer eigenen Adresse aufrufen. Mehr können wir öffentlich nicht zeigen."
+ "Ha ügynökséget választasz, nem képernyőképeket akarsz látni, hanem működő oldalakat. Itt a Stratos Webdesign élő weboldalai és 3D weboldalai, esettanulmánnyal: mindegyik működik a saját címén. A szállított projektjeinkből ezeket mutathatjuk meg nyilvánosan.": [
+  "When you’re choosing an agency, you don’t want screenshots, you want sites that work. Here are Stratos Webdesign’s live websites and 3D websites, with case studies: each one works at its own address. Of the projects we’ve delivered, these are the ones we can show publicly.",
+  "Wenn Sie eine Agentur auswählen, wollen Sie keine Screenshots sehen, sondern funktionierende Websites. Hier sind die Live-Websites und 3D-Websites von Stratos Webdesign, mit Fallstudien: Jede funktioniert unter ihrer eigenen Adresse. Von unseren abgeschlossenen Projekten können wir diese öffentlich zeigen."
  ],
- "Eredményszámot csak forrással közlünk: ma a Rapidkert esettanulmányában. A többinél azt írjuk le, ami látható és ellenőrizhető.": [
-  "We publish a performance figure only with its source: today, in the Rapidkert case study. For the rest, we describe what is visible and can be checked.",
-  "Ergebniszahlen veröffentlichen wir nur mit Quelle: derzeit in der Rapidkert-Fallstudie. Bei allen anderen beschreiben wir, was sichtbar und überprüfbar ist."
+ "Eredményszámot csak forrással közlünk: ma a Rapidkert esettanulmányában. A többinél azt írjuk le, amit az élő oldalon te is ellenőrizhetsz.": [
+  "We publish a performance figure only with its source: today, in the Rapidkert case study. For the rest, we describe what you can check on the live site yourself.",
+  "Ergebniszahlen veröffentlichen wir nur mit Quelle: derzeit in der Rapidkert-Fallstudie. Bei allen anderen beschreiben wir, was Sie auf der Live-Website selbst überprüfen können."
+ ],
+ "_o2_hangnem_2026_10_30": [
+  "Body copy in the voice of o2tanacsado.hu (owner, 2026-10-29; the homepage",
+  "and /kkv were the approved sample). Headings, buttons, figures and FAQ",
+  "questions unchanged; the replaced strings were removed where no page uses them."
  ]
 }
