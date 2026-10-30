@@ -87,9 +87,9 @@
   "Do I need a new website for it?",
   "Brauche ich dafür eine neue Website?"
  ],
- "Nem feltétlenül: a legtöbb meglévő oldalon van elég mozgástér ahhoz, hogy érdemes legyen elkezdeni. Ha a feltárásból kiderül, hogy a szerkezet vagy a sebesség miatt a munka nagy része kárba veszne, megmondjuk, és előbb a weboldalt hozzuk rendbe.": [
-  "Not necessarily: most existing sites have enough room to make starting worthwhile. If the discovery shows that the structure or the speed would waste most of the work, we’ll tell you, and fix the website first.",
-  "Nicht unbedingt: Die meisten bestehenden Websites bieten genug Spielraum, dass sich der Start lohnt. Zeigt die Analyse, dass Struktur oder Geschwindigkeit den Großteil der Arbeit verpuffen ließen, sagen wir es Ihnen und bringen zuerst die Website in Ordnung."
+ "Nem feltétlenül: a legtöbb meglévő oldalon van elég mozgástér. Ha a szerkezet vagy a sebesség miatt kárba veszne a munka, előbb a weboldalt hozzuk rendbe.": [
+  "Not necessarily: most existing sites have enough room to work with. If the structure or the speed would waste the work, we fix the website first.",
+  "Nicht unbedingt: Die meisten bestehenden Websites bieten genug Spielraum. Würden Struktur oder Geschwindigkeit die Arbeit verpuffen lassen, bringen wir zuerst die Website in Ordnung."
  ],
  "Ha felmondom, elveszik minden?": [
   "If I stop, do I lose everything?",
@@ -431,9 +431,9 @@
   "What is the difference between SEO and Google Ads?",
   "Was ist der Unterschied zwischen SEO und Google Ads?"
  ],
- "A hirdetés azonnal hoz forgalmat, és leáll, amikor elfogy a keret. A keresőoptimalizálás lassabban indul, de a megszerzett helyezés akkor is hoz látogatót, amikor nem fizetsz kattintásért. A Rapidkertnél a kettő párhuzamosan futott, és külön-külön is hozott ajánlatkérést.": [
-  "Advertising brings traffic immediately and stops when the budget runs out. SEO starts more slowly, but a ranking you have earned keeps bringing visitors when you aren’t paying per click. At Rapidkert the two ran in parallel, and each brought in quote requests on its own.",
-  "Werbung bringt sofort Traffic und endet, wenn das Budget aufgebraucht ist. Suchmaschinenoptimierung startet langsamer, aber ein erarbeitetes Ranking bringt auch dann Besucher, wenn Sie nicht pro Klick bezahlen. Bei Rapidkert liefen beide parallel, und jedes brachte für sich Angebotsanfragen."
+ "A hirdetés azonnal hoz forgalmat, és leáll, amikor elfogy a keret. A keresőoptimalizálás lassabban indul, de akkor is hoz látogatót, amikor nem fizetsz kattintásért.": [
+  "Ads bring traffic immediately and stop when the budget runs out. SEO starts more slowly, but keeps bringing visitors when you aren’t paying per click.",
+  "Werbung bringt sofort Traffic und endet, wenn das Budget aufgebraucht ist. Suchmaschinenoptimierung startet langsamer, bringt aber auch Besucher, wenn Sie nicht pro Klick zahlen."
  ],
  "Mit tartalmaz a havidíj?": [
   "What does the monthly fee include?",
@@ -449,7 +449,7 @@
  ],
  "A rendszeres blogcikk alapesetben nem része a havidíjnak. Ha a feltárásból az jön ki, hogy nálad a cikkek hoznák a legtöbbet, külön tételként leírjuk az ajánlatban.": [
   "Regular blog posts aren’t part of the monthly fee as standard. If the discovery shows that articles would bring you the most, we list them as a separate item in the proposal.",
-  "Regelmäßige Blogartikel sind standardmäßig nicht Teil der Monatspauschale. Zeigt die Analyse, dass bei Ihnen Artikel am meisten bringen würden, führen wir sie im Angebot als eigenen Posten auf."
+  "Regelmäßige Blogartikel sind standardmäßig nicht in der Monatspauschale enthalten. Bringen sie laut Analyse bei Ihnen am meisten, führen wir sie im Angebot gesondert auf."
  ],
  "Megjelenhetek a ChatGPT ajánlásaiban?": [
   "Can I appear in ChatGPT's recommendations?",
@@ -467,9 +467,9 @@
   "A consultant is enough when you need an answer to one specific question and someone to carry out the advice. If you don't have that person, a company is the better choice, where the same team measures, writes and fixes the site.",
   "Ein Berater genügt, wenn Sie eine Antwort auf eine konkrete Frage brauchen und jemand die Empfehlungen umsetzt. Wenn nicht, ist eine Agentur die bessere Wahl, bei der dasselbe Team die Website misst, schreibt und verbessert."
  ],
- "Nem: amit megírtunk és megjavítottunk, az oldaladon marad, és tovább dolgozik. A helyezések idővel romolhatnak, ha senki nem foglalkozik velük, de nem tűnnek el egyik napról a másikra, és semmit nem kapcsolunk le.": [
-  "No: what we wrote and fixed stays on your site and keeps working. Rankings can slip over time if nobody looks after them, but they don’t vanish overnight, and we switch nothing off.",
-  "Nein: Was wir geschrieben und verbessert haben, bleibt auf Ihrer Website und arbeitet weiter. Rankings können mit der Zeit nachlassen, wenn sich niemand darum kümmert, aber sie verschwinden nicht über Nacht, und wir schalten nichts ab."
+ "Nem: amit megírtunk, az oldaladon marad, és semmit nem kapcsolunk le. A helyezések romolhatnak, ha senki nem foglalkozik velük, de nem egyik napról a másikra.": [
+  "No: what we wrote stays on your site, and we switch nothing off. Rankings can slip if nobody looks after them, but not overnight.",
+  "Nein: Was wir geschrieben haben, bleibt auf Ihrer Website, und wir schalten nichts ab. Rankings können nachlassen, wenn sich niemand kümmert, aber nicht über Nacht."
  ],
  "Mi az a keresőoptimalizálás?": [
   "What is SEO?",
@@ -503,9 +503,9 @@
   "SEO: do I need an agency, a specialist or a consultant?",
   "SEO: Brauche ich eine Agentur, einen Spezialisten oder einen Berater?"
  ],
- "Ha egy konkrét kérdésre kell válasz, és van, aki végrehajtja a javaslatokat, egy tanácsadó elég. Ha nincs, egy ügynökség kell, ahol ugyanaz a csapat méri, írja és javítja az oldalt. Nálunk ugyanaz a szakértő méri fel és javítja az oldalt, aki a havi riportot írja.": [
-  "If you need an answer to one specific question and someone can carry out the advice, a consultant is enough. If not, you need an agency, where the same team measures, writes and fixes the site. With us, the same specialist who audits and fixes the site writes the monthly report.",
-  "Brauchen Sie die Antwort auf eine konkrete Frage und setzt jemand die Empfehlungen um, genügt ein Berater. Wenn nicht, brauchen Sie eine Agentur, bei der dasselbe Team die Website misst, schreibt und verbessert. Bei uns schreibt derselbe Spezialist, der die Website prüft und verbessert, auch den monatlichen Report."
+ "Tanácsadó akkor elég, ha van, aki végrehajtja a javaslatait. Nálunk ugyanaz a szakértő méri fel és javítja az oldalt, aki a havi riportot írja.": [
+  "A consultant is enough if someone will carry out the advice. With us, the same specialist who audits and fixes the site writes the monthly report.",
+  "Ein Berater genügt, wenn jemand seine Empfehlungen umsetzt. Bei uns schreibt derselbe Spezialist, der die Website prüft und verbessert, auch den monatlichen Report."
  ],
  "Írd le, mivel foglalkozol és hol szeretnél megjelenni: megnézzük, hol tartasz most a keresésben.": [
   "Tell us what you do and where you would like to appear, and we will look at where you stand in search today.",
@@ -516,29 +516,29 @@
   "SEO.<br><span class=\"sig\">So it's your phone that rings.</span>",
   "SEO.<br><span class=\"sig\">Damit bei Ihnen das Telefon klingelt.</span>"
  ],
- "A Stratos Webdesignnál havidíjas keresőoptimalizálást vállalunk cégeknek és vállalkozóknak, az egész országban. A kereslet már megvan, csak még nem téged talál. Azon dolgozunk, hogy aki a Google-ben azt keresi, amit te csinálsz, nálad kössön ki.": [
-  "At Stratos Webdesign we take on monthly SEO for companies and business owners across Hungary. The demand is already there; it just isn’t finding you yet. We work so that whoever searches Google for what you do ends up with you.",
-  "Bei Stratos Webdesign übernehmen wir die monatliche Suchmaschinenoptimierung für Unternehmen und Selbstständige in ganz Ungarn. Die Nachfrage ist längst da, sie findet nur noch nicht Sie. Wir arbeiten daran, dass bei Ihnen landet, wer bei Google sucht, was Sie anbieten."
+ "Havidíjas keresőoptimalizálással azon dolgozunk, hogy aki a Google-ben azt keresi, amit te csinálsz, nálad kössön ki. A Stratos Webdesign ügyfelei cégek és vállalkozók az egész országból.": [
+  "With monthly SEO we work so that whoever searches Google for what you do ends up with you. Stratos Webdesign works for companies and business owners across Hungary.",
+  "Mit monatlicher Suchmaschinenoptimierung arbeiten wir daran, dass bei Ihnen landet, wer bei Google sucht, was Sie anbieten. Kunden von Stratos Webdesign sind Unternehmen und Selbstständige in ganz Ungarn."
  ],
  "Délután, két ügyfél között beírod a telefonodba, amit csinálsz, és mellé a városod nevét. Az első találatok között három versenytárs és egy katalógusoldal van. Te a második oldalon vagy.": [
   "It’s the afternoon, between two clients, and you type what you do into your phone, with the name of your town. Among the top results are three competitors and a directory site. You’re on page two.",
   "Es ist Nachmittag, zwischen zwei Kunden, und Sie tippen ins Handy, was Sie anbieten, dazu den Namen Ihrer Stadt. Unter den ersten Treffern stehen drei Wettbewerber und ein Branchenverzeichnis. Sie sind auf Seite zwei."
  ],
- "Tudod, hogy jobban csinálod, és a vevőid is tudják. A Google viszont nem a munkádat látja, hanem az oldaladat.": [
-  "You know you do it better, and your customers know it too. But Google doesn’t see your work, only your website.",
-  "Sie wissen, dass Sie es besser machen, und Ihre Kunden wissen es auch. Google sieht aber nicht Ihre Arbeit, sondern Ihre Website."
+ "A vevőid tudják, hogy jobban csinálod. A Google viszont nem a munkádat látja, hanem az oldaladat.": [
+  "Your customers know you do it better. But Google doesn’t see your work, only your website.",
+  "Ihre Kunden wissen, dass Sie es besser machen. Google sieht aber nicht Ihre Arbeit, sondern Ihre Website."
  ],
- "Rendben tartjuk, amit a látogató nem lát, a Google viszont igen: a sebességet, a mobilnézetet, a címsorokat és az oldalak közti linkeket.": [
-  "We keep in order what visitors don’t see but Google does: speed, the mobile layout, the headings and the links between your pages.",
-  "Wir halten in Ordnung, was Besucher nicht sehen, Google aber schon: Ladezeit, mobile Ansicht, Überschriften und die Links zwischen Ihren Seiten."
+ "Rendben tartjuk az oldal technikai alapjait: a sebességet, a mobilnézetet, a címsorokat és az oldalak közti linkeket.": [
+  "We keep the site’s technical foundations in order: speed, the mobile layout, the headings and the links between your pages.",
+  "Wir halten die technischen Grundlagen der Website in Ordnung: Ladezeit, mobile Ansicht, Überschriften und die Links zwischen Ihren Seiten."
  ],
  "Ha a környékeden dolgozol, a térképes találat sokszor több hívást hoz, mint maga a weboldal. A Cégprofilodat beállítjuk, feltöltjük, és havonta rendben tartjuk.": [
   "If you work locally, the map listing often brings more calls than the website itself. We set up your Business Profile, fill it in and keep it in order every month.",
   "Wenn Sie vor Ort arbeiten, bringt der Kartentreffer oft mehr Anrufe als die Website selbst. Wir richten Ihr Unternehmensprofil ein, befüllen es und halten es jeden Monat in Ordnung."
  ],
- "Egyre többen egy AI-tól kérdezik meg, kit hívjanak. Az AI-keresők a weboldalak szövegéből is dolgoznak, ezért az oldaladon világosan ott lesz, mit csinálsz, hol és kinek.": [
-  "More and more people ask an AI who to call. AI search tools also draw on the text of websites, so your site will say clearly what you do, where and for whom.",
-  "Immer mehr Menschen fragen eine KI, wen sie anrufen sollen. KI-Suchen schöpfen auch aus den Texten von Websites, deshalb steht auf Ihrer Seite klar, was Sie tun, wo und für wen."
+ "Egyre többen egy AI-tól kérdezik meg, kit hívjanak. Az oldaladat erre is felkészítjük, mert az AI-keresők is a weboldalak szövegéből dolgoznak.": [
+  "More and more people ask an AI who to call. We get your site ready for that too, because AI search tools also draw on the text of websites.",
+  "Immer mehr Menschen fragen eine KI, wen sie anrufen sollen. Auch darauf bereiten wir Ihre Website vor, denn KI-Suchen schöpfen ebenfalls aus den Texten von Websites."
  ],
  "Azokra a keresésekre dolgozunk, amelyeket a vevőid tényleg beírnak, nem azokra, amelyekből a legtöbb van. Aki ajánlatot keres, többet ér annál, aki csak nézelődik.": [
   "We work on the searches your customers actually type, not the ones with the biggest numbers. Someone looking for a quote is worth more than someone just browsing.",
@@ -572,21 +572,21 @@
   "We look at your site and at who is ahead of you on Google today. Whatever could bring the most for the least work goes to the top of the to-do list.",
   "Wir sehen uns Ihre Website an und wer heute bei Google vor Ihnen steht. Ganz oben auf die Liste kommt, was mit wenig Aufwand am meisten bringen kann."
  ],
- "Kijavítjuk, ami lassítja az oldalt vagy összezavarja a Google-t: a hibás linkeket, a duplán szereplő oldalakat, a túl nagy képeket. Sokszor ez a gyors rész mozdít először.": [
-  "We fix what slows the site down or confuses Google: broken links, pages that appear twice, oversized images. This quick part is often what moves first.",
-  "Wir beheben, was die Website bremst oder Google verwirrt: defekte Links, doppelt vorhandene Seiten, zu große Bilder. Oft bewegt dieser schnelle Teil als Erstes etwas."
+ "Kijavítjuk, ami lassítja az oldalt vagy összezavarja a Google-t: a hibás linkeket, a duplán szereplő oldalakat, a túl nagy képeket. Sokszor ez a gyors rész hozza az első elmozdulást.": [
+  "We fix what slows the site down or confuses Google: broken links, pages that appear twice, oversized images. This quick part often brings the first movement.",
+  "Wir beheben, was die Website bremst oder Google verwirrt: defekte Links, doppelt vorhandene Seiten, zu große Bilder. Oft bringt dieser schnelle Teil die erste Bewegung."
  ],
  "Vásárolt linkekkel és kulcsszóval telepakolt szöveggel sem dolgozunk. Rövid távon mozdíthatnak a helyezéseden, aztán valakinek takarítania kell utánuk.": [
   "We don’t use bought links or keyword-stuffed copy either. They can move your rankings in the short term, and then someone has to clean up after them.",
   "Mit gekauften Links und mit Keywords vollgestopften Texten arbeiten wir ebenfalls nicht. Kurzfristig können sie Ihr Ranking bewegen, danach muss jemand hinter ihnen aufräumen."
  ],
- "Árlistát nem teszünk ki, mert a havidíj azon múlik, mennyi munka van nálad. Előbb megnézzük az oldaladat és a versenytársaidat, és csak utána mondunk árat.": [
+ "Árlistát nem teszünk ki, mert a havidíj azon múlik, mennyi munkát kér az oldalad. Előbb megnézzük az oldaladat és a versenytársaidat, és csak utána mondunk árat.": [
   "We don’t publish a price list, because the monthly fee depends on how much work your site needs. First we look at your site and your competitors, and only then do we name a price.",
-  "Eine Preisliste veröffentlichen wir nicht, denn die Monatspauschale hängt davon ab, wie viel Arbeit bei Ihnen anfällt. Erst sehen wir uns Ihre Website und Ihre Wettbewerber an, dann nennen wir einen Preis."
+  "Eine Preisliste veröffentlichen wir nicht, denn die Monatspauschale hängt davon ab, wie viel Arbeit Ihre Website braucht. Erst sehen wir uns Ihre Website und Ihre Wettbewerber an, dann nennen wir einen Preis."
  ],
- "Egy friss, tiszta oldalt gyorsan rendbe lehet tenni. Egy évek óta toldozgatott oldalt néha egyszerűbb újraépíteni, és ha így van, megmondjuk.": [
-  "A fresh, clean site can be put in order quickly. One patched up for years is sometimes easier to rebuild, and if so, we’ll tell you.",
-  "Eine neue, saubere Website ist schnell in Ordnung gebracht. Eine, die seit Jahren geflickt wird, baut man manchmal einfacher neu, und wenn das so ist, sagen wir es Ihnen."
+ "Egy friss, tiszta oldalt gyorsan rendbe lehet tenni. Egy évek óta toldozgatott oldalt néha egyszerűbb újraépíteni.": [
+  "A fresh, clean site can be put in order quickly. One patched up for years is sometimes easier to rebuild.",
+  "Eine neue, saubere Website ist schnell in Ordnung gebracht. Eine, die seit Jahren geflickt wird, baut man manchmal einfacher neu."
  ],
  "Egy kisvárosi kertépítő néhány tucat kifejezésért versenyez, egy országos webáruház több ezerért. Minél több a kifejezés, és minél erősebb a verseny, annál több a munka.": [
   "A small-town landscaper competes for a few dozen phrases, a national online shop for several thousand. The more phrases and the stronger the competition, the more work it takes.",
@@ -596,17 +596,17 @@
   "After the discovery you get an itemised proposal for the first months, and we can justify every line. The proposal is not an obligation.",
   "Nach der Analyse erhalten Sie ein aufgeschlüsseltes Angebot für die ersten Monate, und jede Position können wir begründen. Das Angebot ist unverbindlich."
  ],
- "Nem mindenkinek éri meg a havidíj. Ha a jövő hónapban kell az első megrendelés, vagy nálad a <a class=\"tlink\" href=\"hirdeteskezeles.html\">hirdetés</a> hozna többet, megmondjuk, és nem adunk el keresőoptimalizálást.": [
-  "A monthly fee doesn’t pay off for everyone. If you need your first order next month, or <a class=\"tlink\" href=\"hirdeteskezeles.html\">advertising</a> would bring you more, we’ll say so, and we won’t sell you SEO.",
-  "Nicht für jeden lohnt sich die Monatspauschale. Wenn Sie den ersten Auftrag schon nächsten Monat brauchen oder bei Ihnen <a class=\"tlink\" href=\"hirdeteskezeles.html\">Werbung</a> mehr bringen würde, sagen wir es und verkaufen Ihnen keine Suchmaschinenoptimierung."
+ "Nem mindenkinek éri meg a havidíj. Ha nálad a <a class=\"tlink\" href=\"hirdeteskezeles.html\">hirdetés</a> hozna többet, megmondjuk, és nem adunk el keresőoptimalizálást.": [
+  "A monthly fee doesn’t pay off for everyone. If <a class=\"tlink\" href=\"hirdeteskezeles.html\">advertising</a> would bring you more, we’ll say so, and we won’t sell you SEO.",
+  "Nicht für jeden lohnt sich die Monatspauschale. Wenn bei Ihnen <a class=\"tlink\" href=\"hirdeteskezeles.html\">Werbung</a> mehr bringen würde, sagen wir es und verkaufen Ihnen keine Suchmaschinenoptimierung."
  ],
  "Ha új oldal is kell, a <a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">keresőoptimalizált weboldal</a> egyszeri projekt. Az első verziótól benne van a keresőoptimalizálás.": [
   "If you need a new site too, a <a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">search-optimised website</a> is a one-off project. SEO is built in from the first version.",
   "Brauchen Sie auch eine neue Website, ist die <a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">suchmaschinenoptimierte Website</a> ein einmaliges Projekt. SEO steckt ab der ersten Version drin."
  ],
- "Írd le pár mondatban, mit árulsz, és kiknek. Egy rövid, ingyenes beszélgetésben elmondod, honnan jönnek ma az ügyfeleid, mi pedig figyelünk. A végén megmondjuk, megéri-e nálad a keresőoptimalizálás.": [
-  "Write a few sentences about what you sell, and to whom. In a short, free conversation you tell us where your clients come from today, and we listen. At the end we tell you whether SEO is worth it for you.",
-  "Schreiben Sie in ein paar Sätzen, was Sie verkaufen und an wen. In einem kurzen, kostenlosen Gespräch erzählen Sie uns, woher Ihre Kunden heute kommen, und wir hören zu. Am Ende sagen wir Ihnen, ob sich Suchmaschinenoptimierung für Sie lohnt."
+ "Írd meg, mit csinálsz, és hol szeretnél megjelenni a Google-ben. Egy rövid, ingyenes beszélgetésben együtt megnézzük, mire találnak ma rád, és mire a versenytársaidra.": [
+  "Tell us what you do and where you want to show up on Google. In a short, free conversation we look together at the searches that find you today, and those that find your competitors.",
+  "Schreiben Sie uns, was Sie tun und wo Sie bei Google erscheinen möchten. In einem kurzen, kostenlosen Gespräch sehen wir gemeinsam nach, über welche Suchen man Sie heute findet und über welche Ihre Wettbewerber."
  ],
  "Mi azt tesszük rendbe, amit a Google lát: az oldalad szerkezetét, a szövegeit és a Google Cégprofilodat.": [
   "We put right what Google sees: your site’s structure, its copy and your Google Business Profile.",
