@@ -159,9 +159,9 @@
   "3D sites <span class=\"sig\">we have built</span>",
   "3D-Websites, <span class=\"sig\">die wir gebaut haben</span>"
  ],
- "Építőipari felmérő cég háromnyelvű oldala: egy 3D épületmodell görgetés közben szolgáltatásról szolgáltatásra alakul át. Eredményszámot még nem írunk mellé: csak mért és az ügyfél által jóváhagyott számot közlünk.": [
-  "A three-language site for a construction survey company: a 3D building model changes from service to service as you scroll. We don’t give a result figure yet: we only publish figures that have been measured and approved by the client.",
-  "Die dreisprachige Website eines Vermessungsunternehmens aus dem Bauwesen: Ein 3D-Gebäudemodell verwandelt sich beim Scrollen von Leistung zu Leistung. Eine Ergebniszahl nennen wir noch nicht: Wir veröffentlichen nur gemessene und vom Kunden freigegebene Zahlen."
+ "Építőipari felmérő cég háromnyelvű weboldala. Egyetlen 3D épületmodell görgetés közben szolgáltatásról szolgáltatásra alakul át, mögötte magyar, angol és német keresőoptimalizálás.": [
+  "The three-language website of a construction surveying company. A single 3D building model transforms from service to service as you scroll, backed by SEO in Hungarian, English and German.",
+  "Die dreisprachige Website eines Bauvermessungsunternehmens. Ein einziges 3D-Gebäudemodell verwandelt sich beim Scrollen von Leistung zu Leistung, dahinter Suchmaschinenoptimierung auf Ungarisch, Englisch und Deutsch."
  ],
  "Kertépítő cég interaktív 3D weboldala a kert és a talaj térbeli keresztmetszetével. Awwwards Honorable Mention.": [
   "A landscaping company's interactive 3D website, with a three-dimensional cross-section of the garden and the ground. Awwwards Honorable Mention.",
@@ -171,13 +171,13 @@
   "Five steps, and at the end of each you know where we are and what comes next.",
   "Fünf Schritte, und am Ende jedes Schritts wissen Sie, wo wir stehen und was als Nächstes kommt."
  ],
- "Elmondjátok, mit gyártotok, kik a vevőitek, és hol akad el ma az értékesítés, mi pedig figyelünk. A hívás végére kiderül, mit kell tudnia az új oldalnak.": [
-  "You tell us what you make, who your customers are and where sales get stuck today, and we listen. By the end of the call it’s clear what the new site needs to do.",
-  "Sie erzählen, was Sie herstellen, wer Ihre Kunden sind und wo der Vertrieb heute ins Stocken gerät, und wir hören zu. Am Ende des Gesprächs ist klar, was die neue Website können muss."
+ "Elmondjátok, mit gyártotok, kik a vevőitek, és hol akad el ma az értékesítés. A hívás végére kiderül, mit kell tudnia az új oldalnak.": [
+  "You tell us what you make, who your customers are and where sales get stuck today. By the end of the call it’s clear what the new site needs to do.",
+  "Sie erzählen, was Sie herstellen, wer Ihre Kunden sind und wo der Vertrieb heute ins Stocken gerät. Am Ende des Gesprächs ist klar, was die neue Website können muss."
  ],
- "Tételes ajánlatot kaptok: mi készül, mi nem, és mikorra. Az ajánlat azt is rögzíti, mikorra küldjétek el a termékadatokat, a referenciákat és a hozzáféréseket, és ehhez kötjük a határidő-garanciát.": [
-  "You get an itemised quote: what gets built, what doesn’t, and by when. The quote also sets when to send us the product data, the references and the access details, and the deadline guarantee is tied to that.",
-  "Sie erhalten ein aufgeschlüsseltes Angebot: was entsteht, was nicht und bis wann. Das Angebot legt auch fest, bis wann Sie uns die Produktdaten, die Referenzen und die Zugänge schicken, und daran knüpfen wir die Termingarantie."
+ "Tételes ajánlatot kaptok: mi készül, mi nem, és mikorra.": [
+  "You get an itemised proposal: what will be built, what will not, and by when.",
+  "Sie erhalten ein aufgeschlüsseltes Angebot: was entsteht, was nicht und bis wann."
  ],
  "Megmutatjuk a tervet, ti alakítjátok. Úgy mutatjuk be, hogy a vezetés, az értékesítés és a műszaki oldal is véleményezni tudja. Három kör módosítás jár hozzá.": [
   "We show you the design, and you shape it. We present it so that management, sales and the technical side can all give their feedback. Three rounds of revisions come with it.",
@@ -247,9 +247,9 @@
   "We don't have the capacity.",
   "Dafür fehlt uns die Kapazität."
  ],
- "Nem kell hozzá nagy kapacitás: a munkát mi visszük. Tőletek az anyagok kellenek és egy kapcsolattartó, aki a kulcspontokon jóváhagy. Hogy mikor mi kell, azt előre rögzítjük az ajánlatban.": [
-  "It doesn’t take much capacity: we carry the work. From you we need the materials and a contact person who signs off at the key points. What we need and when is set out in the quote in advance.",
-  "Dafür brauchen Sie keine großen Kapazitäten: Die Arbeit übernehmen wir. Von Ihnen brauchen wir die Unterlagen und eine Ansprechperson, die an den entscheidenden Punkten freigibt. Was wir wann brauchen, legen wir vorab im Angebot fest."
+ "Nem kell hozzá nagy kapacitás: a munkát mi visszük. Tőletek az anyagok kellenek és egy kapcsolattartó, aki a kulcspontokon jóváhagy.": [
+  "It doesn’t take much capacity: we carry the work. From you we need the materials and a contact person who signs off at the key points.",
+  "Dafür brauchen Sie keine großen Kapazitäten: Die Arbeit übernehmen wir. Von Ihnen brauchen wir die Unterlagen und eine Ansprechperson, die an den entscheidenden Punkten freigibt."
  ],
  "Kié a forráskód és a tartalom?": [
   "Who owns the source code and the content?",
@@ -287,9 +287,9 @@
   "Do you take over existing sites?",
   "Übernehmen Sie bestehende Websites?"
  ],
- "Igen. Először átnézzük, mi menthető, és melyik régi aloldal hoz forgalmat, hogy ez az új oldalon se vesszen el. Ha a mostani oldalatok jól működik, azt is megmondjuk.": [
-  "Yes. First we check what can be kept and which old pages bring in traffic, so that it isn’t lost on the new site. If your current site works well, we’ll tell you that too.",
-  "Ja. Zuerst prüfen wir, was sich retten lässt und welche alten Unterseiten Besucher bringen, damit dieser Traffic auf der neuen Website nicht verloren geht. Wenn Ihre jetzige Website gut funktioniert, sagen wir Ihnen auch das."
+ "Igen. Először átnézzük, mi menthető, és melyik régi aloldal hoz forgalmat, hogy ez az új oldalon se vesszen el.": [
+  "Yes. First we check what can be kept and which old pages bring in traffic, so that it isn’t lost on the new site.",
+  "Ja. Zuerst prüfen wir, was sich retten lässt und welche alten Unterseiten Besucher bringen, damit dieser Traffic auf der neuen Website nicht verloren geht."
  ],
  "Minden ajánlat egyedi. Az ingyenes igényfelmérő hívás után tételes ajánlatot kaptok.": [
   "Every proposal is individual. After the free discovery call you get an itemised proposal.",
@@ -344,9 +344,9 @@
   "We show you the design, and you shape it. We present it so that management, sales and the technical side can all give their feedback.",
   "Wir zeigen Ihnen den Entwurf, und Sie gestalten ihn mit. Wir präsentieren ihn so, dass Geschäftsführung, Vertrieb und Technik ihn beurteilen können."
  ],
- "Az ár attól függ, hány nyelven és hány oldalon készül a weboldal, és kell-e hozzá 3D vagy konfigurátor. Az ingyenes első beszélgetés után tételes ajánlatot kaptok. A weboldal egyszeri projektdíjas, az üzemeltetés és a <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálás</a> havidíjas partnerségként választható.": [
-  "The price depends on how many languages and pages the website has, and whether it needs 3D or a configurator. After the free first conversation you get an itemised quote. The website is a one-off project fee; operation and <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> are available as a monthly partnership.",
-  "Der Preis hängt davon ab, in wie vielen Sprachen und mit wie vielen Seiten die Website entsteht und ob sie 3D oder einen Konfigurator braucht. Nach dem kostenlosen ersten Gespräch erhalten Sie ein aufgeschlüsseltes Angebot. Die Website kostet ein einmaliges Projekthonorar, Betrieb und <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a> sind als monatliche Partnerschaft wählbar."
+ "Az ár attól függ, hány nyelven és hány oldalon készül a weboldal, és kell-e 3D. A weboldal egyszeri projektdíjas, az üzemeltetés és a <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálás</a> választható, havidíjas.": [
+  "The price depends on how many languages and pages the website has, and whether it needs 3D. The website is a one-off project fee; operation and <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> are optional and monthly.",
+  "Der Preis hängt von der Zahl der Sprachen und Seiten ab und davon, ob 3D dazukommt. Die Website kostet einmalig, Betrieb und <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a> sind optional und monatlich."
  ],
  "Írjátok le pár mondatban, mivel foglalkoztok, és mit kellene tudnia az új oldalnak.": [
   "Tell us in a few sentences what you do and what the new site needs to do.",
@@ -357,21 +357,21 @@
   "Your website starts the first sales conversation. Make it better than your competitor's.",
   "Das erste Verkaufsgespräch beginnt Ihre Website. Dort muss sie besser sein als die des Wettbewerbers."
  ],
- "A Stratos Webdesignnál vállalati weboldalt tervezünk és építünk gyártóknak, építőipari és B2B cégeknek, magyarul, angolul és németül.": [
-  "At Stratos Webdesign we design and build corporate websites for manufacturers, construction and B2B companies, in Hungarian, English and German.",
-  "Bei Stratos Webdesign gestalten und bauen wir Unternehmenswebsites für Hersteller, Bauunternehmen und B2B-Firmen, auf Ungarisch, Englisch und Deutsch."
+ "A Stratos Webdesignnál vállalati weboldalt építünk ipari és B2B cégeknek, magyarul, angolul és németül.": [
+  "At Stratos Webdesign we build corporate websites for industrial and B2B companies, in Hungarian, English and German.",
+  "Stratos Webdesign baut Unternehmenswebsites für Industrie- und B2B-Firmen, auf Ungarisch, Englisch und Deutsch."
  ],
- "Hétfőn az értékesítési megbeszélésen kiderül, hogy egy beszerző a versenytársat hívta fel. Nálatok egy PDF-katalógust és egy fotót talált a csarnokról, náluk a paramétereket és a referenciákat.": [
-  "At Monday’s sales meeting it turns out that a buyer called your competitor. On your site they found a PDF catalogue and a photo of the factory hall; on theirs, the specifications and the references.",
-  "Im Vertriebsmeeting am Montag stellt sich heraus, dass ein Einkäufer beim Wettbewerber angerufen hat. Bei Ihnen hat er einen PDF-Katalog und ein Foto der Werkshalle gefunden, dort die technischen Daten und die Referenzen."
+ "Hétfőn az értékesítési megbeszélésen kiderül, hogy egy beszerző a versenytársat hívta fel. Utólag elmondta: nálatok egy PDF-katalógust és egy fotót talált a csarnokról, a versenytársnál a paramétereket és a referenciákat.": [
+  "At Monday’s sales meeting it turns out that a buyer called your competitor. Afterwards he told you why: on your site he found a PDF catalogue and a photo of the factory hall, on the competitor’s the specifications and the references.",
+  "Im Vertriebsmeeting am Montag stellt sich heraus, dass ein Einkäufer beim Wettbewerber angerufen hat. Hinterher erzählt er: Bei Ihnen fand er einen PDF-Katalog und ein Foto der Werkshalle, beim Wettbewerber die technischen Daten und die Referenzen."
  ],
  "Olyan vállalati weboldalt építünk, amelyen a mérnök megtalálja a paramétert, a beszerző pedig a referenciát, még a hívás előtt.": [
   "We build a corporate website where the engineer finds the specification and the buyer finds the reference, before anyone picks up the phone.",
   "Wir bauen eine Unternehmenswebsite, auf der der Ingenieur die Parameter findet und der Einkäufer die Referenz, noch vor dem Anruf."
  ],
- "Nálunk egy ember foglalkozik veletek: aki az első megbeszélésen ott ül, az viszi végig a projektet, az indulás után is.": [
-  "On our side one person looks after you: whoever sits in the first meeting carries the project through, after launch too.",
-  "Bei uns ist eine Person für Sie zuständig: Wer beim ersten Termin dabei ist, begleitet das Projekt bis zum Ende, auch nach dem Start."
+ "Egy kapcsolattartótok lesz: aki az első megbeszélésen ott ül, az viszi végig a projektet, az indulás után is.": [
+  "You have one contact person: whoever sits in the first meeting carries the project through, after launch too.",
+  "Sie haben eine Ansprechperson: Wer beim ersten Termin dabei ist, begleitet das Projekt bis zum Ende, auch nach dem Start."
  ],
  "Ha valami nem működik, nincs kire mutogatni, és nem kell beszállítók között közvetítenetek. A tervezést, a szöveget, a fejlesztést és az üzemeltetést ugyanaz a csapat viszi.": [
   "When something doesn’t work, there’s no finger-pointing, and you don’t have to mediate between suppliers. Design, copy, development and operation are handled by the same team.",
@@ -381,9 +381,9 @@
   "Products and services, references, company profile, careers. In bespoke code, without a template.",
   "Produkte und Leistungen, Referenzen, Unternehmensporträt, Karriere. Aus individuellem Code, ohne Vorlage."
  ],
- "A terméketek 3D-ben körbeforgatható. A konfigurátor akkor is elmagyarázza, amikor senki nincs a telefonnál.": [
-  "Your product turns all the way round in 3D. The configurator explains it even when nobody is by the phone.",
-  "Ihr Produkt lässt sich in 3D rundum drehen. Der Konfigurator erklärt es auch dann, wenn niemand am Telefon ist."
+ "A terméketek 3D-ben körbeforgatható. A konfigurátor akkor is elmagyarázza a terméket, amikor senki nincs a telefonnál.": [
+  "Your product turns all the way round in 3D. The configurator explains the product even when nobody is by the phone.",
+  "Ihr Produkt lässt sich in 3D rundum drehen. Der Konfigurator erklärt das Produkt auch dann, wenn niemand am Telefon ist."
  ],
  "Az űrlap a ti értékesítési kérdéseiteket teszi fel. Az első egyeztetés kész adatokkal indul.": [
   "The form asks your sales questions. The first conversation starts with the facts in hand.",
@@ -401,24 +401,24 @@
   "We show you the design, and you shape it. Management, sales and engineering can all have their say before we start development.",
   "Wir zeigen Ihnen den Entwurf, und Sie gestalten ihn mit. Geschäftsführung, Vertrieb und Technik können sich äußern, bevor wir mit der Entwicklung beginnen."
  ],
- "Megépítjük, minden eszközön teszteljük, elindítjuk és átadjuk. Ha kéritek, utána is mi üzemeltetjük, és ugyanaz az ember foglalkozik veletek.": [
-  "We build it, test it on every device, launch it and hand it over. If you want, we run it afterwards too, and the same person keeps looking after you.",
-  "Wir bauen sie, testen sie auf allen Geräten, schalten sie live und übergeben sie. Auf Wunsch betreiben wir sie auch danach, und dieselbe Person bleibt für Sie zuständig."
+ "Megépítjük, minden eszközön teszteljük, elindítjuk és átadjuk. Ha kéritek, utána is mi üzemeltetjük.": [
+  "We build it, test it on every device, launch it and hand it over. If you want, we run it afterwards too.",
+  "Wir bauen sie, testen sie auf allen Geräten, schalten sie live und übergeben sie. Auf Wunsch betreiben wir sie auch danach."
  ],
- "Igazatok van, a döntés a személyes találkozón születik, és ezt egy weboldal nem veszi át. A találkozó előtt viszont megnézik az oldalatokat, és sokszor ez alapján döntik el, lesz-e egyáltalán találkozó.": [
-  "You’re right: the decision is made in the personal meeting, and a website doesn’t take that over. But before the meeting people look at your site, and often that’s what decides whether there will be a meeting at all.",
-  "Da haben Sie recht: Die Entscheidung fällt im persönlichen Termin, und das nimmt Ihnen keine Website ab. Vor dem Termin sieht man sich aber Ihre Website an, und oft entscheidet sie darüber, ob es überhaupt einen Termin gibt."
+ "Igazatok van, a döntés a személyes találkozón születik, ezt egy weboldal nem veszi át. Azt viszont sokszor az oldalatok dönti el, lesz-e találkozó.": [
+  "You’re right: the decision is made in the personal meeting, and a website doesn’t take that over. But your site often decides whether there will be a meeting at all.",
+  "Da haben Sie recht: Die Entscheidung fällt im persönlichen Termin, das nimmt Ihnen keine Website ab. Ob es aber überhaupt einen Termin gibt, entscheidet oft Ihre Website."
  ],
- "Írjátok le pár mondatban, mit kérdeznek tőletek a vevők a legtöbbször. Egy rövid, ingyenes beszélgetésben meghallgatunk, és megmondjuk, mire kell választ adnia az új oldalnak.": [
-  "Write a few sentences about what customers ask you most often. In a short, free conversation we listen, and we tell you what the new site needs to answer.",
-  "Schreiben Sie in ein paar Sätzen, was Kunden Sie am häufigsten fragen. In einem kurzen, kostenlosen Gespräch hören wir zu und sagen Ihnen, worauf die neue Website antworten muss."
+ "Írjátok le, mit kérdeznek tőletek a legtöbbször. Az új oldal erre válaszol.": [
+  "Tell us what you get asked most often. The new site will answer it.",
+  "Schreiben Sie uns, was man Sie am häufigsten fragt. Die neue Website beantwortet es."
  ],
  "Az átadáskor megkapjátok a forráskódot, a tartalmat és minden hozzáférést.": [
   "At handover you receive the source code, the content and every login.",
   "Bei der Übergabe erhalten Sie den Quellcode, die Inhalte und alle Zugänge."
  ],
- "A termékkel nincs baj, ezt ti tudjátok a legjobban. A beszerző viszont nem a gyártósort látja, csak azt, amit az oldalon megtalál. A mi dolgunk, hogy nálatok találja meg, amit keres.": [
-  "There’s nothing wrong with the product, and nobody knows that better than you. But the buyer doesn’t see your production line, only what they can find on the site. Our job is to make sure they find what they’re looking for on yours.",
-  "Am Produkt liegt es nicht, das wissen Sie selbst am besten. Der Einkäufer sieht aber nicht Ihre Fertigungslinie, sondern nur das, was er auf der Website findet. Unsere Aufgabe ist, dass er bei Ihnen findet, was er sucht."
+ "A termékkel nincs baj, ezt ti tudjátok a legjobban. A beszerző viszont nem a gyártósort látja, csak azt, amit az oldalon megtalál.": [
+  "There’s nothing wrong with the product, and nobody knows that better than you. But the buyer doesn’t see your production line, only what they can find on the site.",
+  "Am Produkt liegt es nicht, das wissen Sie selbst am besten. Der Einkäufer sieht aber nicht Ihre Fertigungslinie, sondern nur das, was er auf der Website findet."
  ]
 }

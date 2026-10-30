@@ -247,9 +247,9 @@
   "We talk through what you sell, how many products you have and what the shop has to connect to, and from that we recommend the platform.",
   "Wir besprechen, was Sie verkaufen, mit wie vielen Produkten und woran der Shop angebunden werden muss, und empfehlen daraus die Plattform."
  ],
- "Tételes ajánlatot kapsz: mi készül, mi nem, és mikorra. Az ajánlat azt is rögzíti, mikorra küldd el a termékadatokat, a fotókat és a hozzáféréseket, és ehhez kötjük a határidő-garanciát.": [
-  "You get an itemised quote: what gets built, what doesn’t, and by when. The quote also sets when to send us the product data, the photos and the access details, and the deadline guarantee is tied to that.",
-  "Sie erhalten ein aufgeschlüsseltes Angebot: was entsteht, was nicht und bis wann. Das Angebot legt auch fest, bis wann Sie uns die Produktdaten, die Fotos und die Zugänge schicken, und daran knüpfen wir die Termingarantie."
+ "Tételes ajánlatot kapsz: mi készül, mi nem, és mikorra.": [
+  "You get an itemised proposal: what will be built, what will not, and by when.",
+  "Sie erhalten ein aufgeschlüsseltes Angebot: was entsteht, was nicht und bis wann."
  ],
  "Megépítjük, teszteljük a fizetést és a szállítást, élesítjük, és átadjuk a hozzáféréseket. A leghosszabb szakasz általában a terméktörzs: a fotók, a leírások és a változatok rendbetétele. Ha ez megvan, gyorsabban végzünk; ha nincs, ebben is segítünk.": [
   "We build it, test payment and delivery, put it live and hand over the access. The longest stage is usually the product data: getting the photos, descriptions and variants in order. If that is ready, we finish sooner; if not, we help with that too.",
@@ -327,13 +327,13 @@
   "Do I get an admin interface?",
   "Bekomme ich eine Verwaltungsoberfläche?"
  ],
- "Igen, a választott platformét. A napi munkához ebből néhány funkció kell: termékfelvitel, ár- és készletmódosítás, rendeléskezelés és kuponok, a többihez nem kell hozzányúlnod.": [
-  "Yes, the one that comes with the platform you choose. For day-to-day work you need a few of its functions: adding products, changing prices and stock, handling orders and coupons. You don’t need to touch the rest.",
-  "Ja, die der gewählten Plattform. Für die tägliche Arbeit brauchen Sie davon nur wenige Funktionen: Produkte anlegen, Preise und Bestand ändern, Bestellungen bearbeiten und Gutscheine. Den Rest müssen Sie nicht anfassen."
+ "Igen, arra a néhány dologra szabva, amit ténylegesen csinálni fogsz: termékfelvitel, ár- és készletmódosítás, rendeléskezelés, kuponok. Nem egy húszmenüpontos panel, amiből hármat használsz.": [
+  "Yes, cut down to the few things you will actually do: adding products, changing prices and stock, handling orders, coupons. Not a twenty-item panel of which you use three.",
+  "Ja, zugeschnitten auf die wenigen Dinge, die Sie wirklich tun: Produkte anlegen, Preise und Bestand ändern, Bestellungen, Gutscheine. Kein Panel mit zwanzig Menüpunkten, von denen Sie drei nutzen."
  ],
- "A jogi szövegek tartalmáért jogász felel, nem mi. Mi beépítjük a kötelező tartalmak helyét (ÁSZF, elállási tájékoztató, adatkezelés, cookie-kezelés), és szólunk, ha valami hiányzik. Ha nincs jogászod, időben szólunk, hogy keress egyet.": [
-  "A lawyer is responsible for what the legal texts say, not us. We build in the places for the mandatory content (terms and conditions, withdrawal information, privacy, cookie handling) and tell you if something is missing. If you don’t have a lawyer, we’ll tell you in good time to find one.",
-  "Für den Inhalt der Rechtstexte ist eine Anwältin oder ein Anwalt zuständig, nicht wir. Wir bauen die Stellen für die Pflichtinhalte ein (AGB, Widerrufsbelehrung, Datenschutz, Cookie-Verwaltung) und sagen Bescheid, wenn etwas fehlt. Haben Sie niemanden, sagen wir Ihnen rechtzeitig, dass Sie jemanden brauchen."
+ "A jogi szövegek tartalmáért jogász felel, nem mi. Mi beépítjük a kötelező tartalmak helyét (ÁSZF, elállási tájékoztató, adatkezelés, cookie-kezelés), és jelezzük, ha valami hiányzik.": [
+  "A lawyer is responsible for what the legal texts say, not us. We build in the places for the mandatory content (terms, withdrawal notice, privacy, cookies) and tell you if anything is missing.",
+  "Für den Inhalt der Rechtstexte ist ein Anwalt zuständig, nicht wir. Wir sehen Platz für die Pflichtinhalte vor (AGB, Widerrufsbelehrung, Datenschutz, Cookies) und sagen Bescheid, wenn etwas fehlt."
  ],
  "Új nyelv, új piac, új fizetési mód később is rákerülhet, mert a platformot eleve a növekedéshez választjuk.": [
   "A new language, a new market or a new payment method can be added later, because we choose the platform with growth in mind from the start.",
@@ -359,13 +359,13 @@
   "We design for the moments where customers decide or abandon the purchase: from the product list to a completed payment.",
   "Wir gestalten für die Momente, in denen die Kundschaft entscheidet oder den Kauf abbricht: von der Produktliste bis zur erfolgreichen Zahlung."
  ],
- "Attól függ, hány terméked van, hány változattal, és milyen programokhoz kell kapcsolódnia. Az ingyenes első beszélgetés után tételes ajánlatot kapsz, egyszeri projektdíjjal, és ha valamire szerintünk nincs szükséged, megmondjuk.": [
-  "It depends on how many products you have, in how many variants, and which software the shop needs to connect to. After the free first conversation you get an itemised quote with a one-off project fee, and if we think you don’t need something, we’ll tell you.",
-  "Das hängt davon ab, wie viele Produkte Sie haben, in wie vielen Varianten und an welche Programme der Shop angebunden werden muss. Nach dem kostenlosen ersten Gespräch erhalten Sie ein aufgeschlüsseltes Angebot mit einmaligem Projekthonorar, und wenn Sie etwas unserer Meinung nach nicht brauchen, sagen wir es Ihnen."
+ "Attól függ, hány terméked van, hány változattal, és milyen programokhoz kell kapcsolódnia a boltnak. Az ingyenes első beszélgetés után tételes ajánlatot kapsz, egyszeri projektdíjjal.": [
+  "It depends on how many products and variants you have, and which software the shop must connect to. After the free first conversation you get an itemised quote with a one-off project fee.",
+  "Das hängt von der Zahl der Produkte und Varianten ab und davon, welche Programme angebunden werden. Nach dem Erstgespräch erhalten Sie ein aufgeschlüsseltes Angebot mit einmaligem Projekthonorar."
  ],
- "Lehet, hogy nem is kell új. Először megnézzük, hol hagyják ott a vevők, és mi menthető: a termékadatok és a korábbi rendelések általában átvihetők, a domained pedig megmarad.": [
-  "You may not need a new one at all. First we look at where customers drop off and what can be kept: product data and past orders can usually be moved over, and your domain stays.",
-  "Vielleicht brauchen Sie gar keinen neuen. Zuerst sehen wir uns an, wo die Kunden abspringen und was sich retten lässt: Produktdaten und frühere Bestellungen lassen sich meist übernehmen, und Ihre Domain bleibt erhalten."
+ "Lehet, hogy nem kell új: ha a bolt jó, de kevesen találják meg, <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálás</a> kell. Ha nem, a termékadatok és a rendelések általában átvihetők az újba.": [
+  "You may not need a new one: if the shop is good but few people find it, you need <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a>. If not, product data and orders can usually move across.",
+  "Vielleicht brauchen Sie gar keinen neuen: Ist der Shop gut, finden ihn aber nur wenige, hilft <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a>. Wenn nicht, lassen sich Produktdaten und frühere Bestellungen meist übernehmen."
  ],
  "Írd le, mit árulsz, hány termékkel, és hol tart most a boltod; egy ingyenes igényfelmérő hívásban javaslatot teszünk a platformra.": [
   "Tell us what you sell, how many products you have and where your shop stands today; in a free discovery call we recommend a platform.",
@@ -375,17 +375,17 @@
   "Most orders are lost between the basket and the payment. That's where we start.",
   "Zwischen Warenkorb und Kasse gehen die meisten Bestellungen verloren. Genau dort setzen wir an."
  ],
- "A Stratos Webdesignnál webshopot készítünk termékeket árusító vállalkozásoknak, az egész országban. Előbb megnézzük, mit és hogyan árulsz, és csak utána választunk platformot.": [
-  "At Stratos Webdesign we build online shops for businesses that sell products, across Hungary. First we look at what you sell and how, and only then do we choose a platform.",
-  "Bei Stratos Webdesign erstellen wir Onlineshops für Unternehmen, die Produkte verkaufen, in ganz Ungarn. Zuerst sehen wir uns an, was Sie verkaufen und wie, erst danach wählen wir die Plattform."
+ "A Stratos Webdesignnál webshopot készítünk termékeket árusító vállalkozásoknak, az egész országban.": [
+  "At Stratos Webdesign we build online shops for businesses that sell products, across Hungary.",
+  "Bei Stratos Webdesign erstellen wir Onlineshops für Unternehmen, die Produkte verkaufen, in ganz Ungarn."
  ],
- "Valaki munkába menet, a buszon kiválaszt két terméket a telefonján. A fizetésnél jön a szállítási díj, a kötelező regisztráció, aztán egy hibaüzenet. Bezárja a fület.": [
-  "On the bus to work, someone picks two products on their phone. At checkout comes the delivery fee, then a compulsory sign-up, then an error message. They close the tab.",
-  "Jemand wählt auf dem Weg zur Arbeit im Bus zwei Produkte auf dem Handy aus. An der Kasse kommen die Versandkosten, die Pflichtregistrierung und dann eine Fehlermeldung. Er schließt den Tab."
+ "A buszon valaki két terméket tesz a kosárba a telefonján. A fizetésnél jön a szállítási díj, a kötelező regisztráció, aztán egy hibaüzenet. Bezárja a fület.": [
+  "On the bus, someone puts two products in the basket on their phone. At checkout comes the delivery fee, then a compulsory sign-up, then an error message. They close the tab.",
+  "Im Bus legt jemand auf dem Handy zwei Produkte in den Warenkorb. An der Kasse kommen die Versandkosten, die Pflichtregistrierung und dann eine Fehlermeldung. Er schließt den Tab."
  ],
- "Te annyit látsz, hogy gyengébb volt a hónap. Ha azt gondolod, hogy nem a termékeiddel van baj, valószínűleg igazad van: ez a vevő nem a terméken, hanem a fizetésen akadt el.": [
-  "All you see is a weaker month. If you think your products aren’t the problem, you’re probably right: this customer didn’t get stuck on the product but on the payment.",
-  "Sie sehen nur einen schwächeren Monat. Wenn Sie denken, dass es nicht an Ihren Produkten liegt, haben Sie wahrscheinlich recht: Dieser Kunde ist nicht am Produkt hängen geblieben, sondern an der Bezahlung."
+ "Te annyit látsz, hogy gyengébb volt a hónap. Ha szerinted nem a termékeiddel van baj, könnyen lehet, hogy igazad van: a vevő a fizetésnél akadt el.": [
+  "All you see is a weaker month. If you think your products aren’t the problem, you may well be right: the customer got stuck at checkout.",
+  "Sie sehen nur einen schwächeren Monat. Wenn es Ihrer Meinung nach nicht an den Produkten liegt, haben Sie gut möglich recht: Der Kunde ist an der Kasse hängen geblieben."
  ],
  "A kategóriákat úgy építjük, ahogy a vevő keres, és nem ahogy a raktár tárol.": [
   "We build the categories the way customers search, not the way the warehouse stores things.",
@@ -395,9 +395,9 @@
   "Card, cash on delivery, bank transfer, courier, parcel point. Delivery costs already show in the basket.",
   "Karte, Nachnahme, Überweisung, Kurier, Paketstation. Die Versandkosten stehen schon im Warenkorb."
  ],
- "Ha már használsz számlázót vagy raktárprogramot, a felmérésen megnézzük, hogyan köthető össze a bolttal, hogy a rendeléseket ne kelljen még egyszer begépelned.": [
-  "If you already use invoicing or stock software, we check in the assessment how it can be connected to the shop, so you don’t have to type orders in a second time.",
-  "Wenn Sie schon ein Rechnungs- oder Lagerprogramm nutzen, prüfen wir bei der Bestandsaufnahme, wie es sich mit dem Shop verbinden lässt, damit Sie Bestellungen nicht noch einmal abtippen müssen."
+ "Ha a számlázód vagy a raktárprogramod összeköthető a bolttal, összekötjük, és a rendelést nem kell kétszer begépelned.": [
+  "If your invoicing or stock software can be connected to the shop, we connect it, and you don’t have to type an order in twice.",
+  "Lässt sich Ihr Rechnungs- oder Lagerprogramm mit dem Shop verbinden, binden wir es an, und Sie müssen keine Bestellung doppelt eintippen."
  ],
  "Mérjük, hányan tesznek valamit a kosárba, hányan hagyják ott, és hányan fizetnek. Egy hónap után látod, melyik lépésnél veszíted el a vevőt.": [
   "We measure how many people add something to the basket, how many leave it there and how many pay. After a month you can see at which step you lose customers.",
@@ -407,33 +407,29 @@
   "The shop launches ready for search. If you like, we also run your product ads on Google (Shopping and Performance Max).",
   "Der Shop startet suchmaschinenfertig. Auf Wunsch betreuen wir auch Ihre Produktanzeigen bei Google (Shopping und Performance Max)."
  ],
- "Borház Klárafalván, Szeged mellett. A webshopot, a keresőoptimalizálást, a közösségi médiát és a Meta-hirdetést is mi visszük, a munka nagy része online megy.": [
+ "Borház Klárafalván, Szeged mellett. A webshopot, a keresőoptimalizálást, a közösségi médiát és a Meta-hirdetést is mi visszük, és a munka nagy része online megy.": [
   "A winery in Klárafalva, near Szeged. We run the online shop, the SEO, the social media and the Meta ads, and most of the work happens online.",
   "Ein Weingut in Klárafalva bei Szeged. Onlineshop, Suchmaschinenoptimierung, Social Media und Meta-Werbung liegen bei uns, und der Großteil der Arbeit läuft online."
  ],
- "Valószínűleg már hallottál ajánlást erre vagy arra a webshoprendszerre, és mindenki mást mondott. Mi előbb azt nézzük meg, hány terméked van, hány változattal, és milyen programokhoz kell kapcsolódnia a boltnak. Egy rossz platformválasztás később többe kerül, mint egy jó döntés az elején.": [
-  "You’ve probably heard recommendations for this or that shop system, and everyone said something different. We first look at how many products you have, in how many variants, and which software the shop needs to connect to. The wrong platform costs more later than a good decision at the start.",
-  "Wahrscheinlich haben Sie schon Empfehlungen für dieses oder jenes Shopsystem gehört, und jeder hat etwas anderes gesagt. Wir sehen uns zuerst an, wie viele Produkte Sie haben, in wie vielen Varianten und an welche Programme der Shop angebunden werden muss. Eine falsche Plattformwahl kostet später mehr als eine gute Entscheidung am Anfang."
+ "Valószínűleg már hallottál ajánlást erre vagy arra a webshoprendszerre, és mindenki mást mondott. Mi előbb azt nézzük meg, hány terméked van, hány változattal, és milyen programokhoz kell kapcsolódnia a boltnak. Egy rossz platformot később drágább lecserélni, mint az elején jól választani.": [
+  "You’ve probably heard recommendations for this or that shop system, and everyone said something different. We first look at how many products you have, in how many variants, and which software the shop needs to connect to. Replacing the wrong platform later costs more than choosing well at the start.",
+  "Wahrscheinlich haben Sie schon Empfehlungen für dieses oder jenes Shopsystem gehört, und jeder hat etwas anderes gesagt. Wir sehen uns zuerst an, wie viele Produkte Sie haben, in wie vielen Varianten und an welche Programme der Shop angebunden werden muss. Eine falsche Plattform später zu ersetzen kostet mehr, als am Anfang gut zu wählen."
  ],
- "Ha a mostani boltod jól működik, de kevesen találják meg, akkor nem új webáruház kell neked, hanem <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálás</a>.": [
-  "If your current shop works well but few people find it, you don’t need a new online shop, you need <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a>.",
-  "Wenn Ihr jetziger Shop gut funktioniert, aber nur wenige ihn finden, brauchen Sie keinen neuen Onlineshop, sondern <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a>."
- ],
- "Elmondod, mit árulsz, kiknek, és milyen programokat használsz ma, mi pedig figyelünk. A beszélgetés alapján javaslunk platformot.": [
-  "You tell us what you sell, to whom, and which software you use today, and we listen. Based on that conversation we recommend a platform.",
-  "Sie erzählen, was Sie verkaufen, an wen und welche Programme Sie heute nutzen, und wir hören zu. Auf Grundlage des Gesprächs empfehlen wir eine Plattform."
+ "Elmondod, mit árulsz, kiknek, és milyen programokat használsz ma, mi pedig ehhez javaslunk platformot.": [
+  "You tell us what you sell, to whom, and which software you use today, and we recommend a platform to match.",
+  "Sie erzählen, was Sie verkaufen, an wen und welche Programme Sie heute nutzen, und wir empfehlen die passende Plattform."
  ],
  "Megépítjük, végigteszteljük, elindítjuk a boltot, és átadjuk a hozzáféréseket.": [
   "We build it, test it end to end, launch the shop and hand over the access details.",
   "Wir bauen ihn, testen ihn durch, schalten den Shop live und übergeben die Zugänge."
  ],
- "Nem kell egyedül csinálnod: a termékadatok rendbetételében segítünk, tőled a döntések kellenek. A fotók, a leírások és a változatok összeállítása általában a leghosszabb szakasz. Ha ezek már megvannak, gyorsabban végzünk.": [
-  "You don’t have to do it alone: we help you get the product data in order, and from you we need the decisions. Putting together the photos, descriptions and variants is usually the longest stage. If you already have them, we finish sooner.",
-  "Das müssen Sie nicht allein machen: Wir helfen Ihnen, die Produktdaten in Ordnung zu bringen, von Ihnen brauchen wir die Entscheidungen. Fotos, Beschreibungen und Varianten zusammenzustellen ist meist die längste Phase. Wenn sie schon vorliegen, sind wir schneller fertig."
+ "Nem kell egyedül csinálnod: a fotók, a leírások és a változatok rendbetételében segítünk, tőled a döntések kellenek. Ha ezek már megvannak, gyorsabban végzünk.": [
+  "You don’t have to do it alone: we help you get the photos, descriptions and variants in order, and from you we need the decisions. If you already have them, we finish sooner.",
+  "Das müssen Sie nicht allein machen: Bei Fotos, Beschreibungen und Varianten helfen wir, von Ihnen brauchen wir die Entscheidungen. Liegt das schon vor, sind wir schneller fertig."
  ],
- "Írd le pár mondatban, mit árulsz, és van-e már webshopod. Egy rövid, ingyenes beszélgetésben meghallgatunk, és utána javaslunk platformot.": [
-  "Write a few sentences about what you sell and whether you already have an online shop. In a short, free conversation we listen, and then we recommend a platform.",
-  "Schreiben Sie in ein paar Sätzen, was Sie verkaufen und ob Sie schon einen Onlineshop betreiben. In einem kurzen, kostenlosen Gespräch hören wir zu und empfehlen Ihnen danach eine Plattform."
+ "Írd le, mit árulsz, és hány termékkel. A platformot mi javasoljuk.": [
+  "Tell us what you sell and how many products you have. We'll recommend the platform.",
+  "Schreiben Sie uns, was Sie verkaufen und mit wie vielen Produkten. Die Plattform schlagen wir vor."
  ],
  "Mi az indulás előtt végigpróbáljuk a fizetést és a szállítást, hogy az első valódi vevődet már ne hibaüzenet fogadja.": [
   "Before launch we run through payment and delivery ourselves, so your first real customer isn’t greeted by an error message.",
