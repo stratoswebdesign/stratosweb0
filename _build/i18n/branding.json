@@ -63,9 +63,9 @@
   "<b>1%</b> the colours of the work",
   "<b>1 %</b> die Farben der Arbeiten"
  ],
- "A főoldalon mérve 2026 októberében, 1440 px széles képernyőn, minden képpontot besorolva.": [
-  "Measured on the homepage in October 2026, on a 1440 px wide screen, every pixel classified.",
-  "Im Oktober 2026 auf der Startseite gemessen, auf einem 1440 px breiten Bildschirm, jedes Pixel zugeordnet."
+ "A főoldalon mérve, 1440 px széles képernyőn, minden képpontot besorolva.": [
+  "Measured on the homepage, on a 1440 px wide screen, every pixel classified.",
+  "Auf der Startseite gemessen, auf einem 1440 px breiten Bildschirm, jedes Pixel zugeordnet."
  ],
  "0123456789 · 1440 px · 76%": [
   "0123456789 · 1440 px · 76%",
@@ -175,9 +175,9 @@
   "Who your clients are, what your mission is, what sets you apart, and where the brand will live.",
   "Wer Ihre Kunden sind, was Ihre Mission ist, was Sie unterscheidet und wo die Marke leben wird."
  ],
- "Tételes ajánlatot kapsz: mi készül el, milyen formátumokban, és mikorra. Az ajánlat azt is rögzíti, mikorra kérjük tőled a visszajelzéseket és az anyagokat, és ehhez kötjük a határidő-garanciát.": [
-  "You get an itemised quote: what gets made, in which formats, and by when. The quote also sets when we need your feedback and the materials, and the deadline guarantee is tied to that.",
-  "Sie erhalten ein aufgeschlüsseltes Angebot: was entsteht, in welchen Formaten und bis wann. Das Angebot legt auch fest, bis wann wir Ihr Feedback und die Unterlagen brauchen, und daran knüpfen wir die Termingarantie."
+ "Tételes ajánlatot kapsz: mi készül el, milyen formátumokban, és mikorra.": [
+  "You get an itemised quote: what gets made, in which formats, and by when.",
+  "Sie erhalten ein aufgeschlüsseltes Angebot: was entsteht, in welchen Formaten und bis wann."
  ],
  "Az előleg beérkezése után kidolgozott irányokat teszünk le, mindegyiket indoklással és valódi környezetben. A végleges irányt a visszajelzéseid alakítják, három kör módosítással.": [
   "Once the deposit arrives, we present fully worked directions, each with its reasoning and shown in a real setting. Your feedback shapes the final direction, with three rounds of revisions.",
@@ -279,25 +279,25 @@
   "I already have an identity. Do we redesign it or build on it?",
   "Ich habe schon ein Corporate Design. Gestalten wir es neu, oder bauen wir darauf auf?"
  ],
- "Attól függ, mennyire erős a meglévő alap. Ha a logód és a színeid jól működnek, sokszor elég ráépíteni és rendszerbe foglalni, és ezt meg is mondjuk. Ha széttartó vagy elavult, érdemesebb újratervezni.": [
-  "It depends on how strong the existing basis is. If your logo and colours work well, it’s often enough to build on them and turn them into a system, and we’ll tell you so. If it’s inconsistent or dated, a redesign is the better choice.",
-  "Das hängt davon ab, wie tragfähig die bestehende Basis ist. Wenn Ihr Logo und Ihre Farben gut funktionieren, reicht es oft, darauf aufzubauen und ein System daraus zu machen, und das sagen wir Ihnen dann auch. Ist sie uneinheitlich oder veraltet, lohnt sich eher eine Neugestaltung."
+ "Attól függ, mennyire erős az alap. Ha a logód és a színeid jól működnek, sokszor elég ráépíteni és rendszerbe foglalni. Ha széttartó vagy elavult, érdemesebb újratervezni.": [
+  "It depends on how strong the basis is. If your logo and colours work well, building on them and making a system is often enough. If they’re inconsistent or dated, a redesign pays off.",
+  "Das hängt davon ab, wie tragfähig die Basis ist. Funktionieren Logo und Farben gut, reicht es oft, darauf aufzubauen. Ist alles uneinheitlich oder veraltet, lohnt sich eine Neugestaltung."
  ],
  "Hogyan árazzátok?": [
   "How do you price it?",
   "Wie berechnen Sie das?"
  ],
- "Egyszeri, tételes projektdíjjal, amelyet az ingyenes első beszélgetés után előre megadunk. Az ár főleg attól függ, csak logó kell-e vagy teljes arculat, és hány felületre készül. Ha weboldal is kell, a kettő egy projektben is készülhet.": [
-  "With a one-off, itemised project fee that we give you up front, after the free first conversation. The price mainly depends on whether you need just a logo or a full identity, and for how many uses it is made. If you also need a website, the two can be done in one project.",
-  "Mit einem einmaligen, aufgeschlüsselten Projekthonorar, das wir Ihnen nach dem kostenlosen ersten Gespräch vorab nennen. Der Preis hängt vor allem davon ab, ob Sie nur ein Logo oder ein komplettes Erscheinungsbild brauchen und für wie viele Anwendungen es entsteht. Brauchen Sie auch eine Website, kann beides in einem Projekt entstehen."
+ "Egyszeri, tételes projektdíjjal, amelyet előre megadunk. Az arculattervezés ára attól függ, csak logó kell-e vagy teljes arculat, és hány felületre készül. Weboldallal egy projektben is készülhet.": [
+  "With a one-off, itemised fee given up front. It depends on whether you need a logo or a full identity, and for how many uses. A website can be part of the same project.",
+  "Mit einem einmaligen, aufgeschlüsselten Honorar, vorab genannt. Es hängt davon ab, ob Sie ein Logo oder ein ganzes Erscheinungsbild brauchen und wofür. Eine Website passt ins selbe Projekt."
  ],
  "Mennyi idő alatt készül el, és mit kell megadnom?": [
   "How long does it take, and what do I need to provide?",
   "Wie lange dauert es, und was muss ich liefern?"
  ],
- "A határidőt az ajánlatban rögzítjük, és határidő-garanciát vállalunk rá, ha a visszajelzéseid és az anyagok időben megérkeznek. Tőled leginkább az kell, hogy elmeséld, kik az ügyfeleid, és mi különböztet meg.": [
-  "We set the deadline in the quote and guarantee it, as long as your feedback and the materials reach us on time. What we mostly need from you is to hear who your customers are and what sets you apart.",
-  "Den Termin legen wir im Angebot fest und geben eine Termingarantie darauf, sofern Ihr Feedback und die Unterlagen rechtzeitig bei uns eintreffen. Von Ihnen brauchen wir vor allem, dass Sie uns erzählen, wer Ihre Kunden sind und was Sie unterscheidet."
+ "A határidőt az ajánlatban rögzítjük, és határidő-garanciát vállalunk rá, ha a visszajelzéseid és az anyagok időben megérkeznek. Tőled főleg az kell, hogy elmondd, kiknek dolgozol.": [
+  "We set the deadline in the quote and guarantee it, as long as your feedback and the materials reach us on time. Mostly we need you to tell us who you work for.",
+  "Den Termin legen wir im Angebot fest und garantieren ihn, sofern Ihr Feedback und die Unterlagen rechtzeitig kommen. Von Ihnen brauchen wir vor allem, für wen Sie arbeiten."
  ],
  "Kapok arculati kézikönyvet?": [
   "Do I get brand guidelines?",
@@ -376,29 +376,29 @@
   "The website comes first. Can't the identity wait?",
   "Erst brauche ich die Website. Hat das Corporate Design nicht Zeit?"
  ],
- "Ráérhet, ha már van kialakult megjelenésed. Ha nincs, az oldal tervezésekor úgyis el kell dönteni a színeket, a betűket és a képi stílust. Ha kéred, ugyanaz a csapat viszi az arculattervezést és a weboldalt egy projektben, így nem fizetsz kétszer ugyanazért a döntésért.": [
-  "It can wait if you already have an established look. If you don’t, the colours, typefaces and image style have to be decided while the site is designed anyway. If you like, the same team handles the identity design and the website in one project, so you don’t pay twice for the same decision.",
-  "Es kann warten, wenn Sie schon einen gefestigten Auftritt haben. Wenn nicht, müssen Farben, Schriften und Bildstil bei der Gestaltung der Website ohnehin festgelegt werden. Auf Wunsch übernimmt dasselbe Team das Erscheinungsbild und die Website in einem Projekt, so zahlen Sie nicht zweimal für dieselbe Entscheidung."
+ "Ráérhet, ha már van kialakult megjelenésed. Ha nincs, a színekről és a betűkről az oldal tervezésekor úgyis dönteni kell, és fordított sorrendben kétszer fizetnéd ki.": [
+  "It can wait if you already have an established look. If not, the colours and typefaces must be decided while the site is designed anyway, and the other way round you’d pay twice.",
+  "Es kann warten, wenn Sie schon einen gefestigten Auftritt haben. Wenn nicht, müssen Farben und Schriften bei der Website ohnehin festgelegt werden, und umgekehrt zahlen Sie doppelt."
  ],
  "Kis cég vagyok. Nem luxus ez nekem?": [
   "I'm a small company. Isn't this a luxury for me?",
   "Ich bin ein kleines Unternehmen. Ist das für mich nicht Luxus?"
  ],
- "Nem luxus, de csodát sem ígérünk tőle: egy arculat magától nem hoz megrendelést. Egy egységes arculat abban segít, hogy aki még nem ismer, hamarabb megbízzon benned, mert a megjelenésedet előbb látja, mint a munkádat.": [
-  "It isn’t a luxury, but we don’t promise miracles either: a brand identity doesn’t bring in orders by itself. A consistent identity helps people who don’t know you yet to trust you sooner, because they see how you look before they see your work.",
-  "Es ist kein Luxus, aber Wunder versprechen wir auch nicht: Ein Erscheinungsbild bringt nicht von selbst Aufträge. Ein einheitliches Erscheinungsbild hilft dabei, dass Menschen, die Sie noch nicht kennen, Ihnen schneller vertrauen, weil sie Ihren Auftritt vor Ihrer Arbeit sehen."
+ "Nem luxus, de csodát sem ígérünk: egy arculat magától nem hoz megrendelést. Abban segít, hogy aki még nem ismer, hamarabb megbízzon benned.": [
+  "It isn’t a luxury, but we don’t promise miracles either: a brand identity doesn’t bring in orders by itself. It helps people who don’t know you yet to trust you sooner.",
+  "Kein Luxus, aber Wunder versprechen wir auch nicht: Ein Erscheinungsbild bringt nicht von selbst Aufträge. Es hilft, dass Menschen, die Sie nicht kennen, Ihnen schneller vertrauen."
  ],
- "A Stratos Webdesignnál logót és teljes arculatot tervezünk új és megújuló vállalkozásoknak, az egész országban. A cél, hogy egy színről és egy formáról te juss az ügyfeleid eszébe. Weboldal nélkül is kérheted.": [
-  "At Stratos Webdesign we design logos and complete brand identities for new and renewing businesses across Hungary. The aim is that one colour and one shape make your customers think of you. You can order it without a website too.",
-  "Bei Stratos Webdesign gestalten wir Logos und komplette Erscheinungsbilder für neue und sich erneuernde Unternehmen in ganz Ungarn. Das Ziel: Bei einer Farbe und einer Form denken Ihre Kunden an Sie. Sie können es auch ohne Website beauftragen."
+ "A Stratos Webdesignnál logót és arculatot tervezünk vállalkozásoknak, az egész országban. A cél, hogy egy színről és egy formáról te juss az ügyfeleid eszébe. Weboldal nélkül is kérheted.": [
+  "At Stratos Webdesign we design logos and complete brand identities for businesses across Hungary. The aim is that one colour and one shape make your customers think of you. You can order it without a website too.",
+  "Bei Stratos Webdesign gestalten wir Logos und Erscheinungsbilder für Unternehmen in ganz Ungarn. Das Ziel: eine Farbe, eine Form, und Ihre Kunden denken an Sie. Auch ohne Website buchbar."
  ],
- "Hétfő reggel megjön a nyomdából az új szórólap, és valahogy nem hasonlít a weboldaladra. A posztjaid megint másmilyenek, a névjegyed pedig akár egy másik cégé is lehetne.": [
-  "On Monday morning the new flyers arrive from the printer, and somehow they don’t look like your website. Your posts look different again, and your business card could belong to another company altogether.",
-  "Am Montagmorgen kommen die neuen Flyer aus der Druckerei, und irgendwie sehen sie Ihrer Website nicht ähnlich. Ihre Posts sehen wieder anders aus, und Ihre Visitenkarte könnte zu einer ganz anderen Firma gehören."
+ "Az új szórólap megjött a nyomdából, és valahogy nem hasonlít a weboldaladra. A posztjaid egy harmadik stílusban készülnek, a névjegyed pedig akár egy másik cégé is lehetne.": [
+  "The new flyers are back from the printer, and somehow they don’t look like your website. Your posts come in a third style, and your business card could belong to another company altogether.",
+  "Die neuen Flyer sind aus der Druckerei da, und irgendwie sehen sie Ihrer Website nicht ähnlich. Ihre Posts haben einen dritten Stil, und Ihre Visitenkarte könnte zu einer ganz anderen Firma gehören."
  ],
- "Talán azt gondolod, hogy ez apróság, amíg jól dolgozol, és részben igazad is van. A jó munka viszont önmagában nem látszik: aki még nem ismer, a megjelenésedből következtet rá. Az arculat ezeket a darabokat egy rendszerbe fogja, a névjegytől a weboldalig.": [
-  "Maybe you think that’s a detail as long as you do good work, and you’re partly right. But good work doesn’t show on its own: people who don’t know you yet judge it by how you look. A brand identity pulls these pieces into one system, from the business card to the website.",
-  "Vielleicht denken Sie, das sei eine Kleinigkeit, solange Sie gute Arbeit leisten, und zum Teil haben Sie recht. Gute Arbeit ist aber nicht von selbst sichtbar: Wer Sie noch nicht kennt, schließt aus Ihrem Auftritt darauf. Ein Erscheinungsbild fasst diese Teile zu einem System zusammen, von der Visitenkarte bis zur Website."
+ "Talán azt gondolod, hogy amíg jól dolgozol, ez apróság. Akik már ismernek, azoknak tényleg az. Aki még nem ismer, a megjelenésedből következtet a munkádra. Az arculat a névjegytől a weboldalig egy rendszerbe fogja a megjelenésedet.": [
+  "Maybe you think that’s a detail as long as you do good work. For people who already know you, it is. People who don’t know you yet judge your work by how you look. A brand identity pulls your look into one system, from the business card to the website.",
+  "Vielleicht denken Sie, das sei eine Kleinigkeit, solange Sie gute Arbeit leisten. Für alle, die Sie schon kennen, stimmt das. Wer Sie noch nicht kennt, schließt aus Ihrem Auftritt auf Ihre Arbeit. Ein Erscheinungsbild fasst Ihren Auftritt zu einem System zusammen, von der Visitenkarte bis zur Website."
  ],
  "Fent a saját rendszerünket látod, ahogy ezen a weboldalon él. Egy arculat akkor működik, ha megismételhető: a képek mellé szabályokat is adunk, melyik szín hol, melyik betű milyen méretben, és mi nem változik soha.": [
   "Above you see our own system, as it lives on this website. A brand identity works when it can be repeated: alongside the visuals we give you rules, which colour goes where, which typeface at what size, and what never changes.",
@@ -412,13 +412,13 @@
   "We don't put a finished logo in front of you and say “there, that's you now”. We work out together what makes you different.",
   "Wir legen Ihnen kein fertiges Logo hin mit den Worten „so, das sind Sie jetzt“. Was Sie anders macht, arbeiten wir gemeinsam heraus."
  ],
- "Elmondod, kik az ügyfeleid, mi különböztet meg a többiektől, és hol fog élni a márka, mi pedig kérdezünk és figyelünk.": [
-  "You tell us who your customers are, what sets you apart from the others and where the brand will live, and we ask questions and listen.",
-  "Sie erzählen, wer Ihre Kunden sind, was Sie von anderen unterscheidet und wo die Marke leben wird, und wir fragen nach und hören zu."
+ "Elmondod, kik az ügyfeleid, mi különböztet meg a többiektől, és hol fog élni a márka.": [
+  "You tell us who your customers are, what sets you apart from the others and where the brand will live.",
+  "Sie erzählen, wer Ihre Kunden sind, was Sie von anderen unterscheidet und wo die Marke leben wird."
  ],
- "Az előleg után letesszük az irányokat. Te választasz, és a végleges irányt te alakítod.": [
-  "Once the deposit is in, we present the directions. You choose, and you shape the final one.",
-  "Nach der Anzahlung legen wir die Richtungen vor. Sie wählen, und die endgültige gestalten Sie."
+ "Az előleg után bemutatjuk a kidolgozott irányokat, valódi környezetben. Te választasz, és a végleges irányt te alakítod.": [
+  "Once the deposit is in, we present the worked-out directions in a real setting. You choose, and you shape the final one.",
+  "Nach der Anzahlung stellen wir die ausgearbeiteten Richtungen in echter Umgebung vor. Sie wählen, und die endgültige gestalten Sie."
  ],
  "Minden fájlt megkapsz. Ha kéred, ugyanaz a csapat viszi tovább a <a class=\"tlink\" href=\"kkv.html\">weboldalra</a> és a hirdetésekre.": [
   "You get every file. If you like, the same team carries it on to the <a class=\"tlink\" href=\"kkv.html\">website</a> and the ads.",
@@ -440,20 +440,20 @@
   "Vector source, exported versions, a short guide. Still yours if you carry on with someone else.",
   "Vektorquelle, exportierte Varianten, eine kurze Anleitung. Sie gehören Ihnen, auch wenn Sie mit jemand anderem weiterarbeiten."
  ],
- "Írd le pár mondatban, mivel foglalkozol, és van-e már logód. Egy rövid, ingyenes beszélgetésben meghallgatunk, és megmondjuk, mi maradjon, és min változtatnánk.": [
-  "Write a few sentences about what you do and whether you already have a logo. In a short, free conversation we listen, and we tell you what should stay and what we would change.",
-  "Schreiben Sie in ein paar Sätzen, was Sie machen und ob Sie schon ein Logo haben. In einem kurzen, kostenlosen Gespräch hören wir zu und sagen Ihnen, was bleiben sollte und was wir ändern würden."
+ "Ha már van logód, abból indulunk: megmondjuk, mi maradjon, és min változtatnánk.": [
+  "If you already have a logo, we start from it: we tell you what should stay and what we would change.",
+  "Wenn Sie schon ein Logo haben, gehen wir davon aus: Wir sagen Ihnen, was bleiben sollte und was wir ändern würden."
  ],
  "Forrásfájlok": [
   "Source files",
   "Quelldateien"
  ],
- "Átadjuk a vektoros forrásfájlt, amely minőségromlás nélkül nagyítható bármekkorára, az exportált változatokat és egy rövid útmutatót.": [
-  "We hand over the vector source file, which scales to any size without losing quality, the exported versions and a short guide.",
-  "Wir übergeben die Vektor-Quelldatei, die sich ohne Qualitätsverlust beliebig vergrößern lässt, die exportierten Varianten und eine kurze Anleitung."
+ "Átadjuk a vektoros forrásfájlt, az exportált változatokat és egy rövid útmutatót. A vektoros fájl minőségromlás nélkül nagyítható bármekkorára.": [
+  "We hand over the vector source file, the exported versions and a short guide. The vector file scales to any size without losing quality.",
+  "Wir übergeben die Vektor-Quelldatei, die exportierten Varianten und eine kurze Anleitung. Die Vektordatei lässt sich ohne Qualitätsverlust beliebig vergrößern."
  ],
- "A vezetői és HR-tanácsadó <a class=\"tlink\" href=\"munka-o2-tanacsado.html\">O2 Tanácsadó</a> weboldalán a logó türkize lett a márkaszín, mellé két betűtípus és türkiz félkörös, fekete-fehér fotók kerültek.": [
-  "On the website of <a class=\"tlink\" href=\"munka-o2-tanacsado.html\">O2 Tanácsadó</a>, a leadership and HR consultancy, the turquoise of the logo became the brand colour, joined by two typefaces and black-and-white photos with a turquoise semicircle.",
-  "Auf der Website der Führungs- und HR-Beratung <a class=\"tlink\" href=\"munka-o2-tanacsado.html\">O2 Tanácsadó</a> wurde das Türkis des Logos zur Markenfarbe, dazu kamen zwei Schriften und Schwarz-Weiß-Fotos mit türkisem Halbkreis."
+ "Az <a class=\"tlink\" href=\"munka-o2-tanacsado.html\">O2 Tanácsadó</a> vezetői és HR-tanácsadással foglalkozik. Az új weboldalukon a logó türkize lett a márkaszín, mellé két betűtípus és fekete-fehér fotók kerültek, mindegyiken egy türkiz félkörrel.": [
+  "<a class=\"tlink\" href=\"munka-o2-tanacsado.html\">O2 Tanácsadó</a> is a leadership and HR consultancy. On their new website the turquoise of the logo became the brand colour, joined by two typefaces and black-and-white photos, each with a turquoise semicircle.",
+  "<a class=\"tlink\" href=\"munka-o2-tanacsado.html\">O2 Tanácsadó</a> ist eine Führungs- und HR-Beratung. Auf der neuen Website wurde das Türkis des Logos zur Markenfarbe, dazu kamen zwei Schriften und Schwarz-Weiß-Fotos, jedes mit einem türkisen Halbkreis."
  ]
 }
