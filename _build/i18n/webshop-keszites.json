@@ -327,13 +327,13 @@
   "Do I get an admin interface?",
   "Bekomme ich eine Verwaltungsoberfläche?"
  ],
- "Igen, arra a néhány dologra szabva, amit ténylegesen csinálni fogsz: termékfelvitel, ár- és készletmódosítás, rendeléskezelés, kuponok. Nem egy húszmenüpontos panel, amiből hármat használsz.": [
-  "Yes, cut down to the few things you will actually do: adding products, changing prices and stock, handling orders, coupons. Not a twenty-item panel of which you use three.",
-  "Ja, zugeschnitten auf die wenigen Dinge, die Sie wirklich tun: Produkte anlegen, Preise und Bestand ändern, Bestellungen, Gutscheine. Kein Panel mit zwanzig Menüpunkten, von denen Sie drei nutzen."
+ "Igen, arra szabva, amit tényleg csinálni fogsz: termékfelvitel, ár- és készletmódosítás, rendeléskezelés, kuponok. Nem húszmenüpontos panel, amiből hármat használsz.": [
+  "Yes, cut down to what you will actually do: adding products, changing prices and stock, handling orders, coupons. Not a twenty-item panel of which you use three.",
+  "Ja, zugeschnitten auf das, was Sie wirklich tun: Produkte anlegen, Preise und Bestand ändern, Bestellungen, Gutscheine. Kein Panel mit zwanzig Menüpunkten, von denen Sie drei nutzen."
  ],
- "A jogi szövegek tartalmáért jogász felel, nem mi. Mi beépítjük a kötelező tartalmak helyét (ÁSZF, elállási tájékoztató, adatkezelés, cookie-kezelés), és jelezzük, ha valami hiányzik.": [
-  "A lawyer is responsible for what the legal texts say, not us. We build in the places for the mandatory content (terms, withdrawal notice, privacy, cookies) and tell you if anything is missing.",
-  "Für den Inhalt der Rechtstexte ist ein Anwalt zuständig, nicht wir. Wir sehen Platz für die Pflichtinhalte vor (AGB, Widerrufsbelehrung, Datenschutz, Cookies) und sagen Bescheid, wenn etwas fehlt."
+ "A jogi szövegek tartalmáért jogász felel, nem mi. Mi beépítjük a kötelező elemek helyét (ÁSZF, elállási tájékoztató, adatkezelés, cookie-k), és szólunk, ha valami hiányzik.": [
+  "A lawyer is responsible for the legal texts, not us. We build in the places for the mandatory content (terms, withdrawal notice, privacy, cookies) and tell you if anything is missing.",
+  "Für die Rechtstexte ist ein Anwalt zuständig, nicht wir. Wir sehen Platz für die Pflichtinhalte vor (AGB, Widerrufsbelehrung, Datenschutz, Cookies) und sagen Bescheid, wenn etwas fehlt."
  ],
  "Új nyelv, új piac, új fizetési mód később is rákerülhet, mert a platformot eleve a növekedéshez választjuk.": [
   "A new language, a new market or a new payment method can be added later, because we choose the platform with growth in mind from the start.",
@@ -361,11 +361,11 @@
  ],
  "Attól függ, hány terméked van, hány változattal, és milyen programokhoz kell kapcsolódnia a boltnak. Az ingyenes első beszélgetés után tételes ajánlatot kapsz, egyszeri projektdíjjal.": [
   "It depends on how many products and variants you have, and which software the shop must connect to. After the free first conversation you get an itemised quote with a one-off project fee.",
-  "Das hängt von der Zahl der Produkte und Varianten ab und davon, welche Programme angebunden werden. Nach dem Erstgespräch erhalten Sie ein aufgeschlüsseltes Angebot mit einmaligem Projekthonorar."
+  "Das hängt von Produkten, Varianten und den anzubindenden Programmen ab. Nach dem Erstgespräch erhalten Sie ein aufgeschlüsseltes Angebot mit einmaligem Projekthonorar."
  ],
  "Lehet, hogy nem kell új: ha a bolt jó, de kevesen találják meg, <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálás</a> kell. Ha nem, a termékadatok és a rendelések általában átvihetők az újba.": [
   "You may not need a new one: if the shop is good but few people find it, you need <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a>. If not, product data and orders can usually move across.",
-  "Vielleicht brauchen Sie gar keinen neuen: Ist der Shop gut, finden ihn aber nur wenige, hilft <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a>. Wenn nicht, lassen sich Produktdaten und frühere Bestellungen meist übernehmen."
+  "Vielleicht brauchen Sie keinen neuen: Ist der Shop gut, wird aber kaum gefunden, hilft <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a>. Sonst lassen sich Produktdaten und Bestellungen meist übernehmen."
  ],
  "Írd le, mit árulsz, hány termékkel, és hol tart most a boltod; egy ingyenes igényfelmérő hívásban javaslatot teszünk a platformra.": [
   "Tell us what you sell, how many products you have and where your shop stands today; in a free discovery call we recommend a platform.",
