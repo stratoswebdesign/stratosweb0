@@ -326,13 +326,13 @@
   "field names and privacy note are unchanged. The hero note reuses the",
   "global line from _common.json; the last step reuses /szolgaltatasok's."
  ],
- "Két megbeszélés között megint eszedbe jut, hogy a weboldaladdal kezdeni kellene valamit, csak még nem tudod, mit. Elmondod, mivel foglalkozol, és honnan jönnek ma az ügyfeleid, mi pedig figyelünk. Az ajánlatot ezután írjuk meg, mert nincs két egyforma projekt.": [
-  "Between two meetings it crosses your mind again that you should do something about your website, but you don’t know what yet. You tell us what you do and where your clients come from today, and we listen. We write the quote after that, because no two projects are alike.",
-  "Zwischen zwei Besprechungen fällt Ihnen wieder ein, dass Sie mit Ihrer Website etwas tun sollten, nur wissen Sie noch nicht, was. Sie erzählen, was Sie machen und woher Ihre Kunden heute kommen, und wir hören zu. Das Angebot schreiben wir danach, denn keine zwei Projekte sind gleich."
+ "„Kezdeni kellene valamit a weboldallal, csak nem tudom, mit.” Ha nagyjából itt tartasz, ennyi elég az első lépéshez.": [
+  "“We should do something about the website, I just don’t know what.” If that’s roughly where you are, it’s enough for a first step.",
+  "„Wir müssten etwas mit der Website machen, ich weiß nur nicht, was.“ Wenn Sie ungefähr dort stehen, reicht das für den ersten Schritt."
  ],
- "Bármelyik utat választod, ugyanahhoz az ingyenes első beszélgetéshez jutsz. A különbség csak az, mennyit tudunk előre a projektedről.": [
-  "Whichever way you choose, you end up at the same free first conversation. The only difference is how much we know about your project in advance.",
-  "Welchen Weg Sie auch wählen, Sie landen beim selben kostenlosen ersten Gespräch. Der Unterschied ist nur, wie viel wir vorab über Ihr Projekt wissen."
+ "Mindhárom ugyanoda vezet. A különbség csak az, mennyit tudunk előre a projektedről.": [
+  "All three lead to the same place. The only difference is how much we know about your project in advance.",
+  "Alle drei führen zum selben Ziel. Der Unterschied ist nur, wie viel wir vorab über Ihr Projekt wissen."
  ],
  "A neved, az e-mail-címed, a weboldalad és pár szó. A többit a hívásban beszéljük át.": [
   "Your name, your email, your website and a few words. We cover the rest on the call.",
@@ -342,13 +342,13 @@
   "A few fields and a few sentences are enough: we write back and arrange a time.",
   "Ein paar Felder und ein paar Sätze genügen: Wir antworten und stimmen einen Termin ab."
  ],
- "<a class=\"tlink\" href=\"szolgaltatasok.html\">Helyi szolgáltatókkal, ipari és B2B cégekkel, webshopokkal, tanácsadókkal és szakértőkkel</a> dolgozunk. Volt már ügyfelünk kertépítő cég, építőipari adatcég és HR-tanácsadó is. A méret nem számít, a cél igen: megkeresés, foglalás, rendelés, jelentkező.": [
-  "We work with <a class=\"tlink\" href=\"szolgaltatasok.html\">local service businesses, industrial and B2B companies, online shops, consultants and specialists</a>. Our clients have included a landscaping firm, a construction data company and an HR consultancy. Size doesn’t matter; the goal does: an enquiry, a booking, an order, an applicant.",
-  "Wir arbeiten mit <a class=\"tlink\" href=\"szolgaltatasok.html\">lokalen Dienstleistern, Industrie- und B2B-Unternehmen, Onlineshops, Beratern und Fachleuten</a>. Zu unseren Kunden zählten schon ein Gartenbaubetrieb, ein Bau-Datenunternehmen und eine HR-Beratung. Die Größe zählt nicht, das Ziel schon: eine Anfrage, eine Buchung, eine Bestellung, eine Bewerbung."
+ "<a class=\"tlink\" href=\"szolgaltatasok.html\">Helyi szolgáltatókkal, ipari és B2B cégekkel, webshopokkal, tanácsadókkal és szakértőkkel</a> dolgozunk. Ügyfeleink között van kertépítő cég, építőipari adatcég és HR-tanácsadó is. A méret nem számít, a cél igen: megkeresés, foglalás, rendelés, jelentkező.": [
+  "We work with <a class=\"tlink\" href=\"szolgaltatasok.html\">local service businesses, industrial and B2B companies, online shops, consultants and specialists</a>. Our clients include a landscaping firm, a construction data company and an HR consultancy. Size doesn’t matter; the goal does: an enquiry, a booking, an order, an applicant.",
+  "Wir arbeiten mit <a class=\"tlink\" href=\"szolgaltatasok.html\">lokalen Dienstleistern, Industrie- und B2B-Unternehmen, Onlineshops, Beratern und Fachleuten</a>. Zu unseren Kunden gehören ein Gartenbaubetrieb, ein Bau-Datenunternehmen und eine HR-Beratung. Die Größe zählt nicht, das Ziel schon: eine Anfrage, eine Buchung, eine Bestellung, eine Bewerbung."
  ],
- "Ha még nem tudod, mi a reális cél, az sem baj: a hívás főleg erről szól, nem a technológiáról. Első helyet a Google-ben nem ígérünk, mert azt nem mi döntjük el.": [
-  "If you don’t know yet what a realistic goal is, that’s fine: the call is mostly about that, not about technology. We don’t promise first place on Google, because that isn’t ours to decide.",
-  "Wenn Sie noch nicht wissen, was ein realistisches Ziel ist, ist das kein Problem: Im Gespräch geht es vor allem darum, nicht um Technik. Einen ersten Platz bei Google versprechen wir nicht, denn den entscheiden nicht wir."
+ "Ha még nem tudod, mi a reális cél, az sem baj: a hívás főleg erről szól, nem a technológiáról.": [
+  "If you don’t know yet what a realistic goal is, that’s fine: the call is mostly about that, not about technology.",
+  "Wenn Sie noch nicht wissen, was ein realistisches Ziel ist, ist das kein Problem: Im Gespräch geht es vor allem darum, nicht um Technik."
  ],
  "Körülbelül 30 perc online. Megnézzük, hol tartasz, és mi kell a célodhoz.": [
   "About 30 minutes online. We look at where you are and what your goal takes.",

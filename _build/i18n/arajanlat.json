@@ -781,9 +781,9 @@
   "Request a quote in a minute.",
   "Fragen Sie in einer Minute ein Angebot an."
  ],
- "Két telefon között is kitöltöd: négy rövid kérdés. Ha még nem tudod, mire van szükséged, jelöld nyugodtan: „Még nem tudom”. Az ingyenes első beszélgetésben elmondod, mivel foglalkozol, mi pedig figyelünk. Az írásos ajánlat ezután jön, és semmire nem kötelez.": [
-  "You can fill this in between two calls: four short questions. If you’re not sure yet what you need, just choose “Not sure yet”. In the free first conversation you tell us what you do, and we listen. The written quote comes after that, and it commits you to nothing.",
-  "Das schaffen Sie zwischen zwei Telefonaten: vier kurze Fragen. Wenn Sie noch nicht wissen, was Sie brauchen, wählen Sie ruhig „Weiß ich noch nicht“. Im kostenlosen ersten Gespräch erzählen Sie, was Sie machen, und wir hören zu. Das schriftliche Angebot kommt danach und verpflichtet Sie zu nichts."
+ "Csak három mező kötelező. Ha még nem tudod, mire van szükséged, jelöld: „Még nem tudom”.": [
+  "Only three fields are required. If you’re not sure yet what you need, choose “Not sure yet”.",
+  "Nur drei Felder sind Pflicht. Wenn Sie noch nicht wissen, was Sie brauchen, wählen Sie „Weiß ich noch nicht“."
  ],
  "Név *": [
   "Name *",
