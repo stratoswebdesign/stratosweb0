@@ -2450,18 +2450,17 @@ CLOSE_ARCHETYPE = {
     **{k: "cta_article" for k in POSTS}, "blog": "cta_article",
 }
 # A route whose reader is not a business owner gets its own closing line. The
-# Impact Program speaks to nonprofits, in the page's ti-form.
+# Impact Program speaks to nonprofits, in the page's ti-form, and promises
+# only what the page does: a conversation after selection.
 CLOSE_LEDE = {
     "impact": {
         "hu": "Írjátok le pár mondatban, mivel foglalkozik a szervezetetek, és "
-              "kiknek segítetek. Egy rövid, ingyenes beszélgetésben elmondjuk, "
-              "mi segítene, és azt is, mi nem.",
+              "kiknek segítetek. A kiválasztás után átbeszéljük, mire van "
+              "szükségetek.",
         "en": "Write a few sentences about what your organisation does and who "
-              "you help. In a short, free conversation we’ll tell you what would "
-              "help, and what wouldn’t.",
+              "you help. Once you’re selected, we talk through what you need.",
         "de": "Schreiben Sie in ein paar Sätzen, was Ihre Organisation tut und "
-              "wem Sie helfen. In einem kurzen, kostenlosen Gespräch sagen wir "
-              "Ihnen, was helfen würde, und auch, was nicht.",
+              "wem Sie helfen. Nach der Auswahl besprechen wir, was Sie brauchen.",
     },
 }
 # Routes that end without it: the questionnaire is the destination, the contact
