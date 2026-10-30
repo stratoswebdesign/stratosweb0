@@ -212,9 +212,9 @@
   "Short message",
   "Kurze Nachricht"
  ],
- "Nem kerülsz automatikus értékesítési levélsorozatba. Négy lépés, amiből az elsőt már megtetted.": [
-  "You won't be added to an automated sales email sequence. Four steps, and you've already taken the first.",
-  "Sie landen in keiner automatischen Verkaufs-E-Mail-Serie. Vier Schritte, und den ersten haben Sie schon gemacht."
+ "Nem kerülsz automatikus értékesítési levélsorozatba. Az egész négy lépés, és az elsőt már megtetted.": [
+  "You won’t be added to an automated sales email sequence. It’s four steps in all, and you’ve already taken the first.",
+  "Sie landen in keiner automatischen Verkaufs-E-Mail-Serie. Es sind insgesamt vier Schritte, und den ersten haben Sie schon gemacht."
  ],
  "Visszajelzés": [
   "Acknowledgement",
@@ -304,9 +304,9 @@
   "If you'd rather talk",
   "Wenn Sie lieber sprechen"
  ],
- "Foglalj időpontot egy ingyenes igényfelmérő hívásra, a naptárunk szabad időpontjaiból.": [
-  "Book a free discovery call at a free slot in our calendar.",
-  "Buchen Sie ein kostenloses Erstgespräch zu einem freien Termin aus unserem Kalender."
+ "Van, amit könnyebb elmondani, mint leírni. Válassz egy szabad félórát a naptárunkból.": [
+  "Some things are easier to say than to write. Pick a free half hour in our calendar.",
+  "Manches lässt sich leichter sagen als schreiben. Wählen Sie eine freie halbe Stunde in unserem Kalender."
  ],
  "30 perc · Google Meet": [
   "30 minutes · Google Meet",
@@ -326,29 +326,29 @@
   "field names and privacy note are unchanged. The hero note reuses the",
   "global line from _common.json; the last step reuses /szolgaltatasok's."
  ],
- "Nincs két egyforma projekt, így két egyforma ajánlat sem. Először meghallgatunk.": [
-  "No two projects are alike, so no two proposals are either. First, we listen.",
-  "Keine zwei Projekte sind gleich, also auch keine zwei Angebote. Zuerst hören wir zu."
+ "Két megbeszélés között megint eszedbe jut, hogy a weboldaladdal kezdeni kellene valamit, csak még nem tudod, mit. Elmondod, mivel foglalkozol, és honnan jönnek ma az ügyfeleid, mi pedig figyelünk. Az ajánlatot ezután írjuk meg, mert nincs két egyforma projekt.": [
+  "Between two meetings it crosses your mind again that you should do something about your website, but you don’t know what yet. You tell us what you do and where your clients come from today, and we listen. We write the quote after that, because no two projects are alike.",
+  "Zwischen zwei Besprechungen fällt Ihnen wieder ein, dass Sie mit Ihrer Website etwas tun sollten, nur wissen Sie noch nicht, was. Sie erzählen, was Sie machen und woher Ihre Kunden heute kommen, und wir hören zu. Das Angebot schreiben wir danach, denn keine zwei Projekte sind gleich."
  ],
- "Mindhárom ugyanoda vezet. A különbség csak az, mennyit tudunk előre a projektedről.": [
-  "All three lead to the same place. The only difference is how much we know about your project in advance.",
-  "Alle drei führen zum selben Ziel. Der Unterschied ist nur, wie viel wir vorab über Ihr Projekt wissen."
+ "Bármelyik utat választod, ugyanahhoz az ingyenes első beszélgetéshez jutsz. A különbség csak az, mennyit tudunk előre a projektedről.": [
+  "Whichever way you choose, you end up at the same free first conversation. The only difference is how much we know about your project in advance.",
+  "Welchen Weg Sie auch wählen, Sie landen beim selben kostenlosen ersten Gespräch. Der Unterschied ist nur, wie viel wir vorab über Ihr Projekt wissen."
  ],
  "A neved, az e-mail-címed, a weboldalad és pár szó. A többit a hívásban beszéljük át.": [
   "Your name, your email, your website and a few words. We cover the rest on the call.",
   "Ihr Name, Ihre E-Mail-Adresse, Ihre Website und ein paar Worte. Den Rest besprechen wir im Gespräch."
  ],
- "Néhány mező és pár mondat. Ennyiből visszaírunk, és egyeztetünk egy időpontot.": [
-  "A few fields and a few sentences. That’s enough for us to reply and set a time.",
-  "Ein paar Felder und ein paar Sätze. Das reicht uns, um zu antworten und einen Termin abzustimmen."
+ "Néhány mező és pár mondat elég: visszaírunk, és egyeztetünk egy időpontot.": [
+  "A few fields and a few sentences are enough: we write back and arrange a time.",
+  "Ein paar Felder und ein paar Sätze genügen: Wir antworten und stimmen einen Termin ab."
  ],
- "<a class=\"tlink\" href=\"szolgaltatasok.html\">Helyi szolgáltatókkal, ipari és B2B cégekkel, webshopokkal, tanácsadókkal és szakértőkkel</a> dolgozunk. A méret nem számít, a cél igen: megkeresés, foglalás, rendelés, jelentkező.": [
-  "We work with <a class=\"tlink\" href=\"szolgaltatasok.html\">local service businesses, industrial and B2B companies, online shops, consultants and specialists</a>. Size doesn’t matter; the goal does: an enquiry, a booking, an order, an applicant.",
-  "Wir arbeiten mit <a class=\"tlink\" href=\"szolgaltatasok.html\">lokalen Dienstleistern, Industrie- und B2B-Unternehmen, Onlineshops, Beratern und Fachleuten</a>. Die Größe zählt nicht, das Ziel schon: eine Anfrage, eine Buchung, eine Bestellung, eine Bewerbung."
+ "<a class=\"tlink\" href=\"szolgaltatasok.html\">Helyi szolgáltatókkal, ipari és B2B cégekkel, webshopokkal, tanácsadókkal és szakértőkkel</a> dolgozunk. Volt már ügyfelünk kertépítő cég, építőipari adatcég és HR-tanácsadó is. A méret nem számít, a cél igen: megkeresés, foglalás, rendelés, jelentkező.": [
+  "We work with <a class=\"tlink\" href=\"szolgaltatasok.html\">local service businesses, industrial and B2B companies, online shops, consultants and specialists</a>. Our clients have included a landscaping firm, a construction data company and an HR consultancy. Size doesn’t matter; the goal does: an enquiry, a booking, an order, an applicant.",
+  "Wir arbeiten mit <a class=\"tlink\" href=\"szolgaltatasok.html\">lokalen Dienstleistern, Industrie- und B2B-Unternehmen, Onlineshops, Beratern und Fachleuten</a>. Zu unseren Kunden zählten schon ein Gartenbaubetrieb, ein Bau-Datenunternehmen und eine HR-Beratung. Die Größe zählt nicht, das Ziel schon: eine Anfrage, eine Buchung, eine Bestellung, eine Bewerbung."
  ],
- "Ha még nem tudod, mi a reális cél, az sem baj. A hívás főleg erről szól, nem a technológiáról.": [
-  "If you don’t know yet what a realistic goal is, that’s fine. The call is mostly about that, not about technology.",
-  "Wenn Sie noch nicht wissen, was ein realistisches Ziel ist, ist das kein Problem. Im Gespräch geht es vor allem darum, nicht um Technik."
+ "Ha még nem tudod, mi a reális cél, az sem baj: a hívás főleg erről szól, nem a technológiáról. Első helyet a Google-ben nem ígérünk, mert azt nem mi döntjük el.": [
+  "If you don’t know yet what a realistic goal is, that’s fine: the call is mostly about that, not about technology. We don’t promise first place on Google, because that isn’t ours to decide.",
+  "Wenn Sie noch nicht wissen, was ein realistisches Ziel ist, ist das kein Problem: Im Gespräch geht es vor allem darum, nicht um Technik. Einen ersten Platz bei Google versprechen wir nicht, denn den entscheiden nicht wir."
  ],
  "Körülbelül 30 perc online. Megnézzük, hol tartasz, és mi kell a célodhoz.": [
   "About 30 minutes online. We look at where you are and what your goal takes.",
