@@ -177,8 +177,9 @@ test.describe('homepage, without JavaScript', () => {
     await expect(page.locator('main section')).toHaveCount(8);
     // The proof, as the case study states it, explained once.
     await expect(page.locator('.take')).toContainText('~110M Ft');
-    // Said in two beats since the third pack (tone), the condition in small print.
-    await expect(page.locator('.take')).toContainText('Ajánlatkérés, organikus keresésből.');
+    // Said in two beats since the third pack (tone), the condition in small print;
+    // „organikus” said in the reader's words since the research pass (2026-10-29).
+    await expect(page.locator('.take')).toContainText('A Rapidkert becslésünk szerint kb. 110 millió forint értékű ajánlatkérést kapott a Google nem fizetett találataiból.');
     await expect(page.locator('.take .take__src')).toContainText('becsült érték');
     // Both projects, and the services of „Egy csapat. Egy felelős.”, linked from the
     // homepage. /szolgaltatasok and /nagyvallalat are the menu's to reach.

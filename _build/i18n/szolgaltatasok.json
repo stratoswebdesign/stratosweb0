@@ -350,9 +350,9 @@
   "We don’t publish a price list because an accurate one would have so many lines that nobody could find their way through it. Instead, this is how the proposal comes together.",
   "Eine Preisliste veröffentlichen wir nicht, weil eine genaue so viele Zeilen hätte, dass sich niemand darin zurechtfände. Stattdessen entsteht das Angebot so."
  ],
- "Kiderül, mit csinál a vállalkozásod, ki a vevőd, mi van most, és mit szeretnél elérni.": [
-  "We find out what your business does, who your customer is, what exists today, and what you want to achieve.",
-  "Wir klären, was Ihr Unternehmen macht, wer Ihre Kunden sind, was es heute gibt und was Sie erreichen möchten."
+ "Átbeszéljük, mit csinálsz, kik a vevőid, és melyik szolgáltatás segítene most a legtöbbet. Ha már van oldalad, azt is megnézzük, mi menthető belőle.": [
+  "We talk through what you do, who your customers are and which service would help most right now. If you already have a site, we also look at what can be kept.",
+  "Wir besprechen, was Sie tun, wer Ihre Kunden sind und welche Leistung jetzt am meisten helfen würde. Wenn Sie schon eine Website haben, schauen wir auch, was sich davon retten lässt."
  ],
  "Ebből derül ki: hány oldal, milyen funkciók, milyen tartalom, ki írja a szövegeket, ki adja a képeket.": [
   "This is where it becomes clear: how many pages, which features, what content, who writes the copy, who supplies the images.",
@@ -366,6 +366,10 @@
   "The proposal is not an obligation. If you say yes, the work starts once the deposit arrives.",
   "Das Angebot ist unverbindlich. Wenn Sie zusagen, beginnt die Arbeit nach Eingang der Anzahlung."
  ],
+ "Az ajánlat nem kötelez semmire: ha nemet mondasz, annyiban maradunk. Ha igent mondasz, az előleg beérkezése után indul a munka.": [
+  "The proposal doesn’t commit you to anything: if you say no, we leave it there. If you say yes, the work starts once the deposit arrives.",
+  "Das Angebot verpflichtet Sie zu nichts: Wenn Sie absagen, belassen wir es dabei. Wenn Sie zusagen, beginnt die Arbeit nach Eingang der Anzahlung."
+ ],
  "Ez a lista arról szól, mit tudunk megcsinálni a weboldaltól a kampányokig. Nem minden projektben van szükség mindegyikre.": [
   "This list is about what we can do, from the website to the campaigns. Not every project needs all of it.",
   "Diese Liste zeigt, was wir umsetzen können, von der Website bis zu den Kampagnen. Nicht jedes Projekt braucht alles davon."
@@ -374,9 +378,9 @@
   "A bespoke website in custom code, without templates or page builders.",
   "Eine individuelle Website aus individuellem Code, ohne Vorlagen und Baukästen."
  ],
- "<span><a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D weboldal és termékkonfigurátor</a>, ahol a vevő a döntés előtt látja, mit vesz.</span>": [
-  "<span><a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D website and product configurator</a>, where the customer sees what they are buying before they decide.</span>",
-  "<span><a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D-Website und Produktkonfigurator</a>, bei denen der Kunde vor der Entscheidung sieht, was er kauft.</span>"
+ "<span><a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D weboldal és termékkonfigurátor</a>, amelyekben a vevő a döntés előtt látja, mit vesz. 3D weboldalt építettünk például a <a class=\"tlink\" href=\"munka-rapidkert.html\">Rapidkertnek</a> és a <a class=\"tlink\" href=\"munka-godatafusion.html\">GoDataFusionnek</a>.</span>": [
+  "<span><a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D website and product configurator</a>, where the customer sees what they are buying before they decide. We have built 3D websites for <a class=\"tlink\" href=\"munka-rapidkert.html\">Rapidkert</a> and <a class=\"tlink\" href=\"munka-godatafusion.html\">GoDataFusion</a>, for example.</span>",
+  "<span><a class=\"tlink\" href=\"3d-weboldal-konfigurator.html\">3D-Website und Produktkonfigurator</a>, bei denen der Kunde vor der Entscheidung sieht, was er kauft. 3D-Websites haben wir zum Beispiel für <a class=\"tlink\" href=\"munka-rapidkert.html\">Rapidkert</a> und <a class=\"tlink\" href=\"munka-godatafusion.html\">GoDataFusion</a> gebaut.</span>"
  ],
  "Mobilon, tableten és számítógépen tesztelt kialakítás.": [
   "A layout tested on phones, tablets and desktops.",
@@ -386,9 +390,9 @@
   "<span><a class=\"tlink\" href=\"webshop-keszites.html\">Online shop and ordering flow</a>, if your business needs one.</span>",
   "<span><a class=\"tlink\" href=\"webshop-keszites.html\">Onlineshop und Bestellprozess</a>, wenn Ihr Unternehmen das braucht.</span>"
  ],
- "<span><a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">Keresőoptimalizált weboldal</a>: szerkezet, sebesség, metaadatok és szöveg.</span>": [
-  "<span><a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">Search-optimised website</a>: structure, speed, metadata and copy.</span>",
-  "<span><a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">Suchmaschinenoptimierte Website</a>: Struktur, Geschwindigkeit, Metadaten und Text.</span>"
+ "<span><a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">Keresőoptimalizált weboldal</a>: szerkezet, sebesség, szöveg, és a Google-találatban megjelenő cím és leírás.</span>": [
+  "<span><a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">Search-optimised website</a>: structure, speed, copy, and the title and description shown in the Google result.</span>",
+  "<span><a class=\"tlink\" href=\"keresooptimalizalt-weboldal-keszites.html\">Suchmaschinenoptimierte Website</a>: Struktur, Geschwindigkeit, Text sowie Titel und Beschreibung, die im Google-Ergebnis erscheinen.</span>"
  ],
  "<span><a class=\"tlink\" href=\"keresooptimalizalas.html\">Havidíjas keresőoptimalizálás</a> havi riporttal.</span>": [
   "<span><a class=\"tlink\" href=\"keresooptimalizalas.html\">Monthly SEO</a> with a monthly report.</span>",
@@ -406,9 +410,9 @@
   "Measurement and reporting: what brought in enquiries, and what didn’t.",
   "Messung und Bericht: was Anfragen gebracht hat und was nicht."
  ],
- "Karbantartás a weboldalad mellé: tárhely, domain, frissítések, mentés, SSL és gyors javítás, ha baj van.": [
-  "Maintenance for your website: hosting, domain, updates, backups, SSL and quick fixes when something goes wrong.",
-  "Wartung für Ihre Website: Hosting, Domain, Updates, Backups, SSL und schnelle Hilfe, wenn etwas nicht stimmt."
+ "Karbantartás a weboldalad mellé: tárhely, domain, frissítések, mentés, biztonsági tanúsítvány (SSL) és gyors javítás, ha baj van.": [
+  "Maintenance for your website: hosting, domain, updates, backups, the security certificate (SSL) and quick fixes when something goes wrong.",
+  "Wartung für Ihre Website: Hosting, Domain, Updates, Backups, Sicherheitszertifikat (SSL) und schnelle Hilfe, wenn etwas nicht stimmt."
  ],
  "Ez a leggyakoribb kiindulópont, és pont ezért kezdünk mindig egy ingyenes igényfelmérő hívással. Utána tudni fogod, mire érdemes költened, akkor is, ha az kevesebb, mint amire számítottál.": [
   "This is the most common starting point, and it is exactly why we always begin with a free discovery call. Afterwards you will know what is worth spending on, even if it is less than you expected.",
@@ -430,85 +434,85 @@
   "The website is the centre. Everything else sends it traffic or lends it credibility.",
   "Die Website ist das Zentrum. Alles andere bringt ihr Besucher oder Glaubwürdigkeit."
  ],
- "Kész csomag nincs. Hogy mi kell és mibe kerül, a feladat és a cél dönti el.": [
-  "No ready-made packages. What you need and what it costs depends on the task and the goal.",
-  "Fertige Pakete gibt es nicht. Was Sie brauchen und was es kostet, entscheiden Aufgabe und Ziel."
+ "Kész csomag nincs.": [
+  "No ready-made packages.",
+  "Fertige Pakete gibt es nicht."
  ],
- "Valaki a környékeden épp beírja a Google-be, amit csinálsz. Téged találjon meg.": [
-  "Someone nearby is typing what you do into Google right now. They should find you.",
-  "Jemand in Ihrer Nähe tippt gerade bei Google ein, was Sie anbieten. Er soll Sie finden."
+ "Akik a környékeden keresnek, pár találat közül választanak. Olyan oldalt építünk, amelyről gyorsan kiderül, mit csinálsz, és hogyan érnek el.": [
+  "People searching near you pick from a few results. We build a site that quickly makes clear what you do and how to reach you.",
+  "Wer in Ihrer Nähe sucht, wählt aus ein paar Treffern. Wir bauen eine Website, auf der schnell klar wird, was Sie tun und wie man Sie erreicht."
  ],
- "A vevőd nagy összegről dönt. Egy 3D konfigurátorral előre látja, mit kap.": [
-  "Your buyer is deciding on a large sum. A 3D configurator shows them what they'll get, in advance.",
-  "Ihr Kunde entscheidet über eine große Summe. Mit einem 3D-Konfigurator sieht er vorab, was er bekommt."
+ "Nagy összegű döntésnél a beszerző és a mérnök is az oldaladon keresnek választ. Egy 3D konfigurátorban már a hívás előtt látják, mit kapnak.": [
+  "When the sum is large, both the purchaser and the engineer look for answers on your site. In a 3D configurator they see what they’ll get before they call.",
+  "Bei einer großen Summe suchen Einkäufer und Ingenieur die Antworten auf Ihrer Website. In einem 3D-Konfigurator sehen sie schon vor dem Anruf, was sie bekommen."
  ],
- "A látogatóidból vásárlók legyenek. A platformról a felmérés után döntünk, nem előtte.": [
-  "Visitors should become buyers. We choose the platform after the assessment, not before.",
-  "Aus Besuchern sollen Käufer werden. Über die Plattform entscheiden wir nach der Bedarfsanalyse, nicht vorher."
+ "Ha a látogatók nézelődnek, de nem vásárolnak, előbb megnézzük, hol hagyják ott a boltot. A platformról a felmérés után döntünk, nem előtte.": [
+  "If visitors browse but don’t buy, we first look at where they leave the shop. We choose the platform after the assessment, not before.",
+  "Wenn Besucher stöbern, aber nicht kaufen, schauen wir zuerst, wo sie den Shop verlassen. Über die Plattform entscheiden wir nach der Bedarfsanalyse, nicht vorher."
  ],
- "Te a bizalmat adod el. Az oldaladon az első percben látszik, kivel dolgozna.": [
-  "What you sell is trust. Within a minute, your site shows who they'd be working with.",
-  "Sie verkaufen Vertrauen. Auf Ihrer Website sieht man in der ersten Minute, mit wem man arbeiten würde."
+ "Te a bizalmat adod el: aki megkeres, előbb téged akar megismerni. Az oldaladon az első percben látszik, ki vagy, és miben segítesz.": [
+  "What you sell is trust: whoever contacts you wants to get to know you first. Within a minute, your site shows who you are and what you help with.",
+  "Sie verkaufen Vertrauen: Wer Sie anfragt, will Sie zuerst kennenlernen. Auf Ihrer Website sieht man in der ersten Minute, wer Sie sind und wobei Sie helfen."
  ],
  "Az egyetlen felület, ami <span class=\"sig\">teljesen a tiéd.</span>": [
   "The one channel <span class=\"sig\">you own outright.</span>",
   "Die einzige Fläche, <span class=\"sig\">die ganz Ihnen gehört.</span>"
  ],
- "A legtöbb projekt a weboldallal kezdődik.": [
-  "Most projects start with the website.",
-  "Die meisten Projekte beginnen mit der Website."
+ "A postafiókodban három ajánlat vár: egy hirdetési ügynökségé, egy webfejlesztőé és egy keresőoptimalizálóé. Mindhárom a saját szolgáltatását tartja a legsürgősebbnek.": [
+  "Three proposals are waiting in your inbox: one from an ad agency, one from a web developer and one from an SEO specialist. Each calls its own service the most urgent.",
+  "In Ihrem Postfach warten drei Angebote: von einer Werbeagentur, einem Webentwickler und einem SEO-Spezialisten. Jeder hält seine eigene Leistung für die dringendste."
  ],
- "Ha még nincs oldalad, hirdetést indítani pénzkidobás. Ha van, de senki nem találja meg, nem az oldal a szűk keresztmetszet.": [
-  "If you don't have a site yet, running ads is throwing money away. If you have one but nobody finds it, the site isn't the bottleneck.",
-  "Wenn Sie noch keine Website haben, ist Werbung rausgeworfenes Geld. Wenn Sie eine haben, sie aber niemand findet, ist nicht die Website der Engpass."
+ "Nálunk a legtöbb projekt a weboldallal kezdődik. Ha még nincs oldalad, hirdetést indítani pénzkidobás: a kattintás után nincs hová érkezni. Ha már van oldalad, csak senki nem találja meg, nem feltétlenül új oldal kell: lehet, hogy elég a keresőoptimalizálás.": [
+  "With us, most projects start with the website. If you don’t have a site yet, running ads is throwing money away: after the click there’s nowhere to land. If you have one but nobody finds it, you don’t necessarily need a new site; SEO may be enough.",
+  "Bei uns beginnen die meisten Projekte mit der Website. Wenn Sie noch keine Website haben, ist Werbung rausgeworfenes Geld: Nach dem Klick gibt es keinen Ort zum Ankommen. Wenn Sie eine haben, sie aber niemand findet, brauchen Sie nicht unbedingt eine neue; vielleicht reicht Suchmaschinenoptimierung."
  ],
- "A rossz sorrend többe kerül, mint a rossz döntés.": [
-  "The wrong order costs more than the wrong decision.",
-  "Die falsche Reihenfolge kostet mehr als die falsche Entscheidung."
+ "Nem kell mindet egyszerre megrendelned, de a sorrend számít.": [
+  "You don’t have to order everything at once, but the order matters.",
+  "Sie müssen nicht alles auf einmal bestellen, aber die Reihenfolge zählt."
  ],
- "A megjelenésről az oldal tervezésekor úgyis dönteni kell. Fordított sorrendben kétszer fizeted ki.": [
-  "The look has to be decided while the site is designed anyway. In the wrong order you pay for it twice.",
-  "Über das Erscheinungsbild muss beim Gestalten der Website ohnehin entschieden werden. In umgekehrter Reihenfolge zahlen Sie es zweimal."
+ "Az oldal tervezésekor a színekről, a betűkről és a logóról úgyis dönteni kell. Ha az arculat csak utána készül el, a tervezést kétszer fizeted ki.": [
+  "Colours, typefaces and the logo have to be decided while the site is designed anyway. If the brand identity only comes afterwards, you pay for the design twice.",
+  "Über Farben, Schriften und Logo muss beim Gestalten der Website ohnehin entschieden werden. Entsteht das Corporate Design erst danach, zahlen Sie die Gestaltung zweimal."
  ],
- "A hirdetés forgalmat vesz. Gyenge oldalon csak felnagyítja a hibákat.": [
-  "Advertising buys traffic. On a weak site it only magnifies the faults.",
-  "Werbung kauft Besucher. Auf einer schwachen Website vergrößert sie nur die Fehler."
+ "A hirdetéssel forgalmat veszel. Ha az oldal nem győz meg, a látogató visszalép, és a kattintást akkor is kifizetted.": [
+  "With ads you buy traffic. If the site doesn’t convince, the visitor goes back, and you’ve paid for the click anyway.",
+  "Mit Werbung kaufen Sie Besucher. Überzeugt die Website nicht, geht der Besucher zurück, und den Klick haben Sie trotzdem bezahlt."
  ],
- "A keresőoptimalizálás nagy része szerkezet, sebesség és szöveg. Építés közben munka, utólag átépítés.": [
-  "Most of SEO is structure, speed and copy. During the build it's work; afterwards it's a rebuild.",
-  "Suchmaschinenoptimierung ist zum großen Teil Struktur, Geschwindigkeit und Text. Beim Bau ist das Arbeit, danach ein Umbau."
+ "A keresőoptimalizálás nagy része az oldal szerkezetén, sebességén és szövegén múlik. Építés közben ez munka, utólag már átépítés.": [
+  "Most of SEO comes down to the site’s structure, speed and copy. During the build that’s work; afterwards it’s a rebuild.",
+  "Suchmaschinenoptimierung hängt zum großen Teil an Struktur, Geschwindigkeit und Text der Website. Beim Bau ist das Arbeit, danach schon ein Umbau."
  ],
- "Az átadással nem áll meg a munka. Aki építette, az viszi tovább.": [
-  "The work doesn't stop at handover. Whoever built it carries it on.",
-  "Mit der Übergabe endet die Arbeit nicht. Wer die Website gebaut hat, führt sie weiter."
+ "Az átadással nem áll meg a munka: aki az oldalt építette, az viszi tovább, havi riporttal.": [
+  "The work doesn’t stop at handover: whoever built the site carries it on, with a monthly report.",
+  "Mit der Übergabe endet die Arbeit nicht: Wer die Website gebaut hat, führt sie weiter, mit monatlichem Bericht."
  ],
- "Akkor, ha az oldalad mérhetően működik, és tényleg a forgalom hiányzik.": [
-  "When your site measurably works and traffic really is what's missing.",
-  "Wenn Ihre Website messbar funktioniert und wirklich nur Besucher fehlen."
+ "Ha az oldalad már hoz ajánlatkérést, és mérhetően csak a forgalom hiányzik, az oldalhoz nem kell nyúlnunk: elég a hirdetés.": [
+  "If your site already brings in quote requests and, measurably, only traffic is missing, we don’t need to touch the site: ads are enough.",
+  "Wenn Ihre Website schon Anfragen bringt und messbar nur Besucher fehlen, müssen wir die Website nicht anfassen: Werbung reicht."
  ],
- "Az oldal működik, de a márka nem tartott lépést. Önmagában is teljes projekt.": [
-  "The site works, but the brand hasn't kept up. A complete project on its own.",
-  "Die Website funktioniert, aber die Marke hat nicht Schritt gehalten. Auch allein ein vollständiges Projekt."
+ "Az oldalad működik, de a márkád nem nőtt együtt a céggel. Az arculattervezés önmagában is teljes projekt, weboldal nélkül is.": [
+  "Your site works, but your brand hasn’t grown with the company. Brand identity design is a complete project on its own, without a website too.",
+  "Ihre Website funktioniert, aber Ihre Marke ist nicht mit dem Unternehmen mitgewachsen. Corporate Design ist auch allein ein vollständiges Projekt, ohne Website."
  ],
- "Egyedi weboldal, kódból, nem oldalépítővel.": [
-  "A bespoke website, coded, not assembled in a page builder.",
-  "Eine individuelle Website, programmiert statt im Baukasten zusammengesetzt."
+ "Egyedi tervezésű weboldal, oldalépítő nélkül.": [
+  "A custom-designed website, without a page builder.",
+  "Eine individuell gestaltete Website, ohne Baukasten."
  ],
- "Árlistát nem teszünk ki. Helyette így születik az ajánlat.": [
-  "We don't publish a price list. This is how the proposal comes together instead.",
-  "Eine Preisliste veröffentlichen wir nicht. Stattdessen entsteht das Angebot so."
+ "Árlistát nem teszünk ki: amíg nem tudjuk, mi kell neked, bármilyen szám csak találgatás lenne. Hogy mitől függ egy weboldal ára, a <a class=\"tlink\" href=\"blog-weboldal-arak.html\">weboldalárakról szóló cikkünkben</a> leírtuk.": [
+  "We don’t publish a price list: until we know what you need, any figure would be a guess. What a website’s price depends on, we’ve set out in our <a class=\"tlink\" href=\"blog-weboldal-arak.html\">article on website prices</a>.",
+  "Eine Preisliste veröffentlichen wir nicht: Solange wir nicht wissen, was Sie brauchen, wäre jede Zahl geraten. Wovon der Preis einer Website abhängt, beschreiben wir in unserem <a class=\"tlink\" href=\"blog-weboldal-arak.html\">Artikel zu Website-Preisen</a>."
  ],
- "Hány oldal, milyen funkciók és tartalom, ki írja a szöveget, ki adja a képeket.": [
-  "How many pages, which features and content, who writes the copy, who supplies the images.",
-  "Wie viele Seiten, welche Funktionen und Inhalte, wer die Texte schreibt, wer die Bilder liefert."
+ "Megbeszéljük, hány oldal kell, milyen funkciók, ki írja a szöveget, és ki adja a képeket: az ár leginkább ezeken múlik.": [
+  "We agree how many pages you need, which features, who writes the copy and who supplies the images: the price depends mostly on these.",
+  "Wir besprechen, wie viele Seiten nötig sind, welche Funktionen, wer die Texte schreibt und wer die Bilder liefert: Davon hängt der Preis vor allem ab."
  ],
- "Ár és ütemezés, 14 napig érvényes. Az is benne van, ami kimarad.": [
-  "Price and schedule, valid for 14 days. What's left out is written in too.",
-  "Preis und Zeitplan, 14 Tage gültig. Auch was nicht enthalten ist, steht darin."
+ "Leírjuk a tételes árat, az ütemezést és azt, ami kimarad. Az ajánlat 14 napig érvényes.": [
+  "We write down the itemised price, the schedule and what’s left out. The proposal is valid for 14 days.",
+  "Wir halten den aufgeschlüsselten Preis, den Zeitplan und das, was nicht enthalten ist, fest. Das Angebot gilt 14 Tage."
  ],
- "A legtöbben innen indulnak. Egy beszélgetés után tudod, mire érdemes költened, akkor is, ha az kevesebb a vártnál.": [
-  "Most people start here. After one conversation you'll know what's worth spending on, even if it's less than you expected.",
-  "Die meisten fangen hier an. Nach einem Gespräch wissen Sie, wofür sich Ihr Geld lohnt, auch wenn es weniger ist als erwartet."
+ "Nem baj, a legtöbben innen indulnak. Egy ingyenes beszélgetés után tudod, mire érdemes költened, akkor is, ha az kevesebb a vártnál.": [
+  "That’s fine, most people start here. After one free conversation you’ll know what’s worth spending on, even if it’s less than you expected.",
+  "Das macht nichts, die meisten fangen hier an. Nach einem kostenlosen Gespräch wissen Sie, wofür sich Ihr Geld lohnt, auch wenn es weniger ist als erwartet."
  ],
  "Minden út <span class=\"sig\">ide vezet.</span>": [
   "Every road <span class=\"sig\">leads here.</span>",
@@ -517,5 +521,14 @@
  "A weboldal egyszeri projektdíjas. A keresőoptimalizálást és a karbantartást havidíjas partnerségként választhatod mellé.": [
   "The website is a one-off project fee. You can add SEO and maintenance alongside it as a monthly partnership.",
   "Die Website kostet ein einmaliges Projekthonorar. Suchmaschinenoptimierung und Wartung können Sie als monatliche Partnerschaft dazu wählen."
+ ],
+ "A Stratos Webdesign cégvezetőknek és vállalkozóknak épít weboldalt az egész országban.": [
+  "Stratos Webdesign builds websites for business owners and managers across Hungary.",
+  "Stratos Webdesign baut Websites für Geschäftsführer und Unternehmer in ganz Ungarn."
+ ],
+ "_o2_hangnem_2026_10_30": [
+  "Body copy in the voice of o2tanacsado.hu (owner, 2026-10-29; the homepage",
+  "and /kkv were the approved sample). Headings, buttons, figures and FAQ",
+  "questions unchanged; the replaced strings were removed where no page uses them."
  ]
 }

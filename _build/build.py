@@ -369,6 +369,14 @@ ORGS = {
     # the munka-mentaltrening case study, under its new name and domain.
     "mindforge": {"name": "MindForge", "asset": "assets/img/logo-mindforge.png", "ready": True, "relationship": "client"},
     "reverb": {"name": "Reverb Content", "asset": "assets/img/logo-reverb.png", "ready": True, "relationship": "client"},
+    # Dasty Professional and Olajcserepont — clients; the owner supplied the
+    # artwork on 2026-10-30. Dasty is cropped to its mark, its drop shadow
+    # taken off (owner, the same day).
+    # Olajcserepont's wordmark and arrows are knockout white in the original,
+    # invisible on a light band; this file has them in dark ink (#1E1E1E), the
+    # yellow disc with its white drops and the pin untouched.
+    "dasty": {"name": "Dasty Professional", "asset": "assets/img/logo-dasty.png", "ready": True, "relationship": "client"},
+    "olajcserepont": {"name": "Olajcserepont", "asset": "assets/img/logo-olajcserepont.png", "ready": True, "relationship": "client"},
     # ---- support relationships. Artwork arrived; neither is a collaboration.
     #
     # These two are the reason `relationship` exists as a field rather than a
@@ -2161,7 +2169,11 @@ V2_UI = {
                    "Egy csapat, egy felelős.",
         "pages": "Oldalak",
         "close_head": "Ha nagy a tét, beszéljünk.",
-        "close_lede": "Egy rövid beszélgetés után tudni fogod, mi segítene, és mi nem.",
+        # The O2-voice rewrite (2026-10-30): the homepage's own close, without
+        # its quote sentence, so every page ends on the same invitation.
+        "close_lede": "Írd le pár mondatban, mit csinálsz, és honnan jönnek ma "
+                      "az ügyfeleid. Egy rövid, ingyenes beszélgetésben elmondjuk, "
+                      "mi segítene, és azt is, mi nem.",
         "close_mail": 'vagy írj nekünk: <a href="mailto:hello@stratosweb.hu">hello@stratosweb.hu</a>',
     },
     "en": {
@@ -2172,7 +2184,9 @@ V2_UI = {
         "tagline": "Websites, SEO, advertising, 3D. One team, one owner.",
         "pages": "Pages",
         "close_head": "High stakes? Let’s talk.",
-        "close_lede": "After a short conversation you will know what would help, and what would not.",
+        "close_lede": "Write a few sentences about what you do and where your clients "
+                      "come from today. In a short, free conversation we’ll tell you "
+                      "what would help, and what wouldn’t.",
         "close_mail": 'or write to us: <a href="mailto:hello@stratosweb.hu">hello@stratosweb.hu</a>',
     },
     "de": {
@@ -2183,7 +2197,9 @@ V2_UI = {
         "tagline": "Website, SEO, Werbung, 3D. Ein Team, ein Verantwortlicher.",
         "pages": "Seiten",
         "close_head": "Viel auf dem Spiel? Dann sprechen wir.",
-        "close_lede": "Nach einem kurzen Gespräch wissen Sie, was helfen würde und was nicht.",
+        "close_lede": "Schreiben Sie in ein paar Sätzen, was Sie tun und woher Ihre "
+                      "Kunden heute kommen. In einem kurzen, kostenlosen Gespräch "
+                      "sagen wir Ihnen, was helfen würde, und auch, was nicht.",
         "close_mail": 'oder schreiben Sie uns: <a href="mailto:hello@stratosweb.hu">hello@stratosweb.hu</a>',
     },
 }
@@ -2433,6 +2449,20 @@ CLOSE_ARCHETYPE = {
     "about": "cta_about", "impact": "cta_about",
     **{k: "cta_article" for k in POSTS}, "blog": "cta_article",
 }
+# A route whose reader is not a business owner gets its own closing line. The
+# Impact Program speaks to nonprofits, in the page's ti-form, and promises
+# only what the page does: a conversation after selection.
+CLOSE_LEDE = {
+    "impact": {
+        "hu": "Írjátok le pár mondatban, mivel foglalkozik a szervezetetek, és "
+              "kiknek segítetek. A kiválasztás után átbeszéljük, mire van "
+              "szükségetek.",
+        "en": "Write a few sentences about what your organisation does and who "
+              "you help. Once you’re selected, we talk through what you need.",
+        "de": "Schreiben Sie in ein paar Sätzen, was Ihre Organisation tut und "
+              "wem Sie helfen. Nach der Auswahl besprechen wir, was Sie brauchen.",
+    },
+}
 # Routes that end without it: the questionnaire is the destination, the contact
 # page is a form, legal text is not a sales page.
 NO_CLOSE = {"index", "quote", "contact", "booking", "privacy", "imprint", "404"}
@@ -2451,7 +2481,7 @@ def build_close_v2(lang, key):
     u, v = UI[lang], V2_UI[lang]
     head = u["p85"][CLOSE_ARCHETYPE[key]] if key in CLOSE_ARCHETYPE else v["close_head"]
     return render(CLOSE_V2, dict(
-        head=head, lede=v["close_lede"],
+        head=head, lede=CLOSE_LEDE.get(key, {}).get(lang, v["close_lede"]),
         quote=href(lang, "quote"), start=u["p85"]["start"], arrow=ARROW_V2,
         mail=v["close_mail"],
     ))

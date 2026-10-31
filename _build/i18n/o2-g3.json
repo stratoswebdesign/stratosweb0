@@ -1,0 +1,15 @@
+{
+ "_comment": [
+  "Strings for the O2-voice rewrite of 2026-10-30 (services hub, about,",
+  "impact, works and blog intros) whose page dictionaries are shared or",
+  "not this pass's to edit: the blog index lives in blog-kapcsolat.json."
+ ],
+ "A Stratos Webdesign blogja vállalkozóknak szól: érthető útmutatók weboldalról, keresőoptimalizálásról, Google Cégprofilról, hirdetésről és arculatról. Sok a szakszó egy ajánlatban? Kérdezz vissza.": [
+  "The Stratos Webdesign blog is written for business owners: clear guides to websites, SEO, Google Business Profile, advertising and brand identity. Too much jargon in a proposal? Ask.",
+  "Der Blog von Stratos Webdesign ist für Unternehmer: verständliche Leitfäden zu Websites, SEO, Google-Unternehmensprofil, Werbung und Corporate Design. Mehr Fachbegriffe als Erklärung im Angebot? Fragen Sie nach."
+ ],
+ "Weboldalról, keresőoptimalizálásról és online marketingről akkor írunk, ha van mit mondanunk, ezért gyakoriságot nem ígérünk. Megerősítő levelet küldünk, és bármikor leiratkozhatsz.": [
+  "We write about websites, SEO and online marketing when we have something to say, so we don’t promise a frequency. We will send a confirmation e-mail, and you can unsubscribe at any time.",
+  "Über Websites, Suchmaschinenoptimierung und Online-Marketing schreiben wir, wenn wir etwas zu sagen haben, deshalb versprechen wir keine feste Häufigkeit. Sie erhalten eine Bestätigungs-E-Mail und können sich jederzeit abmelden."
+ ]
+}

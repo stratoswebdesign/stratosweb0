@@ -68,9 +68,9 @@
   "3D website",
   "3D-Website"
  ],
- "A 3D weboldal olyan weboldal, amelyen a látogató térben, interaktívan nézheti meg a terméket vagy a szolgáltatást: forgathatja, rétegekre bonthatja, görgetéssel végigjárhatja. Ott éri meg, ahol a vevő nehezen képzeli el, mit kap, például egy kert föld alatti szerkezetét vagy egy épület felmérését.": [
-  "A 3D website is a website on which visitors can look at a product or service in three dimensions, interactively: rotate it, take it apart layer by layer, or move through it by scrolling. It pays off where customers find it hard to picture what they will get, such as the structure of a garden below ground or the survey of a building.",
-  "Eine 3D-Website ist eine Website, auf der Besucher ein Produkt oder eine Leistung räumlich und interaktiv betrachten können: drehen, in Schichten zerlegen, per Scrollen durchwandern. Sie lohnt sich dort, wo sich der Kunde schwer vorstellen kann, was er bekommt, etwa den unterirdischen Aufbau eines Gartens oder die Vermessung eines Gebäudes."
+ "A 3D weboldal olyan weboldal, amelyen a látogató térben nézheti meg a terméket: forgathatja, rétegekre bonthatja, bejárhatja. Annak a cégnek éri meg, amelynek a vevője nehezen képzeli el, mit kap.": [
+  "A 3D website is a website on which visitors can look at a product in three dimensions: rotate it, take it apart layer by layer, move through it. It pays off for a company whose customers find it hard to picture what they will get.",
+  "Eine 3D-Website ist eine Website, auf der Besucher ein Produkt räumlich betrachten können: drehen, in Schichten zerlegen, durchwandern. Sie lohnt sich für ein Unternehmen, dessen Kunden sich schwer vorstellen können, was sie bekommen."
  ],
  "A termékkonfigurátor egy weboldalba épített eszköz, amelyben a vevő maga állítja össze a terméket: méretet, anyagot, színt vagy kiegészítőt választ, és rögtön látja az eredményt. Kevesebb kérdés, gyorsabb döntés, és a prémium változat is könnyebben eladható, mert a vevő látja, mit kap.": [
   "A product configurator is a tool built into a website in which customers put the product together themselves: they choose the size, material, colour or accessories and see the result straight away. Fewer questions, faster decisions, and the premium version is easier to sell too, because the customer can see what they get.",
@@ -112,9 +112,9 @@
   "A three-dimensional model on the opening screen or the product page that transforms as you scroll, comes apart in layers or turns all the way round. 3D goes where it makes the message stronger. Elsewhere we don't force it.",
   "Ein räumliches Modell auf dem Startbildschirm oder der Produktseite, das sich beim Scrollen verwandelt, in Schichten zerfällt oder sich rundum drehen lässt. 3D bekommt dort Platz, wo es die Botschaft stärker macht. Anderswo zwingen wir es nicht hinein."
  ],
- "Változatok, méretek, anyagok, színek, kiegészítők. A vevő összeállítja a saját változatát, és ezzel kér ajánlatot.": [
-  "Versions, sizes, materials, colours, accessories. The customer puts together their own version and requests a quote with it.",
-  "Varianten, Größen, Materialien, Farben, Zubehör. Der Kunde stellt seine eigene Variante zusammen und fragt damit ein Angebot an."
+ "Változatok, méretek, anyagok, színek, kiegészítők: annyi, amennyi a ti termékeiteknél valóban számít. A vevő ezzel az összeállítással kér ajánlatot.": [
+  "Variants, sizes, materials, colours, accessories: as many as really matter for your products. The customer asks for a quote with their own configuration.",
+  "Varianten, Größen, Materialien, Farben, Zubehör: so viele, wie bei Ihren Produkten wirklich zählen. Der Kunde fragt mit seiner eigenen Zusammenstellung ein Angebot an."
  ],
  "A 3D mellett a szöveg is ott van, így a Google és az AI-alapú keresők is értik, mit kínálsz. A látvány és a megtalálhatóság nem egymás rovására megy.": [
   "Alongside the 3D the text is there too, so Google and AI-powered search tools understand what you offer. Looking good and being found don't come at each other's expense.",
@@ -168,9 +168,9 @@
   "We show you the design, and you shape it. You see the 3D scene and the configurator's steps as part of the design too. Three rounds of revisions come with it before anything goes into development.",
   "Wir zeigen Ihnen den Entwurf, und Sie gestalten ihn mit. Auch die 3D-Szene und die Schritte des Konfigurators sehen Sie als Teil des Entwurfs. Drei Korrekturrunden sind enthalten, bevor etwas in die Entwicklung geht."
  ],
- "Megépítjük, minden eszközön teszteljük, élesítjük, és átadjuk a hozzáféréseket és a fájlokat.": [
-  "We build it, test it on every device, put it live and hand over the access and the files.",
-  "Wir bauen sie, testen sie auf allen Geräten, schalten sie live und übergeben Zugänge und Dateien."
+ "Megépítjük, minden eszközön teszteljük, elindítjuk, és átadjuk a hozzáféréseket és a fájlokat.": [
+  "We build it, test it on every device, launch it, and hand over the access details and the files.",
+  "Wir bauen sie, testen sie auf allen Geräten, schalten sie live und übergeben die Zugänge und die Dateien."
  ],
  "A közösen rögzített határidőt tartjuk. Egy feltétele van: minden anyag (modell, termékadat, szöveg, kép, hozzáférés) időben megérkezik tőled.": [
   "We keep the deadline we agree on together. There is one condition: everything we need from you (models, product data, text, images, access) arrives on time.",
@@ -188,17 +188,17 @@
   "Will Google see it?",
   "Wird Google das sehen?"
  ],
- "Igen. A 3D mellett a tartalom szövegként is ott van, így a keresők is értik az oldalt.": [
-  "Yes. Alongside the 3D, the content is there as text too, so search engines understand the page as well.",
-  "Ja. Neben dem 3D steht der Inhalt auch als Text auf der Seite, sodass auch Suchmaschinen sie verstehen."
+ "Igen: a tartalom a 3D mellett szövegként is ott van. A Rapidkert 3D weboldalához is érkeznek ajánlatkérések a Google nem fizetett találataiból.": [
+  "Yes: alongside the 3D, the content is there as text too. Rapidkert’s 3D website also gets quote requests from Google’s unpaid results.",
+  "Ja: Neben dem 3D steht der Inhalt auch als Text auf der Seite. Auch die 3D-Website von Rapidkert erhält Anfragen über die unbezahlten Google-Ergebnisse."
  ],
  "Nincs rá időnk.": [
   "We don't have time for it.",
   "Dafür haben wir keine Zeit."
  ],
- "A munkát mi visszük. Tőletek a termékadatok, a modellek vagy rajzok kellenek, és egy kapcsolattartó, aki a kulcspontokon jóváhagy.": [
-  "We do the work. From you we need the product data, the models or drawings, and one contact person who signs off at the key points.",
-  "Die Arbeit übernehmen wir. Von Ihnen brauchen wir die Produktdaten, die Modelle oder Zeichnungen und eine Ansprechperson, die an den entscheidenden Punkten freigibt."
+ "Nem kell hozzá sok idő: a munkát mi visszük. Tőletek a termékadatok, a modellek vagy rajzok kellenek, és egy kapcsolattartó, aki a kulcspontokon jóváhagy.": [
+  "It doesn’t take much of your time: we carry the work. We need the product data, the models or drawings, and a contact person who signs off at the key points.",
+  "Viel Zeit brauchen Sie nicht: Die Arbeit übernehmen wir. Wir brauchen die Produktdaten, Modelle oder Zeichnungen und eine Ansprechperson, die an den entscheidenden Punkten freigibt."
  ],
  "Kinek szól?": [
   "Who is it for?",
@@ -369,9 +369,9 @@
   "A 3D website <span class=\"sig\">we have built</span>",
   "Eine 3D-Website, <span class=\"sig\">die wir gebaut haben</span>"
  ],
- "A nyitóképernyő közepén egy térbeli kertkeresztmetszet áll: a kert és alatta a talaj rétegei. A látogató egyetlen képen érti meg, mit csinál a cég a felszín alatt.": [
-  "At the centre of the opening screen stands a three-dimensional cross-section of a garden: the garden and, beneath it, the layers of the ground. In a single image the visitor understands what the company does below the surface.",
-  "In der Mitte des Startbildschirms steht ein räumlicher Gartenquerschnitt: der Garten und darunter die Schichten des Bodens. Mit einem einzigen Bild versteht der Besucher, was das Unternehmen unter der Oberfläche tut."
+ "A nyitóképernyőn egy térbeli kertkeresztmetszet áll: a gyep alatt a talaj rétegei, az öntözővezeték és a dréncső. A látogató egy képen látja, mit csinál a cég a felszín alatt.": [
+  "The opening screen shows a garden in 3D cross-section: under the lawn, the soil layers, the irrigation pipe and the drain. In one image visitors see what the company does below the surface.",
+  "Auf der Startseite steht ein räumlicher Gartenquerschnitt: unter dem Rasen die Bodenschichten, die Bewässerungsleitung und das Drainagerohr. Besucher sehen in einem Bild, was das Unternehmen unter der Oberfläche macht."
  ],
  "Átbeszéljük, mit kell megmutatni a terméketekből, kik a vevőitek, és hogy ehhez 3D weboldal, konfigurátor vagy a kettő együtt kell.": [
   "We talk through what needs to be shown of your product, who your customers are, and whether that calls for a 3D website, a configurator or both.",
@@ -381,9 +381,9 @@
   "We show you the design, and you shape it. You see the 3D scene and the configurator's steps as part of the design too.",
   "Wir zeigen Ihnen den Entwurf, und Sie gestalten ihn mit. Auch die 3D-Szene und die Schritte des Konfigurators sehen Sie als Teil des Entwurfs."
  ],
- "Minden ajánlat egyedi: a modell összetettségétől, a változatok számától és a weboldal terjedelmétől függ. Egy nagy értékű termékből egy-két megnyert megrendelés általában kifizeti. Az ingyenes igényfelmérő hívás után tételes ajánlatot kaptok, és azt is megmondjuk, ha nálatok <a class=\"tlink\" href=\"nagyvallalat.html\">egy jó, 3D nélküli weboldal</a> is elég.": [
-  "Every proposal is individual: it depends on how complex the model is, how many versions there are and how large the website is. With a high-value product, one or two orders won usually pay for it. After the free discovery call you get an itemised proposal, and we will also tell you if <a class=\"tlink\" href=\"nagyvallalat.html\">a good website without 3D</a> would be enough for you.",
-  "Jedes Angebot ist individuell: Es hängt von der Komplexität des Modells, der Zahl der Varianten und dem Umfang der Website ab. Bei einem hochwertigen Produkt bezahlen ein, zwei gewonnene Aufträge sie in der Regel. Nach dem kostenlosen Erstgespräch erhalten Sie ein aufgeschlüsseltes Angebot, und wir sagen Ihnen auch, wenn bei Ihnen <a class=\"tlink\" href=\"nagyvallalat.html\">eine gute Website ohne 3D</a> genügt."
+ "Az ár a modell összetettségétől, a változatok számától és a weboldal terjedelmétől függ. Azt is megmondjuk, ha nálatok <a class=\"tlink\" href=\"nagyvallalat.html\">egy jó, 3D nélküli weboldal</a> is elég.": [
+  "The price depends on the model’s complexity, the number of variants and the size of the website. We’ll also tell you if <a class=\"tlink\" href=\"nagyvallalat.html\">a good website without 3D</a> would be enough.",
+  "Der Preis hängt von der Komplexität des Modells, der Zahl der Varianten und dem Umfang der Website ab. Wir sagen auch, wenn <a class=\"tlink\" href=\"nagyvallalat.html\">eine gute Website ohne 3D</a> genügt."
  ],
  "Ha van CAD vagy 3D modelletek, abból dolgozunk.": [
   "If you have a CAD or 3D model, we work from it.",
@@ -398,64 +398,72 @@
   "Beschreiben Sie in ein paar Sätzen, welches Produkt Sie zeigen möchten und wer Ihre Kunden sind."
  ],
  "_pack_2026_10_24_tone": "Third copy pack 2026-10-24 (tone): the owner's lines for /3d (hero, problem, transition, closing) and every card and step cut to one line. Definitions kept, at most two sentences.",
- "Forgatja, szétszedi, összerakja. Mire ajánlatot kér, már tudja, mit akar.": [
-  "They turn it, take it apart, put it back together. By the time they ask for a quote, they know what they want.",
-  "Drehen, zerlegen, zusammensetzen. Wer ein Angebot anfragt, weiß schon, was er will."
+ "A Stratos Webdesignnál 3D weboldalt és termékkonfigurátort építünk gyártóknak, építőipari és B2B cégeknek. A vevőtök körbeforgatja a terméket, és mire ajánlatot kér, többnyire már tudja, mit akar.": [
+  "Stratos Webdesign builds 3D websites and product configurators for manufacturers, construction and B2B companies. Customers turn the product around, and when they ask for a quote, they usually know what they want.",
+  "Bei Stratos Webdesign bauen wir 3D-Websites und Produktkonfiguratoren für Hersteller, Bau- und B2B-Unternehmen. Ihre Kunden drehen das Produkt selbst, und wenn sie anfragen, wissen sie meist schon, was sie wollen."
  ],
  "Az értékesítőtök ma <span class=\"sig\">harmadszor mondja el ugyanazt.</span>": [
   "Your salesperson is saying the same thing <span class=\"sig\">for the third time today.</span>",
   "Ihr Vertrieb erklärt heute <span class=\"sig\">zum dritten Mal dasselbe.</span>"
  ],
- "A vevő közben három weboldalon ugyanazt látja: egy fotót fehér háttér előtt. És a legolcsóbbal együtt soroz be titeket.": [
-  "Meanwhile the customer sees the same thing on three websites: a photo on a white background. And puts you in the same box as the cheapest.",
-  "Der Kunde sieht derweil auf drei Websites dasselbe: ein Foto vor weißem Hintergrund. Und steckt Sie in dieselbe Schublade wie den Günstigsten."
+ "Kedd délelőtt az értékesítőtök a harmadik vevőnek magyarázza el telefonon ugyanazt: mitől más a ti termékeitek. A vonal túlsó végén a vevő három weboldalt néz, és mindhármon ugyanazt látja: egy fotót fehér háttér előtt.": [
+  "On Tuesday morning your salesperson explains the same thing on the phone to a third customer: what makes your product different. At the other end of the line, the customer is looking at three websites and sees the same thing on each: a photo on a white background.",
+  "Am Dienstagvormittag erklärt Ihr Vertrieb dem dritten Kunden am Telefon dasselbe: was Ihr Produkt anders macht. Am anderen Ende der Leitung schaut der Kunde drei Websites an und sieht überall dasselbe: ein Foto vor weißem Hintergrund."
  ],
- "<strong>Mutassátok meg úgy, ahogy a műhelyben látnátok.</strong>": [
-  "<strong>Show it the way you would see it in the workshop.</strong>",
-  "<strong>Zeigen Sie es so, wie Sie es in der Werkstatt sehen.</strong>"
+ "<strong>Mutassátok meg úgy, ahogy a műhelyben megmutatnátok.</strong> A 3D weboldal nem váltja ki az értékesítőt, de a hívás már a konkrét kérdésekkel kezdődhet.": [
+  "<strong>Show it the way you would show it in the workshop.</strong> A 3D website doesn’t replace your salesperson, but the call can start with the specific questions.",
+  "<strong>Zeigen Sie es so, wie Sie es in der Werkstatt zeigen würden.</strong> Eine 3D-Website ersetzt Ihren Vertrieb nicht, aber das Gespräch kann gleich mit den konkreten Fragen beginnen."
  ],
  "Mi az a 3D weboldal? Mi az a termékkonfigurátor?": [
   "What is a 3D website? What is a product configurator?",
   "Was ist eine 3D-Website? Was ist ein Produktkonfigurator?"
  ],
- "A termékkonfigurátor egy weboldalba épített eszköz, amelyben a vevő maga állítja össze a terméket: méretet, anyagot, színt vagy kiegészítőt választ, és rögtön látja az eredményt. Kevesebb kérdés, gyorsabb döntés, és a prémium változat is könnyebben eladható.": [
-  "A product configurator is a tool built into a website in which customers put the product together themselves: they choose the size, material, colour or accessories and see the result straight away. Fewer questions, faster decisions, and the premium version is easier to sell too.",
-  "Ein Produktkonfigurator ist ein in die Website eingebautes Werkzeug, in dem der Kunde das Produkt selbst zusammenstellt: Er wählt Größe, Material, Farbe oder Zubehör und sieht sofort das Ergebnis. Weniger Fragen, schnellere Entscheidungen, und auch die Premiumvariante lässt sich leichter verkaufen."
+ "A termékkonfigurátor egy weboldalba épített eszköz, amelyben a vevő maga állítja össze a terméket: méretet, anyagot, színt vagy kiegészítőt választ, és rögtön látja az eredményt.": [
+  "A product configurator is a tool built into a website in which customers put the product together themselves: they choose the size, material, colour or accessories and see the result straight away.",
+  "Ein Produktkonfigurator ist ein in die Website eingebautes Werkzeug, in dem der Kunde das Produkt selbst zusammenstellt: Er wählt Größe, Material, Farbe oder Zubehör und sieht sofort das Ergebnis."
  ],
- "Térbeli modell a nyitóképernyőn vagy a termékoldalon. Csak ott, ahol erősebb tőle az üzenet.": [
-  "A three-dimensional model on the opening screen or the product page. Only where it makes the message stronger.",
-  "Ein räumliches Modell auf dem Startbildschirm oder der Produktseite. Nur dort, wo es die Botschaft stärker macht."
+ "Térbeli modell a nyitóképernyőn vagy a termékoldalon. Csak ott használjuk, ahol a vevő többet ért meg belőle, mint egy fotóból.": [
+  "A spatial model on the opening screen or the product page. We only use it where the customer understands more from it than from a photo.",
+  "Ein räumliches Modell auf der Startseite oder der Produktseite. Wir setzen es nur dort ein, wo der Kunde daraus mehr versteht als aus einem Foto."
  ],
  "A látvány a vevőnek szól. A szöveg a Google-nek és az AI-keresőknek is.": [
   "The visuals are for the customer. The text is for Google and AI search too.",
   "Die Optik ist für den Kunden. Der Text auch für Google und KI-Suchmaschinen."
  ],
- "Telefonon és tableten is használható. Élesítés előtt mindkettőn kipróbáljuk.": [
-  "It works on phones and tablets too. We try it on both before launch.",
-  "Auch auf Smartphone und Tablet nutzbar. Vor dem Livegang testen wir auf beiden."
+ "Telefonon és tableten is használható, az indulás előtt mindkettőn kipróbáljuk.": [
+  "Usable on phones and tablets, and we try it on both before launch.",
+  "Auch auf Smartphone und Tablet nutzbar, vor dem Start testen wir es auf beiden."
  ],
  "Sablon és oldalépítő nélkül. A weboldal és a kód a tiétek.": [
   "No templates, no page builder. The website and the code are yours.",
   "Ohne Vorlage und ohne Baukasten. Website und Code gehören Ihnen."
  ],
- "Átbeszéljük, mit kell látniuk a vevőiteknek, és mi kell hozzá: 3D, konfigurátor vagy mindkettő.": [
-  "We talk through what your customers need to see, and what it takes: 3D, a configurator or both.",
-  "Wir besprechen, was Ihre Kunden sehen müssen und was es dafür braucht: 3D, einen Konfigurator oder beides."
+ "Elmondjátok, mit kérdeznek a vevőitek a legtöbbször. A hívás végére kiderül, mi kell: 3D, konfigurátor, mindkettő, vagy egyik sem.": [
+  "You tell us what your customers ask most often. By the end of the call it’s clear what you need: 3D, a configurator, both, or neither.",
+  "Sie erzählen, was Ihre Kunden am häufigsten fragen. Am Ende des Gesprächs ist klar, was Sie brauchen: 3D, einen Konfigurator, beides oder keins von beiden."
  ],
  "Megmutatjuk a tervet, ti alakítjátok. A 3D-t és a konfigurátort is a tervben látjátok.": [
   "We show you the design, and you shape it. You see the 3D and the configurator in the design too.",
   "Wir zeigen Ihnen den Entwurf, und Sie gestalten ihn mit. Auch 3D und Konfigurator sehen Sie schon im Entwurf."
  ],
- "Mi az, amit a vevőitek nem látnak elsőre?": [
-  "What don't your customers see at first glance?",
-  "Was sehen Ihre Kunden nicht auf den ersten Blick?"
+ "Mi az, amit a vevőitek egy fotón sosem látnak? Pár mondat róla elég az első lépéshez.": [
+  "What do your customers never see in a photo? A few sentences about it are enough for the first step.",
+  "Was sehen Ihre Kunden auf einem Foto nie? Ein paar Sätze dazu genügen für den ersten Schritt."
  ],
  "Sablon és oldalépítő nélkül. Csak az, amire a terméketeknek szüksége van.": [
   "No templates, no page builder. Only what your product needs.",
   "Ohne Vorlage und ohne Baukasten. Nur das, was Ihr Produkt braucht."
  ],
- "Ha kéritek. A weboldal egyszeri projektdíjas; mellé karbantartást és <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálást</a> havidíjas partnerségként választhattok.": [
-  "If you want us to. The website is a one-off project fee; alongside it you can choose maintenance and <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> as a monthly partnership.",
-  "Wenn Sie möchten. Die Website kostet ein einmaliges Projekthonorar; dazu können Sie Wartung und <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a> als monatliche Partnerschaft wählen."
+ "Igen, ha kéritek: karbantartást és <a class=\"tlink\" href=\"keresooptimalizalas.html\">keresőoptimalizálást</a> havidíjas partnerségként választhattok. Ha valami nem működik, tudjátok, kit hívjatok.": [
+  "Yes, if you want us to: you can choose maintenance and <a class=\"tlink\" href=\"keresooptimalizalas.html\">SEO</a> as a monthly partnership. If something doesn’t work, you know who to call.",
+  "Ja, wenn Sie möchten: Wartung und <a class=\"tlink\" href=\"keresooptimalizalas.html\">Suchmaschinenoptimierung</a> gibt es als monatliche Partnerschaft. Wenn etwas nicht funktioniert, wissen Sie, wen Sie anrufen."
+ ],
+ "Joggal érzitek, hogy egy fotó nem adja át, mit tud a termék. A vevő így csak az árat veti össze, és egy kalap alá vesz titeket a legolcsóbbal.": [
+  "You’re right to feel that a photo doesn’t show what the product can do. So the customer compares only the price and lumps you in with the cheapest.",
+  "Sie spüren zu Recht, dass ein Foto nicht zeigt, was das Produkt kann. Also vergleicht der Kunde nur den Preis und wirft Sie mit dem Günstigsten in einen Topf."
+ ],
+ "Tételes ajánlatot kaptok: mi készül, mi nem, és mikorra.": [
+  "You get an itemised proposal: what will be built, what will not, and by when.",
+  "Sie erhalten ein aufgeschlüsseltes Angebot: was entsteht, was nicht und bis wann."
  ]
 }

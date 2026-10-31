@@ -781,9 +781,9 @@
   "Request a quote in a minute.",
   "Fragen Sie in einer Minute ein Angebot an."
  ],
- "Négy rövid kérdés. Utána ingyenes igényfelmérő hívással kezdünk, és írásban kapod meg az egyedi ajánlatot.": [
-  "Four short questions. Then we start with a free discovery call, and you receive your tailored quote in writing.",
-  "Vier kurze Fragen. Danach beginnen wir mit einem kostenlosen Erstgespräch, und Sie erhalten Ihr individuelles Angebot schriftlich."
+ "Csak három mező kötelező. Ha még nem tudod, mire van szükséged, jelöld: „Még nem tudom”.": [
+  "Only three fields are required. If you’re not sure yet what you need, choose “Not sure yet”.",
+  "Nur drei Felder sind Pflicht. Wenn Sie noch nicht wissen, was Sie brauchen, wählen Sie „Weiß ich noch nicht“."
  ],
  "Név *": [
   "Name *",

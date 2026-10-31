@@ -712,7 +712,8 @@
   /* --------------------------------------------------- the logo carousel */
   /* On a phone a set of three or more client marks runs as a carousel, in
      colour (owner, 2026-10-18; system.css draws it). Fewer than three would
-     only repeat themselves, so they stay put. A set is framed the first time
+     only repeat themselves, so they stay put. The home page's marks run on a
+     wider screen too, as one row (owner, 2026-10-30; home.css). A set is framed the first time
      it comes near the screen, so its marks still load lazily; it rests while
      it is off the screen and holds still under a finger. The copies are
      hidden from assistive technology, which reads the set once. */
@@ -723,6 +724,7 @@
       return ul.querySelectorAll('[data-logo]').length >= 3;
     });
     if (!sets.length) return;
+    var runs = function (ul) { return phone.matches || ul.classList.contains('logoset--marks'); };
     var build = function (ul) {
       var rail = doc.createElement('div');
       var kind = /logoset--(\w+)/.exec(ul.className);
@@ -733,7 +735,7 @@
       // (owner, 2026-10-18), every other mark in each, so the two rows
       // never show the same mark at once. Two real lists, six and six: a
       // screen reader still hears each mark once.
-      if (kind && kind[1] === 'marks') {
+      if (kind && kind[1] === 'marks' && phone.matches) {
         var second = ul.cloneNode(false);
         [].slice.call(ul.children).forEach(function (li, i) { if (i % 2) second.appendChild(li); });
         second.classList.add('is-reverse');
@@ -776,9 +778,9 @@
         if (rail) rail.classList.toggle('is-paused', !e.isIntersecting);
       });
     }, { rootMargin: '400px 0px' });
-    // Watched only while the screen is a phone's; a tablet turned upright
-    // becomes one.
-    var watch = function () { if (phone.matches) sets.forEach(function (ul) { io.observe(ul); }); };
+    // Watched only while the screen is a phone's (a tablet turned upright
+    // becomes one), the home page's marks at any width.
+    var watch = function () { sets.forEach(function (ul) { if (runs(ul)) io.observe(ul); }); };
     watch();
     if (phone.addEventListener) phone.addEventListener('change', watch);
     doc.addEventListener('pointerdown', function (e) {

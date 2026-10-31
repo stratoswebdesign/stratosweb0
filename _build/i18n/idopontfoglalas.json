@@ -98,15 +98,15 @@
   "Four steps, <span class=\"sig\">two minutes.</span>",
   "Vier Schritte, <span class=\"sig\">zwei Minuten.</span>"
  ],
- "A naptárunkból élőben látod, mikor érünk rá. Amit lefoglalsz, az a tiéd: más már nem foglalhatja el.": [
-  "You see our calendar live, so you know when we are free. The time you book is yours: nobody else can take it.",
-  "Sie sehen unseren Kalender live und wissen, wann wir frei sind. Der Termin, den Sie buchen, gehört Ihnen: Niemand sonst kann ihn belegen."
+ "Nem kell e-mailekben oda-vissza egyeztetnünk. Amit lefoglalsz, azt más már nem foglalhatja el.": [
+  "No back-and-forth emails to find a time. The slot you book can’t be taken by anyone else.",
+  "Kein Hin und Her per E-Mail, um einen Termin zu finden. Den Termin, den Sie buchen, kann niemand sonst mehr belegen."
  ],
  "Időpont": [
   "A time",
   "Termin"
  ],
- "Hétköznap 9 és 17 óra között, legalább egy nappal előre és legfeljebb 30 napra előre.": [
+ "Hétköznap 9 és 17 óra között, legalább egy nappal és legfeljebb 30 nappal előre.": [
   "Weekdays between 9:00 and 17:00, at least one day and at most 30 days ahead.",
   "Werktags zwischen 9 und 17 Uhr, mindestens einen Tag und höchstens 30 Tage im Voraus."
  ],
@@ -231,17 +231,17 @@
   "Book a free 30-minute discovery call on Google Meet. You only see times that are genuinely free, and the invitation reaches your inbox straight away.",
   "Buchen Sie ein kostenloses 30-minütiges Erstgespräch über Google Meet. Sie sehen nur wirklich freie Termine, und die Einladung kommt sofort per E-Mail."
  ],
- "Ingyenes igényfelmérő hívás Google Meeten. Megnézzük, hol tart most a vállalkozásod online, mit szeretnél elérni, és melyik út vezet oda. Utána egyedi, írásos ajánlatot küldünk.": [
-  "A free discovery call on Google Meet. We look at where your business stands online today, what you want to achieve, and which route gets you there. Afterwards we send you a tailored, written quote.",
-  "Ein kostenloses Erstgespräch über Google Meet. Wir schauen uns an, wo Ihr Unternehmen online heute steht, was Sie erreichen wollen und welcher Weg dorthin führt. Danach schicken wir Ihnen ein individuelles, schriftliches Angebot."
+ "Fél óra az egész, két munka közé is belefér. Elmondod, hol tart a vállalkozásod, és mit szeretnél elérni, mi pedig figyelünk. Ha továbblépünk, írásos ajánlatot küldünk.": [
+  "The half hour fits between two jobs. You tell us where your business stands and what you want to achieve, and we listen. If we go ahead, we send you a written quote.",
+  "Die halbe Stunde passt zwischen zwei Termine. Sie erzählen, wo Ihr Unternehmen steht und was Sie vorhaben, und wir hören zu. Wenn wir weitermachen, schicken wir ein schriftliches Angebot."
  ],
  "Csak azokat az időpontokat látod, amikor tényleg ráérünk, és a meghívót a Meet-linkkel azonnal megkapod e-mailben.": [
   "You only see the times when we are genuinely free, and the invitation with the Meet link reaches your inbox straight away.",
   "Sie sehen nur die Zeiten, zu denen wir wirklich frei sind, und die Einladung mit dem Meet-Link erhalten Sie sofort per E-Mail."
  ],
- "Ha inkább írnál, az is jó: <a class=\"tlink\" href=\"ugyfelszolgalat.html#uzenet\">írj pár sort</a>, vagy <a class=\"tlink\" href=\"arajanlat.html\">kérj ajánlatot a kérdőívvel</a>. Munkanapokon 24 órán belül válaszolunk.": [
-  "Rather write? That works too: <a class=\"tlink\" href=\"ugyfelszolgalat.html#uzenet\">send us a few lines</a>, or <a class=\"tlink\" href=\"arajanlat.html\">request a quote with the questionnaire</a>. We reply within 24 hours on working days.",
-  "Lieber schreiben? Auch gut: <a class=\"tlink\" href=\"ugyfelszolgalat.html#uzenet\">schreiben Sie uns ein paar Zeilen</a> oder <a class=\"tlink\" href=\"arajanlat.html\">fragen Sie über den Fragebogen ein Angebot an</a>. An Werktagen antworten wir innerhalb von 24 Stunden."
+ "Ha inkább írnál, az is jó: <a class=\"tlink\" href=\"ugyfelszolgalat.html#uzenet\">írj pár sort</a>, vagy <a class=\"tlink\" href=\"arajanlat.html\">kérj ajánlatot egy rövid űrlapon</a>. Munkanapokon 24 órán belül válaszolunk.": [
+  "Rather write? That works too: <a class=\"tlink\" href=\"ugyfelszolgalat.html#uzenet\">send us a few lines</a>, or <a class=\"tlink\" href=\"arajanlat.html\">request a quote with a short form</a>. We reply within 24 hours on working days.",
+  "Lieber schreiben? Auch gut: <a class=\"tlink\" href=\"ugyfelszolgalat.html#uzenet\">schreiben Sie uns ein paar Zeilen</a> oder <a class=\"tlink\" href=\"arajanlat.html\">fragen Sie über ein kurzes Formular ein Angebot an</a>. An Werktagen antworten wir innerhalb von 24 Stunden."
  ],
  "<span><b>Hossz</b> 30 perc</span> <span><b>Helyszín</b> Google Meet</span> <span><b>Díj</b> ingyenes</span>": [
   "<span><b>Length</b> 30 minutes</span> <span><b>Where</b> Google Meet</span> <span><b>Cost</b> free of charge</span>",
