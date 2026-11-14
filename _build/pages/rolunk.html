@@ -91,6 +91,16 @@ css: about
 
 
   <!-- ============================================ csapat -->
+  <!-- The two of us as magazine covers (owner, 2026-11-14, after a Vogue
+       cover): STRATOS where the masthead goes, the head in front of it, and
+       the cover lines in Aboreto — position on the side, the name across the
+       bottom, the speciality under it. The photo is the whole picture, sofa
+       and grey studio included; the -cut.png on top is the same photo's top
+       third with only the person kept (macOS Vision subject mask), laid
+       exactly over it so the letters pass behind the head. Masthead and name
+       are SVG text with a fixed textLength, so they run edge to edge in every
+       language. Turning the cover to a longer text about each of us comes
+       later, once those texts exist. -->
   <section class="band">
     <div class="wrap">
       <h2 class="smark"><span class="smark__t">Akikkel dolgozol</span></h2>
@@ -98,11 +108,14 @@ css: about
       <div class="grid g-2" style="align-items:start">
         <article class="grid" style="gap:1.6rem">
           <div>
-            <figure class="portrait">
-              <img src="assets/img/team-lukacs-artur.jpg" alt="Lukács Artúr, alapító" loading="lazy">
-              <figcaption>
-                <span class="card__k">Alapító / Partner</span>
-                <h3 class="display h-sm" style="margin-top:.3rem">Lukács Artúr</h3>
+            <figure class="cover" style="--mast:10.5%">
+              <img class="cover__photo" src="assets/img/team-lukacs-artur.jpg" alt="Lukács Artúr, alapító" loading="lazy">
+              <svg class="cover__mast" viewBox="0 0 1000 200" aria-hidden="true" focusable="false"><text x="500" y="168" text-anchor="middle" textLength="1000" lengthAdjust="spacing">STRATOS</text></svg>
+              <img class="cover__cut" src="assets/img/team-lukacs-artur-cut.png" alt="" loading="lazy">
+              <figcaption class="cover__lines">
+                <p class="cover__role">Alapító<br>Partner</p>
+                <h3 class="cover__name"><span class="vh">Lukács Artúr</span><svg viewBox="0 0 1000 120" aria-hidden="true" focusable="false"><text x="500" y="104" text-anchor="middle" textLength="1000" lengthAdjust="spacing">LUKÁCS ARTÚR</text></svg></h3>
+                <p class="cover__spec">Design, fejlesztés és SEO</p>
               </figcaption>
             </figure>
             <p class="portrait-mail"><a class="tlink" href="mailto:lukacs.artur@stratosweb.hu">lukacs.artur@stratosweb.hu</a></p>
@@ -112,11 +125,14 @@ css: about
 
         <article class="grid" style="gap:1.6rem">
           <div>
-            <figure class="portrait">
-              <img src="assets/img/team-timar-richard.jpg" alt="Tímár Richárd, partner" loading="lazy">
-              <figcaption>
-                <span class="card__k">Partner / Hirdetéskezelés</span>
-                <h3 class="display h-sm" style="margin-top:.3rem">Tímár Richárd</h3>
+            <figure class="cover" style="--mast:4.5%">
+              <img class="cover__photo" src="assets/img/team-timar-richard.jpg" alt="Tímár Richárd, partner" loading="lazy">
+              <svg class="cover__mast" viewBox="0 0 1000 200" aria-hidden="true" focusable="false"><text x="500" y="168" text-anchor="middle" textLength="1000" lengthAdjust="spacing">STRATOS</text></svg>
+              <img class="cover__cut" src="assets/img/team-timar-richard-cut.png" alt="" loading="lazy">
+              <figcaption class="cover__lines">
+                <p class="cover__role">Partner</p>
+                <h3 class="cover__name"><span class="vh">Tímár Richárd</span><svg viewBox="0 0 1000 120" aria-hidden="true" focusable="false"><text x="500" y="104" text-anchor="middle" textLength="1000" lengthAdjust="spacing">TÍMÁR RICHÁRD</text></svg></h3>
+                <p class="cover__spec">Hirdetéskezelés és social media</p>
               </figcaption>
             </figure>
             <p class="portrait-mail"><a class="tlink" href="mailto:timar.richard@stratosweb.hu">timar.richard@stratosweb.hu</a></p>

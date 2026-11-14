@@ -353,5 +353,36 @@
  "Az egész országban, magyarul, angolul és németül. Ügyfélfogadó irodánk nincs: a tervezés és az átadás videóhívásban megy, és ha a projekt indokolja, mi utazunk hozzád.": [
   "Across Hungary, in Hungarian, English and German. We have no office for client visits: design and handover happen on video calls, and if the project calls for it, we travel to you.",
   "In ganz Ungarn, auf Ungarisch, Englisch und Deutsch. Ein Kundenbüro haben wir nicht: Konzeption und Übergabe laufen per Videocall, bei Bedarf kommen wir zu Ihnen."
+ ],
+ "_comment_covers": [
+  "2026-11-14 — the team as magazine covers. The cover name is written in capitals in the SVG (it is drawn to a fixed width), so it has its own entry; the readable name is the visually hidden span, which already had one."
+ ],
+ "STRATOS": [
+  "STRATOS",
+  "STRATOS"
+ ],
+ "Alapító<br>Partner": [
+  "Founder<br>Partner",
+  "Gründer<br>Partner"
+ ],
+ "LUKÁCS ARTÚR": [
+  "ARTÚR LUKÁCS",
+  "ARTÚR LUKÁCS"
+ ],
+ "TÍMÁR RICHÁRD": [
+  "RICHÁRD TÍMÁR",
+  "RICHÁRD TÍMÁR"
+ ],
+ "Partner": [
+  "Partner",
+  "Partner"
+ ],
+ "Design, fejlesztés és SEO": [
+  "Design, development and SEO",
+  "Design, Entwicklung und SEO"
+ ],
+ "Hirdetéskezelés és social media": [
+  "Ads management and social media",
+  "Werbebetreuung und Social Media"
  ]
 }
