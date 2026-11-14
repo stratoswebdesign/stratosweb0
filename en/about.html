@@ -182,6 +182,16 @@
 
 
   <!-- ============================================ csapat -->
+  <!-- The two of us as magazine covers (owner, 2026-11-14, after a Vogue
+       cover): STRATOS where the masthead goes, the head in front of it, and
+       the cover lines in Aboreto — position on the side, the name across the
+       bottom, the speciality under it. The photo is the whole picture, sofa
+       and grey studio included; the -cut.png on top is the same photo's top
+       third with only the person kept (macOS Vision subject mask), laid
+       exactly over it so the letters pass behind the head. Masthead and name
+       are SVG text with a fixed textLength, so they run edge to edge in every
+       language. Turning the cover to a longer text about each of us comes
+       later, once those texts exist. -->
   <section class="band">
     <div class="wrap">
       <h2 class="smark"><span class="smark__t">The people you work with</span></h2>
@@ -189,11 +199,14 @@
       <div class="grid g-2" style="align-items:start">
         <article class="grid" style="gap:1.6rem">
           <div>
-            <figure class="portrait">
-              <img src="/assets/img/team-lukacs-artur.jpg" alt="Artúr Lukács, founder" loading="lazy" width="1350" height="1800" sizes="(max-width: 760px) 100vw, 50vw" srcset="/assets/img/resp/team-lukacs-artur-400.webp 400w, /assets/img/resp/team-lukacs-artur-800.webp 800w, /assets/img/resp/team-lukacs-artur-1200.webp 1200w, /assets/img/resp/team-lukacs-artur-1350.webp 1350w">
-              <figcaption>
-                <span class="card__k">Founder / Partner</span>
-                <h3 class="display h-sm" style="margin-top:.3rem">Artúr Lukács</h3>
+            <figure class="cover" style="--mast:10.5%">
+              <img class="cover__photo" src="/assets/img/team-lukacs-artur.jpg" alt="Artúr Lukács, founder" loading="lazy" width="1350" height="1800" sizes="(max-width: 760px) 100vw, 50vw" srcset="/assets/img/resp/team-lukacs-artur-400.webp 400w, /assets/img/resp/team-lukacs-artur-800.webp 800w, /assets/img/resp/team-lukacs-artur-1200.webp 1200w, /assets/img/resp/team-lukacs-artur-1350.webp 1350w">
+              <svg class="cover__mast" viewBox="0 0 1000 200" aria-hidden="true" focusable="false"><text x="500" y="168" text-anchor="middle" textLength="1000" lengthAdjust="spacing">STRATOS</text></svg>
+              <img class="cover__cut" src="/assets/img/team-lukacs-artur-cut.png" alt="" loading="lazy" width="1350" height="576" sizes="(max-width: 760px) 100vw, 50vw" srcset="/assets/img/resp/team-lukacs-artur-cut-400.webp 400w, /assets/img/resp/team-lukacs-artur-cut-800.webp 800w, /assets/img/resp/team-lukacs-artur-cut-1200.webp 1200w, /assets/img/resp/team-lukacs-artur-cut-1350.webp 1350w">
+              <figcaption class="cover__lines">
+                <p class="cover__role">Founder<br>Partner</p>
+                <h3 class="cover__name"><span class="vh">Artúr Lukács</span><svg viewBox="0 0 1000 120" aria-hidden="true" focusable="false"><text x="500" y="104" text-anchor="middle" textLength="1000" lengthAdjust="spacing">ARTÚR LUKÁCS</text></svg></h3>
+                <p class="cover__spec">Design, development and SEO</p>
               </figcaption>
             </figure>
             <p class="portrait-mail"><a class="tlink" href="mailto:lukacs.artur@stratosweb.hu">lukacs.artur@stratosweb.hu</a></p>
@@ -203,11 +216,14 @@
 
         <article class="grid" style="gap:1.6rem">
           <div>
-            <figure class="portrait">
-              <img src="/assets/img/team-timar-richard.jpg" alt="Richárd Tímár, partner" loading="lazy" width="1350" height="1800" sizes="(max-width: 760px) 100vw, 50vw" srcset="/assets/img/resp/team-timar-richard-400.webp 400w, /assets/img/resp/team-timar-richard-800.webp 800w, /assets/img/resp/team-timar-richard-1200.webp 1200w, /assets/img/resp/team-timar-richard-1350.webp 1350w">
-              <figcaption>
-                <span class="card__k">Partner / Ads management</span>
-                <h3 class="display h-sm" style="margin-top:.3rem">Richárd Tímár</h3>
+            <figure class="cover" style="--mast:4.5%">
+              <img class="cover__photo" src="/assets/img/team-timar-richard.jpg" alt="Richárd Tímár, partner" loading="lazy" width="1350" height="1800" sizes="(max-width: 760px) 100vw, 50vw" srcset="/assets/img/resp/team-timar-richard-400.webp 400w, /assets/img/resp/team-timar-richard-800.webp 800w, /assets/img/resp/team-timar-richard-1200.webp 1200w, /assets/img/resp/team-timar-richard-1350.webp 1350w">
+              <svg class="cover__mast" viewBox="0 0 1000 200" aria-hidden="true" focusable="false"><text x="500" y="168" text-anchor="middle" textLength="1000" lengthAdjust="spacing">STRATOS</text></svg>
+              <img class="cover__cut" src="/assets/img/team-timar-richard-cut.png" alt="" loading="lazy" width="1350" height="576" sizes="(max-width: 760px) 100vw, 50vw" srcset="/assets/img/resp/team-timar-richard-cut-400.webp 400w, /assets/img/resp/team-timar-richard-cut-800.webp 800w, /assets/img/resp/team-timar-richard-cut-1200.webp 1200w, /assets/img/resp/team-timar-richard-cut-1350.webp 1350w">
+              <figcaption class="cover__lines">
+                <p class="cover__role">Partner</p>
+                <h3 class="cover__name"><span class="vh">Richárd Tímár</span><svg viewBox="0 0 1000 120" aria-hidden="true" focusable="false"><text x="500" y="104" text-anchor="middle" textLength="1000" lengthAdjust="spacing">RICHÁRD TÍMÁR</text></svg></h3>
+                <p class="cover__spec">Ads management and social media</p>
               </figcaption>
             </figure>
             <p class="portrait-mail"><a class="tlink" href="mailto:timar.richard@stratosweb.hu">timar.richard@stratosweb.hu</a></p>

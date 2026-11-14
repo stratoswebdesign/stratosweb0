@@ -13,3 +13,95 @@
 .braid__list { grid-template-columns: repeat(4, auto); justify-content: space-between; }
 @media (max-width: 960px) { .braid__list { grid-template-columns: repeat(2, auto); justify-content: start; column-gap: clamp(1.5rem, 6vw, 3rem); row-gap: var(--sp-5); } }
 @media (max-width: 480px) { .braid__list { grid-template-columns: minmax(0, 1fr); } }
+
+/* ==========================================================================
+   The team as magazine covers (owner, 2026-11-14).
+
+   Four layers in one 3:4 box, the photo's own shape, so nothing is cropped
+   and the layers line up to the pixel:
+     1. the photo — the whole picture, sofa and studio grey included;
+     2. the masthead, STRATOS, behind the head;
+     3. the cut — the photo's top third with only the person kept;
+     4. the cover lines: position on the side, name across the bottom,
+        speciality under it. All Aboreto.
+   Sizes are in `cqi` (the cover's own width), so a cover reads the same at
+   520px on a desk and at 340px on a phone.
+   ========================================================================== */
+.cover {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  container-type: inline-size;
+  aspect-ratio: 3 / 4;
+  max-width: 520px;
+  margin: 0;
+  border-radius: var(--r-lg);
+  background: #1c1c1b;
+  color: #F4F2EC;
+  box-shadow: 0 34px 60px -34px rgba(20, 20, 19, 0.6), 0 10px 22px -12px rgba(20, 20, 19, 0.35);
+}
+.cover__photo,
+.cover__cut { position: absolute; top: 0; left: 0; display: block; width: 100%; }
+.cover__photo { height: 100%; object-fit: cover; }
+.cover__cut { z-index: 2; height: auto; pointer-events: none; }
+
+.cover__mast {
+  position: absolute;
+  z-index: 1;
+  /* Each cover sets --mast so its letters run just into the head, the way
+     a magazine's do; the two of us do not sit at the same height. */
+  top: var(--mast, 4%);
+  left: 4%;
+  width: 92%;
+  overflow: visible;
+  font-family: var(--font-mark);
+  fill: rgba(236, 234, 228, 0.94);
+}
+.cover__mast text { font-size: 222px; }
+
+.cover__lines { position: absolute; inset: 0; z-index: 3; margin: 0; pointer-events: none; }
+/* A little night at the foot of the cover, for the name. */
+.cover__lines::before {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 34%;
+  background: linear-gradient(to bottom, rgba(14, 14, 13, 0), rgba(14, 14, 13, 0.55));
+}
+/* Every cover line in Aboreto, like the masthead (owner, 2026-11-14 — a
+   hairline Archivo was tried and taken back the same hour). */
+.cover__role,
+.cover__spec,
+.cover__name svg {
+  position: absolute;
+  color: #fff;
+  fill: #fff;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.35);
+}
+.cover__role {
+  top: 43%;
+  right: 5.5cqi;
+  font-size: 7.4cqi;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  text-align: right;
+}
+.cover__name { margin: 0; }
+.cover__name svg {
+  left: 5%;
+  bottom: 10.5%;
+  width: 90%;
+  overflow: visible;
+  filter: drop-shadow(0 1px 10px rgba(0, 0, 0, 0.35));
+}
+.cover__name text { font-size: 104px; }
+.cover__spec {
+  left: 0;
+  right: 0;
+  bottom: 5%;
+  font-size: 3.6cqi;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
