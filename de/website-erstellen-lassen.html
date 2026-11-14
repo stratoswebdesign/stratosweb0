@@ -134,6 +134,86 @@
     </div>
   </section>
 
+  <!-- ============================================ megoldásaink, soronként -->
+  <!-- The owner's request (2026-11-14): every solution on a line of its own,
+       the way Apple Music shows lyrics — the line being sung lit, the others
+       dimmed and soft — each line a link into its service page, with a piece
+       of our work placed around it. Branding is MindForge, the website
+       Rapidkert, 3D GoDataFusion, the webshop Kontyos, SEO O2 and ads
+       Bio-Goods (the owner's pairing; 3D was added so that "every solution"
+       holds).
+
+       This markup is the static design: a dark panel with six rows, each line
+       next to its work. assets/js/lyrics.js turns it into the pinned stage
+       (`is-live`) — the line in the middle of the scroll is lit, the stack
+       moves with a staggered ease, a blurred copy of the work glows behind.
+       Without the script, or with reduced motion, the rows stay as they are.
+
+       Each line is an h3 holding only its link, so the dictionary unit is the
+       link with its href — the homepage's service list already translates
+       exactly these six. The bare service names mean other things on other
+       pages ("Weboldal készítés" is "Building the website" on Impact). -->
+  <section class="lyrics" data-lyrics aria-labelledby="lyrics-h">
+    <div class="lyrics__stage">
+      <div class="lyrics__panel">
+        <h2 class="eyebrow lyrics__h" id="lyrics-h">Lösungen</h2>
+        <ol class="lyrics__list">
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="/de/branding.html">Corporate Design</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media"><img src="/assets/img/case-mindforge-hero.jpg" alt="Der Startbildschirm der MindForge-Website: ein Sandplatz von oben, mit der Überschrift „Ahol a gondolkodásból teljesítmény születik“ (wo aus Denken Leistung wird)." sizes="(max-width: 760px) 100vw, 36vw" loading="lazy" decoding="async" width="1760" height="1100" srcset="/assets/img/resp/case-mindforge-hero-400.webp 400w, /assets/img/resp/case-mindforge-hero-800.webp 800w, /assets/img/resp/case-mindforge-hero-1200.webp 1200w, /assets/img/resp/case-mindforge-hero-1760.webp 1760w"></div>
+              <div class="lyric__media lyric__media--b lyric__media--brand"><img src="/assets/img/logo-mindforge.png" alt="" sizes="200px" loading="lazy" decoding="async" width="1407" height="549" srcset="/assets/img/resp/logo-mindforge-180.webp 180w, /assets/img/resp/logo-mindforge-360.webp 360w, /assets/img/resp/logo-mindforge-540.webp 540w, /assets/img/resp/logo-mindforge-1407.webp 1407w"></div>
+              <figcaption class="lyric__cap"><b>MindForge</b> <a class="lyric__go" href="/de/projekt-mentaltrening.html">Fallstudie</a></figcaption>
+            </figure>
+          </li>
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="/de/webdesign-kmu.html">Website-Erstellung</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media"><img src="/assets/img/case-rapidkert-hero.jpg" alt="Die interaktive 3D-Website von Rapidkert Gartenbau, umgesetzt von Stratos Webdesign: Der Startbildschirm zeigt einen räumlichen Querschnitt durch den Garten und den Boden darunter." sizes="(max-width: 760px) 100vw, 36vw" loading="lazy" decoding="async" width="1760" height="1100" srcset="/assets/img/resp/case-rapidkert-hero-400.webp 400w, /assets/img/resp/case-rapidkert-hero-800.webp 800w, /assets/img/resp/case-rapidkert-hero-1200.webp 1200w, /assets/img/resp/case-rapidkert-hero-1760.webp 1760w"></div>
+              <span class="lyric__logo"><img src="/assets/img/client-rapidkert-tight.png" alt="" sizes="160px" loading="lazy" decoding="async" width="911" height="302" srcset="/assets/img/resp/client-rapidkert-tight-180.webp 180w, /assets/img/resp/client-rapidkert-tight-360.webp 360w, /assets/img/resp/client-rapidkert-tight-540.webp 540w, /assets/img/resp/client-rapidkert-tight-911.webp 911w"></span>
+              <figcaption class="lyric__cap"><b>Rapidkert</b> <a class="lyric__go" href="/de/projekt-rapidkert.html">Fallstudie</a></figcaption>
+            </figure>
+          </li>
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="/de/3d-website-konfigurator.html">3D-Website und Konfigurator</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media"><img src="/assets/img/case-godatafusion-hero.jpg" alt="Der Startbildschirm der GoDataFusion-Website: die Überschrift „Turn reality into data.“ und das 3D-Modell eines dreigeschossigen Gebäudes auf einem aus einer Punktwolke gezeichneten Gelände." sizes="(max-width: 760px) 100vw, 36vw" loading="lazy" decoding="async" width="1760" height="1100" srcset="/assets/img/resp/case-godatafusion-hero-400.webp 400w, /assets/img/resp/case-godatafusion-hero-800.webp 800w, /assets/img/resp/case-godatafusion-hero-1200.webp 1200w, /assets/img/resp/case-godatafusion-hero-1760.webp 1760w"></div>
+              <div class="lyric__media lyric__media--b"><img src="/assets/img/case-godatafusion-measure.jpg" alt="" sizes="(max-width: 760px) 40vw, 14vw" loading="lazy" decoding="async" width="1760" height="1100" srcset="/assets/img/resp/case-godatafusion-measure-400.webp 400w, /assets/img/resp/case-godatafusion-measure-800.webp 800w, /assets/img/resp/case-godatafusion-measure-1200.webp 1200w, /assets/img/resp/case-godatafusion-measure-1760.webp 1760w"></div>
+              <span class="lyric__logo"><img src="/assets/img/logo-godatafusion.png" alt="" sizes="160px" loading="lazy" decoding="async" width="1784" height="507" srcset="/assets/img/resp/logo-godatafusion-180.webp 180w, /assets/img/resp/logo-godatafusion-360.webp 360w, /assets/img/resp/logo-godatafusion-540.webp 540w, /assets/img/resp/logo-godatafusion-1784.webp 1784w"></span>
+              <figcaption class="lyric__cap"><b>GoDataFusion</b> <a class="lyric__go" href="/de/projekt-godatafusion.html">Fallstudie</a></figcaption>
+            </figure>
+          </li>
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="/de/onlineshop-erstellung.html">Onlineshop-Erstellung</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media"><img src="/assets/img/case-kontyos-shop.jpg" alt="Der Startbildschirm des Onlineshops von Kontyos Borház: das Wort „Újbor“ (neuer Wein) auf rosa Grund, ringsum Früchte, daneben sechs Flaschen Obstwein." sizes="(max-width: 760px) 100vw, 36vw" loading="lazy" decoding="async" width="1760" height="1100" srcset="/assets/img/resp/case-kontyos-shop-400.webp 400w, /assets/img/resp/case-kontyos-shop-800.webp 800w, /assets/img/resp/case-kontyos-shop-1200.webp 1200w, /assets/img/resp/case-kontyos-shop-1760.webp 1760w"></div>
+              <div class="lyric__media lyric__media--b lyric__media--phone"><img src="/assets/img/case-kontyos-phone.jpg" alt="" sizes="(max-width: 760px) 30vw, 10vw" loading="lazy" decoding="async" width="600" height="1108" srcset="/assets/img/resp/case-kontyos-phone-400.webp 400w, /assets/img/resp/case-kontyos-phone-600.webp 600w"></div>
+              <span class="lyric__logo"><img src="/assets/img/logo-kontyos.webp" alt="" loading="lazy" decoding="async" width="436" height="107"></span>
+              <figcaption class="lyric__cap"><b>Kontyos Borház</b> <a class="lyric__go lyric__go--out" href="https://kontyos.hu/" target="_blank" rel="noopener">kontyos.hu</a></figcaption>
+            </figure>
+          </li>
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="/de/seo-betreuung.html">Suchmaschinenoptimierung</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media"><img src="/assets/img/case-o2-hero.jpg" alt="Der Startbildschirm der Website von O2 Tanácsadó: die Überschrift „Működjön a cég a napi jelenléted nélkül is“ (Das Unternehmen soll auch ohne deine tägliche Anwesenheit laufen) mit drei abgehakten Aussagen, daneben ein kreisförmiges Schwarz-Weiß-Foto mit türkisem Halbkreis." sizes="(max-width: 760px) 100vw, 36vw" loading="lazy" decoding="async" width="1760" height="1100" srcset="/assets/img/resp/case-o2-hero-400.webp 400w, /assets/img/resp/case-o2-hero-800.webp 800w, /assets/img/resp/case-o2-hero-1200.webp 1200w, /assets/img/resp/case-o2-hero-1760.webp 1760w"></div>
+              <div class="lyric__media lyric__media--b"><img src="/assets/img/case-o2-phone.jpg" alt="" sizes="(max-width: 760px) 40vw, 14vw" loading="lazy" decoding="async" width="1760" height="1100" srcset="/assets/img/resp/case-o2-phone-400.webp 400w, /assets/img/resp/case-o2-phone-800.webp 800w, /assets/img/resp/case-o2-phone-1200.webp 1200w, /assets/img/resp/case-o2-phone-1760.webp 1760w"></div>
+              <span class="lyric__logo"><img src="/assets/img/logo-o2.png" alt="" sizes="160px" loading="lazy" decoding="async" width="1800" height="501" srcset="/assets/img/resp/logo-o2-180.webp 180w, /assets/img/resp/logo-o2-360.webp 360w, /assets/img/resp/logo-o2-540.webp 540w, /assets/img/resp/logo-o2-1800.webp 1800w"></span>
+              <figcaption class="lyric__cap"><b>O2 Tanácsadó</b> <a class="lyric__go" href="/de/projekt-o2-tanacsado.html">Fallstudie</a></figcaption>
+            </figure>
+          </li>
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="/de/werbeanzeigen.html">Google- und Meta-Werbeanzeigen</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media lyric__media--tile"><img src="/assets/img/logo-biogoods-on-dark.png" alt="Bio-Goods Mangalica" sizes="240px" loading="lazy" decoding="async" width="1400" height="1698" srcset="/assets/img/resp/logo-biogoods-on-dark-180.webp 180w, /assets/img/resp/logo-biogoods-on-dark-360.webp 360w, /assets/img/resp/logo-biogoods-on-dark-540.webp 540w, /assets/img/resp/logo-biogoods-on-dark-1400.webp 1400w"></div>
+              <figcaption class="lyric__cap"><b>Bio-Goods Mangalica</b></figcaption>
+            </figure>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  <script src="/assets/js/lyrics.js" defer></script>
+
   <!-- ============================================ melyik helyzet a tiéd -->
   <!-- The page's main navigation: four situations, each pointing at the
        service page that answers it. Copy as it stood on the homepage,

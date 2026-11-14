@@ -65,7 +65,7 @@ SKIP_EXACT = {
     # describes in every locale.
     'Kontyos Borház', 'GranTOOL Kft.', 'Synergy Digital Hungary Kft.', 'HAIO',
     'DPA', 'Duna Hajók', 'Duna Enterior', 'Rapidkert Kft.',
-    'Barbershop Győr',
+    'Barbershop Győr', 'Bio-Goods Mangalica',
     # Identifiers from the questionnaire's inline wizard, not copy. The
     # extractor deliberately reads <script> because the wizard's buttons and
     # labels live there and do need translating; an element id and two class

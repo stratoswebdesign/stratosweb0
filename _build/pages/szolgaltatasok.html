@@ -52,6 +52,86 @@ css: services
     </div>
   </section>
 
+  <!-- ============================================ megoldásaink, soronként -->
+  <!-- The owner's request (2026-11-14): every solution on a line of its own,
+       the way Apple Music shows lyrics — the line being sung lit, the others
+       dimmed and soft — each line a link into its service page, with a piece
+       of our work placed around it. Branding is MindForge, the website
+       Rapidkert, 3D GoDataFusion, the webshop Kontyos, SEO O2 and ads
+       Bio-Goods (the owner's pairing; 3D was added so that "every solution"
+       holds).
+
+       This markup is the static design: a dark panel with six rows, each line
+       next to its work. assets/js/lyrics.js turns it into the pinned stage
+       (`is-live`) — the line in the middle of the scroll is lit, the stack
+       moves with a staggered ease, a blurred copy of the work glows behind.
+       Without the script, or with reduced motion, the rows stay as they are.
+
+       Each line is an h3 holding only its link, so the dictionary unit is the
+       link with its href — the homepage's service list already translates
+       exactly these six. The bare service names mean other things on other
+       pages ("Weboldal készítés" is "Building the website" on Impact). -->
+  <section class="lyrics" data-lyrics aria-labelledby="lyrics-h">
+    <div class="lyrics__stage">
+      <div class="lyrics__panel">
+        <h2 class="eyebrow lyrics__h" id="lyrics-h">Megoldásaink</h2>
+        <ol class="lyrics__list">
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="branding.html">Arculattervezés</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media"><img src="assets/img/case-mindforge-hero.jpg" alt="A MindForge weboldalának nyitóképernyője: felülnézeti salakos teniszpálya, „Ahol a gondolkodásból teljesítmény születik” címsorral." sizes="(max-width: 760px) 100vw, 36vw" loading="lazy" decoding="async"></div>
+              <div class="lyric__media lyric__media--b lyric__media--brand"><img src="assets/img/logo-mindforge.png" alt="" sizes="200px" loading="lazy" decoding="async"></div>
+              <figcaption class="lyric__cap"><b>MindForge</b> <a class="lyric__go" href="munka-mentaltrening.html">Esettanulmány</a></figcaption>
+            </figure>
+          </li>
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="kkv.html">Weboldal készítés</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media"><img src="assets/img/case-rapidkert-hero.jpg" alt="A Rapidkert interaktív 3D kertépítő weboldala a Stratos Webdesigntól: a nyitóképernyőn a kert és az alatta lévő talaj térbeli keresztmetszete." sizes="(max-width: 760px) 100vw, 36vw" loading="lazy" decoding="async"></div>
+              <span class="lyric__logo"><img src="assets/img/client-rapidkert-tight.png" alt="" sizes="160px" loading="lazy" decoding="async"></span>
+              <figcaption class="lyric__cap"><b>Rapidkert</b> <a class="lyric__go" href="munka-rapidkert.html">Esettanulmány</a></figcaption>
+            </figure>
+          </li>
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="3d-weboldal-konfigurator.html">3D weboldal és konfigurátor</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media"><img src="assets/img/case-godatafusion-hero.jpg" alt="A GoDataFusion weboldalának nyitóképernyője: „Turn reality into data.” címsor és egy háromszintes épület 3D modellje pontfelhőből kirajzolódó terepen." sizes="(max-width: 760px) 100vw, 36vw" loading="lazy" decoding="async"></div>
+              <div class="lyric__media lyric__media--b"><img src="assets/img/case-godatafusion-measure.jpg" alt="" sizes="(max-width: 760px) 40vw, 14vw" loading="lazy" decoding="async"></div>
+              <span class="lyric__logo"><img src="assets/img/logo-godatafusion.png" alt="" sizes="160px" loading="lazy" decoding="async"></span>
+              <figcaption class="lyric__cap"><b>GoDataFusion</b> <a class="lyric__go" href="munka-godatafusion.html">Esettanulmány</a></figcaption>
+            </figure>
+          </li>
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="webshop-keszites.html">Webshop készítés</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media"><img src="assets/img/case-kontyos-shop.jpg" alt="A Kontyos Borház webshopjának nyitóképernyője: rózsaszín alapon „Újbor” felirat, körülötte gyümölcsök, mellette hat palack gyümölcsbor." sizes="(max-width: 760px) 100vw, 36vw" loading="lazy" decoding="async"></div>
+              <div class="lyric__media lyric__media--b lyric__media--phone"><img src="assets/img/case-kontyos-phone.jpg" alt="" sizes="(max-width: 760px) 30vw, 10vw" loading="lazy" decoding="async"></div>
+              <span class="lyric__logo"><img src="assets/img/logo-kontyos.webp" alt="" loading="lazy" decoding="async"></span>
+              <figcaption class="lyric__cap"><b>Kontyos Borház</b> <a class="lyric__go lyric__go--out" href="https://kontyos.hu/" target="_blank" rel="noopener">kontyos.hu</a></figcaption>
+            </figure>
+          </li>
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="keresooptimalizalas.html">Keresőoptimalizálás</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media"><img src="assets/img/case-o2-hero.jpg" alt="Az O2 Tanácsadó weboldalának nyitóképernyője: „Működjön a cég a napi jelenléted nélkül is” cím három kipipált állítással, mellette fekete-fehér fotó kör alakban, türkiz félkörrel." sizes="(max-width: 760px) 100vw, 36vw" loading="lazy" decoding="async"></div>
+              <div class="lyric__media lyric__media--b"><img src="assets/img/case-o2-phone.jpg" alt="" sizes="(max-width: 760px) 40vw, 14vw" loading="lazy" decoding="async"></div>
+              <span class="lyric__logo"><img src="assets/img/logo-o2.png" alt="" sizes="160px" loading="lazy" decoding="async"></span>
+              <figcaption class="lyric__cap"><b>O2 Tanácsadó</b> <a class="lyric__go" href="munka-o2-tanacsado.html">Esettanulmány</a></figcaption>
+            </figure>
+          </li>
+          <li class="lyric">
+            <h3 class="lyric__line"><a href="hirdeteskezeles.html">Hirdetéskezelés</a></h3>
+            <figure class="lyric__work">
+              <div class="lyric__media lyric__media--tile"><img src="assets/img/logo-biogoods-on-dark.png" alt="Bio-Goods Mangalica" sizes="240px" loading="lazy" decoding="async"></div>
+              <figcaption class="lyric__cap"><b>Bio-Goods Mangalica</b></figcaption>
+            </figure>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  <script src="assets/js/lyrics.js" defer></script>
+
   <!-- ============================================ melyik helyzet a tiéd -->
   <!-- The page's main navigation: four situations, each pointing at the
        service page that answers it. Copy as it stood on the homepage,
