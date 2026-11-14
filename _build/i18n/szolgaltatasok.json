@@ -530,5 +530,40 @@
   "Body copy in the voice of o2tanacsado.hu (owner, 2026-10-29; the homepage",
   "and /kkv were the approved sample). Headings, buttons, figures and FAQ",
   "questions unchanged; the replaced strings were removed where no page uses them."
+ ],
+ "_comment_lyrics": [
+  "2026-11-14 — „Megoldásaink”, the lyrics section under the hero. Each line is an <h3> holding only its link, so the unit is the link with its href — the homepage's service list (home.json) already translates exactly those six links, and the bare names mean other things on other pages."
+ ],
+ "Megoldásaink": [
+  "Solutions",
+  "Lösungen"
+ ],
+ "<b>MindForge</b> <a class=\"lyric__go\" href=\"munka-mentaltrening.html\">Esettanulmány</a>": [
+  "<b>MindForge</b> <a class=\"lyric__go\" href=\"munka-mentaltrening.html\">Case study</a>",
+  "<b>MindForge</b> <a class=\"lyric__go\" href=\"munka-mentaltrening.html\">Fallstudie</a>"
+ ],
+ "<b>Rapidkert</b> <a class=\"lyric__go\" href=\"munka-rapidkert.html\">Esettanulmány</a>": [
+  "<b>Rapidkert</b> <a class=\"lyric__go\" href=\"munka-rapidkert.html\">Case study</a>",
+  "<b>Rapidkert</b> <a class=\"lyric__go\" href=\"munka-rapidkert.html\">Fallstudie</a>"
+ ],
+ "<b>GoDataFusion</b> <a class=\"lyric__go\" href=\"munka-godatafusion.html\">Esettanulmány</a>": [
+  "<b>GoDataFusion</b> <a class=\"lyric__go\" href=\"munka-godatafusion.html\">Case study</a>",
+  "<b>GoDataFusion</b> <a class=\"lyric__go\" href=\"munka-godatafusion.html\">Fallstudie</a>"
+ ],
+ "<b>Kontyos Borház</b> <a class=\"lyric__go lyric__go--out\" href=\"https://kontyos.hu/\" target=\"_blank\" rel=\"noopener\">kontyos.hu</a>": [
+  "<b>Kontyos Borház</b> <a class=\"lyric__go lyric__go--out\" href=\"https://kontyos.hu/\" target=\"_blank\" rel=\"noopener\">kontyos.hu</a>",
+  "<b>Kontyos Borház</b> <a class=\"lyric__go lyric__go--out\" href=\"https://kontyos.hu/\" target=\"_blank\" rel=\"noopener\">kontyos.hu</a>"
+ ],
+ "<b>O2 Tanácsadó</b> <a class=\"lyric__go\" href=\"munka-o2-tanacsado.html\">Esettanulmány</a>": [
+  "<b>O2 Tanácsadó</b> <a class=\"lyric__go\" href=\"munka-o2-tanacsado.html\">Case study</a>",
+  "<b>O2 Tanácsadó</b> <a class=\"lyric__go\" href=\"munka-o2-tanacsado.html\">Fallstudie</a>"
+ ],
+ "<b>Bio-Goods Mangalica</b>": [
+  "<b>Bio-Goods Mangalica</b>",
+  "<b>Bio-Goods Mangalica</b>"
+ ],
+ "A Kontyos Borház webshopjának nyitóképernyője: rózsaszín alapon „Újbor” felirat, körülötte gyümölcsök, mellette hat palack gyümölcsbor.": [
+  "The opening screen of the Kontyos Borház online shop: the word „Újbor” (new wine) on a pink ground, fruit around it and six bottles of fruit wine beside it.",
+  "Der Startbildschirm des Onlineshops von Kontyos Borház: das Wort „Újbor“ (neuer Wein) auf rosa Grund, ringsum Früchte, daneben sechs Flaschen Obstwein."
  ]
 }

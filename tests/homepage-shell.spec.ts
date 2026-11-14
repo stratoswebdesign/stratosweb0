@@ -565,8 +565,9 @@ test.describe('the logos on a phone', () => {
     const [one, two] = [await marks(0), await marks(1)];
     // 13 since HoneyGarden's mark joined on 2026-10-24; 6 when the second
     // copy pack named the homepage's six; 15 since the owner put every mark
-    // back on 2026-10-30, with Dasty and Olajcserepont. Never in both rows.
-    expect(one.length + two.length, 'every mark, once').toBe(15);
+    // back on 2026-10-30, with Dasty and Olajcserepont; 16 since Bio-Goods
+    // joined on 2026-11-14. Never in both rows.
+    expect(one.length + two.length, 'every mark, once').toBe(16);
     expect(one.filter((m) => two.includes(m)), 'no mark in both rows').toEqual([]);
     const copies = page.locator('[data-rail-copy]');
     expect(await copies.count(), 'copied so the loop has no seam').toBeGreaterThan(0);

@@ -377,6 +377,15 @@ ORGS = {
     # yellow disc with its white drops and the pin untouched.
     "dasty": {"name": "Dasty Professional", "asset": "assets/img/logo-dasty.png", "ready": True, "relationship": "client"},
     "olajcserepont": {"name": "Olajcserepont", "asset": "assets/img/logo-olajcserepont.png", "ready": True, "relationship": "client"},
+    # Bio-Goods Mangalica — a client (owner, 2026-11-14: "tegyük fel a
+    # logójukat"). The mark was taken from page 1 of their own 2026 company
+    # brochure, where it is vector: rendered at 10x and cut out of its black
+    # ground with the gold and the white kept exact. In the original the
+    # wordmark is knockout white; this file has it in dark ink (#1E1E1E), the
+    # gold mangalica in its circle untouched — the Olajcserepont treatment.
+    # logo-biogoods-on-dark.png is the untouched white-and-gold version, for
+    # the dark panel on /szolgaltatasok.
+    "biogoods": {"name": "Bio-Goods Mangalica", "asset": "assets/img/logo-biogoods.png", "ready": True, "relationship": "client"},
     # ---- support relationships. Artwork arrived; neither is a collaboration.
     #
     # These two are the reason `relationship` exists as a field rather than a
