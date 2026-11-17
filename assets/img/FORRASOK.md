@@ -12,6 +12,18 @@ udvariassági kérdés, nem jogi kötelezettség.
 | `moon.jpg` | `GSFC_20171208_Archive_e000868` | Telihold fekete háttéren (NASA/GSFC). Fekete alapon van, ezért `mix-blend-mode: screen`-nel maszk nélkül komponálható. | images-assets.nasa.gov/image/GSFC_20171208_Archive_e000868 |
 | `cloud-tops.jpg` | `iss023e057948` | Naplemente az Indiai-óceán fölött, felhőtető-réteg az ISS-ről (Expedition 23). | images-assets.nasa.gov/image/iss023e057948 |
 
+## E-mail aláírás (`email/`)
+
+A Gmail-aláírás ezekre a fix URL-ekre hivatkozik, és a már elküldött levelek is
+innen töltik be őket — **nem szabad átnevezni, áthelyezni vagy törölni**. Ha
+változik a kép, új fájlnévvel kerüljön fel (pl. `-v2`), mert a Gmail képproxyja
+cache-el.
+
+| Fájl | Mi ez | Forrás / jogállás |
+|---|---|---|
+| `email/stratos-logo-email.png` | Teljes Stratos logó (repülő + STRATOS felirat, Aboreto), 3x felbontás, átlátszó háttér, sötét módhoz finom fehér ragyogással. Megjelenítve 200×46 px. | Saját arculati elem. |
+| `email/awwwards-hm-email.png` | Awwwards „Honors” szalag (Honorable Mention), 3x felbontás. Megjelenítve 53×171 px, az awwwards.com/sites/rapidkert oldalra linkel. | Az Awwwards hivatalos díjazotti badge-e, ugyanaz az SVG, ami a rapidkert.com-on is kint van; a díjat a Rapidkert-oldal kapta (2026). |
+
 ## Figyelem: nem tisztázott jogállás
 
 | Fájl | Probléma | Állapot |
